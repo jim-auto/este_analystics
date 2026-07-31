@@ -44,6 +44,38 @@ async function initIndex() {
     document.getElementById("ranking-movers").innerHTML = renderMovers(summary.highlights?.ranking_movers);
     document.getElementById("best-coupons").innerHTML = renderBestCoupons(summary.highlights?.best_coupons);
     document.getElementById("budget-picks").innerHTML = renderBudgetPicks(summary.highlights?.budget_picks);
+
+    const reviewSection = document.getElementById("review-section");
+    if (reviewSection && summary.reviews) {
+      reviewSection.innerHTML = `
+        <section class="panel">
+          <h2>口コミ評価の傾向（3エリア比較）</h2>
+          <p class="section-note">各エリアの口コミ一覧先頭ページから抽出・解析。満点比率や注意パターンを比較。</p>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>エリア</th><th>平均</th><th>満点比率</th><th>注意パターン</th><th></th></tr></thead>
+              <tbody>
+                ${(summary.reviews.regions || [])
+                  .map(
+                    (r) => `
+                  <tr>
+                    <td>${escapeHtml(r.label)}</td>
+                    <td>${r.avg_rating ?? "—"}</td>
+                    <td>${r.five_star_rate ?? 0}%</td>
+                    <td>${r.suspicious_rate ?? 0}% ${(r.suspicious_rate || 0) >= 8 ? '<span class="warn-badge">⚠ やや多め</span>' : ""}</td>
+                    <td><a href="reviews.html?region=${encodeURIComponent(r.key)}">詳細</a></td>
+                  </tr>`
+                  )
+                  .join("")}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="panel">
+          <h2>⚠ 3エリア共通の注意口コミ</h2>
+          ${renderFlaggedReviews(summary.reviews.top_suspicious)}
+        </section>`;
+    }
   } catch (err) {
     updatedEl.textContent = "データの読込に失敗しました";
     cardsEl.innerHTML = `<p class="error">${escapeHtml(err.message)}</p>`;

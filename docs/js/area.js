@@ -109,6 +109,8 @@ async function initArea() {
 
       ${rankingBlocks}
 
+      ${renderReviewInsights(data.insights.reviews, data.review_meta, data.region_label)}
+
       <section class="panel">
         <h2>クーポン（カテゴリ別）</h2>
         <p class="section-note">全 ${couponInsights.total} 件（限定 ${couponInsights.limited_count} 件）</p>

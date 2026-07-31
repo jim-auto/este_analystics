@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3エリア比較 | este_analystics</title>
+  <title>口コミ解析 | este_analystics</title>
+  <meta name="description" content="エステ魂口コミの評価分布と注意パターン解析">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,25 +16,28 @@
         <a href="area.html?region=kanto">東京</a>
         <a href="area.html?region=chubu">名古屋</a>
         <a href="area.html?region=kansai">大阪</a>
-        <a href="compare.html" class="active">比較</a>
-        <a href="reviews.html?region=kanto">口コミ</a>
+        <a href="compare.html">比較</a>
+        <a href="reviews.html?region=kanto" data-nav="kanto">口コミ</a>
         <a href="guide.html">初めての方</a>
       </nav>
     </div>
   </header>
 
-  <main class="container" id="compare-root">
+  <main class="container" id="reviews-root">
     <p class="loading">読込中…</p>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>非公式分析サイト — 出典: <a href="https://estama.jp/" target="_blank" rel="noopener">estama.jp</a></p>
+      <p>
+        口コミ解析は公開情報の統計・パターン検出であり、真偽の断定ではありません。
+        出典: <a href="https://estama.jp/" target="_blank" rel="noopener">estama.jp</a>
+      </p>
     </div>
   </footer>
 
   <script src="js/utils.js"></script>
   <script src="js/render.js"></script>
-  <script src="js/compare.js"></script>
+  <script src="js/reviews.js"></script>
 </body>
 </html>

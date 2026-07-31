@@ -12,11 +12,13 @@ from scraper.analyze import (
     summarize_rankings,
     summarize_shops,
 )
-from scraper.config import REGIONS, SHOPLIST_MAX_PAGES
+from scraper.config import REGIONS, REVIEWLIST_PAGES, SHOPLIST_MAX_PAGES
 from scraper.fetch import fetch_html
 from scraper.parse_couponlist import parse_couponlist
 from scraper.parse_ranking import parse_ranking
+from scraper.parse_reviewlist import parse_reviewlist
 from scraper.parse_shoplist import parse_shoplist_pages
+from scraper.review_analyze import analyze_reviews, build_review_summary
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = ROOT / "data" / "processed"
@@ -44,6 +46,22 @@ def scrape_region(key: str) -> dict:
     shop_pages = [fetch_html(path) for path in _shoplist_paths(slug)]
     shops, shop_meta = parse_shoplist_pages(shop_pages)
 
+    print(f"[{cfg['label']}] fetching reviews...")
+    review_pages = [
+        fetch_html(f"/{slug}/reviewlist/" if p == 1 else f"/{slug}/reviewlist/p{p}/")
+        for p in range(1, REVIEWLIST_PAGES + 1)
+    ]
+    reviews: list = []
+    review_meta: dict = {}
+    for html in review_pages:
+        page_reviews, page_meta = parse_reviewlist(html)
+        reviews.extend(page_reviews)
+        review_meta.update(page_meta)
+    review_meta["parsed_reviews"] = len(reviews)
+
+    shop_insights = summarize_shops(shops)
+    region_median = shop_insights["price_90min"].get("median")
+
     return {
         "region_key": key,
         "region_label": cfg["label"],
@@ -53,14 +71,17 @@ def scrape_region(key: str) -> dict:
             "ranking": f"https://estama.jp/{slug}/ranking/",
             "coupons": f"https://estama.jp/{slug}/couponlist/",
             "shoplist": f"https://estama.jp/{slug}/shoplist/",
+            "reviews": f"https://estama.jp/{slug}/reviewlist/",
         },
         "shop_meta": shop_meta,
+        "review_meta": review_meta,
         "rankings": rankings,
         "coupons": coupons,
         "insights": {
-            "shops": summarize_shops(shops),
+            "shops": shop_insights,
             "rankings": summarize_rankings(rankings),
             "coupons": summarize_coupons(coupons),
+            "reviews": analyze_reviews(reviews, region_median),
         },
     }
 
@@ -75,6 +96,7 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
         ),
         "source": "https://estama.jp/",
         "highlights": build_cross_region_highlights(regions),
+        "reviews": build_review_summary(regions),
         "regions": [
             {
                 "key": key,
@@ -92,6 +114,9 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
                 "with_coupon_rate": shop_insights[key]["with_coupon_rate"],
                 "price_by_shop_type": shop_insights[key]["price_by_shop_type"],
                 "top_sub_areas": shop_insights[key]["price_by_sub_area"][:5],
+                "review_avg": regions[key]["insights"]["reviews"].get("avg_rating"),
+                "review_five_star_rate": regions[key]["insights"]["reviews"].get("five_star_rate"),
+                "review_suspicious_rate": regions[key]["insights"]["reviews"].get("suspicious_rate"),
             }
             for key in REGIONS
         ],

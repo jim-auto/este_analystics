@@ -247,3 +247,115 @@ function renderBudgetPicks(picks) {
       </table>
     </div>`;
 }
+
+const FLAG_LABELS = {
+  value_hype: "割安訴求＋満点",
+  price_mismatch: "料金と割安表現の不一致",
+  short_perfect: "短文満点",
+  first_visit_hype: "初回短文満点",
+  superlative_stack: "褒め言葉の連発",
+  generic_praise: "定型的な高評価",
+  minimal_text: "極端に短い",
+};
+
+function renderRatingDistribution(dist, total) {
+  if (!dist) return "";
+  const items = [
+    ["5.0", dist["5.0"], "var(--warn)"],
+    ["4.5-4.9", dist["4.5-4.9"], "var(--accent)"],
+    ["4.0-4.4", dist["4.0-4.4"], "var(--accent2)"],
+    ["3.0-3.9", dist["3.0-3.9"], "var(--muted)"],
+    ["3.0未満", dist.below_3, "var(--danger)"],
+    ["評価なし", dist.none, "var(--muted)"],
+  ];
+  const max = Math.max(...items.map((i) => i[1] || 0), 1);
+  return items
+    .map(([label, count, color]) => {
+      const pct = total ? Math.round((count / total) * 100) : 0;
+      return `
+        <div class="bar-row">
+          <div class="bar-label">${label}</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${((count || 0) / max) * 100}%;background:${color}"></div></div>
+          <div class="bar-value">${count ?? 0}件 (${pct}%)</div>
+        </div>`;
+    })
+    .join("");
+}
+
+function renderFlagBadges(flags) {
+  return (flags || [])
+    .map((f) => `<span class="warn-badge" title="${escapeHtml(FLAG_LABELS[f] || f)}">⚠ ${escapeHtml(FLAG_LABELS[f] || f)}</span>`)
+    .join(" ");
+}
+
+function renderFlaggedReviews(reviews) {
+  if (!reviews?.length) return "<p class='muted'>注意パターンは見つかりませんでした</p>";
+  return `
+    <div class="flagged-list">
+      ${reviews
+        .map(
+          (r) => `
+        <article class="flagged-item">
+          <div class="flagged-head">
+            <span class="tag">${escapeHtml(r.region || "")}</span>
+            ${r.rating != null ? `<span class="rating-badge">${r.rating}</span>` : ""}
+            ${renderFlagBadges(r.flags)}
+          </div>
+          <h3><a href="${escapeHtml(r.shop_url)}" target="_blank" rel="noopener">${escapeHtml(r.shop_name)}</a></h3>
+          <p class="muted">${escapeHtml(r.shop_area || "")} ${r.price_90min ? `· 90分 ${yen(r.price_90min)}` : ""}</p>
+          ${r.title ? `<p><strong>${escapeHtml(r.title)}</strong></p>` : ""}
+          <p>${escapeHtml(r.excerpt)}${(r.excerpt || "").length >= 160 ? "…" : ""}</p>
+          <ul class="reason-list">${(r.reasons || []).map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>
+          <p><a href="${escapeHtml(r.review_url)}" target="_blank" rel="noopener">公式口コミを見る</a></p>
+        </article>`
+        )
+        .join("")}
+    </div>`;
+}
+
+function renderReviewInsights(reviewInsights, reviewMeta, regionLabel) {
+  const ri = reviewInsights || {};
+  const total = ri.parsed_count || 0;
+  return `
+    <section class="panel review-panel">
+      <h2>口コミ評価の分布</h2>
+      <p class="section-note">
+        ${escapeHtml(regionLabel)}の口コミ ${total} 件を解析
+        ${reviewMeta?.review_total_official ? `（公式全体: ${reviewMeta.review_total_official.toLocaleString("ja-JP")}件）` : ""}
+      </p>
+      <div class="stat-banner">
+        <div class="stat"><div class="label">平均評価</div><div class="value">${ri.avg_rating ?? "—"}</div></div>
+        <div class="stat"><div class="label">満点(5.0)比率</div><div class="value">${ri.five_star_rate ?? 0}%</div></div>
+        <div class="stat"><div class="label">注意パターン</div><div class="value">${ri.suspicious_rate ?? 0}%</div></div>
+      </div>
+      ${renderRatingDistribution(ri.distribution, total)}
+      ${(ri.trust_notes || []).length ? `<div class="trust-notes">${ri.trust_notes.map((n) => `<p>⚠ ${escapeHtml(n)}</p>`).join("")}</div>` : ""}
+    </section>
+
+    <section class="grid-2">
+      <div class="panel">
+        <h2>口コミキーワード TOP</h2>
+        ${Object.entries(ri.top_keywords || {})
+          .map(([k, v]) => `<p><span class="tag">${escapeHtml(k)}</span> ${v}件</p>`)
+          .join("") || "<p class='muted'>なし</p>"}
+      </div>
+      <div class="panel">
+        <h2>利用回数の内訳</h2>
+        ${Object.entries(ri.visit_types || {})
+          .map(([k, v]) => {
+            const labels = { first: "初めて", repeat: "2〜4回", loyal: "5回以上", unknown: "不明" };
+            return `<p>${escapeHtml(labels[k] || k)} — ${v}件</p>`;
+          })
+          .join("") || "<p class='muted'>なし</p>"}
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>⚠ 注意パターンに該当する口コミ</h2>
+      <p class="section-note">
+        割安・コスパ訴求と満点の組み合わせ、料金との不一致、短文満点などを自動検出しています。
+        参考情報であり、口コミの真偽を断定するものではありません。
+      </p>
+      ${renderFlaggedReviews(ri.flagged_reviews)}
+    </section>`;
+}
