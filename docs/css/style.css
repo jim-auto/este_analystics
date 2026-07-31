@@ -244,6 +244,94 @@ th { color: var(--muted); font-weight: 600; }
 .prose ul { padding-left: 1.2rem; }
 .prose li { margin: 0.35rem 0; }
 
+.section-note {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: -0.25rem 0 1rem;
+}
+
+.table-scroll { overflow-x: auto; }
+
+.stat-banner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.stat-banner .stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.85rem;
+  text-align: center;
+}
+
+.stat-banner .value { font-size: 1.25rem; }
+
+.bar-fill-alt {
+  background: linear-gradient(90deg, var(--accent2), #c084fc);
+}
+
+.type-group { margin-bottom: 1rem; }
+.type-group h3 {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+
+.discount-badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 8px;
+  background: rgba(52, 211, 153, 0.18);
+  color: var(--ok);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.coupon-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.35rem;
+}
+
+.tag-muted {
+  background: rgba(148, 163, 184, 0.12);
+  color: var(--muted);
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.tab-btn {
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.15);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.tab-btn.active {
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--accent);
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+.muted { color: var(--muted); }
+
+small { color: var(--muted); font-size: 0.78rem; }
+
 @media (max-width: 640px) {
   .bar-row { grid-template-columns: 60px 1fr 72px; }
   .header-inner { flex-direction: column; align-items: flex-start; }

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>エステ魂 東名阪エリア解析 | este_analystics</title>
-  <meta name="description" content="エステ魂（estama.jp）の東京・名古屋・大阪エリアを客目線で再整理。料金相場、ランキング、クーポンを比較。">
+  <meta name="description" content="エステ魂（estama.jp）の東京・名古屋・大阪を客目線で再整理。料金相場、今すぐ案内可、クーポン、ランキングを比較。">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,6 +16,7 @@
         <a href="area.html?region=kanto">東京</a>
         <a href="area.html?region=chubu">名古屋</a>
         <a href="area.html?region=kansai">大阪</a>
+        <a href="compare.html">比較</a>
         <a href="guide.html">初めての方</a>
       </nav>
     </div>
@@ -27,7 +28,7 @@
       <h1>東名阪メンズエステ<br>客目線ガイド</h1>
       <p class="lead">
         <a href="https://estama.jp/" target="_blank" rel="noopener">エステ魂</a>の公開情報を
-        東京（関東）・名古屋（中部）・大阪（関西）で比較。料金相場・ランキング・クーポンを一覧化しています。
+        東京・名古屋・大阪で比較。「いくら？」「今行ける？」「どこがお得？」に答える索引です。
       </p>
       <p class="updated" id="updated-at">データ読込中…</p>
     </section>
@@ -35,24 +36,68 @@
     <section class="cards" id="region-cards"></section>
 
     <section class="panel">
-      <h2>3エリア 90分料金の比較</h2>
-      <div class="chart-bars" id="price-chart"></div>
+      <h2>3エリア比較一覧</h2>
+      <div class="table-scroll">
+        <table id="compare-table">
+          <thead>
+            <tr>
+              <th>項目</th>
+              <th>東京</th>
+              <th>名古屋</th>
+              <th>大阪</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid-2">
+      <div class="panel">
+        <h2>90分料金の相場比較</h2>
+        <div class="chart-bars" id="price-chart"></div>
+      </div>
+      <div class="panel">
+        <h2>店舗型別の中央値（90分）</h2>
+        <div id="type-chart"></div>
+      </div>
     </section>
 
     <section class="panel">
-      <h2>客目線で見るポイント</h2>
+      <h2>今週ランキング UP の注目店</h2>
+      <p class="section-note">順位が上がった店舗。公式ランキングのスナップショットです。</p>
+      <div id="ranking-movers"></div>
+    </section>
+
+    <section class="panel">
+      <h2>お得クーポン（割引額が大きい順）</h2>
+      <p class="section-note">タイトル・説明文から割引額を推定。詳細は公式で必ず確認してください。</p>
+      <div class="coupon-list" id="best-coupons"></div>
+    </section>
+
+    <section class="panel">
+      <h2>コスパ注目（90分料金が安め＋クーポンあり）</h2>
+      <div id="budget-picks"></div>
+    </section>
+
+    <section class="panel">
+      <h2>客目線で見るチェックポイント</h2>
       <div class="tips-grid">
         <article class="tip">
-          <h3>料金相場</h3>
-          <p>90分の中央値・最低・最高をエリア別に集計。初めての予算感づくりに使えます。</p>
+          <h3>① 予算感</h3>
+          <p>90分の中央値・最安値をエリア別に表示。初回の目安作りに使えます。</p>
         </article>
         <article class="tip">
-          <h3>ランキング</h3>
-          <p>おもてなし・お店・セラピストの3部門TOP5と順位変動（UP/DOWN）を整理。</p>
+          <h3>② 今すぐ行ける？</h3>
+          <p>「今すぐご案内可」の店数と店舗リスト。空きはリアルタイム変動のため公式で要確認。</p>
         </article>
         <article class="tip">
-          <h3>クーポン</h3>
-          <p>エステ魂限定クーポンのタイトル・条件・対象店舗を一覧。予約時の合言葉確認用。</p>
+          <h3>③ 深夜・カード</h3>
+          <p>LAST営業や深夜帯の店、クレジットカード対応率をエリア別に整理。</p>
+        </article>
+        <article class="tip">
+          <h3>④ クーポン</h3>
+          <p>初回割・リピーター割などカテゴリ別に分類。予約時の合言葉確認用。</p>
         </article>
       </div>
     </section>
@@ -69,6 +114,7 @@
   </footer>
 
   <script src="js/utils.js"></script>
+  <script src="js/render.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>

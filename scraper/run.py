@@ -6,7 +6,12 @@ import json
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from scraper.analyze import summarize_coupons, summarize_rankings, summarize_shops
+from scraper.analyze import (
+    build_cross_region_highlights,
+    summarize_coupons,
+    summarize_rankings,
+    summarize_shops,
+)
 from scraper.config import REGIONS, SHOPLIST_MAX_PAGES
 from scraper.fetch import fetch_html
 from scraper.parse_couponlist import parse_couponlist
@@ -52,7 +57,6 @@ def scrape_region(key: str) -> dict:
         "shop_meta": shop_meta,
         "rankings": rankings,
         "coupons": coupons,
-        "shops_sample": shops,
         "insights": {
             "shops": summarize_shops(shops),
             "rankings": summarize_rankings(rankings),
@@ -62,6 +66,7 @@ def scrape_region(key: str) -> dict:
 
 
 def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
+    shop_insights = {key: regions[key]["insights"]["shops"] for key in REGIONS}
     return {
         "updated_at": updated_at,
         "disclaimer": (
@@ -69,6 +74,7 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
             "予約・最新情報は公式サイトをご確認ください。"
         ),
         "source": "https://estama.jp/",
+        "highlights": build_cross_region_highlights(regions),
         "regions": [
             {
                 "key": key,
@@ -77,8 +83,15 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
                 "total_shops": regions[key]["shop_meta"].get("total_shops"),
                 "sampled_shops": regions[key]["shop_meta"].get("sampled_shops"),
                 "coupon_count": len(regions[key]["coupons"]),
-                "price_median": regions[key]["insights"]["shops"]["price_90min"]["median"],
-                "available_now": regions[key]["insights"]["shops"]["available_now_count"],
+                "price_median": shop_insights[key]["price_90min"]["median"],
+                "price_min": shop_insights[key]["price_90min"]["min"],
+                "price_max": shop_insights[key]["price_90min"]["max"],
+                "available_now": shop_insights[key]["available_now_count"],
+                "late_night": shop_insights[key]["late_night_count"],
+                "credit_card_rate": shop_insights[key]["credit_card_rate"],
+                "with_coupon_rate": shop_insights[key]["with_coupon_rate"],
+                "price_by_shop_type": shop_insights[key]["price_by_shop_type"],
+                "top_sub_areas": shop_insights[key]["price_by_sub_area"][:5],
             }
             for key in REGIONS
         ],
