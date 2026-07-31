@@ -6,7 +6,7 @@ async function initIndex() {
 
   try {
     const summary = await loadJson("summary.json");
-    updatedEl.textContent = `最終更新: ${summary.updated_at}（店舗リスト先頭${summary.regions[0]?.sampled_shops ?? 300}件をサンプル集計）`;
+    updatedEl.textContent = `最終更新: ${summary.updated_at}（店舗リスト先頭${summary.regions[0]?.sampled_shops ?? 500}件・口コミ3ページをサンプル集計）`;
 
     cardsEl.innerHTML = summary.regions
       .map(
@@ -80,6 +80,11 @@ async function initIndex() {
     const bbsSection = document.getElementById("bbs-section");
     if (bbsSection && summary.bbs) {
       bbsSection.innerHTML = renderBbsSummary(summary.bbs);
+    }
+
+    const crossSection = document.getElementById("cross-section");
+    if (crossSection && summary.cross) {
+      crossSection.innerHTML = renderCrossSummary(summary.cross);
     }
   } catch (err) {
     updatedEl.textContent = "データの読込に失敗しました";

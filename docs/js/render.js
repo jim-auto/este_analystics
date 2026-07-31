@@ -1,4 +1,4 @@
-function renderShopTable(shops, extraCols = []) {
+function renderShopTable(shops, extraCols = [], region = null) {
   if (!shops?.length) return "<p class='muted'>該当データなし</p>";
   const headers = ["店舗", "エリア", "90分", ...extraCols, ""];
   return `
@@ -14,9 +14,13 @@ function renderShopTable(shops, extraCols = []) {
                 if (col === "営業") return escapeHtml((s.hours || "—").slice(0, 24));
                 return "—";
               });
+              const shopLink =
+                region && s.id
+                  ? `<a href="shop.html?region=${encodeURIComponent(region)}&id=${encodeURIComponent(s.id)}">${escapeHtml(s.name)}</a>`
+                  : `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>`;
               return `
               <tr>
-                <td><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a></td>
+                <td>${shopLink}</td>
                 <td>${escapeHtml(s.sub_area || s.prefecture || "—")}</td>
                 <td>${yen(s.price_90min)}</td>
                 ${extras.map((e) => `<td>${e}</td>`).join("")}
@@ -695,5 +699,192 @@ function renderBbsCautionPosts(posts) {
         </article>`
         )
         .join("")}
+    </div>`;
+}
+
+function renderCrossSummary(crossSummary) {
+  if (!crossSummary?.regions?.length) return "";
+  return `
+    <section class="panel cross-panel">
+      <h2>🔀 公式口コミ × 掲示板クロス分析</h2>
+      <p class="section-note">${escapeHtml(crossSummary.disclaimer || "")}</p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>エリア</th><th>突合店舗</th><th>ギャップ</th><th>掲示板のみ</th><th>好評一致</th><th></th></tr>
+          </thead>
+          <tbody>
+            ${crossSummary.regions
+              .map(
+                (r) => `
+              <tr>
+                <td>${escapeHtml(r.label)}</td>
+                <td>${r.matched_shops ?? "—"}</td>
+                <td>${r.gap_count ?? 0} ${(r.gap_count || 0) > 0 ? '<span class="warn-badge">⚠</span>' : ""}</td>
+                <td>${r.bbs_buzz_count ?? 0}</td>
+                <td>${r.aligned_count ?? 0}</td>
+                <td><a href="cross.html?region=${encodeURIComponent(r.key)}">詳細</a></td>
+              </tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
+      ${(crossSummary.top_gaps || []).length ? `
+        <h3 style="margin-top:1.5rem">⚠ エリア横断：公式と掲示板のギャップ</h3>
+        ${renderCrossGapList(crossSummary.top_gaps)}
+      ` : ""}
+    </section>`;
+}
+
+function renderCrossGapList(items) {
+  if (!items?.length) return "<p class='muted'>該当なし</p>";
+  return `
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>エリア</th><th>店舗</th><th>公式平均</th><th>掲示板</th><th>信号</th><th></th></tr></thead>
+        <tbody>
+          ${items
+            .map(
+              (s) => `
+            <tr>
+              <td>${escapeHtml(s.region_label)}</td>
+              <td>${escapeHtml(s.name)}</td>
+              <td>${s.review_avg ?? "—"} (${s.review_count ?? 0}件)</td>
+              <td>${s.bbs_mentions ?? 0}件 ${(s.bbs_caution || 0) > 0 ? `<span class="warn-badge">注意${s.bbs_caution}</span>` : ""}</td>
+              <td>${(s.signal_labels || []).map((l) => `<span class="tag">${escapeHtml(l)}</span>`).join(" ")}</td>
+              <td><a href="shop.html?region=${encodeURIComponent(s.region_key)}&id=${encodeURIComponent(s.id)}">詳細</a></td>
+            </tr>`
+            )
+            .join("")}
+        </tbody>
+      </table>
+    </div>`;
+}
+
+function renderCrossInsights(cross, regionLabel, regionKey) {
+  const bySignal = cross?.by_signal || {};
+  const labels = cross?.signal_labels || {};
+  const sections = Object.entries(bySignal)
+    .filter(([, items]) => items?.length)
+    .map(
+      ([key, items]) => `
+      <section class="panel">
+        <h2>${escapeHtml(labels[key] || key)}</h2>
+        ${renderCrossGapList(items.map((s) => ({ ...s, region_key: regionKey, region_label: regionLabel })))}
+      </section>`
+    )
+    .join("");
+
+  return `
+    <section class="area-header">
+      <p class="eyebrow">クロス分析</p>
+      <h1>${escapeHtml(regionLabel)}：公式口コミ × 掲示板</h1>
+      <p class="lead">エステ魂の口コミと爆サイ掲示板の声を店舗名で突合。サンプル内の一致に基づく参考指標です。</p>
+      <div class="meta-row">
+        <a href="shops.html?region=${encodeURIComponent(regionKey)}">店舗一覧</a>
+        <a href="reviews.html?region=${encodeURIComponent(regionKey)}">口コミ解析</a>
+        <a href="bbs.html?region=${encodeURIComponent(regionKey)}">掲示板解析</a>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>概要</h2>
+      <p>突合店舗数: <strong>${cross?.matched_shops ?? 0}</strong></p>
+      ${(cross?.notes || []).map((n) => `<p class="stat-detail">💡 ${escapeHtml(n)}</p>`).join("")}
+    </section>
+    ${sections || "<p class='muted'>該当するクロス信号はありません</p>"}`;
+}
+
+function renderShopDetail(shop, regionKey, regionLabel) {
+  const signals = (shop.signal_labels || []).map((l) => `<span class="warn-badge">${escapeHtml(l)}</span>`).join(" ");
+  return `
+    <section class="area-header">
+      <p class="eyebrow">${escapeHtml(regionLabel)} · 店舗詳細</p>
+      <h1>${escapeHtml(shop.name)}</h1>
+      <div class="meta-row">
+        ${signals}
+        <a href="${escapeHtml(shop.url)}" target="_blank" rel="noopener">公式ページ</a>
+        <a href="shops.html?region=${encodeURIComponent(regionKey)}">店舗一覧へ</a>
+      </div>
+    </section>
+
+    <section class="stat-banner">
+      <div class="stat"><div class="label">90分</div><div class="value">${yen(shop.price_90min)}</div></div>
+      <div class="stat"><div class="label">エリア</div><div class="value">${escapeHtml(shop.sub_area || "—")}</div></div>
+      <div class="stat"><div class="label">店舗型</div><div class="value">${escapeHtml(shop.shop_type || "—")}</div></div>
+      <div class="stat"><div class="label">クーポン</div><div class="value">${shop.coupon_count ?? 0}枚</div></div>
+    </section>
+
+    <section class="grid-2">
+      <div class="panel">
+        <h2>公式口コミ（サンプル）</h2>
+        ${shop.review ? `
+          <p>平均 ${shop.review.avg_rating ?? "—"} · ${shop.review.count ?? 0}件 · 満点率 ${shop.review.five_star_rate ?? "—"}%</p>
+          <p>注意パターン: ${shop.review.suspicious_count ?? 0}件</p>
+        ` : "<p class='muted'>サンプル内に口コミなし</p>"}
+        ${(shop.reviews || []).map((r) => `
+          <article class="flagged-item">
+            <p><strong>${r.rating ?? "—"}</strong> ${escapeHtml(r.title || r.excerpt)}</p>
+            <p class="muted">${escapeHtml(r.date_text || "")}</p>
+          </article>`).join("")}
+      </div>
+      <div class="panel">
+        <h2>掲示板言及（サンプル）</h2>
+        ${shop.bbs ? `
+          <p>言及 ${shop.bbs.mentions ?? 0}件 · 注意 ${shop.bbs.caution_count ?? 0} · 高評価 ${shop.bbs.positive_count ?? 0}</p>
+          ${(shop.bbs.excerpts || []).map((e) => `
+            <article class="flagged-item">
+              <div class="flags">${(e.flags || []).map((f) => `<span class="tag">${escapeHtml(f)}</span>`).join(" ")}</div>
+              <p>${escapeHtml(e.text)}</p>
+              <p class="muted"><a href="${escapeHtml(e.thread_url)}" target="_blank" rel="noopener">${escapeHtml(e.thread_title)}</a></p>
+            </article>`).join("")}
+        ` : "<p class='muted'>掲示板サンプル内に言及なし</p>"}
+      </div>
+    </section>
+
+    ${shop.ranking ? `
+    <section class="panel">
+      <h2>ランキング掲載</h2>
+      ${(shop.ranking.entries || []).map((e) => `<p>${escapeHtml(e.category)} — ${e.rank}位 ${trendLabel(e.trend)}</p>`).join("")}
+    </section>` : ""}
+
+    ${(shop.coupons || []).length ? `
+    <section class="panel">
+      <h2>クーポン</h2>
+      ${shop.coupons.map((c) => `
+        <article class="coupon-item">
+          <h3>${escapeHtml(c.title)}</h3>
+          <p>${escapeHtml(c.description)}</p>
+          <p><a href="${escapeHtml(c.coupon_url)}" target="_blank" rel="noopener">公式で確認</a></p>
+        </article>`).join("")}
+    </section>` : ""}`;
+}
+
+function renderShopList(shops, regionKey, regionLabel) {
+  if (!shops?.length) return "<p class='muted'>店舗データなし</p>";
+  return `
+    <section class="area-header">
+      <p class="eyebrow">${escapeHtml(regionLabel)}</p>
+      <h1>店舗索引（${shops.length}件）</h1>
+      <p class="lead">口コミ・掲示板・ランキング・クーポンのいずれかに登場した店舗。信号の多い順。</p>
+    </section>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>店舗</th><th>90分</th><th>口コミ</th><th>掲示板</th><th>信号</th></tr></thead>
+        <tbody>
+          ${shops
+            .map(
+              (s) => `
+            <tr>
+              <td><a href="shop.html?region=${encodeURIComponent(regionKey)}&id=${encodeURIComponent(s.id)}">${escapeHtml(s.name)}</a></td>
+              <td>${yen(s.price_90min)}</td>
+              <td>${s.review?.count ? `${s.review.avg_rating ?? "—"} (${s.review.count})` : "—"}</td>
+              <td>${s.bbs?.mentions ? `${s.bbs.mentions}件` : "—"}</td>
+              <td>${(s.signal_labels || []).map((l) => `<span class="tag">${escapeHtml(l)}</span>`).join(" ") || "—"}</td>
+            </tr>`
+            )
+            .join("")}
+        </tbody>
+      </table>
     </div>`;
 }

@@ -30,6 +30,7 @@ def _price_stats(prices: list[int]) -> dict[str, Any]:
 
 def _shop_card(shop: dict[str, Any]) -> dict[str, Any]:
     return {
+        "id": shop.get("id"),
         "name": shop.get("name"),
         "url": shop.get("url"),
         "sub_area": shop.get("sub_area"),

@@ -15,12 +15,14 @@ from scraper.analyze import (
 from scraper.bbs_analyze import build_bbs_summary
 from scraper.bbs_scrape import scrape_bbs
 from scraper.config import REGIONS, REVIEWLIST_PAGES, SHOPLIST_MAX_PAGES
+from scraper.cross_analyze import build_cross_analysis, build_cross_summary
 from scraper.fetch import fetch_html
 from scraper.parse_couponlist import parse_couponlist
 from scraper.parse_ranking import parse_ranking
 from scraper.parse_reviewlist import parse_reviewlist
 from scraper.parse_shoplist import parse_shoplist_pages
 from scraper.review_analyze import analyze_reviews, build_review_summary
+from scraper.shop_index import build_shop_index
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = ROOT / "data" / "processed"
@@ -34,7 +36,7 @@ def _shoplist_paths(slug: str) -> list[str]:
     return paths
 
 
-def scrape_region(key: str) -> dict:
+def scrape_region(key: str) -> tuple[dict, dict]:
     cfg = REGIONS[key]
     slug = cfg["slug"]
 
@@ -68,6 +70,19 @@ def scrape_region(key: str) -> dict:
     shop_names = [s["name"] for s in shops if s.get("name")]
     bbs = scrape_bbs(key, shop_names)
 
+    cross_analysis = build_cross_analysis(shops, reviews, bbs, region_median)
+    shop_index = build_shop_index(
+        key,
+        cfg["label"],
+        shops,
+        reviews,
+        cross_analysis,
+        rankings,
+        coupons,
+    )
+
+    bbs_public = {k: v for k, v in bbs.items() if k != "posts"}
+
     return {
         "region_key": key,
         "region_label": cfg["label"],
@@ -89,8 +104,14 @@ def scrape_region(key: str) -> dict:
             "coupons": summarize_coupons(coupons),
             "reviews": analyze_reviews(reviews, region_median),
         },
-        "bbs": bbs,
-    }
+        "bbs": bbs_public,
+        "cross_analysis": {
+            "matched_shops": cross_analysis.get("matched_shops"),
+            "notes": cross_analysis.get("notes"),
+            "signal_labels": cross_analysis.get("signal_labels"),
+            "by_signal": cross_analysis.get("by_signal"),
+        },
+    }, shop_index
 
 
 def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
@@ -105,6 +126,7 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
         "highlights": build_cross_region_highlights(regions),
         "reviews": build_review_summary(regions),
         "bbs": build_bbs_summary(regions),
+        "cross": build_cross_summary(regions),
         "regions": [
             {
                 "key": key,
@@ -131,7 +153,7 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
     }
 
 
-def write_outputs(regions: dict[str, dict], summary: dict) -> None:
+def write_outputs(regions: dict[str, dict], summary: dict, shop_indexes: dict[str, dict]) -> None:
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -147,17 +169,25 @@ def write_outputs(regions: dict[str, dict], summary: dict) -> None:
         (PROCESSED_DIR / f"{key}.json").write_text(text, encoding="utf-8")
         (DOCS_DATA_DIR / f"{key}.json").write_text(text, encoding="utf-8")
 
+    for key, index in shop_indexes.items():
+        text = json.dumps(index, ensure_ascii=False, indent=2)
+        (PROCESSED_DIR / f"shops_{key}.json").write_text(text, encoding="utf-8")
+        (DOCS_DATA_DIR / f"shops_{key}.json").write_text(text, encoding="utf-8")
+
 
 def main() -> None:
     jst = timezone(timedelta(hours=9))
     updated_at = datetime.now(jst).strftime("%Y-%m-%d %H:%M JST")
 
     regions = {}
+    shop_indexes = {}
     for key in REGIONS:
-        regions[key] = scrape_region(key)
+        payload, shop_index = scrape_region(key)
+        regions[key] = payload
+        shop_indexes[key] = shop_index
 
     summary = build_summary(regions, updated_at)
-    write_outputs(regions, summary)
+    write_outputs(regions, summary, shop_indexes)
     print(f"Done. Updated at {updated_at}")
 
 

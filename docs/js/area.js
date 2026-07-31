@@ -55,7 +55,10 @@ async function initArea() {
           <span>サンプル ${data.shop_meta.sampled_shops ?? "—"} / 全 ${data.shop_meta.total_shops?.toLocaleString("ja-JP") ?? "—"} 店</span>
           <a href="${escapeHtml(data.source_urls.ranking)}" target="_blank" rel="noopener">公式ランキング</a>
           <a href="${escapeHtml(data.source_urls.coupons)}" target="_blank" rel="noopener">公式クーポン</a>
-          <a href="${escapeHtml(data.source_urls.shoplist)}" target="_blank" rel="noopener">公式店舗一覧</a>
+          <a href="reviews.html?region=${encodeURIComponent(region)}">口コミ解析</a>
+          <a href="bbs.html?region=${encodeURIComponent(region)}">掲示板</a>
+          <a href="cross.html?region=${encodeURIComponent(region)}">クロス分析</a>
+          <a href="shops.html?region=${encodeURIComponent(region)}">店舗索引</a>
         </div>
       </section>
 
@@ -93,17 +96,17 @@ async function initArea() {
       <section class="panel">
         <h2>今すぐご案内可の店（最大20件）</h2>
         <p class="section-note">空き状況はリアルタイム変動。予約前に公式で再確認してください。</p>
-        ${renderShopTable(shopInsights.available_now_shops, ["カード", "クーポン"])}
+        ${renderShopTable(shopInsights.available_now_shops, ["カード", "クーポン"], region)}
       </section>
 
       <section class="grid-2">
         <div class="panel">
           <h2>コスパ店（安め＋クーポンあり）</h2>
-          ${renderShopTable(shopInsights.best_value_shops, ["クーポン"])}
+          ${renderShopTable(shopInsights.best_value_shops, ["クーポン"], region)}
         </div>
         <div class="panel">
           <h2>深夜営業（LAST・29時以降等）</h2>
-          ${renderShopTable(shopInsights.late_night_shops, ["営業"])}
+          ${renderShopTable(shopInsights.late_night_shops, ["営業"], region)}
         </div>
       </section>
 

@@ -60,4 +60,13 @@ def scrape_bbs(region_key: str, shop_names: list[str]) -> dict[str, Any]:
             for t in sample_threads
         ],
         "insights": insights,
+        "posts": [
+            {
+                "text": p.get("text"),
+                "excerpt": p.get("excerpt"),
+                "thread_title": p.get("thread_title"),
+                "thread_url": p.get("thread_url"),
+            }
+            for p in posts
+        ],
     }

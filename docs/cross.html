@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>口コミ解析 | este_analystics</title>
-  <meta name="description" content="エステ魂口コミの評価分布と注意パターン解析">
+  <title>クロス分析 | este_analystics</title>
+  <meta name="description" content="エステ魂口コミと爆サイ掲示板のクロス分析">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,30 +17,26 @@
         <a href="area.html?region=chubu">名古屋</a>
         <a href="area.html?region=kansai">大阪</a>
         <a href="compare.html">比較</a>
-        <a href="reviews.html?region=kanto" data-nav="kanto">口コミ</a>
-        <a href="bbs.html?region=kanto" data-nav-bbs="kanto">掲示板</a>
-        <a href="cross.html?region=kanto">クロス</a>
-        <a href="shops.html?region=kanto">店舗</a>
+        <a href="reviews.html?region=kanto">口コミ</a>
+        <a href="bbs.html?region=kanto">掲示板</a>
+        <a href="cross.html?region=kanto" data-nav="kanto">クロス</a>
         <a href="guide.html">初めての方</a>
       </nav>
     </div>
   </header>
 
-  <main class="container" id="reviews-root">
+  <main class="container" id="cross-root">
     <p class="loading">読込中…</p>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>
-        口コミ解析は公開情報の統計・パターン検出であり、真偽の断定ではありません。
-        出典: <a href="https://estama.jp/" target="_blank" rel="noopener">estama.jp</a>
-      </p>
+      <p>クロス分析はサンプル内の店名一致に基づく参考指標です。真偽は保証できません。</p>
     </div>
   </footer>
 
   <script src="js/utils.js"></script>
   <script src="js/render.js"></script>
-  <script src="js/reviews.js"></script>
+  <script src="js/cross.js"></script>
 </body>
 </html>
