@@ -76,6 +76,11 @@ async function initIndex() {
           ${renderFlaggedReviews(summary.reviews.top_suspicious)}
         </section>`;
     }
+
+    const bbsSection = document.getElementById("bbs-section");
+    if (bbsSection && summary.bbs) {
+      bbsSection.innerHTML = renderBbsSummary(summary.bbs);
+    }
   } catch (err) {
     updatedEl.textContent = "データの読込に失敗しました";
     cardsEl.innerHTML = `<p class="error">${escapeHtml(err.message)}</p>`;

@@ -563,3 +563,137 @@ function renderReviewInsights(reviewInsights, reviewMeta, regionLabel) {
       ${renderFlaggedReviews(ri.flagged_reviews)}
     </section>`;
 }
+
+function renderBbsSummary(bbsSummary) {
+  if (!bbsSummary?.regions?.length) return "";
+  return `
+    <section class="panel bbs-panel">
+      <h2>📋 掲示板（爆サイ）の声</h2>
+      <p class="section-note">${escapeHtml(bbsSummary.disclaimer || "")}</p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>エリア</th><th>板</th><th>スレ</th><th>レス</th>
+              <th>注意系</th><th>高評価系</th><th></th>
+            </tr>
+          </thead>
+          <tbody>
+            ${bbsSummary.regions
+              .map(
+                (r) => `
+              <tr>
+                <td>${escapeHtml(r.label)}</td>
+                <td><a href="${escapeHtml(r.board_url)}" target="_blank" rel="noopener">${escapeHtml(r.board_label || "掲示板")}</a></td>
+                <td>${r.parsed_threads ?? "—"}</td>
+                <td>${r.parsed_posts ?? "—"}</td>
+                <td>${r.caution_rate ?? 0}%</td>
+                <td>${r.positive_rate ?? 0}%</td>
+                <td><a href="bbs.html?region=${encodeURIComponent(r.key)}">詳細</a></td>
+              </tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
+    </section>`;
+}
+
+function renderBbsInsights(bbs, regionLabel) {
+  const ins = bbs?.insights || {};
+  const board = bbs?.board || {};
+  const keywords = Object.entries(ins.top_keywords || {});
+  const groups = ins.keyword_groups || {};
+  const topics = Object.entries(ins.thread_topics || {});
+
+  return `
+    <section class="area-header">
+      <p class="eyebrow">掲示板解析 · ${escapeHtml(bbs?.source_label || "爆サイ")}</p>
+      <h1>${escapeHtml(regionLabel)}エリアの掲示板トレンド</h1>
+      <p class="lead">
+        2ch系掲示板「爆サイ」の${escapeHtml(board.label || "総合板")}から、
+        スレッドタイトルと直近レスをサンプル集計。匿名情報のため参考程度にご利用ください。
+      </p>
+      <div class="meta-row">
+        <a href="${escapeHtml(board.url)}" target="_blank" rel="noopener">公式掲示板を見る</a>
+        <a href="area.html?region=${encodeURIComponent(bbs?.region_key || "")}">エリア詳細へ</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>サンプル概要</h2>
+      <div class="stat-banner">
+        <div class="stat"><div class="label">スレッド</div><div class="value">${ins.parsed_threads ?? 0}</div></div>
+        <div class="stat"><div class="label">レス</div><div class="value">${ins.parsed_posts ?? 0}</div></div>
+        <div class="stat"><div class="label">注意系キーワード</div><div class="value">${ins.caution_rate ?? 0}%</div></div>
+        <div class="stat"><div class="label">高評価キーワード</div><div class="value">${ins.positive_rate ?? 0}%</div></div>
+      </div>
+      ${(ins.notes || []).map((n) => `<p class="stat-detail">💡 ${escapeHtml(n)}</p>`).join("")}
+      <p class="section-note">${escapeHtml(bbs?.source_label || "")} · レスは各スレ最新ページから最大40件×5スレを抽出</p>
+    </section>
+
+    <section class="grid-2">
+      <div class="panel">
+        <h2>キーワード TOP</h2>
+        ${keywords.map(([k, v]) => `<p><span class="tag">${escapeHtml(k)}</span> ${v}件</p>`).join("") || "<p class='muted'>なし</p>"}
+      </div>
+      <div class="panel">
+        <h2>スレッド話題の内訳</h2>
+        ${topics.map(([k, v]) => `<p>${escapeHtml(k)} — ${v}件</p>`).join("") || "<p class='muted'>なし</p>"}
+        <h3 style="margin-top:1rem">カテゴリ別ヒット</h3>
+        <p>注意: ${groups.caution ?? 0} · 高評価: ${groups.positive ?? 0} · コスパ: ${groups.value ?? 0} · サービス: ${groups.service ?? 0}</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>🔥 レス数の多いスレッド</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>タイトル</th><th>レス</th><th>閲覧</th><th>更新</th></tr></thead>
+          <tbody>
+            ${(ins.hot_threads || [])
+              .map(
+                (t) => `
+              <tr>
+                <td><a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">${escapeHtml(t.title)}</a></td>
+                <td>${t.responses ?? "—"}</td>
+                <td>${t.views != null ? t.views.toLocaleString("ja-JP") : "—"}</td>
+                <td>${escapeHtml(t.last_posted || "—")}</td>
+              </tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    ${(ins.shop_mentions || []).length ? `
+    <section class="panel">
+      <h2>エステ魂店舗名との一致（参考）</h2>
+      <p class="section-note">サンプルレス内でエステ魂の店舗名に一致したもの。表記ゆれ・別店舗の可能性あり。</p>
+      ${ins.shop_mentions.map((s) => `<p><strong>${escapeHtml(s.name)}</strong> — ${s.count}件</p>`).join("")}
+    </section>` : ""}
+
+    <section class="panel">
+      <h2>⚠ 注意系キーワードを含むレス（抜粋）</h2>
+      <p class="section-note">原文は160文字まで。真偽は未検証です。</p>
+      ${renderBbsCautionPosts(ins.caution_posts)}
+    </section>`;
+}
+
+function renderBbsCautionPosts(posts) {
+  if (!posts?.length) return "<p class='muted'>該当なし</p>";
+  return `
+    <div class="flagged-list">
+      ${posts
+        .map(
+          (p) => `
+        <article class="flagged-item">
+          <div class="flags">${(p.flags || []).map((f) => `<span class="warn-badge">${escapeHtml(f)}</span>`).join(" ")}</div>
+          <p>${escapeHtml(p.excerpt)}</p>
+          <p class="muted"><a href="${escapeHtml(p.thread_url)}" target="_blank" rel="noopener">${escapeHtml(p.thread_title)}</a></p>
+        </article>`
+        )
+        .join("")}
+    </div>`;
+}

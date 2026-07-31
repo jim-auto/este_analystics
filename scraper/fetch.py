@@ -11,10 +11,14 @@ from scraper.config import BASE_URL, REQUEST_DELAY_SEC, USER_AGENT
 _last_request_at = 0.0
 
 
-def fetch_html(path: str) -> str:
+def fetch_html(path: str, *, base_url: str | None = None) -> str:
     global _last_request_at
 
-    url = path if path.startswith("http") else f"{BASE_URL}{path}"
+    if path.startswith("http"):
+        url = path
+    else:
+        root = base_url or BASE_URL
+        url = f"{root}{path}"
     elapsed = time.monotonic() - _last_request_at
     if elapsed < REQUEST_DELAY_SEC:
         time.sleep(REQUEST_DELAY_SEC - elapsed)

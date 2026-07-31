@@ -12,6 +12,8 @@ from scraper.analyze import (
     summarize_rankings,
     summarize_shops,
 )
+from scraper.bbs_analyze import build_bbs_summary
+from scraper.bbs_scrape import scrape_bbs
 from scraper.config import REGIONS, REVIEWLIST_PAGES, SHOPLIST_MAX_PAGES
 from scraper.fetch import fetch_html
 from scraper.parse_couponlist import parse_couponlist
@@ -62,6 +64,10 @@ def scrape_region(key: str) -> dict:
     shop_insights = summarize_shops(shops)
     region_median = shop_insights["price_90min"].get("median")
 
+    print(f"[{cfg['label']}] fetching BBS (bakusai)...")
+    shop_names = [s["name"] for s in shops if s.get("name")]
+    bbs = scrape_bbs(key, shop_names)
+
     return {
         "region_key": key,
         "region_label": cfg["label"],
@@ -83,6 +89,7 @@ def scrape_region(key: str) -> dict:
             "coupons": summarize_coupons(coupons),
             "reviews": analyze_reviews(reviews, region_median),
         },
+        "bbs": bbs,
     }
 
 
@@ -97,6 +104,7 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
         "source": "https://estama.jp/",
         "highlights": build_cross_region_highlights(regions),
         "reviews": build_review_summary(regions),
+        "bbs": build_bbs_summary(regions),
         "regions": [
             {
                 "key": key,
