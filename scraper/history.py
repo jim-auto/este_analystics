@@ -18,6 +18,20 @@ def _snapshot_metrics(summary: dict[str, Any]) -> dict[str, Any]:
     bbs_regions = {r["key"]: r for r in (summary.get("bbs") or {}).get("regions", [])}
     review_regions = {r["key"]: r for r in (summary.get("reviews") or {}).get("regions", [])}
 
+    gap_shops = [
+        {
+            "id": g.get("id"),
+            "name": g.get("name"),
+            "region_key": g.get("region_key"),
+            "region_label": g.get("region_label"),
+        }
+        for g in (summary.get("cross") or {}).get("top_gaps", [])
+    ]
+    bbs_keywords = [
+        {"key": r["key"], "keywords": r.get("top_keywords") or {}}
+        for r in (summary.get("bbs") or {}).get("regions", [])
+    ]
+
     regions = []
     for row in summary.get("regions", []):
         key = row["key"]
@@ -46,6 +60,8 @@ def _snapshot_metrics(summary: dict[str, Any]) -> dict[str, Any]:
 
     return {
         "updated_at": summary.get("updated_at"),
+        "cross_gap_shops": gap_shops,
+        "bbs_keywords": bbs_keywords,
         "regions": regions,
     }
 

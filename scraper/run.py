@@ -22,9 +22,10 @@ from scraper.parse_ranking import parse_ranking
 from scraper.parse_reviewlist import parse_reviewlist
 from scraper.parse_shoplist import parse_shoplist_pages
 from scraper.review_analyze import analyze_reviews, build_review_summary
+from scraper.digest import build_weekly_digest
 from scraper.history import build_history_payload
 from scraper.shop_index import build_shop_index
-from scraper.subarea_index import build_subarea_index
+from scraper.subarea_index import build_subarea_index, pick_featured_subareas
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = ROOT / "data" / "processed"
@@ -118,9 +119,13 @@ def scrape_region(key: str) -> tuple[dict, dict, dict]:
     }, shop_index, subarea_index
 
 
-def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
+def build_summary(
+    regions: dict[str, dict],
+    updated_at: str,
+    subarea_indexes: dict[str, dict] | None = None,
+) -> dict:
     shop_insights = {key: regions[key]["insights"]["shops"] for key in REGIONS}
-    return {
+    base = {
         "updated_at": updated_at,
         "disclaimer": (
             "本サイトはエステ魂（estama.jp）の公開情報を分析・再整理した非公式サイトです。"
@@ -155,6 +160,16 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
             for key in REGIONS
         ],
     }
+
+    if subarea_indexes:
+        base["featured_subareas"] = {
+            key: pick_featured_subareas(subarea_indexes[key], key) for key in REGIONS
+        }
+
+    history = build_history_payload(base)
+    base["digest"] = build_weekly_digest(base, history)
+
+    return base
 
 
 def write_outputs(
@@ -207,7 +222,7 @@ def main() -> None:
         shop_indexes[key] = shop_index
         subarea_indexes[key] = subarea_index
 
-    summary = build_summary(regions, updated_at)
+    summary = build_summary(regions, updated_at, subarea_indexes)
     write_outputs(regions, summary, shop_indexes, subarea_indexes)
     print(f"Done. Updated at {updated_at}")
 

@@ -1,11 +1,14 @@
 """Rebuild subarea indexes from existing region + shops JSON (no network)."""
 import json
+import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 
 from scraper.config import REGIONS
 from scraper.subarea_index import build_subarea_index
 
-ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs" / "data"
 PROCESSED = ROOT / "data" / "processed"
 

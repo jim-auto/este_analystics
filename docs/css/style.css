@@ -462,6 +462,106 @@ small { color: var(--muted); font-size: 0.78rem; }
   font-size: 0.92rem;
 }
 
+.history-charts { margin: 1rem 0 1.25rem; }
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.history-chart {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+}
+
+.history-chart h3 {
+  font-size: 0.88rem;
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+}
+
+.sparkline {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 72px;
+}
+
+.spark-bar {
+  flex: 1;
+  min-width: 6px;
+  background: linear-gradient(180deg, var(--accent), rgba(56, 189, 248, 0.35));
+  border-radius: 3px 3px 0 0;
+}
+
+.spark-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.35rem;
+}
+
+.bar-fill--warn {
+  background: linear-gradient(90deg, rgba(251, 191, 36, 0.5), var(--warn));
+}
+
+.panel-inner {
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.panel-inner h3 {
+  font-size: 0.92rem;
+  margin: 0 0 0.65rem;
+}
+
+.featured-block { margin-bottom: 1.25rem; }
+
+.featured-block h3 {
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+}
+
+.featured-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 0.35rem;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.65rem 0.85rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  min-width: 120px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.88rem;
+}
+
+.featured-card:hover {
+  border-color: var(--accent);
+}
+
+.featured-card strong { font-size: 0.95rem; }
+
+.featured-card span { color: var(--muted); }
+
+.digest-panel h3 {
+  font-size: 1rem;
+  margin: 0 0 0.35rem;
+}
+
 @media (max-width: 640px) {
   .bar-row { grid-template-columns: 60px 1fr 72px; }
   .header-inner { flex-direction: column; align-items: flex-start; }

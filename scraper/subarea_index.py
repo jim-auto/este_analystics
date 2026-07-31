@@ -108,3 +108,30 @@ def build_subarea_index(
         "area_count": len(areas),
         "areas": areas,
     }
+
+
+def pick_featured_subareas(subarea_index: dict[str, Any], region_key: str) -> list[dict[str, Any]]:
+    from scraper.config import FEATURED_SUBAREA_KEYWORDS
+
+    patterns = FEATURED_SUBAREA_KEYWORDS.get(region_key, ())
+    areas = subarea_index.get("areas", [])
+    picked: list[dict[str, Any]] = []
+    used_names: set[str] = set()
+
+    for pattern in patterns:
+        for area in areas:
+            name = area.get("name", "")
+            if pattern in name and name not in used_names:
+                picked.append(
+                    {
+                        "name": name,
+                        "price_median": area.get("price_median"),
+                        "shop_count": area.get("shop_count"),
+                        "signal_shop_count": area.get("signal_shop_count", 0),
+                    }
+                )
+                used_names.add(name)
+                break
+
+    return picked[:6]
+

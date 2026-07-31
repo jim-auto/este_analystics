@@ -4,24 +4,112 @@
   "previous_date": null,
   "snapshots": [
     {
-      "updated_at": "2026-07-31 22:10 JST",
+      "updated_at": "2026-07-31 22:37 JST",
+      "cross_gap_shops": [
+        {
+          "id": "33959",
+          "name": "必殺アキバ娘　錦糸町ルーム",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "35557",
+          "name": "東京スパ＆マッサージ COCONA GRAN",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "33480",
+          "name": "関内／伊勢佐木町メンズエステ Spa Deep スパディープ",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "30408",
+          "name": "ヒルガオ～大人セラピスト倶楽部～",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "30408",
+          "name": "ヒルガオ～大人セラピスト倶楽部～",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "50693",
+          "name": "自宅出張メンエス～夜桜～",
+          "region_key": "chubu",
+          "region_label": "名古屋"
+        },
+        {
+          "id": "25108",
+          "name": "店舗/マンション個室複合店　Felice（ﾌｪﾘｰﾁｪ)",
+          "region_key": "chubu",
+          "region_label": "名古屋"
+        },
+        {
+          "id": "41412",
+          "name": "名古屋・栄メンズエステ〜HANIEL〜",
+          "region_key": "chubu",
+          "region_label": "名古屋"
+        },
+        {
+          "id": "25108",
+          "name": "店舗/マンション個室複合店　Felice（ﾌｪﾘｰﾁｪ)",
+          "region_key": "chubu",
+          "region_label": "名古屋"
+        }
+      ],
+      "bbs_keywords": [
+        {
+          "key": "kanto",
+          "keywords": {
+            "詐欺": 7,
+            "最高": 7,
+            "当たり": 6,
+            "地雷": 6,
+            "オススメ": 6
+          }
+        },
+        {
+          "key": "kansai",
+          "keywords": {
+            "最高": 14,
+            "健全": 8,
+            "オプション": 7,
+            "安い": 5,
+            "リピ": 5
+          }
+        },
+        {
+          "key": "chubu",
+          "keywords": {
+            "最高": 15,
+            "当たり": 13,
+            "おすすめ": 8,
+            "寛容": 6,
+            "リピ": 6
+          }
+        }
+      ],
       "regions": [
         {
           "key": "kanto",
           "label": "東京",
           "price_median": 16000,
-          "price_min": 9000,
-          "price_max": 26000,
-          "available_now": 459,
-          "sampled_shops": 499,
-          "review_avg": 4.82,
-          "review_five_star_rate": 61,
-          "review_suspicious_rate": 15.9,
-          "bbs_caution_rate": 3.8,
-          "bbs_positive_rate": 6.9,
-          "cross_gap_count": 4,
-          "cross_matched_shops": 302,
-          "parsed_reviews": 954
+          "price_min": 8000,
+          "price_max": 28000,
+          "available_now": 842,
+          "sampled_shops": 998,
+          "review_avg": 4.79,
+          "review_five_star_rate": 57,
+          "review_suspicious_rate": 14.4,
+          "bbs_caution_rate": 5.8,
+          "bbs_positive_rate": 7.3,
+          "cross_gap_count": 3,
+          "cross_matched_shops": 521,
+          "parsed_reviews": 1580
         },
         {
           "key": "kansai",
@@ -29,33 +117,33 @@
           "price_median": 14000,
           "price_min": 9000,
           "price_max": 44000,
-          "available_now": 478,
-          "sampled_shops": 495,
-          "review_avg": 4.85,
-          "review_five_star_rate": 69,
-          "review_suspicious_rate": 18.5,
-          "bbs_caution_rate": 3.0,
+          "available_now": 776,
+          "sampled_shops": 1000,
+          "review_avg": 4.86,
+          "review_five_star_rate": 70,
+          "review_suspicious_rate": 18.9,
+          "bbs_caution_rate": 1.5,
           "bbs_positive_rate": 7.2,
-          "cross_gap_count": 3,
-          "cross_matched_shops": 314,
-          "parsed_reviews": 1003
+          "cross_gap_count": 2,
+          "cross_matched_shops": 524,
+          "parsed_reviews": 1695
         },
         {
           "key": "chubu",
           "label": "名古屋",
           "price_median": 15000,
           "price_min": 8000,
-          "price_max": 35000,
-          "available_now": 380,
-          "sampled_shops": 500,
+          "price_max": 45000,
+          "available_now": 394,
+          "sampled_shops": 991,
           "review_avg": 4.8,
-          "review_five_star_rate": 62,
-          "review_suspicious_rate": 15.8,
-          "bbs_caution_rate": 1.5,
-          "bbs_positive_rate": 7.0,
-          "cross_gap_count": 3,
-          "cross_matched_shops": 304,
-          "parsed_reviews": 989
+          "review_five_star_rate": 60,
+          "review_suspicious_rate": 15.7,
+          "bbs_caution_rate": 3.0,
+          "bbs_positive_rate": 10.2,
+          "cross_gap_count": 4,
+          "cross_matched_shops": 420,
+          "parsed_reviews": 1166
         }
       ],
       "date": "2026-07-31"

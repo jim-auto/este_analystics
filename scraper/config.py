@@ -27,5 +27,11 @@ REGIONS = {
     },
 }
 
-SHOPLIST_MAX_PAGES = 5
-REVIEWLIST_PAGES = 3
+SHOPLIST_MAX_PAGES = 10
+REVIEWLIST_PAGES = 5
+
+FEATURED_SUBAREA_KEYWORDS = {
+    "kanto": ("新宿", "池袋", "渋谷", "秋葉原", "横浜", "五反田"),
+    "kansai": ("梅田", "日本橋", "難波", "京橋", "心斎橋"),
+    "chubu": ("栄", "名古屋", "名駅", "金山", "上前津"),
+}

@@ -947,6 +947,8 @@ function renderHistoryPanel(history) {
     .filter(Boolean)
     .join("");
 
+  const charts = renderHistoryCharts(history);
+
   return `
     <section class="panel history-panel">
       <h2>📈 週次推移</h2>
@@ -955,6 +957,7 @@ function renderHistoryPanel(history) {
         ${history.previous_date ? `（前回: ${escapeHtml(history.previous_date)} → 今回: ${escapeHtml(history.latest_date || "")}）` : ""}
       </p>
       ${(history.notes || []).map((n) => `<p class="stat-detail">${escapeHtml(n)}</p>`).join("")}
+      ${charts}
       ${changeRows ? `
         <div class="table-scroll">
           <table>
@@ -966,16 +969,196 @@ function renderHistoryPanel(history) {
     </section>`;
 }
 
+function renderHistoryCharts(history) {
+  const snapshots = history.snapshots || [];
+  if (snapshots.length < 2) return "";
+
+  const regionLabels = { kanto: "東京", chubu: "名古屋", kansai: "大阪" };
+  const keys = ["kanto", "chubu", "kansai"];
+
+  const priceCharts = keys
+    .map((key) => {
+      const points = snapshots
+        .map((snap) => {
+          const row = (snap.regions || []).find((r) => r.key === key);
+          return row?.price_median != null ? { date: snap.date, value: row.price_median } : null;
+        })
+        .filter(Boolean);
+      if (points.length < 2) return "";
+      const max = Math.max(...points.map((p) => p.value), 1);
+      const min = Math.min(...points.map((p) => p.value));
+      const range = max - min || 1;
+      return `
+        <div class="history-chart">
+          <h3>${escapeHtml(regionLabels[key])} — 90分中央値</h3>
+          <div class="sparkline">
+            ${points
+              .map((p) => {
+                const h = 20 + ((p.value - min) / range) * 60;
+                return `<div class="spark-bar" style="height:${h}%" title="${escapeHtml(p.date)}: ${yen(p.value)}"></div>`;
+              })
+              .join("")}
+          </div>
+          <div class="spark-labels">
+            <span>${escapeHtml(points[0].date.slice(5))}</span>
+            <span>${yen(points[points.length - 1].value)}</span>
+            <span>${escapeHtml(points[points.length - 1].date.slice(5))}</span>
+          </div>
+        </div>`;
+    })
+    .filter(Boolean)
+    .join("");
+
+  const gapChart = keys
+    .map((key) => {
+      const points = snapshots
+        .map((snap) => {
+          const row = (snap.regions || []).find((r) => r.key === key);
+          return row?.cross_gap_count != null ? { date: snap.date, value: row.cross_gap_count } : null;
+        })
+        .filter(Boolean);
+      if (!points.length) return "";
+      const max = Math.max(...points.map((p) => p.value), 1);
+      return `
+        <div class="history-chart history-chart--compact">
+          <div class="bar-row">
+            <div class="bar-label">${escapeHtml(regionLabels[key])}</div>
+            <div class="bar-track"><div class="bar-fill bar-fill--warn" style="width:${(points[points.length - 1].value / max) * 100}%"></div></div>
+            <div class="bar-value">${points[points.length - 1].value}店 ${points.length >= 2 && points[points.length - 1].value !== points[0].value ? `<small>(${points[0].value}→${points[points.length - 1].value})</small>` : ""}</div>
+          </div>
+        </div>`;
+    })
+    .join("");
+
+  if (!priceCharts && !gapChart) return "";
+
+  return `
+    <div class="history-charts">
+      ${priceCharts ? `<div class="grid-3">${priceCharts}</div>` : ""}
+      ${gapChart ? `<div class="panel-inner"><h3>クロスギャップ店舗数</h3>${gapChart}</div>` : ""}
+    </div>`;
+}
+
+function renderWeeklyDigest(digest) {
+  if (!digest) return "";
+
+  const hasPrior = digest.has_prior_snapshot;
+  const gapTitle = hasPrior ? "新たに検出されたギャップ店" : "注目ギャップ店（ウォッチリスト）";
+  const gapNote = hasPrior
+    ? "前回スナップショットに無かったクロス分析ギャップ。"
+    : "初回または比較データなし。現在のギャップ上位を表示。";
+
+  const gaps = digest.new_gap_shops?.length
+    ? renderCrossGapList(digest.new_gap_shops)
+    : "<p class='muted'>該当なし</p>";
+
+  const spikes = (digest.bbs_keyword_spikes || [])
+    .map(
+      (s) => `
+      <tr>
+        <td>${escapeHtml(s.region_label)}</td>
+        <td><strong>${escapeHtml(s.keyword)}</strong></td>
+        <td>${s.count}件 <span class="trend-up">+${s.delta}</span></td>
+      </tr>`
+    )
+    .join("");
+
+  return `
+    <section class="panel digest-panel">
+      <h2>📌 今週の注目</h2>
+      <div class="grid-2">
+        <div>
+          <h3>${gapTitle}</h3>
+          <p class="section-note">${gapNote}</p>
+          ${gaps}
+        </div>
+        <div>
+          <h3>ランキング UP</h3>
+          ${renderMovers(digest.ranking_movers)}
+          ${spikes ? `
+            <h3 style="margin-top:1.5rem">掲示板キーワード急増</h3>
+            <div class="table-scroll">
+              <table>
+                <thead><tr><th>エリア</th><th>キーワード</th><th>件数</th></tr></thead>
+                <tbody>${spikes}</tbody>
+              </table>
+            </div>` : ""}
+        </div>
+      </div>
+    </section>`;
+}
+
+function renderFeaturedSubareas(featured, regions) {
+  if (!featured || !regions?.length) return "";
+
+  const regionMap = {};
+  regions.forEach((r) => {
+    regionMap[r.key] = r.label;
+  });
+
+  const blocks = Object.entries(featured)
+    .filter(([, areas]) => areas?.length)
+    .map(
+      ([key, areas]) => `
+      <div class="featured-block">
+        <h3>${escapeHtml(regionMap[key] || key)}</h3>
+        <div class="featured-cards">
+          ${areas
+            .map(
+              (a) => `
+            <a class="featured-card" href="subarea.html?region=${encodeURIComponent(key)}&area=${encodeURIComponent(a.name)}">
+              <strong>${escapeHtml(a.name)}</strong>
+              <span>${yen(a.price_median)} · ${a.shop_count ?? 0}店</span>
+              ${a.signal_shop_count ? `<span class="warn-badge">${a.signal_shop_count} 信号</span>` : ""}
+            </a>`
+            )
+            .join("")}
+        </div>
+        <p><a href="subareas.html?region=${encodeURIComponent(key)}">${escapeHtml(regionMap[key] || key)}の全エリア →</a></p>
+      </div>`
+    )
+    .join("");
+
+  if (!blocks) return "";
+
+  return `
+    <section class="panel featured-panel">
+      <h2>🗺 人気サブエリア早見</h2>
+      <p class="section-note">新宿・梅田など定番エリアの料金目安。詳細はサブエリアページへ。</p>
+      ${blocks}
+    </section>`;
+}
+
 function renderSubareaList(areas, regionKey, regionLabel) {
   if (!areas?.length) return "<p class='muted'>サブエリアデータなし</p>";
   return `
     <section class="area-header">
       <p class="eyebrow">${escapeHtml(regionLabel)}</p>
-      <h1>サブエリア別ガイド（${areas.length}エリア）</h1>
+      <h1>サブエリア別ガイド（<span id="subareas-count">${areas.length}</span>エリア）</h1>
       <p class="lead">店舗リストサンプル内のエリア別相場。行きたい場所の料金目安確認に。</p>
     </section>
+
+    <section class="panel shop-filters">
+      <div class="filter-row">
+        <label class="filter-field">
+          <span>エリア検索</span>
+          <input type="search" id="subarea-search" placeholder="エリア名の一部を入力…" autocomplete="off">
+        </label>
+        <label class="filter-field">
+          <span>並び替え</span>
+          <select id="subarea-sort">
+            <option value="shop_count-desc">店数が多い順</option>
+            <option value="price_median-asc">料金が安い順</option>
+            <option value="price_median-desc">料金が高い順</option>
+            <option value="signal_shop_count-desc">注意信号が多い順</option>
+            <option value="name-asc">エリア名（あいうえお）</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
     <div class="table-scroll">
-      <table>
+      <table id="subareas-table">
         <thead>
           <tr><th>エリア</th><th>店数</th><th>90分中央値</th><th>最安〜最高</th><th>案内可</th><th>注意信号</th><th></th></tr>
         </thead>
@@ -983,7 +1166,10 @@ function renderSubareaList(areas, regionKey, regionLabel) {
           ${areas
             .map(
               (a) => `
-            <tr>
+            <tr data-name="${escapeHtml((a.name || "").toLowerCase())}"
+                data-shop-count="${a.shop_count ?? 0}"
+                data-price="${a.price_median ?? 999999}"
+                data-signals="${a.signal_shop_count ?? 0}">
               <td>${escapeHtml(a.name)}</td>
               <td>${a.shop_count ?? "—"}</td>
               <td>${yen(a.price_median)}</td>

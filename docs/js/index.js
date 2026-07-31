@@ -6,7 +6,8 @@ async function initIndex() {
 
   try {
     const summary = await loadJson("summary.json");
-    updatedEl.textContent = `最終更新: ${summary.updated_at}（店舗リスト先頭${summary.regions[0]?.sampled_shops ?? 500}件・口コミ3ページをサンプル集計）`;
+    const sampled = summary.regions?.[0]?.sampled_shops ?? "—";
+    updatedEl.textContent = `最終更新: ${summary.updated_at}（店舗リスト先頭${sampled}件・口コミ5ページ・掲示板2板をサンプル集計）`;
 
     cardsEl.innerHTML = summary.regions
       .map(
@@ -24,6 +25,16 @@ async function initIndex() {
         </article>`
       )
       .join("");
+
+    const digestSection = document.getElementById("digest-section");
+    if (digestSection && summary.digest) {
+      digestSection.innerHTML = renderWeeklyDigest(summary.digest);
+    }
+
+    const featuredSection = document.getElementById("featured-section");
+    if (featuredSection && summary.featured_subareas) {
+      featuredSection.innerHTML = renderFeaturedSubareas(summary.featured_subareas, summary.regions);
+    }
 
     compareBody.innerHTML = renderCompareRows(summary.regions);
 
