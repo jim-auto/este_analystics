@@ -74,7 +74,9 @@ def parse_reviewlist(html: str) -> tuple[list[dict[str, Any]], dict[str, Any]]:
             title_el = rev.select_one(".review_title")
             title = title_el.get_text(strip=True) if title_el else None
 
-            date_el = rev.select_one(".text_gray.font-size-12")
+            date_el = rev.select_one(".cast_review__item__inner.border_bottom .text_gray.font-size-12")
+            if not date_el:
+                date_el = rev.select_one("p.text_gray.font-size-12.tr")
             date_text = date_el.get_text(" ", strip=True) if date_el else ""
 
             reviewer_el = rev.select_one(".cast_review__item__member .text_gray")

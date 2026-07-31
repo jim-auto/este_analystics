@@ -393,6 +393,43 @@ small { color: var(--muted); font-size: 0.78rem; }
 
 .review-panel { border-color: rgba(251, 191, 36, 0.2); }
 
+.stats-panel {
+  border-color: rgba(56, 189, 248, 0.25);
+  background: linear-gradient(180deg, rgba(56, 189, 248, 0.04), var(--surface));
+}
+
+.stats-panel h3 {
+  font-size: 0.95rem;
+  color: var(--accent);
+  margin: 1.25rem 0 0.5rem;
+}
+
+.stats-panel h3:first-of-type { margin-top: 0.5rem; }
+
+.stats-table th { font-size: 0.82rem; }
+.stats-table td { font-size: 0.88rem; }
+
+.stat-detail {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0.35rem 0 0.75rem;
+}
+
+.four-col {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.sig-yes {
+  color: var(--warn);
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.sig-no {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
 @media (max-width: 640px) {
   .bar-row { grid-template-columns: 60px 1fr 72px; }
   .header-inner { flex-direction: column; align-items: flex-start; }

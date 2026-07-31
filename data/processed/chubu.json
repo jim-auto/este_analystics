@@ -11,12 +11,12 @@
   },
   "shop_meta": {
     "total_shops": 991,
-    "sampled_shops": 300
+    "sampled_shops": 291
   },
   "review_meta": {
     "shop_count": 406,
     "review_total_official": 21027,
-    "parsed_reviews": 333
+    "parsed_reviews": 337
   },
   "rankings": [
     {
@@ -292,6 +292,230 @@
   ],
   "coupons": [
     {
+      "shop_id": "29820",
+      "shop_name": "浜松メンズエステ｜ソル・レヴァンテ",
+      "coupon_url": "https://estama.jp/shop/29820/coupon/",
+      "title": "新セラピスト！椿リカの新セラ割！",
+      "description": "浜松メンズエステ！ソルレヴァンテ！\r\n期待の新セラピスト！\r\n椿リカセラピスト！\r\n本日〜初出勤✨\r\nメンズエステランキングさんのWEB予約\r\nまたは\r\nエステ魂さんのWEB予約のご予約で！\r\n｢3000円｣オフでご案内します✌️\r\n先着2名様😆\r\n合法18歳ぶっちゃけ！すんげーいい子なので！\r\n宜しくお願いします！",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[静岡] 浜松/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "静岡",
+      "shop_type": "浜松",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "60分 / ￥14,000",
+      "hours": "10:00～LAST (受付 9:30～LAST)"
+    },
+    {
+      "shop_id": "31787",
+      "shop_name": "ミセス美オーラ 浜松",
+      "coupon_url": "https://estama.jp/shop/31787/coupon/",
+      "title": "エスタマ見た！で限定割引☆",
+      "description": "ご利用誠にありがとうございます！\r\n【エスタマ見た！】と一言お伝え頂きましたら、\r\n全コース1000円OFF！にてご案内いたします。\r\nぜひご利用お待ちしております。",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[静岡] 浜松/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "静岡",
+      "shop_type": "浜松",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "60分 / ￥11,000",
+      "hours": "9:00～LAST (受付 9:00～LAST)"
+    },
+    {
+      "shop_id": "29803",
+      "shop_name": "IRIS-アイリス−",
+      "coupon_url": "https://estama.jp/shop/29803/coupon/",
+      "title": "注目！！ご新規様限定、今月はすべてのコース2000円割引！！",
+      "description": "当店の良さをぜひ、知っていただきたいという思いのもと、ご新規様限定で今月末まで、すべてのコース2000円割引で、ご案内いたします。\r\n\r\n受付時に「エステ魂の新規限定割引を見た」とおっしゃってください。",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[富山] 富山市/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "富山",
+      "shop_type": "富山市",
+      "nationality": "マンション(個室)",
+      "price_90min": 15000,
+      "budget_raw": "90分 / ￥15,000",
+      "hours": "10:00～26:00"
+    },
+    {
+      "shop_id": "42702",
+      "shop_name": "Oriental SPA",
+      "coupon_url": "https://estama.jp/shop/42702/coupon/",
+      "title": "＜ご新規様割引＞",
+      "description": "2000円OFF",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[長野] 長野市/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "長野",
+      "shop_type": "長野市",
+      "nationality": "マンション(個室)",
+      "price_90min": 20000,
+      "budget_raw": "90分 / ￥20,000",
+      "hours": "11:00～25:00 (受付 10:00～23:30)"
+    },
+    {
+      "shop_id": "38781",
+      "shop_name": "&TOMアンドトム　勝川",
+      "coupon_url": "https://estama.jp/shop/38781/coupon/",
+      "title": "フリー限定！！９０分コース15000円",
+      "description": "極上なマッサージを最安値で！！\r\nフリー限定！！\r\n90分18000円→15000円でお楽しみ下さい\r\n※他の割引との併用は不可となります",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[愛知] 一宮・春日井・小牧/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "愛知",
+      "shop_type": "一宮・春日井・小牧",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "60分 / ￥12,000",
+      "hours": "10:00～24:00 (受付 10:00～24:00)"
+    },
+    {
+      "shop_id": "42249",
+      "shop_name": "岐阜メンズエステ〜ACE〜",
+      "coupon_url": "https://estama.jp/shop/42249/coupon/",
+      "title": "🉐ACE限定100分コース🉐　限定5名様",
+      "description": "⭐️リンパ集中無料\r\n⭐️衣装チェンジ無料\r\n全て込み込み　20,000円となります。\r\n\r\n※フリーコース限定となります。",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[岐阜] 岐阜市/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "岐阜",
+      "shop_type": "岐阜市",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "60分 / ￥11,000",
+      "hours": "10:00～29:00 (受付 9:30～28:00)"
+    },
+    {
+      "shop_id": "42782",
+      "shop_name": "メンズエステ　メンテする？",
+      "coupon_url": "https://estama.jp/shop/42782/coupon/",
+      "title": "♡ご新規さんウエルカムイベント♡",
+      "description": "75分フリーdeご案内で12,100円（税込）\r\n\r\n※写真指名料別途\r\n※ご新規様のみ利用可◎",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[石川] 金沢/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "石川",
+      "shop_type": "金沢",
+      "nationality": "マンション(個室)",
+      "price_90min": 16500,
+      "budget_raw": "90分 / ￥16,500",
+      "hours": "9:00～29:00 (受付 8:30～28:00)"
+    },
+    {
+      "shop_id": "42983",
+      "shop_name": "Sun Flower　新栄ルーム",
+      "coupon_url": "https://estama.jp/shop/42983/coupon/",
+      "title": "ご新規様限定！！",
+      "description": "ご新規様に限り！！\r\n全コース２０００円割引！！",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[愛知] 新栄・東新町/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "愛知",
+      "shop_type": "新栄・東新町",
+      "nationality": "マンション(個室)",
+      "price_90min": 16000,
+      "budget_raw": "90分 / ￥16,000",
+      "hours": "12:00～29:00 (受付 10:00～28:00)"
+    },
+    {
+      "shop_id": "42639",
+      "shop_name": "Cat's Eye. -キャッツ･アイ-",
+      "coupon_url": "https://estama.jp/shop/42639/coupon/",
+      "title": "【期間限定】 最大2,000円OFFクーポン✨",
+      "description": "ご予約時に「エステ魂のクーポン利用します」と申請していただいたお客様に、最大2,000円割引します✨\r\n\r\n■通常オイルコース → 1,000円OFF！\r\n\r\n90分 14,000円 ▶ 13,000円\r\n120分 18,000円 ▶ 17,000円\r\n\r\n■極液オイルコース → 2,000円OFF！\r\n\r\n90分 18,000円 ▶ 16,000円\r\n120分 24,000円 ▶ 22,000円\r\n\r\nぜひこの機会にオトクにご利用ください🌸",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[静岡] 浜松/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "静岡",
+      "shop_type": "浜松",
+      "nationality": "マンション(個室)",
+      "price_90min": 14000,
+      "budget_raw": "90分 / ￥14,000",
+      "hours": "9:00～29:00 (受付 7:00～28:00)"
+    },
+    {
+      "shop_id": "33913",
+      "shop_name": "Aroma Ode～アロマ・オード～",
+      "coupon_url": "https://estama.jp/shop/33913/coupon/",
+      "title": "新人セラピスト割引",
+      "description": "新人セラピストご指名で最大3,000円OFF\r\n\r\n・リピート指名様は適用不可となります。\r\n\r\n・ご予約時に新人セラピスト割引とお伝え下さい。\r\n\r\n70分14000円　→　70分12000円\r\n90分17000円　→　90分15000円\r\n120分22000円　→　120分19000円\r\n\r\n詳細は店舗スタッフにお問い合わせ下さい。",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[愛知] 豊橋/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "愛知",
+      "shop_type": "豊橋",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "70分 / ￥14,000",
+      "hours": "10:00～26:00 (受付 9:00～)"
+    },
+    {
+      "shop_id": "35008",
+      "shop_name": "アロマーナ栄",
+      "coupon_url": "https://estama.jp/shop/35008/coupon/",
+      "title": "お客様感謝🈹イベント開催中‼️🔥🔥",
+      "description": "只今お客様感謝🈹イベント中✨\r\n\r\n✈️VIP100分コース✈️\r\n超人気ファーストクラスセラピスト✨\r\n指名料込み30,000円→25,000円‼️🔥\r\n\r\n♦️VIP100分コース♦️\r\n芸能人🔥プロスポーツ選手も通い詰める🔥プレミアクラスセラピスト✨\r\n指名料込み40,000円→30,000円‼️🔥\r\n\r\n鼠蹊部集中、全身オイル密着サービス等全てコミコミ‼️\r\nご予約時に「えすたまみた！」とお伝え下さい。",
+      "label": "PRクーポン",
+      "area_raw": "[愛知] 錦・栄/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "愛知",
+      "shop_type": "錦・栄",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "100分 / ￥22,000",
+      "hours": "11:00～29:00"
+    },
+    {
+      "shop_id": "50253",
+      "shop_name": "BABEL Gifu",
+      "coupon_url": "https://estama.jp/shop/50253/coupon/",
+      "title": "【実質5000円オフ】🎋🌻 7月限定イベント開催 🌻",
+      "description": "いつもご利用ありがとうございます💐\r\n7月は大人気のVIPコースがお得です✨\r\n💎 VIP100分 → 1,000円OFF\r\n💎 VIP130分 → 1,000円OFF\r\n🤍 パウダー施術（通常価値 約1,000円）\r\n🤍 鼠蹊部施術（通常価値 約1,000円）\r\n🤍 密ちゃく施術（通常価値 約2,000円）\r\n✨**合計 約5,000円分お得な満足感！**✨\r\n【提示条件】 予約時に「夏イベント」とお伝えください🫧",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[岐阜] 岐阜市/派遣・出張専門",
+      "prefecture": null,
+      "sub_area": "岐阜",
+      "shop_type": "岐阜市",
+      "nationality": "派遣・出張専門",
+      "price_90min": null,
+      "budget_raw": "70分 / ￥11,000",
+      "hours": "11:00～28:00 (受付 10:00～27:00)"
+    },
+    {
+      "shop_id": "30935",
+      "shop_name": "ひっょこりさん四日市店",
+      "coupon_url": "https://estama.jp/shop/30935/coupon/",
+      "title": "✨ひょこり60分￥10000✨",
+      "description": "✨ひょこりイベント✨\r\n\r\n✨60分￥10000でご案内可能です✨\r\n\r\n受付時に必ずお申し付けください✨\r\n\r\n✨他割引と併用不可✨\r\n\r\n✨指名料別途✨",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[三重] 四日市/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "三重",
+      "shop_type": "四日市",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "60分 / ￥10,000",
+      "hours": "10:00～LAST (受付 10:00～LAST)"
+    },
+    {
+      "shop_id": "44522",
+      "shop_name": "Cheetah〜チーター",
+      "coupon_url": "https://estama.jp/shop/44522/coupon/",
+      "title": "初回割引最大2,000円OFF🈹‼️",
+      "description": "エステ魂限定で基本コースのみ\r\n\r\n60分、80分　1,000円OFF🈹\r\n110分、130分　2,000円OFF🈹\r\n\r\nご利用のお客様はクーポンを利用してお得にお遊びください❣️",
+      "label": "エステ魂 限定クーポン",
+      "area_raw": "[愛知] 金山/店舗型",
+      "prefecture": null,
+      "sub_area": "愛知",
+      "shop_type": "金山",
+      "nationality": "店舗型",
+      "price_90min": null,
+      "budget_raw": "80分 / ￥16,000",
+      "hours": "11:00～27:00 (受付 11:00～27:00)"
+    },
+    {
       "shop_id": "51096",
       "shop_name": "一休の隠れ家　富山駅前店",
       "coupon_url": "https://estama.jp/shop/51096/coupon/",
@@ -404,6 +628,22 @@
       "hours": "11:00～27:00"
     },
     {
+      "shop_id": "31963",
+      "shop_name": "Ange Spa～アンジュスパ",
+      "coupon_url": "https://estama.jp/shop/31963/coupon/",
+      "title": "ご新規様90分1000円OFF、120分2000円OFF！！",
+      "description": "当店初めてのお客様がご利用しやすいように\r\n90分1000円OFF\r\n120分2000円OFF\r\n\r\n総額90分14000円\r\n総額120分18000円にて\r\n\r\nご案内頂けます。\r\n\r\n是非この機会にお問い合わせお待ちしております。",
+      "label": "PRクーポン",
+      "area_raw": "[愛知] 岡崎・安城・豊田/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "愛知",
+      "shop_type": "岡崎・安城・豊田",
+      "nationality": "マンション(個室)",
+      "price_90min": 15000,
+      "budget_raw": "90分 / ￥15,000",
+      "hours": "12:00～27:00"
+    },
+    {
       "shop_id": "50567",
       "shop_name": "Mrs.Club〜ミセス・クラブ〜",
       "coupon_url": "https://estama.jp/shop/50567/coupon/",
@@ -450,22 +690,6 @@
       "price_90min": null,
       "budget_raw": "100分 / ￥9,000",
       "hours": "10:00～25:00 (受付 10:00～25:00)"
-    },
-    {
-      "shop_id": "42820",
-      "shop_name": "Sun Flower",
-      "coupon_url": "https://estama.jp/shop/42820/coupon/",
-      "title": "ご新規様限定！！",
-      "description": "ご新規様に限り！！\r\n全コース２０００円割引！！",
-      "label": "PRクーポン",
-      "area_raw": "[愛知] 錦・栄/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "愛知",
-      "shop_type": "錦・栄",
-      "nationality": "マンション(個室)",
-      "price_90min": 16000,
-      "budget_raw": "90分 / ￥16,000",
-      "hours": "12:00～29:00"
     },
     {
       "shop_id": "29365",
@@ -580,6 +804,22 @@
       "hours": "11:00～27:00 (受付 10:00～27:00)"
     },
     {
+      "shop_id": "25896",
+      "shop_name": "完全個室アロマサロン ゆめはな",
+      "coupon_url": "https://estama.jp/shop/25896/coupon/",
+      "title": "【地域最安値を実現】『新規割』当店初めてのお客様限定",
+      "description": "ご新規様に限り1,000円引でご案内致します！\r\n初めてで不安の方もご利用しやすい価格でお試し下さい！\r\n王道のメンエス施術を体験するならまずはゆめはなへ！\r\n＊当店はオプション代不要で追加料金なし＊\r\nどうぞごゆっくりお楽しみ下さいませ！\r\n※他の割引と併用は出来かねます。\r\n※電話予約の際は必ず「新規割」とお伝え下さい！",
+      "label": "PRクーポン",
+      "area_raw": "[長野] 長野市/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "長野",
+      "shop_type": "長野市",
+      "nationality": "マンション(個室)",
+      "price_90min": 15000,
+      "budget_raw": "90分 / ￥15,000",
+      "hours": "10:00～27:00"
+    },
+    {
       "shop_id": "50158",
       "shop_name": "一宮メンズエステ　妃美香-HIMIKO-",
       "coupon_url": "https://estama.jp/shop/50158/coupon/",
@@ -626,22 +866,6 @@
       "price_90min": null,
       "budget_raw": "75分 / ￥12,000",
       "hours": "10:00～LAST (受付 10:00～LAST)"
-    },
-    {
-      "shop_id": "38159",
-      "shop_name": "金沢メンズエステ Lush & Hush",
-      "coupon_url": "https://estama.jp/shop/38159/coupon/",
-      "title": "平日お昼の癒し割💕",
-      "description": "平日のお昼に、上質な癒しを。\r\n平日OPEN〜16:00までのスタート限定で、\r\n80分フリー 12,000円にてご案内。\r\n落ち着いた空間で、心ほどける贅沢な時間をお楽しみください。\r\n昼だけの特別価格で、癒しをもっと身近に。\r\n\r\n※ご指名の場合通常価格となります。\r\n※必ず昼割見た！とご予約時にお伝えください。\r\n※他クーポンとの併用は不可になります。",
-      "label": "PRクーポン",
-      "area_raw": "[石川] 金沢/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "石川",
-      "shop_type": "金沢",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "60分 / ￥10,000",
-      "hours": "10:00～27:00"
     },
     {
       "shop_id": "48238",
@@ -756,6 +980,22 @@
       "hours": "11:00～29:30 (受付 10:00～29:30)"
     },
     {
+      "shop_id": "42820",
+      "shop_name": "Sun Flower",
+      "coupon_url": "https://estama.jp/shop/42820/coupon/",
+      "title": "ご新規様限定！！",
+      "description": "ご新規様に限り！！\r\n全コース２０００円割引！！",
+      "label": "PRクーポン",
+      "area_raw": "[愛知] 錦・栄/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "愛知",
+      "shop_type": "錦・栄",
+      "nationality": "マンション(個室)",
+      "price_90min": 16000,
+      "budget_raw": "90分 / ￥16,000",
+      "hours": "12:00～29:00"
+    },
+    {
       "shop_id": "33181",
       "shop_name": "Oka-Spa",
       "coupon_url": "https://estama.jp/shop/33181/coupon/",
@@ -802,22 +1042,6 @@
       "price_90min": null,
       "budget_raw": "100分 / ￥20,000",
       "hours": "10:00～24:00 (受付 10:00～24:00)"
-    },
-    {
-      "shop_id": "32962",
-      "shop_name": "エミアス",
-      "coupon_url": "https://estama.jp/shop/32962/coupon/",
-      "title": "エステ魂特別オールタイム割引",
-      "description": "【エステ魂ユーザー様限定】\r\nタイムサービスの時間限定を解除\r\nオールタイムでサービス価格になります。\r\n60分　８，０００円　100分　１２，０００円",
-      "label": "PRクーポン",
-      "area_raw": "[静岡] 浜松/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "静岡",
-      "shop_type": "浜松",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "60分 / ￥8,000",
-      "hours": "9:30～26:30"
     },
     {
       "shop_id": "27927",
@@ -932,6 +1156,22 @@
       "hours": "10:00～LAST (受付 9:00～LAST)"
     },
     {
+      "shop_id": "40175",
+      "shop_name": "Aroma Lily",
+      "coupon_url": "https://estama.jp/shop/40175/coupon/",
+      "title": "新規割",
+      "description": "70分コース⇒￥1,000OFF\r\n100分コース以上⇒￥2,000OFF\r\n\r\n※LINEの追加をお願い致します。\r\n※割引の併用は不可となります。\r\n※ご予約の際に必ず『新規割』とお伝えください",
+      "label": "PRクーポン",
+      "area_raw": "[岐阜] 岐南町/派遣・出張専門",
+      "prefecture": null,
+      "sub_area": "岐阜",
+      "shop_type": "岐南町",
+      "nationality": "派遣・出張専門",
+      "price_90min": null,
+      "budget_raw": "70分 / ￥18,000",
+      "hours": "11:00～27:00"
+    },
+    {
       "shop_id": "49458",
       "shop_name": "DAIA ~ダイア~",
       "coupon_url": "https://estama.jp/shop/49458/coupon/",
@@ -978,22 +1218,6 @@
       "price_90min": null,
       "budget_raw": "70分 / ￥12,000",
       "hours": "12:00～27:00 (受付 12:00～27:00)"
-    },
-    {
-      "shop_id": "42119",
-      "shop_name": "Luna Femme(ルナファム)上田",
-      "coupon_url": "https://estama.jp/shop/42119/coupon/",
-      "title": "月2回使える限定2,000円引きクーポン",
-      "description": "いつもご利用いただいておりますお客様にも月2回使える期間限定2,000円クーポンをご用意しました！\r\n※条件期間：26/7/1～26/7/31対象\r\n※担当したセラピストへの口コミ登録は、1回だけでOKです！\r\n※携帯番号2台持ちの方は1台のみ\r\n※エステ魂のウェブ予約からのみ",
-      "label": "PRクーポン",
-      "area_raw": "[長野] 上田/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "長野",
-      "shop_type": "上田",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "60分 / ￥11,000",
-      "hours": "9:30～26:00"
     },
     {
       "shop_id": "49875",
@@ -1108,6 +1332,22 @@
       "hours": "10:00～26:00 (受付 9:30～25:00)"
     },
     {
+      "shop_id": "39791",
+      "shop_name": "MITSUBACHI-ミツバチ-",
+      "coupon_url": "https://estama.jp/shop/39791/coupon/",
+      "title": "🌟【新人割】イベント！🌟",
+      "description": "ご予約の際に、\r\n【新人割】とお伝えいただくと、\r\n新人セラピストがご利用しやすくなります！\r\n是非とも沢山の方々に出会って欲しい！\r\n知っていただきたい！\r\nそんな想いから破格の価格でご案内可能です☆\r\n事前ご予約でも適用可能です！\r\n\r\n🐝入店1ヶ月以内のセラピスト限定🐝\r\n\r\n90分　10,000円\r\n120分　14,000円\r\n※指名料込み\r\n※極液リンパ集中コース：別途+3,000円でご案内可能\r\n※本指名適用外※",
+      "label": "PRクーポン",
+      "area_raw": "[岐阜] 岐阜市/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "岐阜",
+      "shop_type": "岐阜市",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "60分 / ￥11,000",
+      "hours": "10:00～29:00"
+    },
+    {
       "shop_id": "38583",
       "shop_name": "TORIHADA SPA",
       "coupon_url": "https://estama.jp/shop/38583/coupon/",
@@ -1154,22 +1394,6 @@
       "price_90min": null,
       "budget_raw": "80分 / ￥16,000",
       "hours": "10:00～LAST (受付 10:00～LAST)"
-    },
-    {
-      "shop_id": "50778",
-      "shop_name": "SPA雫-SHIZUKU-",
-      "coupon_url": "https://estama.jp/shop/50778/coupon/",
-      "title": "✨ご新規様割引✨",
-      "description": "本日はSPA雫をご覧いただき、誠にありがとうございます！\r\n✨ご新規様限定✨\r\n【プレミアム雫コース】全コース1000円割引‼️\r\n※通常コースは割引対象外となります。\r\n※電話の際エステ魂のクーポンを見たとお伝え下さい。\r\nたくさんのご予約お待ちしております！",
-      "label": "PRクーポン",
-      "area_raw": "[静岡] 静岡市/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "静岡",
-      "shop_type": "静岡市",
-      "nationality": "マンション(個室)",
-      "price_90min": 21000,
-      "budget_raw": "90分 / ￥21,000",
-      "hours": "11:00～27:00"
     },
     {
       "shop_id": "46521",
@@ -1284,6 +1508,22 @@
       "hours": "10:00～27:00 (受付 10:00～27:00)"
     },
     {
+      "shop_id": "50778",
+      "shop_name": "SPA雫-SHIZUKU-",
+      "coupon_url": "https://estama.jp/shop/50778/coupon/",
+      "title": "✨ご新規様割引✨",
+      "description": "本日はSPA雫をご覧いただき、誠にありがとうございます！\r\n✨ご新規様限定✨\r\n【プレミアム雫コース】全コース1000円割引‼️\r\n※通常コースは割引対象外となります。\r\n※電話の際エステ魂のクーポンを見たとお伝え下さい。\r\nたくさんのご予約お待ちしております！",
+      "label": "PRクーポン",
+      "area_raw": "[静岡] 静岡市/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "静岡",
+      "shop_type": "静岡市",
+      "nationality": "マンション(個室)",
+      "price_90min": 21000,
+      "budget_raw": "90分 / ￥21,000",
+      "hours": "11:00～27:00"
+    },
+    {
       "shop_id": "25896",
       "shop_name": "完全個室アロマサロン ゆめはな",
       "coupon_url": "https://estama.jp/shop/25896/coupon/",
@@ -1330,22 +1570,6 @@
       "price_90min": 15000,
       "budget_raw": "90分 / ￥15,000",
       "hours": "10:00～25:00 (受付 10:00～24:00)"
-    },
-    {
-      "shop_id": "49882",
-      "shop_name": "エンペラースパ",
-      "coupon_url": "https://estama.jp/shop/49882/coupon/",
-      "title": "⭐LINE予約で無料延長⭐",
-      "description": "LINE予約で無料延長イベント開催中🔥\r\n\r\n60分+5分（合計65分）\r\n90分+10分（合計100分）\r\n120分+15分（合計135分）\r\n\r\n※LINE予約時に無料延長イベントを見たとお伝え下さい！",
-      "label": "PRクーポン",
-      "area_raw": "[三重] 四日市/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "三重",
-      "shop_type": "四日市",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "60分 / ￥13,000",
-      "hours": "10:00～27:00"
     },
     {
       "shop_id": "34739",
@@ -1460,6 +1684,22 @@
       "hours": "11:00～29:00 (受付 10:30～29:00)"
     },
     {
+      "shop_id": "41836",
+      "shop_name": "PTA",
+      "coupon_url": "https://estama.jp/shop/41836/coupon/",
+      "title": "「エス魂を見た！」で1100円割引",
+      "description": "ご予約の際に、「エス魂を見た」で1100円割引となります。\r\n※月1回のご利用に限り\r\n※他の割引との併用は不可\r\n※既存のリピーター様は対象外",
+      "label": "PRクーポン",
+      "area_raw": "[富山] 富山市/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "富山",
+      "shop_type": "富山市",
+      "nationality": "マンション(個室)",
+      "price_90min": 18000,
+      "budget_raw": "90分 / ￥18,000",
+      "hours": "9:00～25:30"
+    },
+    {
       "shop_id": "38465",
       "shop_name": "Aroma Cream",
       "coupon_url": "https://estama.jp/shop/38465/coupon/",
@@ -1506,22 +1746,6 @@
       "price_90min": 13000,
       "budget_raw": "90分 / ￥13,000",
       "hours": "10:00～25:00 (受付 9:00～25:00)"
-    },
-    {
-      "shop_id": "35008",
-      "shop_name": "アロマーナ栄",
-      "coupon_url": "https://estama.jp/shop/35008/coupon/",
-      "title": "お客様感謝🈹イベント開催中‼️🔥🔥",
-      "description": "只今お客様感謝🈹イベント中✨\r\n\r\n✈️VIP100分コース✈️\r\n超人気ファーストクラスセラピスト✨\r\n指名料込み30,000円→25,000円‼️🔥\r\n\r\n♦️VIP100分コース♦️\r\n芸能人🔥プロスポーツ選手も通い詰める🔥プレミアクラスセラピスト✨\r\n指名料込み40,000円→30,000円‼️🔥\r\n\r\n鼠蹊部集中、全身オイル密着サービス等全てコミコミ‼️\r\nご予約時に「えすたまみた！」とお伝え下さい。",
-      "label": "PRクーポン",
-      "area_raw": "[愛知] 錦・栄/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "愛知",
-      "shop_type": "錦・栄",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "100分 / ￥22,000",
-      "hours": "11:00～29:00"
     },
     {
       "shop_id": "38593",
@@ -1636,6 +1860,22 @@
       "hours": "10:00～27:00 (受付 10:00～27:00)"
     },
     {
+      "shop_id": "34697",
+      "shop_name": "クライマックス",
+      "coupon_url": "https://estama.jp/shop/34697/coupon/",
+      "title": "新規割5000円OFF❗️二回目からは4,000円OFF❗️",
+      "description": "エステ魂見た　で\r\n全コース5000円OFF❗️❗️\r\n2回目からはなんと、4,000円OFF❗️❗️",
+      "label": "PRクーポン",
+      "area_raw": "[愛知] 岡崎・安城・豊田/マンション(個室)",
+      "prefecture": null,
+      "sub_area": "愛知",
+      "shop_type": "岡崎・安城・豊田",
+      "nationality": "マンション(個室)",
+      "price_90min": null,
+      "budget_raw": "70分 / ￥14,000",
+      "hours": "10:00～30:00"
+    },
+    {
       "shop_id": "29451",
       "shop_name": "アロマクリニック　四日市",
       "coupon_url": "https://estama.jp/shop/29451/coupon/",
@@ -1682,22 +1922,6 @@
       "price_90min": 14300,
       "budget_raw": "90分 / ￥14,300",
       "hours": "10:00～27:00 (受付 9:30～27:00)"
-    },
-    {
-      "shop_id": "41836",
-      "shop_name": "PTA",
-      "coupon_url": "https://estama.jp/shop/41836/coupon/",
-      "title": "「エス魂を見た！」で1100円割引",
-      "description": "ご予約の際に、「エス魂を見た」で1100円割引となります。\r\n※月1回のご利用に限り\r\n※他の割引との併用は不可\r\n※既存のリピーター様は対象外",
-      "label": "PRクーポン",
-      "area_raw": "[富山] 富山市/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "富山",
-      "shop_type": "富山市",
-      "nationality": "マンション(個室)",
-      "price_90min": 18000,
-      "budget_raw": "90分 / ￥18,000",
-      "hours": "9:00～25:30"
     },
     {
       "shop_id": "33800",
@@ -1764,22 +1988,6 @@
       "hours": "10:00～29:00 (受付 10:00～29:00)"
     },
     {
-      "shop_id": "42249",
-      "shop_name": "岐阜メンズエステ〜ACE〜",
-      "coupon_url": "https://estama.jp/shop/42249/coupon/",
-      "title": "🉐ACE限定100分コース🉐　限定5名様",
-      "description": "⭐️リンパ集中無料\r\n⭐️衣装チェンジ無料\r\n全て込み込み　20,000円となります。\r\n\r\n※フリーコース限定となります。",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[岐阜] 岐阜市/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "岐阜",
-      "shop_type": "岐阜市",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "60分 / ￥11,000",
-      "hours": "10:00～29:00 (受付 9:30～28:00)"
-    },
-    {
       "shop_id": "44361",
       "shop_name": "彼女お借りします",
       "coupon_url": "https://estama.jp/shop/44361/coupon/",
@@ -1828,286 +2036,78 @@
       "hours": "12:00～26:00 (受付 10:00～26:00)"
     },
     {
-      "shop_id": "48273",
-      "shop_name": "長岡メンズエステ〜プラネットスパ〜",
-      "coupon_url": "https://estama.jp/shop/48273/coupon/",
-      "title": "初回指名料無料！",
-      "description": "初めて入るセラピストさん指名料無料です♪",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[新潟] 長岡/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "新潟",
-      "shop_type": "長岡",
-      "nationality": "マンション(個室)",
-      "price_90min": 14000,
-      "budget_raw": "90分 / ￥14,000",
-      "hours": "10:00～26:00 (受付 10:00～26:00)"
-    },
-    {
-      "shop_id": "39932",
-      "shop_name": "Crystal SPA Yokkaichi",
-      "coupon_url": "https://estama.jp/shop/39932/coupon/",
-      "title": "Crystal SPAのご新規限定割引!!",
-      "description": "■[早割]※（75分以上のコース限定）\r\n　　11:00～15:00 2000円OFF　　　\r\n　　\r\n\r\n■[遅割]※（75分以上のコース限定）\r\n15:00～25:00 1000円OFF",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[三重] 四日市/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "三重",
-      "shop_type": "四日市",
-      "nationality": "マンション(個室)",
-      "price_90min": 16000,
-      "budget_raw": "90分 / ￥16,000",
-      "hours": "11:00～27:00 (受付 10:00～25:00)"
-    },
-    {
-      "shop_id": "43439",
-      "shop_name": "女神のエステ 大曽根店",
-      "coupon_url": "https://estama.jp/shop/43439/coupon/",
-      "title": "祝🎉グランドオープン記念‼️",
-      "description": "なんとなんと‼️\r\nこの度グランドオープンにつきまして全お客様、全セラピスト、フリー指名、関係なく特大割引クーポンを発行いたします‼︎\r\n※期間は秋までを予定しております。\r\n\r\n‼︎期間限定‼︎\r\n新規様・常連様\r\n‼︎‼︎‼︎¥５０００- 🈹クーポン‼︎‼︎‼︎\r\n実施中‼︎\r\n\r\n例：７０分１９０００円→１４０００円‼️\r\n\r\nご予約時に「エステ魂を見た！」とお伝えください✨",
+      "shop_id": "25104",
+      "shop_name": "M spa",
+      "coupon_url": "https://estama.jp/shop/25104/coupon/",
+      "title": "ご新規様優待キャンペーン！！",
+      "description": "Мspaを初めてご利用になられるお客様に限り、最大2000円割引適用！！！",
       "label": "PRクーポン",
-      "area_raw": "[愛知] 大曽根/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "愛知",
-      "shop_type": "大曽根",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "70分 / ￥10,000",
-      "hours": "10:00～29:00"
-    },
-    {
-      "shop_id": "44652",
-      "shop_name": "裏妻SPA",
-      "coupon_url": "https://estama.jp/shop/44652/coupon/",
-      "title": "✨新規限定キャンペーン✨",
-      "description": "今だけ、90分コースをご予約で\r\n＋10分無料延長！\r\nじっくり癒やしを味わえる100分に…\r\n初めての方は、この機会にぜひ。",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[愛知] 錦・栄/店舗型",
-      "prefecture": null,
-      "sub_area": "愛知",
-      "shop_type": "錦・栄",
-      "nationality": "店舗型",
-      "price_90min": null,
-      "budget_raw": "75分 / ￥14,000",
-      "hours": "11:00～27:00 (受付 9:30～25:00)"
-    },
-    {
-      "shop_id": "42820",
-      "shop_name": "Sun Flower",
-      "coupon_url": "https://estama.jp/shop/42820/coupon/",
-      "title": "ご新規様限定！！",
-      "description": "ご新規様に限り！！\r\n全コース２０００円割引！！",
-      "label": "エステ魂 限定クーポン",
       "area_raw": "[愛知] 錦・栄/マンション(個室)",
       "prefecture": null,
       "sub_area": "愛知",
       "shop_type": "錦・栄",
       "nationality": "マンション(個室)",
-      "price_90min": 16000,
-      "budget_raw": "90分 / ￥16,000",
-      "hours": "12:00～29:00 (受付 10:00～28:00)"
-    },
-    {
-      "shop_id": "44944",
-      "shop_name": "KYOUKANO NAGOYA",
-      "coupon_url": "https://estama.jp/shop/44944/coupon/",
-      "title": "口コミ割",
-      "description": "エステ魂で口コミを書いていただいたお客様には次回予約で使える【口コミ割】ございます！\r\n40文字以上の口コミが対象となります！",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[愛知] 金山/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "愛知",
-      "shop_type": "金山",
-      "nationality": "マンション(個室)",
       "price_90min": null,
-      "budget_raw": "80分 / ￥16,000",
-      "hours": "11:00～26:00 (受付 10:30～25:00)"
-    },
-    {
-      "shop_id": "31878",
-      "shop_name": "Sweet〜crea〜",
-      "coupon_url": "https://estama.jp/shop/31878/coupon/",
-      "title": "ご新規様は3,000円OFF♪",
-      "description": "当店のご利用が初めての方限定！！\r\n\r\n総額から3,000円OFF致します♪\r\n\r\nご予約時に、ご新規様割引利用とお伝えください(*^^*）",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[静岡] 静岡市/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "静岡",
-      "shop_type": "静岡市",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "70分 / ￥13,000",
-      "hours": "10:00～LAST (受付 6:00～LAST)"
-    },
-    {
-      "shop_id": "40297",
-      "shop_name": "ciel  シエル",
-      "coupon_url": "https://estama.jp/shop/40297/coupon/",
-      "title": "【フリー限定】90分12,000円",
-      "description": "フリーのお客様限定の割引クーポンになります。\r\n詳細はお電話にてお問い合わせ下さい。",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[福井] 福井市/派遣・出張専門",
-      "prefecture": null,
-      "sub_area": "福井",
-      "shop_type": "福井市",
-      "nationality": "派遣・出張専門",
-      "price_90min": 15000,
-      "budget_raw": "90分 / ￥15,000",
-      "hours": "9:00～27:00 (受付 8:00～26:00)"
-    },
-    {
-      "shop_id": "38542",
-      "shop_name": "金沢メンズエステ Mary Geoise-マリージョア-",
-      "coupon_url": "https://estama.jp/shop/38542/coupon/",
-      "title": "フリー割🌸",
-      "description": "ご新規様・リピーター様対象指名料無料サービス❣️\r\n\r\n\r\n※担当するセラピストが2回目の場合、通常の本指名料を頂戴致します。",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[石川] 金沢/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "石川",
-      "shop_type": "金沢",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "60分 / ￥12,000",
-      "hours": "11:00～25:00 (受付 10:00～25:00)"
-    },
-    {
-      "shop_id": "50426",
-      "shop_name": "彼女お借りします 岐阜店",
-      "coupon_url": "https://estama.jp/shop/50426/coupon/",
-      "title": "フリー限定2000円OFF",
-      "description": "※フリーのお客様限定\r\n※他割引きとの併用不可。\r\n※90分コース以上が対象",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[岐阜] 岐阜市/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "岐阜",
-      "shop_type": "岐阜市",
-      "nationality": "マンション(個室)",
-      "price_90min": 14000,
-      "budget_raw": "90分 / ￥14,000",
-      "hours": "10:00～27:00 (受付 10:00～25:00)"
-    },
-    {
-      "shop_id": "45343",
-      "shop_name": "絶対領域",
-      "coupon_url": "https://estama.jp/shop/45343/coupon/",
-      "title": "✨ご新規様限定100分コース2,000円オフ✨",
-      "description": "✨ご新規様限定100分コース2,000円オフ✨\r\n\r\nご新規様限定100分コース2,000円オフ🔥\r\n\r\n100分 20,000円→100分 18,000円\r\n\r\nしかもオプションはフル込み‼️\r\n\r\nお問い合わせお待ちしております🔥🔥\r\n\r\n※ご予約時に『新規割』とお伝えしていただいたお客様限定です。",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[静岡] 静岡市/店舗型",
-      "prefecture": null,
-      "sub_area": "静岡",
-      "shop_type": "静岡市",
-      "nationality": "店舗型",
-      "price_90min": null,
-      "budget_raw": "100分 / ￥20,000",
-      "hours": "11:00～28:00 (受付 11:00～28:00)"
-    },
-    {
-      "shop_id": "30935",
-      "shop_name": "ひっょこりさん四日市店",
-      "coupon_url": "https://estama.jp/shop/30935/coupon/",
-      "title": "✨ひょこり60分￥10000✨",
-      "description": "✨ひょこりイベント✨\r\n\r\n✨60分￥10000でご案内可能です✨\r\n\r\n受付時に必ずお申し付けください✨\r\n\r\n✨他割引と併用不可✨\r\n\r\n✨指名料別途✨",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[三重] 四日市/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "三重",
-      "shop_type": "四日市",
-      "nationality": "マンション(個室)",
-      "price_90min": null,
-      "budget_raw": "60分 / ￥10,000",
-      "hours": "10:00～LAST (受付 10:00～LAST)"
-    },
-    {
-      "shop_id": "30910",
-      "shop_name": "RICH AROMA リッチアロマ",
-      "coupon_url": "https://estama.jp/shop/30910/coupon/",
-      "title": "期間限定🉐80分15,000円ポッキリ❣️",
-      "description": "エステ魂見た❗️\r\nで70分コース＋10分\r\n更に入会金無料❗️\r\n80分15,000円ポッキリ❣️\r\n通常より約3500円🈹お得です‼️\r\n指名料＋1,000円",
-      "label": "エステ魂 限定クーポン",
-      "area_raw": "[愛知] 錦・栄/店舗型",
-      "prefecture": null,
-      "sub_area": "愛知",
-      "shop_type": "錦・栄",
-      "nationality": "店舗型",
-      "price_90min": null,
-      "budget_raw": "80分 / ￥15,000",
-      "hours": "11:00～29:00 (受付 10:00～28:00)"
-    },
-    {
-      "shop_id": "31963",
-      "shop_name": "Ange Spa～アンジュスパ",
-      "coupon_url": "https://estama.jp/shop/31963/coupon/",
-      "title": "ご新規様90分1000円OFF、120分2000円OFF！！",
-      "description": "当店初めてのお客様がご利用しやすいように\r\n90分1000円OFF\r\n120分2000円OFF\r\n\r\n総額90分14000円\r\n総額120分18000円にて\r\n\r\nご案内頂けます。\r\n\r\n是非この機会にお問い合わせお待ちしております。",
-      "label": "PRクーポン",
-      "area_raw": "[愛知] 岡崎・安城・豊田/マンション(個室)",
-      "prefecture": null,
-      "sub_area": "愛知",
-      "shop_type": "岡崎・安城・豊田",
-      "nationality": "マンション(個室)",
-      "price_90min": 15000,
-      "budget_raw": "90分 / ￥15,000",
-      "hours": "12:00～27:00"
+      "budget_raw": "70分 / ￥14,000",
+      "hours": "11:00～26:00"
     }
   ],
   "insights": {
     "shops": {
       "price_90min": {
-        "count": 147,
+        "count": 142,
         "min": 9000,
         "max": 35000,
         "median": 15000,
-        "avg": 15756
+        "avg": 15733
       },
-      "available_now_count": 278,
-      "late_night_count": 269,
-      "credit_card_count": 168,
-      "credit_card_rate": 56,
-      "with_coupon_count": 281,
-      "with_coupon_rate": 94,
+      "available_now_count": 269,
+      "late_night_count": 261,
+      "credit_card_count": 161,
+      "credit_card_rate": 55,
+      "with_coupon_count": 272,
+      "with_coupon_rate": 93,
       "shop_types": {
-        "マンション(個室)": 260,
-        "派遣・出張専門": 29,
+        "マンション(個室)": 252,
+        "派遣・出張専門": 28,
         "店舗型": 11
       },
       "prefectures": {
-        "愛知": 101,
-        "静岡": 46,
+        "愛知": 98,
+        "静岡": 45,
         "石川": 32,
-        "新潟": 28,
+        "新潟": 27,
         "岐阜": 26,
-        "富山": 20,
-        "長野": 20,
-        "三重": 18,
+        "富山": 19,
+        "長野": 18,
+        "三重": 17,
         "福井": 8,
         "山梨": 1
       },
       "top_sub_areas": {
         "金沢": 32,
-        "名古屋・名駅": 27,
-        "浜松": 27,
-        "錦・栄": 26,
-        "新潟市": 24,
-        "富山市": 19,
-        "岡崎・安城・豊田": 16,
+        "浜松": 26,
+        "名古屋・名駅": 26,
+        "錦・栄": 25,
+        "新潟市": 23,
+        "富山市": 18,
         "岐阜市": 15,
+        "岡崎・安城・豊田": 15,
         "静岡市": 15,
-        "四日市": 14
+        "四日市": 13
       },
       "price_by_shop_type": [
         {
           "name": "マンション(個室)",
-          "shop_count": 260,
+          "shop_count": 252,
           "price_median": 15000,
           "price_min": 9000,
           "price_max": 35000,
-          "priced_shop_count": 130
+          "priced_shop_count": 125
         },
         {
           "name": "派遣・出張専門",
-          "shop_count": 29,
+          "shop_count": 28,
           "price_median": 16500,
           "price_min": 14000,
           "price_max": 20000,
@@ -2133,31 +2133,31 @@
         },
         {
           "name": "名古屋・名駅",
-          "shop_count": 27,
+          "shop_count": 26,
           "price_median": 15000,
           "price_min": 15000,
           "price_max": 20000,
-          "priced_shop_count": 13
+          "priced_shop_count": 12
         },
         {
           "name": "浜松",
-          "shop_count": 27,
-          "price_median": 15000,
+          "shop_count": 26,
+          "price_median": 14500,
           "price_min": 10000,
           "price_max": 18000,
-          "priced_shop_count": 13
+          "priced_shop_count": 12
         },
         {
           "name": "錦・栄",
-          "shop_count": 26,
-          "price_median": 16000,
+          "shop_count": 25,
+          "price_median": 15500,
           "price_min": 11000,
           "price_max": 21000,
-          "priced_shop_count": 7
+          "priced_shop_count": 6
         },
         {
           "name": "新潟市",
-          "shop_count": 24,
+          "shop_count": 23,
           "price_median": 13000,
           "price_min": 11000,
           "price_max": 16000,
@@ -2165,19 +2165,11 @@
         },
         {
           "name": "富山市",
-          "shop_count": 19,
+          "shop_count": 18,
           "price_median": 16000,
           "price_min": 9000,
           "price_max": 18000,
           "priced_shop_count": 7
-        },
-        {
-          "name": "岡崎・安城・豊田",
-          "shop_count": 16,
-          "price_median": 16000,
-          "price_min": 15000,
-          "price_max": 20000,
-          "priced_shop_count": 6
         },
         {
           "name": "岐阜市",
@@ -2185,6 +2177,14 @@
           "price_median": 14000,
           "price_min": 12000,
           "price_max": 18000,
+          "priced_shop_count": 5
+        },
+        {
+          "name": "岡崎・安城・豊田",
+          "shop_count": 15,
+          "price_median": 16000,
+          "price_min": 15000,
+          "price_max": 20000,
           "priced_shop_count": 5
         },
         {
@@ -2197,7 +2197,7 @@
         },
         {
           "name": "四日市",
-          "shop_count": 14,
+          "shop_count": 13,
           "price_median": 16000,
           "price_min": 14000,
           "price_max": 17000,
@@ -2205,11 +2205,11 @@
         },
         {
           "name": "長野市",
-          "shop_count": 11,
+          "shop_count": 10,
           "price_median": 15000,
           "price_min": 14000,
           "price_max": 20000,
-          "priced_shop_count": 9
+          "priced_shop_count": 8
         },
         {
           "name": "千種・今池",
@@ -2221,6 +2221,138 @@
         }
       ],
       "available_now_shops": [
+        {
+          "name": "浜松メンズエステ｜ソル・レヴァンテ",
+          "url": "https://estama.jp/shop/29820/",
+          "sub_area": "浜松",
+          "prefecture": "静岡",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～LAST (受付 9:30～LAST)",
+          "credit_card": true,
+          "coupon_count": 2
+        },
+        {
+          "name": "ミセス美オーラ 浜松",
+          "url": "https://estama.jp/shop/31787/",
+          "sub_area": "浜松",
+          "prefecture": "静岡",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "9:00～LAST (受付 9:00～LAST)",
+          "credit_card": true,
+          "coupon_count": 2
+        },
+        {
+          "name": "IRIS-アイリス−",
+          "url": "https://estama.jp/shop/29803/",
+          "sub_area": "富山市",
+          "prefecture": "富山",
+          "shop_type": "マンション(個室)",
+          "price_90min": 15000,
+          "hours": "10:00～26:00",
+          "credit_card": true,
+          "coupon_count": 1
+        },
+        {
+          "name": "Oriental SPA",
+          "url": "https://estama.jp/shop/42702/",
+          "sub_area": "長野市",
+          "prefecture": "長野",
+          "shop_type": "マンション(個室)",
+          "price_90min": 20000,
+          "hours": "11:00～25:00 (受付 10:00～23:30)",
+          "credit_card": false,
+          "coupon_count": 2
+        },
+        {
+          "name": "&TOMアンドトム　勝川",
+          "url": "https://estama.jp/shop/38781/",
+          "sub_area": "一宮・春日井・小牧",
+          "prefecture": "愛知",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～24:00 (受付 10:00～24:00)",
+          "credit_card": true,
+          "coupon_count": 3
+        },
+        {
+          "name": "岐阜メンズエステ〜ACE〜",
+          "url": "https://estama.jp/shop/42249/",
+          "sub_area": "岐阜市",
+          "prefecture": "岐阜",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～29:00 (受付 9:30～28:00)",
+          "credit_card": true,
+          "coupon_count": 1
+        },
+        {
+          "name": "Cat's Eye. -キャッツ･アイ-",
+          "url": "https://estama.jp/shop/42639/",
+          "sub_area": "浜松",
+          "prefecture": "静岡",
+          "shop_type": "マンション(個室)",
+          "price_90min": 14000,
+          "hours": "9:00～29:00 (受付 7:00～28:00)",
+          "credit_card": false,
+          "coupon_count": 1
+        },
+        {
+          "name": "Aroma Ode～アロマ・オード～",
+          "url": "https://estama.jp/shop/33913/",
+          "sub_area": "豊橋",
+          "prefecture": "愛知",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～26:00 (受付 9:00～)",
+          "credit_card": false,
+          "coupon_count": 3
+        },
+        {
+          "name": "Amorous",
+          "url": "https://estama.jp/shop/43158/",
+          "sub_area": "新栄・東新町",
+          "prefecture": "愛知",
+          "shop_type": "マンション(個室)",
+          "price_90min": 14000,
+          "hours": "12:00～29:00 (受付 10:00～28:00)",
+          "credit_card": true,
+          "coupon_count": 1
+        },
+        {
+          "name": "BABEL Gifu",
+          "url": "https://estama.jp/shop/50253/",
+          "sub_area": "岐阜市",
+          "prefecture": "岐阜",
+          "shop_type": "派遣・出張専門",
+          "price_90min": null,
+          "hours": "11:00～28:00 (受付 10:00～27:00)",
+          "credit_card": true,
+          "coupon_count": 1
+        },
+        {
+          "name": "ひっょこりさん四日市店",
+          "url": "https://estama.jp/shop/30935/",
+          "sub_area": "四日市",
+          "prefecture": "三重",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～LAST (受付 10:00～LAST)",
+          "credit_card": true,
+          "coupon_count": 3
+        },
+        {
+          "name": "Cheetah〜チーター",
+          "url": "https://estama.jp/shop/44522/",
+          "sub_area": "金山",
+          "prefecture": "愛知",
+          "shop_type": "店舗型",
+          "price_90min": null,
+          "hours": "11:00～27:00 (受付 11:00～27:00)",
+          "credit_card": true,
+          "coupon_count": 3
+        },
         {
           "name": "一休の隠れ家　富山駅前店",
           "url": "https://estama.jp/shop/51096/",
@@ -2308,141 +2440,130 @@
           "hours": "10:00～25:00 (受付 10:00～25:00)",
           "credit_card": false,
           "coupon_count": 2
-        },
-        {
-          "name": "Trip Aroma",
-          "url": "https://estama.jp/shop/42556/",
-          "sub_area": "富山市",
-          "prefecture": "富山",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～28:00 (受付 8:00～27:00)",
-          "credit_card": false,
-          "coupon_count": 2
-        },
-        {
-          "name": "しこたまっ！らぶみー♡らぶみー♡",
-          "url": "https://estama.jp/shop/50167/",
-          "sub_area": "浜松",
-          "prefecture": "静岡",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～25:00 (受付 10:00～25:00)",
-          "credit_card": false,
-          "coupon_count": 1
-        },
-        {
-          "name": "Sweet～berta～",
-          "url": "https://estama.jp/shop/29365/",
-          "sub_area": "沼津",
-          "prefecture": "静岡",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～LAST (受付 6:00～LAST)",
-          "credit_card": true,
-          "coupon_count": 3
-        },
-        {
-          "name": "Candy〜キャンディ",
-          "url": "https://estama.jp/shop/40160/",
-          "sub_area": "岡崎・安城・豊田",
-          "prefecture": "愛知",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "11:00～27:00 (受付 10:00～27:00)",
-          "credit_card": true,
-          "coupon_count": 1
-        },
-        {
-          "name": "メンズエステ店　瞬　大垣市・瑞穂市",
-          "url": "https://estama.jp/shop/44024/",
-          "sub_area": "大垣",
-          "prefecture": "岐阜",
-          "shop_type": "マンション(個室)",
-          "price_90min": 15000,
-          "hours": "10:00～27:00 (受付 9:30～26:30)",
-          "credit_card": false,
-          "coupon_count": 3
-        },
-        {
-          "name": "LOVE",
-          "url": "https://estama.jp/shop/50332/",
-          "sub_area": "錦・栄",
-          "prefecture": "愛知",
-          "shop_type": "マンション(個室)",
-          "price_90min": 21000,
-          "hours": "11:00～29:00 (受付 10:00～28:00)",
-          "credit_card": false,
-          "coupon_count": 3
-        },
-        {
-          "name": "アロマーナ栄",
-          "url": "https://estama.jp/shop/35008/",
-          "sub_area": "錦・栄",
-          "prefecture": "愛知",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "11:00～29:00 (受付 11:00～28:00)",
-          "credit_card": true,
-          "coupon_count": 3
-        },
-        {
-          "name": "PTA金沢",
-          "url": "https://estama.jp/shop/49942/",
-          "sub_area": "金沢",
-          "prefecture": "石川",
-          "shop_type": "マンション(個室)",
-          "price_90min": 18000,
-          "hours": "9:00～26:00 (受付 9:00～26:00)",
-          "credit_card": false,
-          "coupon_count": 1
-        },
-        {
-          "name": "Reposer（ルポゼ）浜松",
-          "url": "https://estama.jp/shop/31926/",
-          "sub_area": "浜松",
-          "prefecture": "静岡",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～LAST (受付 9:30～24:00)",
-          "credit_card": false,
-          "coupon_count": 0
-        },
-        {
-          "name": "シエスタ",
-          "url": "https://estama.jp/shop/29172/",
-          "sub_area": "浜松",
-          "prefecture": "静岡",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "11:00～27:00 (受付 10:00～27:00)",
-          "credit_card": false,
-          "coupon_count": 1
-        },
-        {
-          "name": "ウータイ×カルサイネイザン Ameri",
-          "url": "https://estama.jp/shop/35011/",
-          "sub_area": "名古屋・名駅",
-          "prefecture": "愛知",
-          "shop_type": "マンション(個室)",
-          "price_90min": 15000,
-          "hours": "10:00～23:00 (受付 9:00～22:00)",
-          "credit_card": false,
-          "coupon_count": 0
-        },
-        {
-          "name": "LUCE",
-          "url": "https://estama.jp/shop/34699/",
-          "sub_area": "浜松",
-          "prefecture": "静岡",
-          "shop_type": "マンション(個室)",
-          "price_90min": 15000,
-          "hours": "10:00～LAST (受付 10:00～27:00)",
-          "credit_card": false,
-          "coupon_count": 0
         }
       ],
       "late_night_shops": [
+        {
+          "name": "浜松メンズエステ｜ソル・レヴァンテ",
+          "url": "https://estama.jp/shop/29820/",
+          "sub_area": "浜松",
+          "prefecture": "静岡",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～LAST (受付 9:30～LAST)",
+          "credit_card": true,
+          "coupon_count": 2
+        },
+        {
+          "name": "ミセス美オーラ 浜松",
+          "url": "https://estama.jp/shop/31787/",
+          "sub_area": "浜松",
+          "prefecture": "静岡",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "9:00～LAST (受付 9:00～LAST)",
+          "credit_card": true,
+          "coupon_count": 2
+        },
+        {
+          "name": "IRIS-アイリス−",
+          "url": "https://estama.jp/shop/29803/",
+          "sub_area": "富山市",
+          "prefecture": "富山",
+          "shop_type": "マンション(個室)",
+          "price_90min": 15000,
+          "hours": "10:00～26:00",
+          "credit_card": true,
+          "coupon_count": 1
+        },
+        {
+          "name": "&TOMアンドトム　勝川",
+          "url": "https://estama.jp/shop/38781/",
+          "sub_area": "一宮・春日井・小牧",
+          "prefecture": "愛知",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～24:00 (受付 10:00～24:00)",
+          "credit_card": true,
+          "coupon_count": 3
+        },
+        {
+          "name": "岐阜メンズエステ〜ACE〜",
+          "url": "https://estama.jp/shop/42249/",
+          "sub_area": "岐阜市",
+          "prefecture": "岐阜",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～29:00 (受付 9:30～28:00)",
+          "credit_card": true,
+          "coupon_count": 1
+        },
+        {
+          "name": "Cat's Eye. -キャッツ･アイ-",
+          "url": "https://estama.jp/shop/42639/",
+          "sub_area": "浜松",
+          "prefecture": "静岡",
+          "shop_type": "マンション(個室)",
+          "price_90min": 14000,
+          "hours": "9:00～29:00 (受付 7:00～28:00)",
+          "credit_card": false,
+          "coupon_count": 1
+        },
+        {
+          "name": "Aroma Ode～アロマ・オード～",
+          "url": "https://estama.jp/shop/33913/",
+          "sub_area": "豊橋",
+          "prefecture": "愛知",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～26:00 (受付 9:00～)",
+          "credit_card": false,
+          "coupon_count": 3
+        },
+        {
+          "name": "Amorous",
+          "url": "https://estama.jp/shop/43158/",
+          "sub_area": "新栄・東新町",
+          "prefecture": "愛知",
+          "shop_type": "マンション(個室)",
+          "price_90min": 14000,
+          "hours": "12:00～29:00 (受付 10:00～28:00)",
+          "credit_card": true,
+          "coupon_count": 1
+        },
+        {
+          "name": "BABEL Gifu",
+          "url": "https://estama.jp/shop/50253/",
+          "sub_area": "岐阜市",
+          "prefecture": "岐阜",
+          "shop_type": "派遣・出張専門",
+          "price_90min": null,
+          "hours": "11:00～28:00 (受付 10:00～27:00)",
+          "credit_card": true,
+          "coupon_count": 1
+        },
+        {
+          "name": "ひっょこりさん四日市店",
+          "url": "https://estama.jp/shop/30935/",
+          "sub_area": "四日市",
+          "prefecture": "三重",
+          "shop_type": "マンション(個室)",
+          "price_90min": null,
+          "hours": "10:00～LAST (受付 10:00～LAST)",
+          "credit_card": true,
+          "coupon_count": 3
+        },
+        {
+          "name": "Cheetah〜チーター",
+          "url": "https://estama.jp/shop/44522/",
+          "sub_area": "金山",
+          "prefecture": "愛知",
+          "shop_type": "店舗型",
+          "price_90min": null,
+          "hours": "11:00～27:00 (受付 11:00～27:00)",
+          "credit_card": true,
+          "coupon_count": 3
+        },
         {
           "name": "一休の隠れ家　富山駅前店",
           "url": "https://estama.jp/shop/51096/",
@@ -2453,127 +2574,6 @@
           "hours": "10:00～27:00 (受付 10:00～27:00)",
           "credit_card": true,
           "coupon_count": 1
-        },
-        {
-          "name": "JELLY～nagoya・spa～",
-          "url": "https://estama.jp/shop/26454/",
-          "sub_area": "名古屋・名駅",
-          "prefecture": "愛知",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～29:00 (受付 10:00～28:00)",
-          "credit_card": true,
-          "coupon_count": 3
-        },
-        {
-          "name": "長岡メンズエステ「ふたりきりSPA」",
-          "url": "https://estama.jp/shop/33237/",
-          "sub_area": "長岡",
-          "prefecture": "新潟",
-          "shop_type": "マンション(個室)",
-          "price_90min": 14000,
-          "hours": "10:30～29:00 (受付 10:00～26:00)",
-          "credit_card": false,
-          "coupon_count": 1
-        },
-        {
-          "name": "大人の保育園&幼稚園　新潟店",
-          "url": "https://estama.jp/shop/50378/",
-          "sub_area": "新潟市",
-          "prefecture": "新潟",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～27:00 (受付 10:00～27:00)",
-          "credit_card": true,
-          "coupon_count": 1
-        },
-        {
-          "name": "シークレットモーメント",
-          "url": "https://estama.jp/shop/38819/",
-          "sub_area": "千種・今池",
-          "prefecture": "愛知",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～29:00 (受付 10:00～26:00)",
-          "credit_card": true,
-          "coupon_count": 0
-        },
-        {
-          "name": "GOLdenSPA〜ゴルスパ〜",
-          "url": "https://estama.jp/shop/40472/",
-          "sub_area": "岐南町",
-          "prefecture": "岐阜",
-          "shop_type": "マンション(個室)",
-          "price_90min": 15000,
-          "hours": "11:00～26:00 (受付 9:00～25:00)",
-          "credit_card": true,
-          "coupon_count": 2
-        },
-        {
-          "name": "AromaBelle(アロマベル)富山",
-          "url": "https://estama.jp/shop/32275/",
-          "sub_area": "富山市",
-          "prefecture": "富山",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "9:30～25:00 (受付 6:00～LAST)",
-          "credit_card": true,
-          "coupon_count": 1
-        },
-        {
-          "name": "Aroma Lily",
-          "url": "https://estama.jp/shop/40175/",
-          "sub_area": "岐南町",
-          "prefecture": "岐阜",
-          "shop_type": "派遣・出張専門",
-          "price_90min": null,
-          "hours": "11:00～27:00",
-          "credit_card": true,
-          "coupon_count": 3
-        },
-        {
-          "name": "Trip Aroma",
-          "url": "https://estama.jp/shop/42556/",
-          "sub_area": "富山市",
-          "prefecture": "富山",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～28:00 (受付 8:00～27:00)",
-          "credit_card": false,
-          "coupon_count": 2
-        },
-        {
-          "name": "Sweet～berta～",
-          "url": "https://estama.jp/shop/29365/",
-          "sub_area": "沼津",
-          "prefecture": "静岡",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "10:00～LAST (受付 6:00～LAST)",
-          "credit_card": true,
-          "coupon_count": 3
-        },
-        {
-          "name": "Candy〜キャンディ",
-          "url": "https://estama.jp/shop/40160/",
-          "sub_area": "岡崎・安城・豊田",
-          "prefecture": "愛知",
-          "shop_type": "マンション(個室)",
-          "price_90min": null,
-          "hours": "11:00～27:00 (受付 10:00～27:00)",
-          "credit_card": true,
-          "coupon_count": 1
-        },
-        {
-          "name": "メンズエステ店　瞬　大垣市・瑞穂市",
-          "url": "https://estama.jp/shop/44024/",
-          "sub_area": "大垣",
-          "prefecture": "岐阜",
-          "shop_type": "マンション(個室)",
-          "price_90min": 15000,
-          "hours": "10:00～27:00 (受付 9:30～26:30)",
-          "credit_card": false,
-          "coupon_count": 3
         }
       ],
       "best_value_shops": [
@@ -3243,18 +3243,18 @@
       "total": 110,
       "limited_count": 100,
       "price_90min": {
-        "count": 50,
+        "count": 51,
         "min": 9000,
         "max": 21000,
         "median": 15000,
-        "avg": 15754
+        "avg": 15866
       },
       "categories": {
-        "初回・新規向け": 51,
-        "その他": 33,
-        "指名料割引": 14,
-        "リピーター向け": 6,
-        "時間延長": 6
+        "初回・新規向け": 52,
+        "その他": 34,
+        "指名料割引": 13,
+        "リピーター向け": 7,
+        "時間延長": 4
       },
       "best_discounts": [
         {
@@ -3302,15 +3302,15 @@
           "description": "なんとなんと‼️\r\nこの度グランドオープンにつきまして全お客様、全セラピスト、フリー指名、関係なく特大割引クーポンを発行いたします‼︎\r\n※期間は秋までを予定しております。\r\n\r\n‼︎期間限定‼︎\r\n新規様・常連様\r\n‼︎‼︎‼︎¥５０００"
         },
         {
-          "title": "祝🎉グランドオープン記念‼️",
-          "shop_name": "女神のエステ 大曽根店",
-          "shop_id": "43439",
-          "coupon_url": "https://estama.jp/shop/43439/coupon/",
-          "area_raw": "[愛知] 大曽根/マンション(個室)",
-          "discount_yen": 19000,
+          "title": "フリー限定！！９０分コース15000円",
+          "shop_name": "&TOMアンドトム　勝川",
+          "shop_id": "38781",
+          "coupon_url": "https://estama.jp/shop/38781/coupon/",
+          "area_raw": "[愛知] 一宮・春日井・小牧/マンション(個室)",
+          "discount_yen": 18000,
           "price_90min": null,
-          "category": "初回・新規向け",
-          "description": "なんとなんと‼️\r\nこの度グランドオープンにつきまして全お客様、全セラピスト、フリー指名、関係なく特大割引クーポンを発行いたします‼︎\r\n※期間は秋までを予定しております。\r\n\r\n‼︎期間限定‼︎\r\n新規様・常連様\r\n‼︎‼︎‼︎¥５０００"
+          "category": "その他",
+          "description": "極上なマッサージを最安値で！！\r\nフリー限定！！\r\n90分18000円→15000円でお楽しみ下さい\r\n※他の割引との併用は不可となります"
         },
         {
           "title": "☆★大好評　フリー割★☆",
@@ -3333,17 +3333,6 @@
           "price_90min": 15000,
           "category": "時間延長",
           "description": "フリー限定!フル完備80分15000円⇒13000円\r\n【進化のフル完備＆αコース】\r\n【衣装M＋極液＋DL】の豪華フル完備コース\r\n通常80分15,000円 → 今だけ【13,000円】‼\r\n癒しと刺激が詰まった至福の時間を、この夏ぜひご"
-        },
-        {
-          "title": "期間限定🉐80分15,000円ポッキリ❣️",
-          "shop_name": "RICH AROMA リッチアロマ",
-          "shop_id": "30910",
-          "coupon_url": "https://estama.jp/shop/30910/coupon/",
-          "area_raw": "[愛知] 錦・栄/店舗型",
-          "discount_yen": 15000,
-          "price_90min": null,
-          "category": "指名料割引",
-          "description": "エステ魂見た❗️\r\nで70分コース＋10分\r\n更に入会金無料❗️\r\n80分15,000円ポッキリ❣️\r\n通常より約3500円🈹お得です‼️\r\n指名料＋1,000円"
         },
         {
           "title": "今すぐにこれるお客様限定！！",
@@ -3379,15 +3368,15 @@
           "description": "ご新規様、会員様は特別コース\r\nフリー75分13000円にてご案内♪\r\n\r\nこの機会に是非他では味わえない癒しを堪能ださいませ。\r\n\r\n※必ず7月限定イベント見たとお伝え下さい。"
         },
         {
-          "title": "平日お昼の癒し割💕",
-          "shop_name": "金沢メンズエステ Lush & Hush",
-          "shop_id": "38159",
-          "coupon_url": "https://estama.jp/shop/38159/coupon/",
+          "title": "♡ご新規さんウエルカムイベント♡",
+          "shop_name": "メンズエステ　メンテする？",
+          "shop_id": "42782",
+          "coupon_url": "https://estama.jp/shop/42782/coupon/",
           "area_raw": "[石川] 金沢/マンション(個室)",
-          "discount_yen": 12000,
-          "price_90min": null,
-          "category": "指名料割引",
-          "description": "平日のお昼に、上質な癒しを。\r\n平日OPEN〜16:00までのスタート限定で、\r\n80分フリー 12,000円にてご案内。\r\n落ち着いた空間で、心ほどける贅沢な時間をお楽しみください。\r\n昼だけの特別価格で、癒しをもっと身近に。\r\n\r\n※ご"
+          "discount_yen": 12100,
+          "price_90min": 16500,
+          "category": "初回・新規向け",
+          "description": "75分フリーdeご案内で12,100円（税込）\r\n\r\n※写真指名料別途\r\n※ご新規様のみ利用可◎"
         },
         {
           "title": "平日お昼の癒し割💕",
@@ -3401,15 +3390,26 @@
           "description": "平日のお昼に、上質な癒しを。\r\n平日OPEN〜16:00までのスタート限定で、\r\n80分フリー 12,000円にてご案内。\r\n落ち着いた空間で、心ほどける贅沢な時間をお楽しみください。\r\n昼だけの特別価格で、癒しをもっと身近に。\r\n\r\n※ご"
         },
         {
-          "title": "【フリー限定】90分12,000円",
-          "shop_name": "ciel  シエル",
-          "shop_id": "40297",
-          "coupon_url": "https://estama.jp/shop/40297/coupon/",
-          "area_raw": "[福井] 福井市/派遣・出張専門",
-          "discount_yen": 12000,
-          "price_90min": 15000,
+          "title": "🌟【新人割】イベント！🌟",
+          "shop_name": "MITSUBACHI-ミツバチ-",
+          "shop_id": "39791",
+          "coupon_url": "https://estama.jp/shop/39791/coupon/",
+          "area_raw": "[岐阜] 岐阜市/マンション(個室)",
+          "discount_yen": 10000,
+          "price_90min": null,
+          "category": "指名料割引",
+          "description": "ご予約の際に、\r\n【新人割】とお伝えいただくと、\r\n新人セラピストがご利用しやすくなります！\r\n是非とも沢山の方々に出会って欲しい！\r\n知っていただきたい！\r\nそんな想いから破格の価格でご案内可能です☆\r\n事前ご予約でも適用可能です！\r\n\r"
+        },
+        {
+          "title": "【実質5000円オフ】🎋🌻 7月限定イベント開催 🌻",
+          "shop_name": "BABEL Gifu",
+          "shop_id": "50253",
+          "coupon_url": "https://estama.jp/shop/50253/coupon/",
+          "area_raw": "[岐阜] 岐阜市/派遣・出張専門",
+          "discount_yen": 5000,
+          "price_90min": null,
           "category": "その他",
-          "description": "フリーのお客様限定の割引クーポンになります。\r\n詳細はお電話にてお問い合わせ下さい。"
+          "description": "いつもご利用ありがとうございます💐\r\n7月は大人気のVIPコースがお得です✨\r\n💎 VIP100分 → 1,000円OFF\r\n💎 VIP130分 → 1,000円OFF\r\n🤍 パウダー施術（通常価値 約1,000円）\r\n🤍 鼠蹊部施術（通常"
         },
         {
           "title": "🎉【ご新規様フリー限定】1919コース5000円OFF！",
@@ -3424,7 +3424,113 @@
         }
       ],
       "by_category": {
+        "その他": [
+          {
+            "title": "新セラピスト！椿リカの新セラ割！",
+            "shop_name": "浜松メンズエステ｜ソル・レヴァンテ",
+            "coupon_url": "https://estama.jp/shop/29820/coupon/",
+            "area_raw": "[静岡] 浜松/マンション(個室)",
+            "price_90min": null,
+            "description": "浜松メンズエステ！ソルレヴァンテ！\r\n期待の新セラピスト！\r\n椿リカセラピスト！\r\n本日〜初出勤✨\r\nメンズエステランキングさんのWEB予約\r\nまたは\r\nエステ魂さんのWEB予約のご予約で！\r\n｢30"
+          },
+          {
+            "title": "エスタマ見た！で限定割引☆",
+            "shop_name": "ミセス美オーラ 浜松",
+            "coupon_url": "https://estama.jp/shop/31787/coupon/",
+            "area_raw": "[静岡] 浜松/マンション(個室)",
+            "price_90min": null,
+            "description": "ご利用誠にありがとうございます！\r\n【エスタマ見た！】と一言お伝え頂きましたら、\r\n全コース1000円OFF！にてご案内いたします。\r\nぜひご利用お待ちしております。"
+          },
+          {
+            "title": "フリー限定！！９０分コース15000円",
+            "shop_name": "&TOMアンドトム　勝川",
+            "coupon_url": "https://estama.jp/shop/38781/coupon/",
+            "area_raw": "[愛知] 一宮・春日井・小牧/マンション(個室)",
+            "price_90min": null,
+            "description": "極上なマッサージを最安値で！！\r\nフリー限定！！\r\n90分18000円→15000円でお楽しみ下さい\r\n※他の割引との併用は不可となります"
+          },
+          {
+            "title": "🉐ACE限定100分コース🉐　限定5名様",
+            "shop_name": "岐阜メンズエステ〜ACE〜",
+            "coupon_url": "https://estama.jp/shop/42249/coupon/",
+            "area_raw": "[岐阜] 岐阜市/マンション(個室)",
+            "price_90min": null,
+            "description": "⭐️リンパ集中無料\r\n⭐️衣装チェンジ無料\r\n全て込み込み　20,000円となります。\r\n\r\n※フリーコース限定となります。"
+          },
+          {
+            "title": "【期間限定】 最大2,000円OFFクーポン✨",
+            "shop_name": "Cat's Eye. -キャッツ･アイ-",
+            "coupon_url": "https://estama.jp/shop/42639/coupon/",
+            "area_raw": "[静岡] 浜松/マンション(個室)",
+            "price_90min": 14000,
+            "description": "ご予約時に「エステ魂のクーポン利用します」と申請していただいたお客様に、最大2,000円割引します✨\r\n\r\n■通常オイルコース → 1,000円OFF！\r\n\r\n90分 14,000円 ▶ 13,000"
+          },
+          {
+            "title": "【実質5000円オフ】🎋🌻 7月限定イベント開催 🌻",
+            "shop_name": "BABEL Gifu",
+            "coupon_url": "https://estama.jp/shop/50253/coupon/",
+            "area_raw": "[岐阜] 岐阜市/派遣・出張専門",
+            "price_90min": null,
+            "description": "いつもご利用ありがとうございます💐\r\n7月は大人気のVIPコースがお得です✨\r\n💎 VIP100分 → 1,000円OFF\r\n💎 VIP130分 → 1,000円OFF\r\n🤍 パウダー施術（通常価値 "
+          },
+          {
+            "title": "オープン記念！大感謝祭！！",
+            "shop_name": "JELLY～nagoya・spa～",
+            "coupon_url": "https://estama.jp/shop/26454/coupon/",
+            "area_raw": "[愛知] 名古屋・名駅/マンション(個室)",
+            "price_90min": null,
+            "description": "皆様のおかげでついに名古屋駅徒歩2分の好立地の場所で\r\nJELLY～nagoya・spa～\r\nがオープンしました\r\n皆様に感謝の意を込めて\r\n「エステ魂見た」\r\nとおっしゃっていただいた方へは\r\n\r\n"
+          },
+          {
+            "title": "フリー限定✨全コース5,000円OFF！",
+            "shop_name": "大人の保育園&幼稚園　新潟店",
+            "coupon_url": "https://estama.jp/shop/50378/coupon/",
+            "area_raw": "[新潟] 新潟市/マンション(個室)",
+            "price_90min": null,
+            "description": "【🧸フリー限定キャンペーン✨】\r\n今だけ《先着10名様限定》で、フリー予約の全コースが5,000円OFF‼\r\nお得に癒されたい方、チャンスです♪\r\nセラピストおまかせで甘え放題🫶\r\nご予約時に「クーポ"
+          }
+        ],
         "初回・新規向け": [
+          {
+            "title": "注目！！ご新規様限定、今月はすべてのコース2000円割引！！",
+            "shop_name": "IRIS-アイリス−",
+            "coupon_url": "https://estama.jp/shop/29803/coupon/",
+            "area_raw": "[富山] 富山市/マンション(個室)",
+            "price_90min": 15000,
+            "description": "当店の良さをぜひ、知っていただきたいという思いのもと、ご新規様限定で今月末まで、すべてのコース2000円割引で、ご案内いたします。\r\n\r\n受付時に「エステ魂の新規限定割引を見た」とおっしゃってください"
+          },
+          {
+            "title": "＜ご新規様割引＞",
+            "shop_name": "Oriental SPA",
+            "coupon_url": "https://estama.jp/shop/42702/coupon/",
+            "area_raw": "[長野] 長野市/マンション(個室)",
+            "price_90min": 20000,
+            "description": "2000円OFF"
+          },
+          {
+            "title": "♡ご新規さんウエルカムイベント♡",
+            "shop_name": "メンズエステ　メンテする？",
+            "coupon_url": "https://estama.jp/shop/42782/coupon/",
+            "area_raw": "[石川] 金沢/マンション(個室)",
+            "price_90min": 16500,
+            "description": "75分フリーdeご案内で12,100円（税込）\r\n\r\n※写真指名料別途\r\n※ご新規様のみ利用可◎"
+          },
+          {
+            "title": "ご新規様限定！！",
+            "shop_name": "Sun Flower　新栄ルーム",
+            "coupon_url": "https://estama.jp/shop/42983/coupon/",
+            "area_raw": "[愛知] 新栄・東新町/マンション(個室)",
+            "price_90min": 16000,
+            "description": "ご新規様に限り！！\r\n全コース２０００円割引！！"
+          },
+          {
+            "title": "初回割引最大2,000円OFF🈹‼️",
+            "shop_name": "Cheetah〜チーター",
+            "coupon_url": "https://estama.jp/shop/44522/coupon/",
+            "area_raw": "[愛知] 金山/店舗型",
+            "price_90min": null,
+            "description": "エステ魂限定で基本コースのみ\r\n\r\n60分、80分　1,000円OFF🈹\r\n110分、130分　2,000円OFF🈹\r\n\r\nご利用のお客様はクーポンを利用してお得にお遊びください❣️"
+          },
           {
             "title": "🎉【ご新規様フリー限定】1919コース5000円OFF！",
             "shop_name": "一休の隠れ家　富山駅前店",
@@ -3448,181 +3554,17 @@
             "area_raw": "[岐阜] 岐南町/派遣・出張専門",
             "price_90min": null,
             "description": "70分コース⇒￥1,000OFF\r\n100分コース以上⇒￥2,000OFF\r\n\r\n※LINEの追加をお願い致します。\r\n※割引の併用は不可となります。\r\n※ご予約の際に必ず『新規割』とお伝えください"
-          },
-          {
-            "title": "ご新規様限定♡4,000円OFFクーポン",
-            "shop_name": "しこたまっ！らぶみー♡らぶみー♡",
-            "coupon_url": "https://estama.jp/shop/50167/coupon/",
-            "area_raw": "[静岡] 浜松/マンション(個室)",
-            "price_90min": null,
-            "description": "ご新規様限定でご利用いただけるお得な割引クーポンです✨\r\nご予約時に「クーポン見た」とお伝えいただくと、コース料金から4,000円割引いたします♡\r\n\r\n※フリーでのご利用のみ対象となります。\r\n※ご"
-          },
-          {
-            "title": "ご新規様限定！！",
-            "shop_name": "Sun Flower",
-            "coupon_url": "https://estama.jp/shop/42820/coupon/",
-            "area_raw": "[愛知] 錦・栄/マンション(個室)",
-            "price_90min": 16000,
-            "description": "ご新規様に限り！！\r\n全コース２０００円割引！！"
-          },
-          {
-            "title": "ご新規様は3,000円OFF♪",
-            "shop_name": "Sweet～berta～",
-            "coupon_url": "https://estama.jp/shop/29365/coupon/",
-            "area_raw": "[静岡] 沼津/マンション(個室)",
-            "price_90min": null,
-            "description": "当店のご利用が初めての方限定！！\r\n\r\n総額から3,000円OFF致します♪\r\n\r\nご予約時に、ご新規様割引利用とお伝えください(*^^*）"
-          },
-          {
-            "title": "💎初めての方限定・特別優待💎",
-            "shop_name": "メンズエステ店　瞬　大垣市・瑞穂市",
-            "coupon_url": "https://estama.jp/shop/44024/coupon/",
-            "area_raw": "[岐阜] 大垣/マンション(個室)",
-            "price_90min": 15000,
-            "description": "90分以上コースをお選びいただいたご新規様に、\r\n人気オプション《密着・ディープリンパ・極液》の中から\r\nお好きな1つを半額でご提供いたします。"
-          },
-          {
-            "title": "ゲリライベント開催!",
-            "shop_name": "シエスタ",
-            "coupon_url": "https://estama.jp/shop/29172/coupon/",
-            "area_raw": "[静岡] 浜松/マンション(個室)",
-            "price_90min": null,
-            "description": "エステ魂見たで全コース1000円offにてご案内いたします。※ご新規様のみ割引が適用されます。"
-          }
-        ],
-        "その他": [
-          {
-            "title": "オープン記念！大感謝祭！！",
-            "shop_name": "JELLY～nagoya・spa～",
-            "coupon_url": "https://estama.jp/shop/26454/coupon/",
-            "area_raw": "[愛知] 名古屋・名駅/マンション(個室)",
-            "price_90min": null,
-            "description": "皆様のおかげでついに名古屋駅徒歩2分の好立地の場所で\r\nJELLY～nagoya・spa～\r\nがオープンしました\r\n皆様に感謝の意を込めて\r\n「エステ魂見た」\r\nとおっしゃっていただいた方へは\r\n\r\n"
-          },
-          {
-            "title": "フリー限定✨全コース5,000円OFF！",
-            "shop_name": "大人の保育園&幼稚園　新潟店",
-            "coupon_url": "https://estama.jp/shop/50378/coupon/",
-            "area_raw": "[新潟] 新潟市/マンション(個室)",
-            "price_90min": null,
-            "description": "【🧸フリー限定キャンペーン✨】\r\n今だけ《先着10名様限定》で、フリー予約の全コースが5,000円OFF‼\r\nお得に癒されたい方、チャンスです♪\r\nセラピストおまかせで甘え放題🫶\r\nご予約時に「クーポ"
-          },
-          {
-            "title": "地域大手店舗だからできる顧客管理☆ポイント割",
-            "shop_name": "AromaBelle(アロマベル)富山",
-            "coupon_url": "https://estama.jp/shop/32275/coupon/",
-            "area_raw": "[富山] 富山市/マンション(個室)",
-            "price_90min": null,
-            "description": "当店はお客様のご利用に対して次回以降使用できるポイント制度を導入しております！（現在の保有ポイントは当店HPにて確認いただけます）\r\n1P＝1円でご利用可能！\r\n1度のご利用で最大2000P使用可能☆"
-          },
-          {
-            "title": "✨ お得な特典のご案内 ✨📱 LINEご登録特典",
-            "shop_name": "Mrs.Club〜ミセス・クラブ〜",
-            "coupon_url": "https://estama.jp/shop/50567/coupon/",
-            "area_raw": "[岐阜] 岐阜市/マンション(個室)",
-            "price_90min": 12000,
-            "description": "ご登録いただいたお客様には、1,000円OFFにてご案内させていただきます。\r\nご利用前の登録で、よりお得にお楽しみいただけます。"
-          },
-          {
-            "title": "LINE追加で最大￥2,000off！！",
-            "shop_name": "Candy〜キャンディ",
-            "coupon_url": "https://estama.jp/shop/40160/coupon/",
-            "area_raw": "[愛知] 岡崎・安城・豊田/マンション(個室)",
-            "price_90min": null,
-            "description": "最大2000円OFFで御案内致します(^^)/"
-          },
-          {
-            "title": "Free限定💗70分 13000円の特別価格❣️",
-            "shop_name": "LOVE",
-            "coupon_url": "https://estama.jp/shop/50332/coupon/",
-            "area_raw": "[愛知] 錦・栄/マンション(個室)",
-            "price_90min": 21000,
-            "description": "タイトル通り‼️‼️\r\n【通常　70分 17000円】\r\nが❗️なんと、Free限定価格‼️\r\n　　　　　⬇️\r\n🎉🎊70分 13000円🎊🎉で、ご案内♡♥︎♡\r\n\r\n⚠️OPEN割、朝割、他割引、ク"
-          },
-          {
-            "title": "「エス魂を見た！」で1100円割引",
-            "shop_name": "PTA金沢",
-            "coupon_url": "https://estama.jp/shop/49942/coupon/",
-            "area_raw": "[石川] 金沢/マンション(個室)",
-            "price_90min": 18000,
-            "description": "ご予約の際に、「エス魂を見た」で1100円割引となります。\r\n※月1回のご利用に限り"
-          },
-          {
-            "title": "オープン記念に伴い毎日割引☺️✨",
-            "shop_name": "一宮メンズエステ　妃美香-HIMIKO-",
-            "coupon_url": "https://estama.jp/shop/50158/coupon/",
-            "area_raw": "[愛知] 一宮・春日井・小牧/マンション(個室)",
-            "price_90min": 15000,
-            "description": "この度、オープンに伴い\r\n90分以上コースでご来店頂いたお客様\r\n全員総額から¥2,000OFFで\r\nご案内させて頂きます。☺️🙇"
-          }
-        ],
-        "指名料割引": [
-          {
-            "title": "指名料が無料になる！エステ魂おとくーポン",
-            "shop_name": "長岡メンズエステ「ふたりきりSPA」",
-            "coupon_url": "https://estama.jp/shop/33237/coupon/",
-            "area_raw": "[新潟] 長岡/マンション(個室)",
-            "price_90min": 14000,
-            "description": "「エステ魂見ました」で、指名料を無料でご案内させていただきます！"
-          },
-          {
-            "title": "お客様感謝🈹イベント開催中‼️🔥🔥",
-            "shop_name": "アロマーナ栄",
-            "coupon_url": "https://estama.jp/shop/35008/coupon/",
-            "area_raw": "[愛知] 錦・栄/マンション(個室)",
-            "price_90min": null,
-            "description": "只今お客様感謝🈹イベント中✨\r\n\r\n✈️VIP100分コース✈️\r\n超人気ファーストクラスセラピスト✨\r\n指名料込み30,000円→25,000円‼️🔥\r\n\r\n♦️VIP100分コース♦️\r\n芸能人🔥"
-          },
-          {
-            "title": "✨エステ魂最強コラボ✨",
-            "shop_name": "ひっょこりさん岐阜店",
-            "coupon_url": "https://estama.jp/shop/32632/coupon/",
-            "area_raw": "[岐阜] 岐阜市/マンション(個室)",
-            "price_90min": null,
-            "description": "✨受付時エステ魂を見たとお伝えください✨\r\n✨全コース￥3000オフでご案内可能です✨\r\n✨指名料金別✨\r\n✨他の割引と兼用不可✨"
-          },
-          {
-            "title": "平日お昼の癒し割💕",
-            "shop_name": "金沢メンズエステ Lush & Hush",
-            "coupon_url": "https://estama.jp/shop/38159/coupon/",
-            "area_raw": "[石川] 金沢/マンション(個室)",
-            "price_90min": null,
-            "description": "平日のお昼に、上質な癒しを。\r\n平日OPEN〜16:00までのスタート限定で、\r\n80分フリー 12,000円にてご案内。\r\n落ち着いた空間で、心ほどける贅沢な時間をお楽しみください。\r\n昼だけの特別"
-          },
-          {
-            "title": "17時までのご利用がとにかくお得♪",
-            "shop_name": "Oka-Spa",
-            "coupon_url": "https://estama.jp/shop/33181/coupon/",
-            "area_raw": "[愛知] 岡崎・安城・豊田/マンション(個室)",
-            "price_90min": null,
-            "description": "17時までのご予約は\r\n90分コース　15000円\r\n↓ 3000円OFF で\r\n90分コース　12000円\r\n\r\n120分　20000円\r\n↓ 40000円OFFで\r\n120分コース　16000円\r"
-          },
-          {
-            "title": "エステ魂を見た！で指名料誰でも無料キャンペーン中！",
-            "shop_name": "メンズエステ　アロマージュ長野",
-            "coupon_url": "https://estama.jp/shop/27927/coupon/",
-            "area_raw": "[長野] 長野市/マンション(個室)",
-            "price_90min": null,
-            "description": "新人以外の女の子でもお気に入りの女の子を無料で呼ぶチャンス♪\nお気軽にご予約時にご報告下さい！"
-          },
-          {
-            "title": "【5000円引き💕】前日までの予約がお得！！",
-            "shop_name": "M貴族",
-            "coupon_url": "https://estama.jp/shop/49814/coupon/",
-            "area_raw": "[岐阜] 岐阜市/マンション(個室)",
-            "price_90min": 16000,
-            "description": "前日までの事前予約で5000円引きに💕💕\r\n\r\n※指名料別途\r\n※90分コース以上限定\r\n※本指名は対象外となります"
-          },
-          {
-            "title": "♡フリー限定コース1,000円OFF♡",
-            "shop_name": "N Spa",
-            "coupon_url": "https://estama.jp/shop/44335/coupon/",
-            "area_raw": "[三重] 四日市/マンション(個室)",
-            "price_90min": 16000,
-            "description": "☆フリー限定1,000円割引イベント☆\r\n⚠️ご指名の場合は利用不可です⚠️\r\n⚠️75分は使用不可です⚠️\r\n\r\n・60分コース…11,000円→10,000円\r\n・90分コース…16,000円→1"
           }
         ],
         "リピーター向け": [
+          {
+            "title": "新人セラピスト割引",
+            "shop_name": "Aroma Ode～アロマ・オード～",
+            "coupon_url": "https://estama.jp/shop/33913/coupon/",
+            "area_raw": "[愛知] 豊橋/マンション(個室)",
+            "price_90min": null,
+            "description": "新人セラピストご指名で最大3,000円OFF\r\n\r\n・リピート指名様は適用不可となります。\r\n\r\n・ご予約時に新人セラピスト割引とお伝え下さい。\r\n\r\n70分14000円　→　70分12000円\r\n9"
+          },
           {
             "title": "💞おかわり割引💞",
             "shop_name": "Trip Aroma",
@@ -3672,6 +3614,72 @@
             "description": "《料金》\r\n✨指名料 ¥1,000円 → 無料！\r\n\r\n※《ご利用条件》予約時にご提示ください。\r\n※ご予約確定後クーポンの変更や適用は出来かねますのでご了承ください。\r\n※他クーポンと併用不可。"
           }
         ],
+        "指名料割引": [
+          {
+            "title": "お客様感謝🈹イベント開催中‼️🔥🔥",
+            "shop_name": "アロマーナ栄",
+            "coupon_url": "https://estama.jp/shop/35008/coupon/",
+            "area_raw": "[愛知] 錦・栄/マンション(個室)",
+            "price_90min": null,
+            "description": "只今お客様感謝🈹イベント中✨\r\n\r\n✈️VIP100分コース✈️\r\n超人気ファーストクラスセラピスト✨\r\n指名料込み30,000円→25,000円‼️🔥\r\n\r\n♦️VIP100分コース♦️\r\n芸能人🔥"
+          },
+          {
+            "title": "✨ひょこり60分￥10000✨",
+            "shop_name": "ひっょこりさん四日市店",
+            "coupon_url": "https://estama.jp/shop/30935/coupon/",
+            "area_raw": "[三重] 四日市/マンション(個室)",
+            "price_90min": null,
+            "description": "✨ひょこりイベント✨\r\n\r\n✨60分￥10000でご案内可能です✨\r\n\r\n受付時に必ずお申し付けください✨\r\n\r\n✨他割引と併用不可✨\r\n\r\n✨指名料別途✨"
+          },
+          {
+            "title": "指名料が無料になる！エステ魂おとくーポン",
+            "shop_name": "長岡メンズエステ「ふたりきりSPA」",
+            "coupon_url": "https://estama.jp/shop/33237/coupon/",
+            "area_raw": "[新潟] 長岡/マンション(個室)",
+            "price_90min": 14000,
+            "description": "「エステ魂見ました」で、指名料を無料でご案内させていただきます！"
+          },
+          {
+            "title": "お客様感謝🈹イベント開催中‼️🔥🔥",
+            "shop_name": "アロマーナ栄",
+            "coupon_url": "https://estama.jp/shop/35008/coupon/",
+            "area_raw": "[愛知] 錦・栄/マンション(個室)",
+            "price_90min": null,
+            "description": "只今お客様感謝🈹イベント中✨\r\n\r\n✈️VIP100分コース✈️\r\n超人気ファーストクラスセラピスト✨\r\n指名料込み30,000円→25,000円‼️🔥\r\n\r\n♦️VIP100分コース♦️\r\n芸能人🔥"
+          },
+          {
+            "title": "✨エステ魂最強コラボ✨",
+            "shop_name": "ひっょこりさん岐阜店",
+            "coupon_url": "https://estama.jp/shop/32632/coupon/",
+            "area_raw": "[岐阜] 岐阜市/マンション(個室)",
+            "price_90min": null,
+            "description": "✨受付時エステ魂を見たとお伝えください✨\r\n✨全コース￥3000オフでご案内可能です✨\r\n✨指名料金別✨\r\n✨他の割引と兼用不可✨"
+          },
+          {
+            "title": "17時までのご利用がとにかくお得♪",
+            "shop_name": "Oka-Spa",
+            "coupon_url": "https://estama.jp/shop/33181/coupon/",
+            "area_raw": "[愛知] 岡崎・安城・豊田/マンション(個室)",
+            "price_90min": null,
+            "description": "17時までのご予約は\r\n90分コース　15000円\r\n↓ 3000円OFF で\r\n90分コース　12000円\r\n\r\n120分　20000円\r\n↓ 40000円OFFで\r\n120分コース　16000円\r"
+          },
+          {
+            "title": "エステ魂を見た！で指名料誰でも無料キャンペーン中！",
+            "shop_name": "メンズエステ　アロマージュ長野",
+            "coupon_url": "https://estama.jp/shop/27927/coupon/",
+            "area_raw": "[長野] 長野市/マンション(個室)",
+            "price_90min": null,
+            "description": "新人以外の女の子でもお気に入りの女の子を無料で呼ぶチャンス♪\nお気軽にご予約時にご報告下さい！"
+          },
+          {
+            "title": "【5000円引き💕】前日までの予約がお得！！",
+            "shop_name": "M貴族",
+            "coupon_url": "https://estama.jp/shop/49814/coupon/",
+            "area_raw": "[岐阜] 岐阜市/マンション(個室)",
+            "price_90min": 16000,
+            "description": "前日までの事前予約で5000円引きに💕💕\r\n\r\n※指名料別途\r\n※90分コース以上限定\r\n※本指名は対象外となります"
+          }
+        ],
         "時間延長": [
           {
             "title": "「オープン記念｜最大3,000円OFF」",
@@ -3680,14 +3688,6 @@
             "area_raw": "[愛知] 岡崎・安城・豊田/マンション(個室)",
             "price_90min": null,
             "description": "オープン記念につき、期間限定で最大3,000円OFFの特別優待をご用意いたしました。厳選されたセラピストによる上質なおもてなしと、非日常へ誘う極上のリラクゼーションを特別価格でご体感いただけます。この"
-          },
-          {
-            "title": "エステ魂特別オールタイム割引",
-            "shop_name": "エミアス",
-            "coupon_url": "https://estama.jp/shop/32962/coupon/",
-            "area_raw": "[静岡] 浜松/マンション(個室)",
-            "price_90min": null,
-            "description": "【エステ魂ユーザー様限定】\r\nタイムサービスの時間限定を解除\r\nオールタイムでサービス価格になります。\r\n60分　８，０００円　100分　１２，０００円"
           },
           {
             "title": "12:00~18:00まで特割5000円(大注目クーポン)",
@@ -3706,14 +3706,6 @@
             "description": "フリー限定!フル完備80分15000円⇒13000円\r\n【進化のフル完備＆αコース】\r\n【衣装M＋極液＋DL】の豪華フル完備コース\r\n通常80分15,000円 → 今だけ【13,000円】‼\r\n癒しと"
           },
           {
-            "title": "⭐LINE予約で無料延長⭐",
-            "shop_name": "エンペラースパ",
-            "coupon_url": "https://estama.jp/shop/49882/coupon/",
-            "area_raw": "[三重] 四日市/マンション(個室)",
-            "price_90min": null,
-            "description": "LINE予約で無料延長イベント開催中🔥\r\n\r\n60分+5分（合計65分）\r\n90分+10分（合計100分）\r\n120分+15分（合計135分）\r\n\r\n※LINE予約時に無料延長イベントを見たとお伝え下"
-          },
-          {
             "title": "ご愛観感謝キャンペーン開催中",
             "shop_name": "メンズエステ　ホットアロマ",
             "coupon_url": "https://estama.jp/shop/29437/coupon/",
@@ -3725,97 +3717,84 @@
       }
     },
     "reviews": {
-      "parsed_count": 333,
-      "rated_count": 292,
-      "avg_rating": 4.83,
-      "five_star_rate": 62,
+      "parsed_count": 337,
+      "rated_count": 300,
+      "avg_rating": 4.82,
+      "median_rating": 5.0,
+      "rating_std": 0.38,
+      "five_star_rate": 63,
       "distribution": {
-        "5.0": 180,
-        "4.5-4.9": 78,
-        "4.0-4.4": 30,
-        "3.0-3.9": 1,
-        "below_3": 3,
-        "none": 41
+        "5.0": 188,
+        "4.5-4.9": 79,
+        "4.0-4.4": 27,
+        "3.0-3.9": 2,
+        "below_3": 4,
+        "none": 37
       },
       "visit_types": {
-        "unknown": 333
+        "loyal": 33,
+        "repeat": 66,
+        "first": 201,
+        "unknown": 37
       },
       "top_keywords": {
-        "リピート": 143,
-        "施術": 107,
-        "癒し": 99,
+        "リピート": 147,
+        "施術": 112,
+        "癒し": 111,
         "指名": 88,
-        "高評価": 67,
-        "満足": 34,
-        "お得": 1,
+        "高評価": 72,
+        "満足": 31,
+        "お得": 2,
         "割安": 1
       },
-      "suspicious_count": 40,
-      "suspicious_rate": 12.0,
+      "suspicious_count": 55,
+      "suspicious_rate": 16.3,
       "flagged_reviews": [
         {
-          "review_id": "463832",
-          "shop_name": "絶対領域",
-          "shop_url": "https://estama.jp/shop/45343/",
-          "review_url": "https://estama.jp/shop/45343/cast/912370/#ReviewSection",
-          "shop_area": "[静岡] 静岡市 / 店舗型",
+          "review_id": "460253",
+          "shop_name": "Aroma Ode～アロマ・オード～",
+          "shop_url": "https://estama.jp/shop/33913/",
+          "review_url": "https://estama.jp/shop/33913/cast/876918/#ReviewSection",
+          "shop_area": "[愛知] 豊橋 / マンション(個室)",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": "神セラピスト様",
+          "excerpt": "今回は初めての施術でしたが最高の一言\r\n次はもっと長く入りたいです。",
+          "date_text": "2026/07/11\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "short_perfect",
+            "first_visit_hype",
+            "superlative_stack"
+          ],
+          "reasons": [
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）",
+            "「最高」「神」など強い褒め言葉が複数"
+          ],
+          "suspicion_score": 3
+        },
+        {
+          "review_id": "451466",
+          "shop_name": "ゆめはな 松本店",
+          "shop_url": "https://estama.jp/shop/29138/",
+          "review_url": "https://estama.jp/shop/29138/cast/874663/#ReviewSection",
+          "shop_area": "[長野] 松本 / マンション(個室)",
           "price_90min": null,
           "rating": 5.0,
           "title": null,
-          "excerpt": "よかった！",
-          "date_text": "匿名",
-          "visit_type": null,
+          "excerpt": "超最高だった\r\nまた指名できる日があれば指名したい",
+          "date_text": "2026/06/10\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
             "short_perfect",
-            "minimal_text"
+            "first_visit_hype"
           ],
           "reasons": [
             "非常に短い文章で満点（具体性が少ない）",
-            "極端に短いテキストの満点"
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
           "suspicion_score": 2
-        },
-        {
-          "review_id": "461776",
-          "shop_name": "絶対領域",
-          "shop_url": "https://estama.jp/shop/45343/",
-          "review_url": "https://estama.jp/shop/45343/cast/843451/#ReviewSection",
-          "shop_area": "[静岡] 静岡市 / 店舗型",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": "最高の時間でした",
-          "excerpt": "かわいさ＋天真爛漫な感じ。最高のセラピストでした！また行きます。",
-          "date_text": "やかやかj",
-          "visit_type": null,
-          "flags": [
-            "short_perfect",
-            "generic_praise"
-          ],
-          "reasons": [
-            "非常に短い文章で満点（具体性が少ない）",
-            "定型的な褒め言葉のみで具体描写が少ない"
-          ],
-          "suspicion_score": 2
-        },
-        {
-          "review_id": "464122",
-          "shop_name": "JELLY～nagoya・spa～",
-          "shop_url": "https://estama.jp/shop/26454/",
-          "review_url": "https://estama.jp/shop/26454/cast/852837/#ReviewSection",
-          "shop_area": "[愛知] 名古屋・名駅 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": "名古屋お土産大使",
-          "excerpt": "名古屋観光に疲れたら、らんさんに癒してもらいましょう。とてもかわいい名古屋弁でお話してもらえますよヾ⁠(⁠*⁠’⁠Ｏ⁠’⁠*⁠)⁠/\r\n小倉トーストラングドシャ、なごやん、ぴよりん買いましたありがとう🙏",
-          "date_text": "foll",
-          "visit_type": null,
-          "flags": [
-            "value_hype"
-          ],
-          "reasons": [
-            "「割安・コスパ・激安」などの訴求＋満点評価"
-          ],
-          "suspicion_score": 1
         },
         {
           "review_id": "450380",
@@ -3827,15 +3806,17 @@
           "rating": 5.0,
           "title": null,
           "excerpt": "落ち着いて話せて楽しかった。",
-          "date_text": "匿名",
-          "visit_type": null,
+          "date_text": "2026/06/06\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "short_perfect"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
           "review_id": "456443",
@@ -3847,35 +3828,17 @@
           "rating": 5.0,
           "title": null,
           "excerpt": "マッサージのレベルが高く\r\nとても楽しい時間が過ごせました。",
-          "date_text": "匿名",
-          "visit_type": null,
+          "date_text": "2026/06/27\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "short_perfect"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "460666",
-          "shop_name": "AromaBelle(アロマベル)富山",
-          "shop_url": "https://estama.jp/shop/32275/",
-          "review_url": "https://estama.jp/shop/32275/cast/599243/#ReviewSection",
-          "shop_area": "[富山] 富山市 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": null,
-          "excerpt": "楽しい時間でした！\r\n\r\nまた行きます！",
-          "date_text": "ひRO",
-          "visit_type": null,
-          "flags": [
-            "short_perfect"
-          ],
-          "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
-          ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
           "review_id": "458663",
@@ -3887,55 +3850,17 @@
           "rating": 5.0,
           "title": null,
           "excerpt": "気遣い上手で愛嬌もあって、すごく癒されました！\r\n次も指名します！",
-          "date_text": "はまやん2",
-          "visit_type": null,
+          "date_text": "2026/07/03\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "short_perfect"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "462326",
-          "shop_name": "Trip Aroma",
-          "shop_url": "https://estama.jp/shop/42556/",
-          "review_url": "https://estama.jp/shop/42556/cast/845399/#ReviewSection",
-          "shop_area": "[富山] 富山市 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": null,
-          "excerpt": "スタイル抜群、極液の魔術師！飾らないトークと妖艶な施術で今回も最高に癒されました。また行きますね♪",
-          "date_text": "匿名",
-          "visit_type": null,
-          "flags": [
-            "generic_praise"
-          ],
-          "reasons": [
-            "定型的な褒め言葉のみで具体描写が少ない"
-          ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "465258",
-          "shop_name": "Sweet～berta～",
-          "shop_url": "https://estama.jp/shop/29365/",
-          "review_url": "https://estama.jp/shop/29365/cast/853957/#ReviewSection",
-          "shop_area": "[静岡] 沼津 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": null,
-          "excerpt": "安定の癒しであっという間に時間になってしまう",
-          "date_text": "お味噌汁の具なんです",
-          "visit_type": null,
-          "flags": [
-            "short_perfect"
-          ],
-          "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
-          ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
           "review_id": "464082",
@@ -3947,55 +3872,17 @@
           "rating": 5.0,
           "title": null,
           "excerpt": "くるみさんの初々しさにとても癒されました。ありがとうございます",
-          "date_text": "匿名",
-          "visit_type": null,
+          "date_text": "2026/07/20\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "short_perfect"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "419755",
-          "shop_name": "シエスタ",
-          "shop_url": "https://estama.jp/shop/29172/",
-          "review_url": "https://estama.jp/shop/29172/cast/429480/#ReviewSection",
-          "shop_area": "[静岡] 浜松 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": "最高によかった",
-          "excerpt": "初めて利用しましたが、ラコちゃんに会った瞬間可愛いのもそうですが、愛嬌があって親切でとてもよかったです。マッサージも大満足で普段の疲れが一気にとぶくらいの癒しでした。また、ぜひ利用させてもらいます。",
-          "date_text": "もふもふ2403",
-          "visit_type": null,
-          "flags": [
-            "superlative_stack"
-          ],
-          "reasons": [
-            "「最高」「神」など強い褒め言葉が複数"
-          ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "397560",
-          "shop_name": "LUCE",
-          "shop_url": "https://estama.jp/shop/34699/",
-          "review_url": "https://estama.jp/shop/34699/cast/515570/#ReviewSection",
-          "shop_area": "[静岡] 浜松 / マンション(個室)",
-          "price_90min": 15000,
-          "rating": 5.0,
-          "title": null,
-          "excerpt": "久しぶりにお会いしましたが\r\nますます可愛くなってる",
-          "date_text": "たいしん",
-          "visit_type": null,
-          "flags": [
-            "short_perfect"
-          ],
-          "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
-          ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
           "review_id": "464772",
@@ -4007,15 +3894,17 @@
           "rating": 5.0,
           "title": null,
           "excerpt": "フリーだったようですが、最高の時間でした。",
-          "date_text": "匿名",
-          "visit_type": null,
+          "date_text": "2026/07/28\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "short_perfect"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
           "review_id": "458347",
@@ -4027,115 +3916,39 @@
           "rating": 5.0,
           "title": null,
           "excerpt": "話しやすく配慮もありサービスも満点で\r\n最高でした！",
-          "date_text": "鼠警部",
-          "visit_type": null,
+          "date_text": "2026/07/04\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "short_perfect"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
-          "review_id": "446776",
-          "shop_name": "High end spa　岐阜",
-          "shop_url": "https://estama.jp/shop/43798/",
-          "review_url": "https://estama.jp/shop/43798/cast/741069/#ReviewSection",
-          "shop_area": "[岐阜] 岐阜市 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": "癒されました",
-          "excerpt": "顔が好みで、可愛かったです。\r\n最高でした！",
-          "date_text": "匿名",
-          "visit_type": null,
-          "flags": [
-            "short_perfect"
-          ],
-          "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
-          ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "454680",
-          "shop_name": "小松　和み〜なごみ〜",
-          "shop_url": "https://estama.jp/shop/50247/",
-          "review_url": "https://estama.jp/shop/50247/cast/853345/#ReviewSection",
-          "shop_area": "[石川] 金沢 / マンション(個室)",
-          "price_90min": 17000,
-          "rating": 5.0,
-          "title": "最高です",
-          "excerpt": "念願叶っての訪問でした。\r\n\r\nおもてなしから技術から最高でした！\r\n早くもリピートしたくなっております。\r\n\r\n受付スタッフさんも丁寧に対応いただき、大満足のお店です！",
-          "date_text": "匿名",
-          "visit_type": null,
-          "flags": [
-            "superlative_stack"
-          ],
-          "reasons": [
-            "「最高」「神」など強い褒め言葉が複数"
-          ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "465235",
-          "shop_name": "AromaBelle(アロマベル)福井",
-          "shop_url": "https://estama.jp/shop/32276/",
-          "review_url": "https://estama.jp/shop/32276/cast/898134/#ReviewSection",
-          "shop_area": "[福井] 福井市 / マンション(個室)",
+          "review_id": "450380",
+          "shop_name": "JELLY～nagoya・spa～",
+          "shop_url": "https://estama.jp/shop/26454/",
+          "review_url": "https://estama.jp/shop/26454/cast/879013/#ReviewSection",
+          "shop_area": "[愛知] 名古屋・名駅 / マンション(個室)",
           "price_90min": null,
           "rating": 5.0,
           "title": null,
-          "excerpt": "とても癒やされました、またよろしくお願いします。",
-          "date_text": "風神雷神",
-          "visit_type": null,
+          "excerpt": "落ち着いて話せて楽しかった。",
+          "date_text": "2026/06/06\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "short_perfect"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "465347",
-          "shop_name": "MYIRO-マイロ",
-          "shop_url": "https://estama.jp/shop/29322/",
-          "review_url": "https://estama.jp/shop/29322/cast/902933/#ReviewSection",
-          "shop_area": "[新潟] 新潟市 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": null,
-          "excerpt": "言うことなしです！最高でした！\r\nまたお願いします。",
-          "date_text": "匿名",
-          "visit_type": null,
-          "flags": [
-            "short_perfect"
-          ],
-          "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
-          ],
-          "suspicion_score": 1
-        },
-        {
-          "review_id": "444872",
-          "shop_name": "M spa",
-          "shop_url": "https://estama.jp/shop/25104/",
-          "review_url": "https://estama.jp/shop/25104/cast/754955/#ReviewSection",
-          "shop_area": "[愛知] 錦・栄 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": "癒される",
-          "excerpt": "今日もあっという間に時間が経ち最高なひと時でした。相変わらず綺麗で、話もしやすく、又リピートします。",
-          "date_text": "匿名",
-          "visit_type": null,
-          "flags": [
-            "generic_praise"
-          ],
-          "reasons": [
-            "定型的な褒め言葉のみで具体描写が少ない"
-          ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
           "review_id": "442957",
@@ -4147,55 +3960,83 @@
           "rating": 5.0,
           "title": null,
           "excerpt": "話しやすく、綺麗であっという間に時間が経ち、リピート確実です。",
-          "date_text": "匿名",
-          "visit_type": null,
+          "date_text": "2026/05/08\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "short_perfect"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
-          "review_id": "464620",
-          "shop_name": "Toyama+plus(トヤマプラス)",
-          "shop_url": "https://estama.jp/shop/34047/",
-          "review_url": "https://estama.jp/shop/34047/cast/600724/#ReviewSection",
-          "shop_area": "[富山] 富山市 / 派遣・出張専門",
-          "price_90min": 18000,
+          "review_id": "446776",
+          "shop_name": "High end spa　岐阜",
+          "shop_url": "https://estama.jp/shop/43798/",
+          "review_url": "https://estama.jp/shop/43798/cast/741069/#ReviewSection",
+          "shop_area": "[岐阜] 岐阜市 / マンション(個室)",
+          "price_90min": null,
           "rating": 5.0,
-          "title": "ああっ女神さまっ",
-          "excerpt": "前日の興奮も冷めやらぬまま、エス魂の更新ボタンを「ポチッ」と…。\r\n\r\nすると今日も、私の女神様・しずくさんが出勤されているではありませんか！\r\n\r\nしずくさん曰く、その日の体調次第で出勤するかどうかを決めているとのこと。これはチャンスと思い、いざ予約抽選会へ出陣！\r\n\r\n数分後、お店から連絡が…結果は惜しくも敗退（笑",
-          "date_text": "おしゃる。",
-          "visit_type": null,
+          "title": "癒されました",
+          "excerpt": "顔が好みで、可愛かったです。\r\n最高でした！",
+          "date_text": "2026/04/18\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "superlative_stack"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "「最高」「神」など強い褒め言葉が複数"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
+          "suspicion_score": 2
         },
         {
-          "review_id": "464456",
-          "shop_name": "Toyama+plus(トヤマプラス)",
-          "shop_url": "https://estama.jp/shop/34047/",
-          "review_url": "https://estama.jp/shop/34047/cast/600724/#ReviewSection",
-          "shop_area": "[富山] 富山市 / 派遣・出張専門",
-          "price_90min": 18000,
+          "review_id": "465235",
+          "shop_name": "AromaBelle(アロマベル)福井",
+          "shop_url": "https://estama.jp/shop/32276/",
+          "review_url": "https://estama.jp/shop/32276/cast/898134/#ReviewSection",
+          "shop_area": "[福井] 福井市 / マンション(個室)",
+          "price_90min": null,
           "rating": 5.0,
-          "title": "女神降臨",
-          "excerpt": "初めてトヤマプラスさんを利用しました！\r\n\r\n持論ですが、\r\n「ショートカットの似合う女の子にハズレなし！」\r\n\r\n出勤表を眺めていると……\r\nいるじゃないですか！\r\n私の天使、しずくさん！（笑）\r\n\r\n「どうせ予約は埋まってるだろうな……」とダメ元で予約してみたら、なんと18時30分から120分で予約成功！\r\nこの時",
-          "date_text": "おしゃる。",
-          "visit_type": null,
+          "title": null,
+          "excerpt": "とても癒やされました、またよろしくお願いします。",
+          "date_text": "2026/07/30\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
-            "superlative_stack"
+            "short_perfect",
+            "first_visit_hype"
           ],
           "reasons": [
-            "「最高」「神」など強い褒め言葉が複数"
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
           ],
-          "suspicion_score": 1
+          "suspicion_score": 2
+        },
+        {
+          "review_id": "465347",
+          "shop_name": "MYIRO-マイロ",
+          "shop_url": "https://estama.jp/shop/29322/",
+          "review_url": "https://estama.jp/shop/29322/cast/902933/#ReviewSection",
+          "shop_area": "[新潟] 新潟市 / マンション(個室)",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": null,
+          "excerpt": "言うことなしです！最高でした！\r\nまたお願いします。",
+          "date_text": "2026/07/31\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "short_perfect",
+            "first_visit_hype"
+          ],
+          "reasons": [
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
+          ],
+          "suspicion_score": 2
         },
         {
           "review_id": "453586",
@@ -4207,8 +4048,214 @@
           "rating": 5.0,
           "title": "最高のスタイル",
           "excerpt": "前田敦子さんに似ていて、スタイルがすごくてマッサージも最高でした！",
-          "date_text": "匿名",
-          "visit_type": null,
+          "date_text": "2026/06/07\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "short_perfect",
+            "first_visit_hype"
+          ],
+          "reasons": [
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
+          ],
+          "suspicion_score": 2
+        },
+        {
+          "review_id": "451665",
+          "shop_name": "Premier〜プレミア〜",
+          "shop_url": "https://estama.jp/shop/42404/",
+          "review_url": "https://estama.jp/shop/42404/cast/769445/#ReviewSection",
+          "shop_area": "[三重] 四日市 / マンション(個室)",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": null,
+          "excerpt": "また利用したい",
+          "date_text": "2026/04/15\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "short_perfect",
+            "first_visit_hype"
+          ],
+          "reasons": [
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
+          ],
+          "suspicion_score": 2
+        },
+        {
+          "review_id": "465131",
+          "shop_name": "一宮メンズエステ〜FINALE〜",
+          "shop_url": "https://estama.jp/shop/47976/",
+          "review_url": "https://estama.jp/shop/47976/cast/928711/#ReviewSection",
+          "shop_area": "[愛知] 一宮・春日井・小牧 / マンション(個室)",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": "美しく施術上手",
+          "excerpt": "本当に綺麗な肌で、施術がとても上手でした。\r\nありがとうございました",
+          "date_text": "2026/07/30\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "short_perfect",
+            "first_visit_hype"
+          ],
+          "reasons": [
+            "非常に短い文章で満点（具体性が少ない）",
+            "初回利用の短文満点（初見での過度な高評価）"
+          ],
+          "suspicion_score": 2
+        },
+        {
+          "review_id": "461201",
+          "shop_name": "Melia-メリア-",
+          "shop_url": "https://estama.jp/shop/33000/",
+          "review_url": "https://estama.jp/shop/33000/cast/475583/#ReviewSection",
+          "shop_area": "[愛知] 金山 / マンション(個室)",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": null,
+          "excerpt": "初めてお会いしましたが、ルックスもマッサージ完璧でした。最高に気持ちよかったです。また会いに行きます😊",
+          "date_text": "2026/07/15\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "first_visit_hype"
+          ],
+          "reasons": [
+            "初回利用の短文満点（初見での過度な高評価）"
+          ],
+          "suspicion_score": 1
+        },
+        {
+          "review_id": "464580",
+          "shop_name": "EMOspa栄(ドバドバ)",
+          "shop_url": "https://estama.jp/shop/51320/",
+          "review_url": "https://estama.jp/shop/51320/cast/920682/#ReviewSection",
+          "shop_area": "[愛知] 錦・栄 / マンション(個室)",
+          "price_90min": 18000,
+          "rating": 5.0,
+          "title": null,
+          "excerpt": "今日も最高でした！！\r\n㊙️衣装も最高でした😍😍😍",
+          "date_text": "2026/07/27\t\t\t\t\t\t\t(2回～4回)",
+          "visit_type": "repeat",
+          "flags": [
+            "short_perfect"
+          ],
+          "reasons": [
+            "非常に短い文章で満点（具体性が少ない）"
+          ],
+          "suspicion_score": 1
+        },
+        {
+          "review_id": "465340",
+          "shop_name": "Luna Femme(ルナファム)上田",
+          "shop_url": "https://estama.jp/shop/42119/",
+          "review_url": "https://estama.jp/shop/42119/cast/853508/#ReviewSection",
+          "shop_area": "[長野] 上田 / マンション(個室)",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": "楽しい時間をありがとうございました!",
+          "excerpt": "癒しの時間をありがとうございました!\r\n次は2時間以上でお願いしたいと思います!",
+          "date_text": "2026/07/31\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "first_visit_hype"
+          ],
+          "reasons": [
+            "初回利用の短文満点（初見での過度な高評価）"
+          ],
+          "suspicion_score": 1
+        },
+        {
+          "review_id": "465334",
+          "shop_name": "Luna Femme(ルナファム)上田",
+          "shop_url": "https://estama.jp/shop/42119/",
+          "review_url": "https://estama.jp/shop/42119/cast/618593/#ReviewSection",
+          "shop_area": "[長野] 上田 / マンション(個室)",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": null,
+          "excerpt": "こわばった筋肉をしっかりほぐしてもらえた感じがします。とても気持ちよかったです。\r\nありがとうございました。",
+          "date_text": "2026/07/31\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "first_visit_hype"
+          ],
+          "reasons": [
+            "初回利用の短文満点（初見での過度な高評価）"
+          ],
+          "suspicion_score": 1
+        },
+        {
+          "review_id": "463005",
+          "shop_name": "アロマクリニック　四日市",
+          "shop_url": "https://estama.jp/shop/29451/",
+          "review_url": "https://estama.jp/shop/29451/cast/903577/#ReviewSection",
+          "shop_area": "[三重] 四日市 / 店舗型",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": null,
+          "excerpt": "初めて指名で入りました。\r\n施術もトークも楽しい時間を過ごせました。",
+          "date_text": "2026/07/22\t\t\t\t\t\t\t(2回～4回)",
+          "visit_type": "repeat",
+          "flags": [
+            "short_perfect"
+          ],
+          "reasons": [
+            "非常に短い文章で満点（具体性が少ない）"
+          ],
+          "suspicion_score": 1
+        },
+        {
+          "review_id": "461593",
+          "shop_name": "アロマクリニック　四日市",
+          "shop_url": "https://estama.jp/shop/29451/",
+          "review_url": "https://estama.jp/shop/29451/cast/682867/#ReviewSection",
+          "shop_area": "[三重] 四日市 / 店舗型",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": null,
+          "excerpt": "とても可愛くて、お話しも楽しかったです。\r\nまた絶対会いに行きます。",
+          "date_text": "2026/07/10\t\t\t\t\t\t\t(2回～4回)",
+          "visit_type": "repeat",
+          "flags": [
+            "short_perfect"
+          ],
+          "reasons": [
+            "非常に短い文章で満点（具体性が少ない）"
+          ],
+          "suspicion_score": 1
+        },
+        {
+          "review_id": "456959",
+          "shop_name": "ミセス美オーラ 浜松",
+          "shop_url": "https://estama.jp/shop/31787/",
+          "review_url": "https://estama.jp/shop/31787/cast/653264/#ReviewSection",
+          "shop_area": "[静岡] 浜松 / マンション(個室)",
+          "price_90min": null,
+          "rating": 5.0,
+          "title": null,
+          "excerpt": "初めて指名させてもらいました\r\nお話もできとても楽しい時間でした\r\n身体もとても軽くなりました",
+          "date_text": "2026/06/30\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
+          "flags": [
+            "first_visit_hype"
+          ],
+          "reasons": [
+            "初回利用の短文満点（初見での過度な高評価）"
+          ],
+          "suspicion_score": 1
+        },
+        {
+          "review_id": "451630",
+          "shop_name": "IRIS-アイリス−",
+          "shop_url": "https://estama.jp/shop/29803/",
+          "review_url": "https://estama.jp/shop/29803/cast/804886/#ReviewSection",
+          "shop_area": "[富山] 富山市 / マンション(個室)",
+          "price_90min": 15000,
+          "rating": 5.0,
+          "title": "美人なのに、愛嬌も最高",
+          "excerpt": "美人で、愛嬌もいいので、最高でした",
+          "date_text": "2026/06/09\t\t\t\t\t\t\t(5回以上)",
+          "visit_type": "loyal",
           "flags": [
             "short_perfect"
           ],
@@ -4227,8 +4274,8 @@
           "rating": 5.0,
           "title": "名古屋お土産大使",
           "excerpt": "名古屋観光に疲れたら、らんさんに癒してもらいましょう。とてもかわいい名古屋弁でお話してもらえますよヾ⁠(⁠*⁠’⁠Ｏ⁠’⁠*⁠)⁠/\r\n小倉トーストラングドシャ、なごやん、ぴよりん買いましたありがとう🙏",
-          "date_text": "foll",
-          "visit_type": null,
+          "date_text": "2026/07/26\t\t\t\t\t\t\t(初めて)",
+          "visit_type": "first",
           "flags": [
             "value_hype"
           ],
@@ -4236,31 +4283,169 @@
             "「割安・コスパ・激安」などの訴求＋満点評価"
           ],
           "suspicion_score": 1
-        },
-        {
-          "review_id": "450380",
-          "shop_name": "JELLY～nagoya・spa～",
-          "shop_url": "https://estama.jp/shop/26454/",
-          "review_url": "https://estama.jp/shop/26454/cast/879013/#ReviewSection",
-          "shop_area": "[愛知] 名古屋・名駅 / マンション(個室)",
-          "price_90min": null,
-          "rating": 5.0,
-          "title": null,
-          "excerpt": "落ち着いて話せて楽しかった。",
-          "date_text": "匿名",
-          "visit_type": null,
-          "flags": [
-            "short_perfect"
-          ],
-          "reasons": [
-            "非常に短い文章で満点（具体性が少ない）"
-          ],
-          "suspicion_score": 1
         }
       ],
       "trust_notes": [
+        "満点比率（62.7%）は中立基準70%より統計的に有意に高い（z=-2.77）。",
+        "評価分布の歪度（-4.39）が負方向に大きく、低評価より高評価へ偏っています。",
         "割安訴求＋満点など、注意パターンに該当する口コミが一定数見つかりました。"
-      ]
+      ],
+      "statistics": {
+        "sample_size": {
+          "reviews": 337,
+          "rated": 300,
+          "unrated": 37,
+          "unique_shops": 109,
+          "avg_reviews_per_shop": 3.09
+        },
+        "rating_descriptive": {
+          "count": 300,
+          "mean": 4.82,
+          "median": 5.0,
+          "std": 0.38,
+          "min": 1.3,
+          "max": 5.0,
+          "skewness": -4.39,
+          "entropy_bits": 1.373
+        },
+        "five_star_inference": {
+          "rate_pct": 62.7,
+          "ci_95_pct": {
+            "point": 62.7,
+            "low": 57.1,
+            "high": 67.9
+          },
+          "vs_neutral_50pct": {
+            "null_hypothesis_pct": 50.0,
+            "observed_pct": 62.7,
+            "z_score": 4.39,
+            "significant_at_005": true
+          },
+          "vs_benchmark_70pct": {
+            "null_hypothesis_pct": 70.0,
+            "observed_pct": 62.7,
+            "z_score": -2.77,
+            "significant_at_005": true
+          }
+        },
+        "text_length": {
+          "all": {
+            "count": 337,
+            "mean": 108.92,
+            "median": 84.0,
+            "std": 99.97
+          },
+          "rated_5_0": {
+            "count": 188,
+            "mean": 112.94,
+            "median": 91.0,
+            "std": 100.45
+          },
+          "rated_below_5": {
+            "count": 112,
+            "mean": 107.08,
+            "median": 74.5,
+            "std": 100.94
+          },
+          "length_gap_5_vs_other": 5.9
+        },
+        "visit_type": {
+          "loyal": {
+            "count": 33,
+            "mean": 4.91,
+            "median": 5.0,
+            "std": 0.19,
+            "five_star_rate": 69.7,
+            "label": "5回以上"
+          },
+          "repeat": {
+            "count": 66,
+            "mean": 4.89,
+            "median": 5.0,
+            "std": 0.2,
+            "five_star_rate": 66.7,
+            "label": "2〜4回"
+          },
+          "first": {
+            "count": 201,
+            "mean": 4.78,
+            "median": 5.0,
+            "std": 0.44,
+            "five_star_rate": 60.2,
+            "label": "初めて"
+          }
+        },
+        "price_rating": {
+          "pearson_r": 0.147,
+          "n": 126,
+          "interpretation": "弱い相関（正）",
+          "region_median_yen": 15000,
+          "by_price_tertile": {
+            "low": {
+              "count": 42,
+              "price_range": [
+                12000,
+                15000
+              ],
+              "mean_rating": 4.84,
+              "five_star_rate": 57.1
+            },
+            "mid": {
+              "count": 42,
+              "price_range": [
+                15000,
+                16500
+              ],
+              "mean_rating": 4.8,
+              "five_star_rate": 57.1
+            },
+            "high": {
+              "count": 42,
+              "price_range": [
+                16500,
+                25000
+              ],
+              "mean_rating": 4.94,
+              "five_star_rate": 78.6
+            }
+          }
+        },
+        "value_keyword_effect": {
+          "with_keyword": {
+            "count": 5,
+            "mean": 4.7,
+            "median": 4.8,
+            "std": 0.41,
+            "five_star_rate": 40.0
+          },
+          "without_keyword": {
+            "count": 295,
+            "mean": 4.82,
+            "median": 5.0,
+            "std": 0.38,
+            "five_star_rate": 63.1
+          },
+          "perfect_score_chi2": {
+            "chi2": 1.12,
+            "df": 1,
+            "significant_at_005": false
+          }
+        },
+        "suspicious_inference": {
+          "count": 55,
+          "rate_pct": 16.3,
+          "ci_95_pct": {
+            "point": 16.3,
+            "low": 12.8,
+            "high": 20.6
+          }
+        },
+        "shop_concentration": {
+          "shops_with_2plus_reviews": 87,
+          "shops_all_perfect_in_sample": 39,
+          "perfect_shop_rate_pct": 37.5
+        }
+      }
     }
   }
 }

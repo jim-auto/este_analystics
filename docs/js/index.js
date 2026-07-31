@@ -48,22 +48,22 @@ async function initIndex() {
     const reviewSection = document.getElementById("review-section");
     if (reviewSection && summary.reviews) {
       reviewSection.innerHTML = `
+        ${renderCrossRegionStats(summary.reviews)}
         <section class="panel">
-          <h2>口コミ評価の傾向（3エリア比較）</h2>
-          <p class="section-note">各エリアの口コミ一覧先頭ページから抽出・解析。満点比率や注意パターンを比較。</p>
+          <h2>口コミ評価の傾向（エリア別サマリー）</h2>
           <div class="table-scroll">
             <table>
-              <thead><tr><th>エリア</th><th>平均</th><th>満点比率</th><th>注意パターン</th><th></th></tr></thead>
+              <thead><tr><th>エリア</th><th>平均±σ</th><th>満点率 [95%CI]</th><th>注意率</th><th></th></tr></thead>
               <tbody>
                 ${(summary.reviews.regions || [])
                   .map(
                     (r) => `
                   <tr>
                     <td>${escapeHtml(r.label)}</td>
-                    <td>${r.avg_rating ?? "—"}</td>
-                    <td>${r.five_star_rate ?? 0}%</td>
-                    <td>${r.suspicious_rate ?? 0}% ${(r.suspicious_rate || 0) >= 8 ? '<span class="warn-badge">⚠ やや多め</span>' : ""}</td>
-                    <td><a href="reviews.html?region=${encodeURIComponent(r.key)}">詳細</a></td>
+                    <td>${r.avg_rating ?? "—"} ± ${r.rating_std ?? "—"}</td>
+                    <td>${r.five_star_rate ?? 0}% ${r.five_star_ci ? `[${r.five_star_ci.low}–${r.five_star_ci.high}]` : ""}</td>
+                    <td>${r.suspicious_rate ?? 0}% ${(r.suspicious_rate || 0) >= 10 ? '<span class="warn-badge">⚠</span>' : ""}</td>
+                    <td><a href="reviews.html?region=${encodeURIComponent(r.key)}">統計詳細</a></td>
                   </tr>`
                   )
                   .join("")}

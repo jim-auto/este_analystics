@@ -313,6 +313,207 @@ function renderFlaggedReviews(reviews) {
     </div>`;
 }
 
+function fmtCi(ci) {
+  if (!ci) return "—";
+  return `${ci.point}% [${ci.low}–${ci.high}]`;
+}
+
+function sigLabel(item) {
+  if (!item) return "—";
+  return item.significant_at_005
+    ? `<span class="sig-yes">有意 (p&lt;0.05)</span>`
+    : `<span class="sig-no">非有意</span>`;
+}
+
+function renderStatisticsBlock(stats) {
+  if (!stats) return "";
+  const rd = stats.rating_descriptive || {};
+  const fs = stats.five_star_inference || {};
+  const tl = stats.text_length || {};
+  const pr = stats.price_rating || {};
+  const vk = stats.value_keyword_effect || {};
+  const si = stats.suspicious_inference || {};
+  const ss = stats.sample_size || {};
+  const sc = stats.shop_concentration || {};
+
+  const visitRows = Object.entries(stats.visit_type || {})
+    .map(
+      ([, v]) => `
+      <tr>
+        <td>${escapeHtml(v.label || "")}</td>
+        <td>${v.count}</td>
+        <td>${v.mean ?? "—"}</td>
+        <td>${v.five_star_rate ?? "—"}%</td>
+      </tr>`
+    )
+    .join("");
+
+  const tertileRows = pr.by_price_tertile
+    ? Object.entries(pr.by_price_tertile)
+        .map(
+          ([tier, t]) => `
+        <tr>
+          <td>${tier === "low" ? "低価格帯" : tier === "mid" ? "中価格帯" : "高価格帯"}</td>
+          <td>${yen(t.price_range?.[0])}–${yen(t.price_range?.[1])}</td>
+          <td>${t.count}</td>
+          <td>${t.mean_rating}</td>
+          <td>${t.five_star_rate}%</td>
+        </tr>`
+        )
+        .join("")
+    : "";
+
+  return `
+    <section class="panel stats-panel">
+      <h2>📊 統計解析レポート</h2>
+      <p class="section-note">サンプル ${ss.reviews ?? "—"} 件（評価あり ${ss.rated ?? "—"} / 店舗 ${ss.unique_shops ?? "—"} / 店舗平均 ${ss.avg_reviews_per_shop ?? "—"} 件）</p>
+
+      <h3>記述統計（評価点数）</h3>
+      <div class="stat-grid four-col">
+        <div class="stat"><div class="label">平均</div><div class="value">${rd.mean ?? "—"}</div></div>
+        <div class="stat"><div class="label">中央値</div><div class="value">${rd.median ?? "—"}</div></div>
+        <div class="stat"><div class="label">標準偏差</div><div class="value">${rd.std ?? "—"}</div></div>
+        <div class="stat"><div class="label">歪度</div><div class="value">${rd.skewness ?? "—"}</div></div>
+      </div>
+      <p class="stat-detail">
+        範囲 ${rd.min ?? "—"}〜${rd.max ?? "—"} ·
+        エントロピー ${rd.entropy_bits ?? "—"} bit
+        <span class="muted">（低いほど評価が偏っている）</span>
+      </p>
+
+      <h3>満点(5.0)比率の推定</h3>
+      <div class="table-scroll">
+        <table class="stats-table">
+          <thead><tr><th>指標</th><th>値</th><th>95%信頼区間</th><th>検定</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>満点比率</td>
+              <td>${fs.rate_pct ?? "—"}%</td>
+              <td>${fs.ci_95_pct ? `${fs.ci_95_pct.low}–${fs.ci_95_pct.high}%` : "—"}</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td> vs 中立50%</td>
+              <td>${fs.vs_neutral_50pct?.observed_pct ?? "—"}%</td>
+              <td>z=${fs.vs_neutral_50pct?.z_score ?? "—"}</td>
+              <td>${sigLabel(fs.vs_neutral_50pct)}</td>
+            </tr>
+            <tr>
+              <td> vs 基準70%</td>
+              <td>${fs.vs_benchmark_70pct?.observed_pct ?? "—"}%</td>
+              <td>z=${fs.vs_benchmark_70pct?.z_score ?? "—"}</td>
+              <td>${sigLabel(fs.vs_benchmark_70pct)}</td>
+            </tr>
+            <tr>
+              <td>注意パターン率</td>
+              <td>${si.rate_pct ?? "—"}%</td>
+              <td>${si.ci_95_pct ? `${si.ci_95_pct.low}–${si.ci_95_pct.high}%` : "—"}</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>利用回数別の評価</h3>
+      <div class="table-scroll">
+        <table class="stats-table">
+          <thead><tr><th>区分</th><th>件数</th><th>平均評価</th><th>満点率</th></tr></thead>
+          <tbody>${visitRows || "<tr><td colspan='4'>データなし</td></tr>"}</tbody>
+        </table>
+      </div>
+
+      <h3>文章量と評価</h3>
+      <div class="table-scroll">
+        <table class="stats-table">
+          <thead><tr><th>グループ</th><th>件数</th><th>平均文字数</th><th>中央値</th></tr></thead>
+          <tbody>
+            <tr><td>全体</td><td>${tl.all?.count ?? "—"}</td><td>${tl.all?.mean ?? "—"}</td><td>${tl.all?.median ?? "—"}</td></tr>
+            <tr><td>満点(5.0)</td><td>${tl.rated_5_0?.count ?? "—"}</td><td>${tl.rated_5_0?.mean ?? "—"}</td><td>${tl.rated_5_0?.median ?? "—"}</td></tr>
+            <tr><td>5.0未満</td><td>${tl.rated_below_5?.count ?? "—"}</td><td>${tl.rated_below_5?.mean ?? "—"}</td><td>${tl.rated_below_5?.median ?? "—"}</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="stat-detail">満点 vs 非満点の文字数差: ${tl.length_gap_5_vs_other ?? "—"} 文字
+        <span class="muted">（満点ほど短文の傾向がある場合は要注意）</span></p>
+
+      <h3>料金と評価の関係</h3>
+      <p class="stat-detail">
+        ピアソン相関 r = ${pr.pearson_r ?? "—"}（n=${pr.n ?? 0}）· ${escapeHtml(pr.interpretation || "")}
+        ${pr.region_median_yen ? ` · エリア中央値 ${yen(pr.region_median_yen)}` : ""}
+      </p>
+      ${tertileRows ? `
+      <div class="table-scroll">
+        <table class="stats-table">
+          <thead><tr><th>価格帯</th><th>90分レンジ</th><th>件数</th><th>平均評価</th><th>満点率</th></tr></thead>
+          <tbody>${tertileRows}</tbody>
+        </table>
+      </div>` : "<p class='muted'>料金データが不足しています</p>"}
+
+      <h3>「割安・コスパ」キーワードの効果</h3>
+      <div class="table-scroll">
+        <table class="stats-table">
+          <thead><tr><th>グループ</th><th>件数</th><th>平均評価</th><th>満点率</th></tr></thead>
+          <tbody>
+            <tr><td>キーワードあり</td><td>${vk.with_keyword?.count ?? 0}</td><td>${vk.with_keyword?.mean ?? "—"}</td><td>${vk.with_keyword?.five_star_rate ?? "—"}%</td></tr>
+            <tr><td>キーワードなし</td><td>${vk.without_keyword?.count ?? 0}</td><td>${vk.without_keyword?.mean ?? "—"}</td><td>${vk.without_keyword?.five_star_rate ?? "—"}%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="stat-detail">
+        満点×キーワード共起 χ²=${vk.perfect_score_chi2?.chi2 ?? "—"}
+        · ${sigLabel(vk.perfect_score_chi2)}
+      </p>
+
+      <h3>店舗集中度</h3>
+      <p class="stat-detail">
+        2件以上口コミがある店舗: ${sc.shops_with_2plus_reviews ?? "—"} /
+        サンプル内すべて満点の店舗: ${sc.shops_all_perfect_in_sample ?? "—"}
+        (${sc.perfect_shop_rate_pct ?? "—"}%)
+      </p>
+    </section>`;
+}
+
+function renderCrossRegionStats(reviewSummary) {
+  const regions = reviewSummary?.regions || [];
+  if (!regions.length) return "";
+
+  return `
+    <section class="panel stats-panel">
+      <h2>📊 3エリア 統計比較</h2>
+      ${(reviewSummary.cross_region_notes || []).map((n) => `<p class="stat-detail">${escapeHtml(n)}</p>`).join("")}
+      <div class="table-scroll">
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>エリア</th><th>n</th><th>平均</th><th>中央値</th><th>σ</th>
+              <th>歪度</th><th>満点率</th><th>満点95%CI</th><th>注意率</th><th>r(料金)</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${regions
+              .map(
+                (r) => `
+              <tr>
+                <td><a href="reviews.html?region=${encodeURIComponent(r.key)}">${escapeHtml(r.label)}</a></td>
+                <td>${r.parsed_count ?? "—"}</td>
+                <td>${r.avg_rating ?? "—"}</td>
+                <td>${r.median_rating ?? "—"}</td>
+                <td>${r.rating_std ?? "—"}</td>
+                <td>${r.skewness ?? "—"}</td>
+                <td>${r.five_star_rate ?? "—"}%</td>
+                <td>${r.five_star_ci ? `${r.five_star_ci.low}–${r.five_star_ci.high}` : "—"}</td>
+                <td>${r.suspicious_rate ?? "—"}%</td>
+                <td>${r.price_correlation ?? "—"}</td>
+              </tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
+      <p class="section-note">CI=95%信頼区間（Wilson法）· σ=標準偏差 · r=料金と評価のピアソン相関</p>
+    </section>`;
+}
+
 function renderReviewInsights(reviewInsights, reviewMeta, regionLabel) {
   const ri = reviewInsights || {};
   const total = ri.parsed_count || 0;
@@ -324,13 +525,16 @@ function renderReviewInsights(reviewInsights, reviewMeta, regionLabel) {
         ${reviewMeta?.review_total_official ? `（公式全体: ${reviewMeta.review_total_official.toLocaleString("ja-JP")}件）` : ""}
       </p>
       <div class="stat-banner">
-        <div class="stat"><div class="label">平均評価</div><div class="value">${ri.avg_rating ?? "—"}</div></div>
+        <div class="stat"><div class="label">平均 ± σ</div><div class="value">${ri.avg_rating ?? "—"} ± ${ri.rating_std ?? "—"}</div></div>
+        <div class="stat"><div class="label">中央値</div><div class="value">${ri.median_rating ?? "—"}</div></div>
         <div class="stat"><div class="label">満点(5.0)比率</div><div class="value">${ri.five_star_rate ?? 0}%</div></div>
         <div class="stat"><div class="label">注意パターン</div><div class="value">${ri.suspicious_rate ?? 0}%</div></div>
       </div>
       ${renderRatingDistribution(ri.distribution, total)}
       ${(ri.trust_notes || []).length ? `<div class="trust-notes">${ri.trust_notes.map((n) => `<p>⚠ ${escapeHtml(n)}</p>`).join("")}</div>` : ""}
     </section>
+
+    ${renderStatisticsBlock(ri.statistics)}
 
     <section class="grid-2">
       <div class="panel">
