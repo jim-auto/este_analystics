@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>エステ魂 東名阪エリア解析 | este_analystics</title>
+  <meta name="description" content="エステ魂（estama.jp）の東京・名古屋・大阪エリアを客目線で再整理。料金相場、ランキング、クーポンを比較。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">este_analystics</a>
+      <nav class="nav">
+        <a href="index.html" class="active">概要</a>
+        <a href="area.html?region=kanto">東京</a>
+        <a href="area.html?region=chubu">名古屋</a>
+        <a href="area.html?region=kansai">大阪</a>
+        <a href="guide.html">初めての方</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">非公式分析サイト</p>
+      <h1>東名阪メンズエステ<br>客目線ガイド</h1>
+      <p class="lead">
+        <a href="https://estama.jp/" target="_blank" rel="noopener">エステ魂</a>の公開情報を
+        東京（関東）・名古屋（中部）・大阪（関西）で比較。料金相場・ランキング・クーポンを一覧化しています。
+      </p>
+      <p class="updated" id="updated-at">データ読込中…</p>
+    </section>
+
+    <section class="cards" id="region-cards"></section>
+
+    <section class="panel">
+      <h2>3エリア 90分料金の比較</h2>
+      <div class="chart-bars" id="price-chart"></div>
+    </section>
+
+    <section class="panel">
+      <h2>客目線で見るポイント</h2>
+      <div class="tips-grid">
+        <article class="tip">
+          <h3>料金相場</h3>
+          <p>90分の中央値・最低・最高をエリア別に集計。初めての予算感づくりに使えます。</p>
+        </article>
+        <article class="tip">
+          <h3>ランキング</h3>
+          <p>おもてなし・お店・セラピストの3部門TOP5と順位変動（UP/DOWN）を整理。</p>
+        </article>
+        <article class="tip">
+          <h3>クーポン</h3>
+          <p>エステ魂限定クーポンのタイトル・条件・対象店舗を一覧。予約時の合言葉確認用。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        本サイトは <a href="https://estama.jp/" target="_blank" rel="noopener">エステ魂（estama.jp）</a>
+        の公開情報を分析・再整理した非公式サイトです。予約・最新情報は公式サイトをご確認ください。
+      </p>
+      <p><a href="https://github.com/jim-auto/este_analystics">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

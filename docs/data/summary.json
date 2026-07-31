@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-07-31 18:50 JST",
+  "disclaimer": "本サイトはエステ魂（estama.jp）の公開情報を分析・再整理した非公式サイトです。予約・最新情報は公式サイトをご確認ください。",
+  "source": "https://estama.jp/",
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "subtitle": "関東エリア",
+      "total_shops": 2976,
+      "sampled_shops": 300,
+      "coupon_count": 110,
+      "price_median": 16000,
+      "available_now": 279
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "subtitle": "関西エリア",
+      "total_shops": 1292,
+      "sampled_shops": 298,
+      "coupon_count": 110,
+      "price_median": 14000,
+      "available_now": 282
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "subtitle": "中部エリア",
+      "total_shops": 991,
+      "sampled_shops": 300,
+      "coupon_count": 110,
+      "price_median": 15000,
+      "available_now": 275
+    }
+  ]
+}
