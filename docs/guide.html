@@ -59,6 +59,57 @@
     </section>
 
     <section class="panel">
+      <h2>本サイトの見方（5つのデータ源）</h2>
+      <ul>
+        <li><strong><a href="area.html?region=kanto">エリア解析</a></strong> — 料金相場・ランキング・クーポン・今すぐ案内可</li>
+        <li><strong><a href="reviews.html?region=kanto">口コミ解析</a></strong> — 公式口コミの評価分布と注意パターン</li>
+        <li><strong><a href="bbs.html?region=kanto">掲示板解析</a></strong> — 爆サイ（2ch系）のキーワード傾向</li>
+        <li><strong><a href="cross.html?region=kanto">クロス分析</a></strong> — 公式口コミと掲示板の突合</li>
+        <li><strong><a href="subareas.html?region=kanto">サブエリア別</a></strong> — 新宿・梅田など細かいエリアの相場</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>公式口コミ vs 掲示板</h2>
+      <p><strong>エステ魂の口コミ</strong>は店舗が確認する公開レビュー。星評価・利用回数付きで比較しやすい反面、満点に偏りやすい傾向があります（本サイトで統計確認可）。</p>
+      <p><strong>爆サイ掲示板</strong>は匿名・口語的。地雷報告や店探しスレが多く、ネガティブが目立ちやすい点に注意。真偽は未検証です。</p>
+      <p>両方を見るときは <a href="cross.html?region=kanto">クロス分析</a> が参考になります。公式は高評価なのに掲示板で注意ワードが出る店舗など、信号として表示しています。</p>
+    </section>
+
+    <section class="panel">
+      <h2>クロス分析の信号</h2>
+      <ul>
+        <li><strong>公式高評価 × 掲示板注意</strong> — 平均4.7以上または満点75%超なのに、掲示板に地雷・外れ等</li>
+        <li><strong>満点口コミ × 掲示板注意</strong> — サンプル内口コミがすべて満点なのに掲示板注意あり</li>
+        <li><strong>注意口コミ × 掲示板注意</strong> — 公式口コミの注意パターンと掲示板注意が両方</li>
+        <li><strong>掲示板のみ言及</strong> — 掲示板で話題だが公式口コミサンプルに未登場</li>
+        <li><strong>公式・掲示板とも好評</strong> — 両方でポジティブ（参考程度）</li>
+      </ul>
+      <p class="section-note">店名の部分一致で突合しており、別店舗・表記ゆれの可能性があります。</p>
+    </section>
+
+    <section class="panel">
+      <h2>口コミ解析の統計用語</h2>
+      <dl>
+        <dt>Wilson 95%CI（信頼区間）</dt>
+        <dd>満点率などの比率が、偶然のブレを除いてどの範囲に収まるかの目安。幅が狭いほどサンプルが多い。</dd>
+        <dt>歪度（skewness）</dt>
+        <dd>評価分布の偏り。負の値が大きいと高評価側に偏っている。</dd>
+        <dt>注意パターン / 注意率</dt>
+        <dd>「割安訴求＋満点」「短文満点」など、客目線で確認したい口コミの自動検出率。</dd>
+        <dt>ピアソン相関 r</dt>
+        <dd>90分料金と星評価の関連。0に近いと料金と評価はほぼ無関係。</dd>
+        <dt>χ²検定</dt>
+        <dd>「コスパ」等の語と満点が偶然以上にセットで現れるかの検定。</dd>
+      </dl>
+    </section>
+
+    <section class="panel">
+      <h2>週次推移について</h2>
+      <p>毎週月曜にデータを更新し、料金中央値・クロスギャップ数などのスナップショットを保存しています。概要ページの「週次推移」は、2回目以降の更新から前週比が表示されます。</p>
+    </section>
+
+    <section class="panel">
       <h2>予約・最新情報</h2>
       <p>本サイトは分析用のスナップショットです。空き状況・出勤・割引の最新情報は必ず
         <a href="https://estama.jp/" target="_blank" rel="noopener">エステ魂 公式サイト</a> で確認してください。</p>

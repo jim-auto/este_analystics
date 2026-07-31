@@ -6,6 +6,8 @@ import re
 from collections import Counter
 from typing import Any
 
+from scraper.shop_match import match_shops_in_text, normalize_text
+
 KEYWORD_GROUPS: dict[str, tuple[str, ...]] = {
     "caution": (
         "地雷",
@@ -47,7 +49,7 @@ TOPIC_PATTERNS: tuple[tuple[str, str], ...] = (
 
 
 def _normalize_name(name: str) -> str:
-    return re.sub(r"\s+", "", name)
+    return normalize_text(name)
 
 
 def _find_keywords(text: str) -> list[str]:
@@ -67,16 +69,7 @@ def _thread_topic(title: str) -> str:
 
 
 def _match_shops(text: str, shop_names: list[str], limit: int = 8) -> list[str]:
-    hits: list[str] = []
-    for name in shop_names:
-        compact = _normalize_name(name)
-        if len(compact) < 3:
-            continue
-        if compact in _normalize_name(text) and name not in hits:
-            hits.append(name)
-        if len(hits) >= limit:
-            break
-    return hits
+    return match_shops_in_text(text, shop_names=shop_names, limit=limit)
 
 
 def analyze_bbs(

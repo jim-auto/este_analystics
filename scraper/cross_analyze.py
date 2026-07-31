@@ -6,11 +6,13 @@ from collections import defaultdict
 from statistics import mean
 from typing import Any
 
-from scraper.bbs_analyze import KEYWORD_GROUPS, _find_keywords, _match_shops
+from scraper.bbs_analyze import KEYWORD_GROUPS, _find_keywords
+from scraper.shop_match import build_shop_matcher, match_shops_in_text
 
 SIGNAL_LABELS = {
     "review_hype_bbs_caution": "公式高評価 × 掲示板注意",
     "review_suspicious_bbs_caution": "注意口コミ × 掲示板注意",
+    "review_perfect_bbs_caution": "満点口コミ × 掲示板注意",
     "bbs_buzz_no_reviews": "掲示板のみ言及",
     "aligned_positive": "公式・掲示板とも好評",
     "bbs_caution_only": "掲示板注意のみ",
@@ -27,7 +29,7 @@ def _index_reviews(reviews: list[dict[str, Any]]) -> dict[str, list[dict[str, An
 
 
 def _index_bbs_posts(
-    posts: list[dict[str, Any]], shop_names: list[str]
+    posts: list[dict[str, Any]], shop_pairs: list[tuple[str, str]]
 ) -> dict[str, dict[str, Any]]:
     details: dict[str, dict[str, Any]] = {}
 
@@ -37,7 +39,7 @@ def _index_bbs_posts(
         caution = [k for k in keywords if k in KEYWORD_GROUPS["caution"]]
         positive = [k for k in keywords if k in KEYWORD_GROUPS["positive"]]
 
-        for shop_name in _match_shops(text, shop_names, limit=20):
+        for shop_name in match_shops_in_text(text, shop_pairs=shop_pairs, limit=20):
             entry = details.setdefault(
                 shop_name,
                 {
@@ -99,17 +101,19 @@ def _detect_signals(
     caution = bbs.get("caution_count") or 0
     positive = bbs.get("positive_count") or 0
 
-    if review_count and avg is not None and avg >= 4.8 and caution >= 1:
+    if review_count and avg is not None and avg >= 4.7 and caution >= 1:
         signals.append("review_hype_bbs_caution")
     if suspicious >= 1 and caution >= 1:
         signals.append("review_suspicious_bbs_caution")
-    if mentions >= 2 and review_count == 0:
+    if review_count and five_star_rate >= 100 and caution >= 1:
+        signals.append("review_perfect_bbs_caution")
+    if mentions >= 1 and review_count == 0:
         signals.append("bbs_buzz_no_reviews")
-    if review_count and avg is not None and avg >= 4.5 and positive >= 1 and caution == 0:
+    if review_count and avg is not None and avg >= 4.3 and positive >= 1 and caution == 0:
         signals.append("aligned_positive")
     if caution >= 1 and review_count == 0:
         signals.append("bbs_caution_only")
-    if review_count and five_star_rate >= 90 and caution >= 1:
+    if review_count and five_star_rate >= 75 and caution >= 1:
         if "review_hype_bbs_caution" not in signals:
             signals.append("review_hype_bbs_caution")
 
@@ -124,8 +128,8 @@ def build_cross_analysis(
 ) -> dict[str, Any]:
     reviews_by_shop = _index_reviews(reviews)
     posts = bbs.get("posts") or []
-    shop_names = [s["name"] for s in shops if s.get("name")]
-    bbs_by_name = _index_bbs_posts(posts, shop_names)
+    shop_pairs, _ = build_shop_matcher(shops)
+    bbs_by_name = _index_bbs_posts(posts, shop_pairs)
 
     shop_profiles: list[dict[str, Any]] = []
     signal_buckets: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -166,8 +170,10 @@ def build_cross_analysis(
         )
 
     matched_shops = len(shop_profiles)
-    caution_overlap = len(signal_buckets.get("review_hype_bbs_caution", [])) + len(
-        signal_buckets.get("review_suspicious_bbs_caution", [])
+    caution_overlap = (
+        len(signal_buckets.get("review_hype_bbs_caution", []))
+        + len(signal_buckets.get("review_suspicious_bbs_caution", []))
+        + len(signal_buckets.get("review_perfect_bbs_caution", []))
     )
 
     notes: list[str] = []
@@ -216,8 +222,10 @@ def build_cross_summary(regions: dict[str, dict]) -> dict[str, Any]:
 
     for key, data in regions.items():
         cross = data.get("cross_analysis") or {}
-        gap_count = len(cross.get("by_signal", {}).get("review_hype_bbs_caution", [])) + len(
-            cross.get("by_signal", {}).get("review_suspicious_bbs_caution", [])
+        gap_count = (
+            len(cross.get("by_signal", {}).get("review_hype_bbs_caution", []))
+            + len(cross.get("by_signal", {}).get("review_suspicious_bbs_caution", []))
+            + len(cross.get("by_signal", {}).get("review_perfect_bbs_caution", []))
         )
         items.append(
             {
@@ -232,6 +240,8 @@ def build_cross_summary(regions: dict[str, dict]) -> dict[str, Any]:
         for profile in cross.get("by_signal", {}).get("review_hype_bbs_caution", [])[:3]:
             all_gaps.append({**profile, "region_key": key, "region_label": data.get("region_label")})
         for profile in cross.get("by_signal", {}).get("review_suspicious_bbs_caution", [])[:2]:
+            all_gaps.append({**profile, "region_key": key, "region_label": data.get("region_label")})
+        for profile in cross.get("by_signal", {}).get("review_perfect_bbs_caution", [])[:2]:
             all_gaps.append({**profile, "region_key": key, "region_label": data.get("region_label")})
 
     return {

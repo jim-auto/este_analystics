@@ -59,6 +59,7 @@ async function initArea() {
           <a href="bbs.html?region=${encodeURIComponent(region)}">掲示板</a>
           <a href="cross.html?region=${encodeURIComponent(region)}">クロス分析</a>
           <a href="shops.html?region=${encodeURIComponent(region)}">店舗索引</a>
+          <a href="subareas.html?region=${encodeURIComponent(region)}">サブエリア別</a>
         </div>
       </section>
 

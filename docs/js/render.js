@@ -862,21 +862,57 @@ function renderShopDetail(shop, regionKey, regionLabel) {
 
 function renderShopList(shops, regionKey, regionLabel) {
   if (!shops?.length) return "<p class='muted'>店舗データなし</p>";
+
+  const areas = [...new Set(shops.map((s) => s.sub_area).filter(Boolean))].sort();
+  const signalMap = new Map();
+  shops.forEach((s) => {
+    (s.signals || []).forEach((sig, i) => {
+      if (!signalMap.has(sig)) {
+        signalMap.set(sig, (s.signal_labels || [])[i] || sig);
+      }
+    });
+  });
+
   return `
     <section class="area-header">
       <p class="eyebrow">${escapeHtml(regionLabel)}</p>
-      <h1>店舗索引（${shops.length}件）</h1>
+      <h1>店舗索引（<span id="shops-count">${shops.length}</span>件）</h1>
       <p class="lead">口コミ・掲示板・ランキング・クーポンのいずれかに登場した店舗。信号の多い順。</p>
     </section>
+
+    <section class="panel shop-filters">
+      <div class="filter-row">
+        <label class="filter-field">
+          <span>店名検索</span>
+          <input type="search" id="shop-search" placeholder="店名の一部を入力…" autocomplete="off">
+        </label>
+        <label class="filter-field">
+          <span>エリア</span>
+          <select id="shop-area-filter">
+            <option value="">すべて</option>
+            ${areas.map((a) => `<option value="${escapeHtml(a)}">${escapeHtml(a)}</option>`).join("")}
+          </select>
+        </label>
+        <label class="filter-field">
+          <span>信号</span>
+          <select id="shop-signal-filter">
+            <option value="">すべて</option>
+            ${[...signalMap.entries()].map(([sig, label]) => `<option value="${escapeHtml(sig)}">${escapeHtml(label)}</option>`).join("")}
+          </select>
+        </label>
+      </div>
+    </section>
+
     <div class="table-scroll">
-      <table>
-        <thead><tr><th>店舗</th><th>90分</th><th>口コミ</th><th>掲示板</th><th>信号</th></tr></thead>
+      <table id="shops-table">
+        <thead><tr><th>店舗</th><th>エリア</th><th>90分</th><th>口コミ</th><th>掲示板</th><th>信号</th></tr></thead>
         <tbody>
           ${shops
             .map(
               (s) => `
-            <tr>
+            <tr data-name="${escapeHtml((s.name || "").toLowerCase())}" data-area="${escapeHtml(s.sub_area || "")}" data-signals="${escapeHtml((s.signals || []).join(","))}">
               <td><a href="shop.html?region=${encodeURIComponent(regionKey)}&id=${encodeURIComponent(s.id)}">${escapeHtml(s.name)}</a></td>
+              <td>${escapeHtml(s.sub_area || "—")}</td>
               <td>${yen(s.price_90min)}</td>
               <td>${s.review?.count ? `${s.review.avg_rating ?? "—"} (${s.review.count})` : "—"}</td>
               <td>${s.bbs?.mentions ? `${s.bbs.mentions}件` : "—"}</td>
@@ -887,4 +923,139 @@ function renderShopList(shops, regionKey, regionLabel) {
         </tbody>
       </table>
     </div>`;
+}
+
+function renderHistoryPanel(history) {
+  if (!history?.snapshots?.length) return "";
+
+  const changes = history.changes || {};
+  const regionLabels = { kanto: "東京", chubu: "名古屋", kansai: "大阪" };
+
+  const changeRows = Object.entries(changes)
+    .map(([key, fields]) => {
+      const price = fields.price_median;
+      const gap = fields.cross_gap_count;
+      const parts = [];
+      if (price) {
+        const sign = price.delta > 0 ? "+" : "";
+        parts.push(`料金中央値 ${sign}¥${Math.abs(price.delta).toLocaleString("ja-JP")}`);
+      }
+      if (gap) parts.push(`ギャップ ${gap.previous}→${gap.current}`);
+      if (!parts.length) return "";
+      return `<tr><td>${escapeHtml(regionLabels[key] || key)}</td><td>${parts.join(" · ")}</td></tr>`;
+    })
+    .filter(Boolean)
+    .join("");
+
+  return `
+    <section class="panel history-panel">
+      <h2>📈 週次推移</h2>
+      <p class="section-note">
+        スナップショット ${history.snapshot_count} 件
+        ${history.previous_date ? `（前回: ${escapeHtml(history.previous_date)} → 今回: ${escapeHtml(history.latest_date || "")}）` : ""}
+      </p>
+      ${(history.notes || []).map((n) => `<p class="stat-detail">${escapeHtml(n)}</p>`).join("")}
+      ${changeRows ? `
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>エリア</th><th>前週比</th></tr></thead>
+            <tbody>${changeRows}</tbody>
+          </table>
+        </div>
+      ` : "<p class='muted'>前回スナップショットとの比較データは次回更新から表示されます。</p>"}
+    </section>`;
+}
+
+function renderSubareaList(areas, regionKey, regionLabel) {
+  if (!areas?.length) return "<p class='muted'>サブエリアデータなし</p>";
+  return `
+    <section class="area-header">
+      <p class="eyebrow">${escapeHtml(regionLabel)}</p>
+      <h1>サブエリア別ガイド（${areas.length}エリア）</h1>
+      <p class="lead">店舗リストサンプル内のエリア別相場。行きたい場所の料金目安確認に。</p>
+    </section>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>エリア</th><th>店数</th><th>90分中央値</th><th>最安〜最高</th><th>案内可</th><th>注意信号</th><th></th></tr>
+        </thead>
+        <tbody>
+          ${areas
+            .map(
+              (a) => `
+            <tr>
+              <td>${escapeHtml(a.name)}</td>
+              <td>${a.shop_count ?? "—"}</td>
+              <td>${yen(a.price_median)}</td>
+              <td>${yen(a.price_min)}〜${yen(a.price_max)}</td>
+              <td>${a.available_now ?? 0}</td>
+              <td>${a.signal_shop_count ? `<span class="warn-badge">${a.signal_shop_count}</span>` : "—"}</td>
+              <td><a href="subarea.html?region=${encodeURIComponent(regionKey)}&area=${encodeURIComponent(a.name)}">詳細</a></td>
+            </tr>`
+            )
+            .join("")}
+        </tbody>
+      </table>
+    </div>`;
+}
+
+function renderSubareaDetail(area, regionKey, regionLabel) {
+  if (!area) return "<p class='muted'>エリアが見つかりません</p>";
+  return `
+    <section class="area-header">
+      <p class="eyebrow">${escapeHtml(regionLabel)} · サブエリア</p>
+      <h1>${escapeHtml(area.name)}</h1>
+      <div class="meta-row">
+        <a href="subareas.html?region=${encodeURIComponent(regionKey)}">エリア一覧へ</a>
+        <a href="area.html?region=${encodeURIComponent(regionKey)}">${escapeHtml(regionLabel)}エリア詳細</a>
+      </div>
+    </section>
+
+    <section class="stat-banner">
+      <div class="stat"><div class="label">店舗数</div><div class="value">${area.shop_count ?? 0}</div></div>
+      <div class="stat"><div class="label">90分 中央値</div><div class="value">${yen(area.price_median)}</div></div>
+      <div class="stat"><div class="label">最安〜最高</div><div class="value">${yen(area.price_min)}〜${yen(area.price_max)}</div></div>
+      <div class="stat"><div class="label">今すぐ案内可</div><div class="value">${area.available_now ?? 0}店</div></div>
+    </section>
+
+    ${(area.signal_shops || []).length ? `
+    <section class="panel">
+      <h2>⚠ クロス分析で信号あり</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>店舗</th><th>90分</th><th>信号</th></tr></thead>
+          <tbody>
+            ${area.signal_shops
+              .map(
+                (s) => `
+              <tr>
+                <td><a href="shop.html?region=${encodeURIComponent(regionKey)}&id=${encodeURIComponent(s.id)}">${escapeHtml(s.name)}</a></td>
+                <td>${yen(s.price_90min)}</td>
+                <td>${(s.signal_labels || []).map((l) => `<span class="tag">${escapeHtml(l)}</span>`).join(" ")}</td>
+              </tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
+    </section>` : ""}
+
+    <section class="grid-2">
+      <div class="panel">
+        <h2>料金が安めの店</h2>
+        ${renderShopTable(
+          (area.budget_shops || []).map((s) => ({ ...s, sub_area: area.name, shop_type: "" })),
+          ["クーポン"],
+          regionKey
+        )}
+      </div>
+      <div class="panel">
+        <h2>エリア内の店舗（最大25件）</h2>
+        ${renderShopTable(
+          (area.shops || []).map((s) => ({ ...s, sub_area: area.name })),
+          [],
+          regionKey
+        )}
+      </div>
+    </section>`;
 }

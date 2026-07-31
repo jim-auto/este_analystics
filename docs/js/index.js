@@ -86,6 +86,16 @@ async function initIndex() {
     if (crossSection && summary.cross) {
       crossSection.innerHTML = renderCrossSummary(summary.cross);
     }
+
+    const historySection = document.getElementById("history-section");
+    if (historySection) {
+      try {
+        const history = await loadJson("history.json");
+        historySection.innerHTML = renderHistoryPanel(history);
+      } catch {
+        historySection.innerHTML = "";
+      }
+    }
   } catch (err) {
     updatedEl.textContent = "データの読込に失敗しました";
     cardsEl.innerHTML = `<p class="error">${escapeHtml(err.message)}</p>`;

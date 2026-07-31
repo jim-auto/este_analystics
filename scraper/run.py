@@ -22,11 +22,14 @@ from scraper.parse_ranking import parse_ranking
 from scraper.parse_reviewlist import parse_reviewlist
 from scraper.parse_shoplist import parse_shoplist_pages
 from scraper.review_analyze import analyze_reviews, build_review_summary
+from scraper.history import build_history_payload
 from scraper.shop_index import build_shop_index
+from scraper.subarea_index import build_subarea_index
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = ROOT / "data" / "processed"
 DOCS_DATA_DIR = ROOT / "docs" / "data"
+DOCS_HISTORY = DOCS_DATA_DIR / "history.json"
 
 
 def _shoplist_paths(slug: str) -> list[str]:
@@ -36,7 +39,7 @@ def _shoplist_paths(slug: str) -> list[str]:
     return paths
 
 
-def scrape_region(key: str) -> tuple[dict, dict]:
+def scrape_region(key: str) -> tuple[dict, dict, dict]:
     cfg = REGIONS[key]
     slug = cfg["slug"]
 
@@ -80,6 +83,7 @@ def scrape_region(key: str) -> tuple[dict, dict]:
         rankings,
         coupons,
     )
+    subarea_index = build_subarea_index(key, cfg["label"], shops, shop_index)
 
     bbs_public = {k: v for k, v in bbs.items() if k != "posts"}
 
@@ -111,7 +115,7 @@ def scrape_region(key: str) -> tuple[dict, dict]:
             "signal_labels": cross_analysis.get("signal_labels"),
             "by_signal": cross_analysis.get("by_signal"),
         },
-    }, shop_index
+    }, shop_index, subarea_index
 
 
 def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
@@ -153,7 +157,12 @@ def build_summary(regions: dict[str, dict], updated_at: str) -> dict:
     }
 
 
-def write_outputs(regions: dict[str, dict], summary: dict, shop_indexes: dict[str, dict]) -> None:
+def write_outputs(
+    regions: dict[str, dict],
+    summary: dict,
+    shop_indexes: dict[str, dict],
+    subarea_indexes: dict[str, dict],
+) -> None:
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -174,6 +183,16 @@ def write_outputs(regions: dict[str, dict], summary: dict, shop_indexes: dict[st
         (PROCESSED_DIR / f"shops_{key}.json").write_text(text, encoding="utf-8")
         (DOCS_DATA_DIR / f"shops_{key}.json").write_text(text, encoding="utf-8")
 
+    for key, index in subarea_indexes.items():
+        text = json.dumps(index, ensure_ascii=False, indent=2)
+        (PROCESSED_DIR / f"subareas_{key}.json").write_text(text, encoding="utf-8")
+        (DOCS_DATA_DIR / f"subareas_{key}.json").write_text(text, encoding="utf-8")
+
+    history = build_history_payload(summary)
+    history_text = json.dumps(history, ensure_ascii=False, indent=2)
+    DOCS_HISTORY.write_text(history_text, encoding="utf-8")
+    (PROCESSED_DIR / "history.json").write_text(history_text, encoding="utf-8")
+
 
 def main() -> None:
     jst = timezone(timedelta(hours=9))
@@ -181,13 +200,15 @@ def main() -> None:
 
     regions = {}
     shop_indexes = {}
+    subarea_indexes = {}
     for key in REGIONS:
-        payload, shop_index = scrape_region(key)
+        payload, shop_index, subarea_index = scrape_region(key)
         regions[key] = payload
         shop_indexes[key] = shop_index
+        subarea_indexes[key] = subarea_index
 
     summary = build_summary(regions, updated_at)
-    write_outputs(regions, summary, shop_indexes)
+    write_outputs(regions, summary, shop_indexes, subarea_indexes)
     print(f"Done. Updated at {updated_at}")
 
 

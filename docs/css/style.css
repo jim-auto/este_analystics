@@ -430,6 +430,38 @@ small { color: var(--muted); font-size: 0.78rem; }
   font-size: 0.82rem;
 }
 
+.shop-filters { padding: 1rem 1.25rem; }
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 160px;
+  flex: 1;
+}
+
+.filter-field span {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.filter-field input,
+.filter-field select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.92rem;
+}
+
 @media (max-width: 640px) {
   .bar-row { grid-template-columns: 60px 1fr 72px; }
   .header-inner { flex-direction: column; align-items: flex-start; }

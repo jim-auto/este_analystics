@@ -5,7 +5,7 @@ CTGID_MENES = 136
 
 # Thread list pages and post sampling limits (keep requests modest).
 BBS_THREAD_LIST_PAGES = 1
-BBS_SAMPLE_THREADS = 5
+BBS_SAMPLE_THREADS = 10
 BBS_MAX_POSTS_PER_THREAD = 40
 BBS_POST_EXCERPT_MAX = 160
 

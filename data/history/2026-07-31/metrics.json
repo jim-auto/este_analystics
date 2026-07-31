@@ -1,0 +1,57 @@
+{
+  "updated_at": "2026-07-31 22:10 JST",
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 9000,
+      "price_max": 26000,
+      "available_now": 459,
+      "sampled_shops": 499,
+      "review_avg": 4.82,
+      "review_five_star_rate": 61,
+      "review_suspicious_rate": 15.9,
+      "bbs_caution_rate": 3.8,
+      "bbs_positive_rate": 6.9,
+      "cross_gap_count": 4,
+      "cross_matched_shops": 302,
+      "parsed_reviews": 954
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 44000,
+      "available_now": 478,
+      "sampled_shops": 495,
+      "review_avg": 4.85,
+      "review_five_star_rate": 69,
+      "review_suspicious_rate": 18.5,
+      "bbs_caution_rate": 3.0,
+      "bbs_positive_rate": 7.2,
+      "cross_gap_count": 3,
+      "cross_matched_shops": 314,
+      "parsed_reviews": 1003
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 35000,
+      "available_now": 380,
+      "sampled_shops": 500,
+      "review_avg": 4.8,
+      "review_five_star_rate": 62,
+      "review_suspicious_rate": 15.8,
+      "bbs_caution_rate": 1.5,
+      "bbs_positive_rate": 7.0,
+      "cross_gap_count": 3,
+      "cross_matched_shops": 304,
+      "parsed_reviews": 989
+    }
+  ],
+  "date": "2026-07-31"
+}
