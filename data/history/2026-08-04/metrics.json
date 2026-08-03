@@ -1,0 +1,163 @@
+{
+  "updated_at": "2026-08-04 00:51 JST",
+  "cross_gap_shops": [
+    {
+      "id": "50787",
+      "name": "浦安メゾン・ミルク",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "50787",
+      "name": "浦安メゾン・ミルク",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "48906",
+      "name": "ヒルガオ～大人セラピスト倶楽部～江坂店",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "44299",
+      "name": "新大阪メンズエステ・メンエス・秘宝殿",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "35218",
+      "name": "ぽっちゃりのメンズエステで癒される",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "48906",
+      "name": "ヒルガオ～大人セラピスト倶楽部～江坂店",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "48906",
+      "name": "ヒルガオ～大人セラピスト倶楽部～江坂店",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "44299",
+      "name": "新大阪メンズエステ・メンエス・秘宝殿",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "25108",
+      "name": "店舗/マンション個室複合店　Felice（ﾌｪﾘｰﾁｪ)",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "41412",
+      "name": "名古屋・栄メンズエステ〜HANIEL〜",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "33117",
+      "name": "Ange Spa～アンジュスパ 豊橋ルーム",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "33117",
+      "name": "Ange Spa～アンジュスパ 豊橋ルーム",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "おすすめ": 10,
+        "最高": 8,
+        "当たり": 8,
+        "二度と": 7,
+        "寛容": 5
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "最高": 11,
+        "健全": 8,
+        "オプション": 7,
+        "詐欺": 5,
+        "安い": 4
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "当たり": 10,
+        "最高": 8,
+        "寛容": 7,
+        "ハズレ": 6,
+        "おすすめ": 5
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 6980,
+      "price_max": 28000,
+      "available_now": 826,
+      "sampled_shops": 999,
+      "review_avg": 4.79,
+      "review_five_star_rate": 58,
+      "review_suspicious_rate": 14.7,
+      "bbs_caution_rate": 2.2,
+      "bbs_positive_rate": 8.5,
+      "cross_gap_count": 2,
+      "cross_matched_shops": 515,
+      "parsed_reviews": 1591
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 44000,
+      "available_now": 791,
+      "sampled_shops": 998,
+      "review_avg": 4.86,
+      "review_five_star_rate": 71,
+      "review_suspicious_rate": 20.1,
+      "bbs_caution_rate": 1.5,
+      "bbs_positive_rate": 4.9,
+      "cross_gap_count": 7,
+      "cross_matched_shops": 512,
+      "parsed_reviews": 1707
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 404,
+      "sampled_shops": 996,
+      "review_avg": 4.81,
+      "review_five_star_rate": 60,
+      "review_suspicious_rate": 13.6,
+      "bbs_caution_rate": 1.5,
+      "bbs_positive_rate": 6.8,
+      "cross_gap_count": 5,
+      "cross_matched_shops": 422,
+      "parsed_reviews": 1160
+    }
+  ],
+  "date": "2026-08-04"
+}
