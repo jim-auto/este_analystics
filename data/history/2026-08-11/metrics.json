@@ -1,0 +1,151 @@
+{
+  "updated_at": "2026-08-11 00:20 JST",
+  "cross_gap_shops": [
+    {
+      "id": "34408",
+      "name": "Aroma　Emerald~アロマ・エメラルド~",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "34408",
+      "name": "Aroma　Emerald~アロマ・エメラルド~",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "44299",
+      "name": "新大阪メンズエステ・メンエス・秘宝殿",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "30408",
+      "name": "ヒルガオ～大人セラピスト倶楽部～",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "44293",
+      "name": "かりそめ 別館 大阪泡洗体マッサージ",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "44299",
+      "name": "新大阪メンズエステ・メンエス・秘宝殿",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "30408",
+      "name": "ヒルガオ～大人セラピスト倶楽部～",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "25108",
+      "name": "店舗/マンション個室複合店　Felice（ﾌｪﾘｰﾁｪ)",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "神": 13,
+        "最高": 8,
+        "指名": 7,
+        "おすすめ": 5,
+        "寛容": 5
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "詐欺": 6,
+        "リピ": 5,
+        "オプション": 4,
+        "おすすめ": 4,
+        "地雷": 4
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "最高": 17,
+        "当たり": 15,
+        "優良": 8,
+        "おすすめ": 6,
+        "指名": 5
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 28000,
+      "available_now": 852,
+      "sampled_shops": 998,
+      "review_avg": 4.79,
+      "review_five_star_rate": 57,
+      "review_suspicious_rate": 14.9,
+      "bbs_caution_rate": 1.5,
+      "bbs_positive_rate": 8.2,
+      "cross_gap_count": 4,
+      "cross_matched_shops": 519,
+      "parsed_reviews": 1564
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 44000,
+      "available_now": 792,
+      "sampled_shops": 1000,
+      "review_avg": 4.84,
+      "review_five_star_rate": 69,
+      "review_suspicious_rate": 21.0,
+      "bbs_caution_rate": 4.0,
+      "bbs_positive_rate": 3.5,
+      "cross_gap_count": 8,
+      "cross_matched_shops": 517,
+      "parsed_reviews": 1684
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 395,
+      "sampled_shops": 1000,
+      "review_avg": 4.81,
+      "review_five_star_rate": 60,
+      "review_suspicious_rate": 13.9,
+      "bbs_caution_rate": 0.8,
+      "bbs_positive_rate": 11.3,
+      "cross_gap_count": 1,
+      "cross_matched_shops": 423,
+      "parsed_reviews": 1171
+    }
+  ],
+  "date": "2026-08-11"
+}
