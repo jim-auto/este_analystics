@@ -1,0 +1,127 @@
+{
+  "updated_at": "2026-08-18 00:13 JST",
+  "cross_gap_shops": [
+    {
+      "id": "29244",
+      "name": "錦糸町Aroma Velour~アロマ ベロア~",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "43774",
+      "name": "つむぎ@大阪セラピスト",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "50693",
+      "name": "自宅出張メンエス～夜桜～",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "25108",
+      "name": "店舗/マンション個室複合店　Felice（ﾌｪﾘｰﾁｪ)",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "最高": 6,
+        "神": 5,
+        "寛容": 5,
+        "おすすめ": 3,
+        "穴場": 3
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "最悪": 16,
+        "神": 15,
+        "健全": 9,
+        "オプション": 7,
+        "おすすめ": 7
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "当たり": 10,
+        "おすすめ": 9,
+        "リピ": 9,
+        "寛容": 8,
+        "ハズレ": 7
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 28000,
+      "available_now": 853,
+      "sampled_shops": 998,
+      "review_avg": 4.79,
+      "review_five_star_rate": 58,
+      "review_suspicious_rate": 13.9,
+      "bbs_caution_rate": 1.2,
+      "bbs_positive_rate": 3.5,
+      "cross_gap_count": 3,
+      "cross_matched_shops": 517,
+      "parsed_reviews": 1590
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 44000,
+      "available_now": 789,
+      "sampled_shops": 998,
+      "review_avg": 4.85,
+      "review_five_star_rate": 68,
+      "review_suspicious_rate": 21.4,
+      "bbs_caution_rate": 4.3,
+      "bbs_positive_rate": 8.0,
+      "cross_gap_count": 1,
+      "cross_matched_shops": 521,
+      "parsed_reviews": 1695
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 405,
+      "sampled_shops": 1000,
+      "review_avg": 4.81,
+      "review_five_star_rate": 59,
+      "review_suspicious_rate": 13.0,
+      "bbs_caution_rate": 2.8,
+      "bbs_positive_rate": 9.0,
+      "cross_gap_count": 2,
+      "cross_matched_shops": 438,
+      "parsed_reviews": 1189
+    }
+  ],
+  "date": "2026-08-18"
+}
