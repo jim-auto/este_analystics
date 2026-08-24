@@ -1,0 +1,127 @@
+{
+  "updated_at": "2026-08-25 00:27 JST",
+  "cross_gap_shops": [
+    {
+      "id": "33959",
+      "name": "必殺アキバ娘　錦糸町ルーム",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "35610",
+      "name": "必殺天国エステ",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "50190",
+      "name": "東京メンズエステ-TokyoMensEsthe-銀座ルーム",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "39809",
+      "name": "富山メンズエステ Dear -ディア-",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "指名": 9,
+        "寛容": 8,
+        "当たり": 8,
+        "最高": 8,
+        "神": 8
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "オプション": 5,
+        "地雷": 4,
+        "安い": 4,
+        "リピ": 3,
+        "コスパ": 2
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "当たり": 9,
+        "最高": 8,
+        "オススメ": 8,
+        "おすすめ": 7,
+        "コスパ": 4
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 28000,
+      "available_now": 862,
+      "sampled_shops": 1000,
+      "review_avg": 4.78,
+      "review_five_star_rate": 58,
+      "review_suspicious_rate": 14.7,
+      "bbs_caution_rate": 3.0,
+      "bbs_positive_rate": 6.9,
+      "cross_gap_count": 6,
+      "cross_matched_shops": 520,
+      "parsed_reviews": 1596
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 44000,
+      "available_now": 788,
+      "sampled_shops": 1000,
+      "review_avg": 4.85,
+      "review_five_star_rate": 69,
+      "review_suspicious_rate": 21.3,
+      "bbs_caution_rate": 1.5,
+      "bbs_positive_rate": 1.2,
+      "cross_gap_count": 0,
+      "cross_matched_shops": 513,
+      "parsed_reviews": 1698
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 402,
+      "sampled_shops": 1000,
+      "review_avg": 4.81,
+      "review_five_star_rate": 62,
+      "review_suspicious_rate": 13.4,
+      "bbs_caution_rate": 1.2,
+      "bbs_positive_rate": 8.8,
+      "cross_gap_count": 1,
+      "cross_matched_shops": 438,
+      "parsed_reviews": 1190
+    }
+  ],
+  "date": "2026-08-25"
+}
