@@ -1,0 +1,139 @@
+{
+  "updated_at": "2026-09-01 05:26 JST",
+  "cross_gap_shops": [
+    {
+      "id": "35557",
+      "name": "東京スパ＆マッサージ COCONA GRAN",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "50787",
+      "name": "浦安メゾン・ミルク",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "50787",
+      "name": "浦安メゾン・ミルク",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "35218",
+      "name": "ぽっちゃりのメンズエステで癒される",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "35218",
+      "name": "ぽっちゃりのメンズエステで癒される",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "当たり": 12,
+        "最高": 11,
+        "コスパ": 7,
+        "寛容": 7,
+        "リピ": 5
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "健全": 8,
+        "寛容": 7,
+        "安い": 6,
+        "リピ": 6,
+        "神": 6
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "オススメ": 9,
+        "オプション": 9,
+        "当たり": 7,
+        "最高": 7,
+        "健全": 4
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 6980,
+      "price_max": 28000,
+      "available_now": 821,
+      "sampled_shops": 1000,
+      "review_avg": 4.78,
+      "review_five_star_rate": 58,
+      "review_suspicious_rate": 14.8,
+      "bbs_caution_rate": 3.8,
+      "bbs_positive_rate": 6.5,
+      "cross_gap_count": 6,
+      "cross_matched_shops": 522,
+      "parsed_reviews": 1587
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 44000,
+      "available_now": 800,
+      "sampled_shops": 1000,
+      "review_avg": 4.84,
+      "review_five_star_rate": 68,
+      "review_suspicious_rate": 20.2,
+      "bbs_caution_rate": 1.5,
+      "bbs_positive_rate": 5.8,
+      "cross_gap_count": 2,
+      "cross_matched_shops": 519,
+      "parsed_reviews": 1689
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 405,
+      "sampled_shops": 969,
+      "review_avg": 4.81,
+      "review_five_star_rate": 62,
+      "review_suspicious_rate": 14.1,
+      "bbs_caution_rate": 0.5,
+      "bbs_positive_rate": 6.0,
+      "cross_gap_count": 0,
+      "cross_matched_shops": 438,
+      "parsed_reviews": 1205
+    }
+  ],
+  "date": "2026-09-01"
+}
