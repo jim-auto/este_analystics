@@ -1,7 +1,7 @@
 {
-  "snapshot_count": 6,
-  "latest_date": "2026-09-01",
-  "previous_date": "2026-08-25",
+  "snapshot_count": 7,
+  "latest_date": "2026-09-08",
+  "previous_date": "2026-09-01",
   "snapshots": [
     {
       "updated_at": "2026-07-31 22:37 JST",
@@ -854,6 +854,169 @@
         }
       ],
       "date": "2026-09-01"
+    },
+    {
+      "updated_at": "2026-09-08 03:54 JST",
+      "cross_gap_shops": [
+        {
+          "id": "33959",
+          "name": "必殺アキバ娘　錦糸町ルーム",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "31741",
+          "name": "アリー吉祥寺",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "46888",
+          "name": "田町メンズエステ Cute & Belle",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "31741",
+          "name": "アリー吉祥寺",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "46888",
+          "name": "田町メンズエステ Cute & Belle",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "31741",
+          "name": "アリー吉祥寺",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "44299",
+          "name": "新大阪メンズエステ・メンエス・秘宝殿",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "30408",
+          "name": "ヒルガオ～大人セラピスト倶楽部～",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "51335",
+          "name": "SUKI♡だらけ🏩隙がある女たちが最果てへと導く🏴‍☠️",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "50901",
+          "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "44299",
+          "name": "新大阪メンズエステ・メンエス・秘宝殿",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "30408",
+          "name": "ヒルガオ～大人セラピスト倶楽部～",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        }
+      ],
+      "bbs_keywords": [
+        {
+          "key": "kanto",
+          "keywords": {
+            "最高": 9,
+            "おすすめ": 6,
+            "寛容": 6,
+            "最悪": 5,
+            "リピ": 4
+          }
+        },
+        {
+          "key": "kansai",
+          "keywords": {
+            "おすすめ": 10,
+            "健全": 6,
+            "最悪": 6,
+            "最高": 4,
+            "オプション": 3
+          }
+        },
+        {
+          "key": "chubu",
+          "keywords": {
+            "最高": 18,
+            "当たり": 11,
+            "オススメ": 6,
+            "残念": 5,
+            "寛容": 5
+          }
+        }
+      ],
+      "regions": [
+        {
+          "key": "kanto",
+          "label": "東京",
+          "price_median": 16000,
+          "price_min": 6980,
+          "price_max": 28000,
+          "available_now": 869,
+          "sampled_shops": 1000,
+          "review_avg": 4.79,
+          "review_five_star_rate": 58,
+          "review_suspicious_rate": 16.3,
+          "bbs_caution_rate": 4.9,
+          "bbs_positive_rate": 5.9,
+          "cross_gap_count": 6,
+          "cross_matched_shops": 520,
+          "parsed_reviews": 1616
+        },
+        {
+          "key": "kansai",
+          "label": "大阪",
+          "price_median": 14000,
+          "price_min": 9000,
+          "price_max": 44000,
+          "available_now": 796,
+          "sampled_shops": 1000,
+          "review_avg": 4.83,
+          "review_five_star_rate": 68,
+          "review_suspicious_rate": 22.8,
+          "bbs_caution_rate": 2.3,
+          "bbs_positive_rate": 5.2,
+          "cross_gap_count": 8,
+          "cross_matched_shops": 521,
+          "parsed_reviews": 1696
+        },
+        {
+          "key": "chubu",
+          "label": "名古屋",
+          "price_median": 15000,
+          "price_min": 8000,
+          "price_max": 45000,
+          "available_now": 407,
+          "sampled_shops": 969,
+          "review_avg": 4.82,
+          "review_five_star_rate": 63,
+          "review_suspicious_rate": 14.1,
+          "bbs_caution_rate": 1.8,
+          "bbs_positive_rate": 9.2,
+          "cross_gap_count": 0,
+          "cross_matched_shops": 435,
+          "parsed_reviews": 1191
+        }
+      ],
+      "date": "2026-09-08"
     }
   ],
   "changes": {
@@ -864,9 +1027,9 @@
         "delta": 0
       },
       "review_avg": {
-        "current": 4.78,
+        "current": 4.79,
         "previous": 4.78,
-        "delta": 0.0
+        "delta": 0.01
       },
       "review_five_star_rate": {
         "current": 58,
@@ -874,14 +1037,14 @@
         "delta": 0
       },
       "review_suspicious_rate": {
-        "current": 14.8,
-        "previous": 14.7,
-        "delta": 0.1
+        "current": 16.3,
+        "previous": 14.8,
+        "delta": 1.5
       },
       "bbs_caution_rate": {
-        "current": 3.8,
-        "previous": 3.0,
-        "delta": 0.8
+        "current": 4.9,
+        "previous": 3.8,
+        "delta": 1.1
       },
       "cross_gap_count": {
         "current": 6,
@@ -889,9 +1052,9 @@
         "delta": 0
       },
       "available_now": {
-        "current": 821,
-        "previous": 862,
-        "delta": -41
+        "current": 869,
+        "previous": 821,
+        "delta": 48
       }
     },
     "kansai": {
@@ -901,34 +1064,34 @@
         "delta": 0
       },
       "review_avg": {
-        "current": 4.84,
-        "previous": 4.85,
+        "current": 4.83,
+        "previous": 4.84,
         "delta": -0.01
       },
       "review_five_star_rate": {
         "current": 68,
-        "previous": 69,
-        "delta": -1
+        "previous": 68,
+        "delta": 0
       },
       "review_suspicious_rate": {
-        "current": 20.2,
-        "previous": 21.3,
-        "delta": -1.1
+        "current": 22.8,
+        "previous": 20.2,
+        "delta": 2.6
       },
       "bbs_caution_rate": {
-        "current": 1.5,
+        "current": 2.3,
         "previous": 1.5,
-        "delta": 0.0
+        "delta": 0.8
       },
       "cross_gap_count": {
-        "current": 2,
-        "previous": 0,
-        "delta": 2
+        "current": 8,
+        "previous": 2,
+        "delta": 6
       },
       "available_now": {
-        "current": 800,
-        "previous": 788,
-        "delta": 12
+        "current": 796,
+        "previous": 800,
+        "delta": -4
       }
     },
     "chubu": {
@@ -938,39 +1101,38 @@
         "delta": 0
       },
       "review_avg": {
-        "current": 4.81,
+        "current": 4.82,
         "previous": 4.81,
-        "delta": 0.0
+        "delta": 0.01
       },
       "review_five_star_rate": {
-        "current": 62,
+        "current": 63,
         "previous": 62,
-        "delta": 0
+        "delta": 1
       },
       "review_suspicious_rate": {
         "current": 14.1,
-        "previous": 13.4,
-        "delta": 0.7
+        "previous": 14.1,
+        "delta": 0.0
       },
       "bbs_caution_rate": {
-        "current": 0.5,
-        "previous": 1.2,
-        "delta": -0.7
+        "current": 1.8,
+        "previous": 0.5,
+        "delta": 1.3
       },
       "cross_gap_count": {
         "current": 0,
-        "previous": 1,
-        "delta": -1
+        "previous": 0,
+        "delta": 0
       },
       "available_now": {
-        "current": 405,
-        "previous": 402,
-        "delta": 3
+        "current": 407,
+        "previous": 405,
+        "delta": 2
       }
     }
   },
   "notes": [
-    "kansai: クロスギャップ店舗数 0 → 2",
-    "chubu: クロスギャップ店舗数 1 → 0"
+    "kansai: クロスギャップ店舗数 2 → 8"
   ]
 }
