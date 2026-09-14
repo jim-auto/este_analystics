@@ -1,0 +1,163 @@
+{
+  "updated_at": "2026-09-15 04:39 JST",
+  "cross_gap_shops": [
+    {
+      "id": "46798",
+      "name": "癒神アキバ伝説－YUSHIN－",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "30733",
+      "name": "東京アロマエステ",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "46798",
+      "name": "癒神アキバ伝説－YUSHIN－",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "31741",
+      "name": "アリー吉祥寺",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "50901",
+      "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "35218",
+      "name": "ぽっちゃりのメンズエステで癒される",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "44299",
+      "name": "新大阪メンズエステ・メンエス・秘宝殿",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "50901",
+      "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "50901",
+      "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "35218",
+      "name": "ぽっちゃりのメンズエステで癒される",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "リピ": 8,
+        "おすすめ": 8,
+        "ハズレ": 6,
+        "最高": 4,
+        "神": 3
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "リピ": 4,
+        "最悪": 4,
+        "オプション": 4,
+        "指名": 3,
+        "最高": 2
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "当たり": 10,
+        "最高": 10,
+        "残念": 7,
+        "リピ": 6,
+        "寛容": 4
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 28000,
+      "available_now": 872,
+      "sampled_shops": 1000,
+      "review_avg": 4.77,
+      "review_five_star_rate": 57,
+      "review_suspicious_rate": 15.8,
+      "bbs_caution_rate": 3.7,
+      "bbs_positive_rate": 7.1,
+      "cross_gap_count": 8,
+      "cross_matched_shops": 522,
+      "parsed_reviews": 1576
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 44000,
+      "available_now": 814,
+      "sampled_shops": 1000,
+      "review_avg": 4.84,
+      "review_five_star_rate": 68,
+      "review_suspicious_rate": 21.2,
+      "bbs_caution_rate": 2.0,
+      "bbs_positive_rate": 2.2,
+      "cross_gap_count": 7,
+      "cross_matched_shops": 513,
+      "parsed_reviews": 1695
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 409,
+      "sampled_shops": 971,
+      "review_avg": 4.8,
+      "review_five_star_rate": 61,
+      "review_suspicious_rate": 14.7,
+      "bbs_caution_rate": 2.2,
+      "bbs_positive_rate": 8.2,
+      "cross_gap_count": 2,
+      "cross_matched_shops": 441,
+      "parsed_reviews": 1207
+    }
+  ],
+  "date": "2026-09-15"
+}

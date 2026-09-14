@@ -1,118 +1,9 @@
 {
-  "updated_at": "2026-09-08 03:54 JST",
+  "updated_at": "2026-09-15 04:39 JST",
   "disclaimer": "本サイトはエステ魂（estama.jp）の公開情報を分析・再整理した非公式サイトです。予約・最新情報は公式サイトをご確認ください。",
   "source": "https://estama.jp/",
   "highlights": {
-    "ranking_movers": [
-      {
-        "category": "おもてなしランキング",
-        "rank": 1,
-        "shop_name": "Cream Spa ＋ (クリームスパプラス）",
-        "shop_url": "https://estama.jp/shop/44808/",
-        "location": "[ 東京 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 3,
-        "shop_name": "関内／伊勢佐木町メンズエステ Spa Deep スパディープ",
-        "shop_url": "https://estama.jp/shop/33480/",
-        "location": "[ 神奈川 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 7,
-        "shop_name": "High Time Spa（ハイタイムスパ）",
-        "shop_url": "https://estama.jp/shop/30961/",
-        "location": "[ 東京 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 8,
-        "shop_name": "ROOM#（ルームナンバー）",
-        "shop_url": "https://estama.jp/shop/33748/",
-        "location": "[ 神奈川 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 9,
-        "shop_name": "マダムスパ　水戸・ひたちなか",
-        "shop_url": "https://estama.jp/shop/35419/",
-        "location": "[ 茨城 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 10,
-        "shop_name": "Sumire Spa （スミレスパ）",
-        "shop_url": "https://estama.jp/shop/49705/",
-        "location": "[ 東京 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "お店ランキング",
-        "rank": 1,
-        "shop_name": "MISTIQUEミスティーク高崎",
-        "shop_url": "https://estama.jp/shop/49237/",
-        "location": "[ 群馬 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "お店ランキング",
-        "rank": 2,
-        "shop_name": "アロマミエリー",
-        "shop_url": "https://estama.jp/shop/29460/",
-        "location": "[ 東京 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "お店ランキング",
-        "rank": 3,
-        "shop_name": "Lu.Angea",
-        "shop_url": "https://estama.jp/shop/32166/",
-        "location": "[ 栃木 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "お店ランキング",
-        "rank": 5,
-        "shop_name": "MISTIQUEミスティーク太田",
-        "shop_url": "https://estama.jp/shop/51330/",
-        "location": "[ 群馬 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "お店ランキング",
-        "rank": 6,
-        "shop_name": "ポセイドン",
-        "shop_url": "https://estama.jp/shop/29952/",
-        "location": "[ 東京 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "お店ランキング",
-        "rank": 7,
-        "shop_name": "Azure Spa（アズールスパ）宇都宮",
-        "shop_url": "https://estama.jp/shop/50013/",
-        "location": "[ 栃木 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      }
-    ],
+    "ranking_movers": [],
     "best_coupons": [
       {
         "title": "お客様感謝🈹イベント開催中‼️🔥🔥",
@@ -128,30 +19,17 @@
         "region_key": "chubu"
       },
       {
-        "title": "追加料金一切不要！オイルリンパ濃厚安心パック⭐︎",
-        "shop_name": "セラピスト育成店ＬＥＡＦ",
-        "shop_id": "51223",
-        "coupon_url": "https://estama.jp/shop/51223/coupon/",
-        "area_raw": "[愛知] 錦・栄/マンション(個室)",
-        "discount_yen": 24000,
-        "price_90min": 12000,
+        "title": "エステ魂を『見た』でネット割適用♡",
+        "shop_name": "ポセイドン",
+        "shop_id": "29952",
+        "coupon_url": "https://estama.jp/shop/29952/coupon/",
+        "area_raw": "[東京] 恵比寿/マンション(個室)",
+        "discount_yen": 23000,
+        "price_90min": null,
         "category": "指名料割引",
-        "description": "当店オリジナルオプションがすべて込みの安心プラン！\r\n追加料金を気にせず、ゆったり施術をお楽しみいただけます。\r\n※当店では個人OP等は一切禁止しております。\r\n✨90分24,000円 → 18,000円\r\n✨120分28,000円 → 2",
-        "region": "名古屋",
-        "region_key": "chubu"
-      },
-      {
-        "title": "追加料金一切不要！脱毛し放題＋オイルリンパ安心パック★",
-        "shop_name": "CEYLON　SPA",
-        "shop_id": "44139",
-        "coupon_url": "https://estama.jp/shop/44139/coupon/",
-        "area_raw": "[愛知] 錦・栄/マンション(個室)",
-        "discount_yen": 24000,
-        "price_90min": 18000,
-        "category": "指名料割引",
-        "description": "当店オリジナルオプションがもちろん脱毛も無料です！！\r\nすべて込みの安心プラン！\r\n※脱毛施術がない場合でもお安いです★\r\n追加料金を気にせず、ゆったり施術をお楽しみいただけます。\r\n※当店では個人OP等は一切禁止しております。\r\n✨90分",
-        "region": "名古屋",
-        "region_key": "chubu"
+        "description": "おすすめ♡\r\n60分仰向けコース23,000円▶21,000円\r\n\r\nおすすめ♡\r\n80分25,000円▶23,000円\r\n\r\n100分28,000円▶26,000円\r\n\r\n120分33,000円▶31,000円\r\n\r\n延長20分▶︎8,0",
+        "region": "東京",
+        "region_key": "kanto"
       },
       {
         "title": "エステ魂を『見た』でネット割適用♡",
@@ -180,30 +58,17 @@
         "region_key": "kanto"
       },
       {
-        "title": "エステ魂を『見た』でネット割適用♡",
-        "shop_name": "ポセイドン",
-        "shop_id": "29952",
-        "coupon_url": "https://estama.jp/shop/29952/coupon/",
-        "area_raw": "[東京] 恵比寿/マンション(個室)",
-        "discount_yen": 23000,
-        "price_90min": null,
+        "title": "‼️期間限定　秋の大収穫祭‼️",
+        "shop_name": "Sweet Angel 　高崎",
+        "shop_id": "49694",
+        "coupon_url": "https://estama.jp/shop/49694/coupon/",
+        "area_raw": "[群馬] 高崎/マンション(個室)",
+        "discount_yen": 22000,
+        "price_90min": 16000,
         "category": "指名料割引",
-        "description": "おすすめ♡\r\n60分仰向けコース23,000円▶21,000円\r\n\r\nおすすめ♡\r\n80分25,000円▶23,000円\r\n\r\n100分28,000円▶26,000円\r\n\r\n120分33,000円▶31,000円\r\n\r\n延長20分▶︎8,0",
+        "description": "9月1日より期間限定\r\n新割引プランを追加\r\n\r\n収穫割light(ライト)\r\n80分22,000円\r\nリンパ集中(20分以上)\r\n衣装チェンジ込み\r\n極液一部リンパ周り使用\r\n通常指名料込み\r\n本指名(2回目以降)➕1,000円\r\n\r\n予",
         "region": "東京",
         "region_key": "kanto"
-      },
-      {
-        "title": "フリーイベント1本勝負！！100分20,000円！！！",
-        "shop_name": "EMOspa栄(ドバドバ)",
-        "shop_id": "51320",
-        "coupon_url": "https://estama.jp/shop/51320/coupon/",
-        "area_raw": "[愛知] 錦・栄/マンション(個室)",
-        "discount_yen": 23000,
-        "price_90min": 18000,
-        "category": "その他",
-        "description": "当店おすすめ女性からご案内！！\r\nVIPコース対象！！\r\n\r\n通常100分23,000円→☆★☆20,000円★☆★\r\nにてご案内！！",
-        "region": "名古屋",
-        "region_key": "chubu"
       },
       {
         "title": "COCO PACK.S （ココパックス）",
@@ -219,6 +84,19 @@
         "region_key": "chubu"
       },
       {
+        "title": "追加料金一切不要！CEYLONオイルリンパ安心パック⭐︎",
+        "shop_name": "CEYLON SPA 松本ルーム",
+        "shop_id": "51389",
+        "coupon_url": "https://estama.jp/shop/51389/coupon/",
+        "area_raw": "[長野] 松本/マンション(個室)",
+        "discount_yen": 22000,
+        "price_90min": null,
+        "category": "指名料割引",
+        "description": "当店オリジナルオプションがすべて込みの安心プラン！\r\n追加料金を気にせず、ゆったり施術をお楽しみいただけます。\r\n※当店では個人OP等は一切禁止しております。\r\n✨90分22,000円 → 18,000円\r\n✨120分26,000円 → 2",
+        "region": "名古屋",
+        "region_key": "chubu"
+      },
+      {
         "title": "ご新規のお客様限定",
         "shop_name": "メンズエステ銀座",
         "shop_id": "31604",
@@ -228,6 +106,19 @@
         "price_90min": 19000,
         "category": "初回・新規向け",
         "description": "●対象コース\r\n全コース\r\n\r\n●クーポン適用条件\r\nご新規のお客様限定\r\n\r\n●クーポン詳細\r\nご新規様限定イベント\r\n60分20000円→17000円(仰向けリンパ)\r\n90分19000円→16000円\r\n120分24000円→2100",
+        "region": "東京",
+        "region_key": "kanto"
+      },
+      {
+        "title": "ご新規さま限定♡ マイクロビキニ込み90分12,000円",
+        "shop_name": "マイクロビキニ専門店・MOMOSPA-モモスパ-",
+        "shop_id": "30973",
+        "coupon_url": "https://estama.jp/shop/30973/coupon/",
+        "area_raw": "[東京] 池袋北口・西口/派遣・出張専門",
+        "discount_yen": 20000,
+        "price_90min": 12000,
+        "category": "初回・新規向け",
+        "description": "マイクロビキニ込みの金額です♡\r\n\r\n90分コース\r\n20,000円 → 12,000円\r\n120分コース\r\n26,000円 → 17,000円\r\n150分コース\r\n32,000円 → 22,000円\r\n180分コース\r\n38,000円 →",
         "region": "東京",
         "region_key": "kanto"
       },
@@ -258,59 +149,31 @@
         "region_key": "kansai"
       },
       {
-        "title": "125分20000円オプコミ【人気No.1】上級ルート解放",
-        "shop_name": "メンズエステ　天空の花嫁",
-        "shop_id": "48468",
-        "coupon_url": "https://estama.jp/shop/48468/coupon/",
-        "area_raw": "[大阪] 梅田/派遣・出張専門",
+        "title": "フルオプ新規オープン割♡125分20000円♡",
+        "shop_name": "会える屋さん♡-僕の推しの子に-",
+        "shop_id": "50845",
+        "coupon_url": "https://estama.jp/shop/50845/coupon/",
+        "area_raw": "[大阪] 長堀橋/派遣・出張専門",
         "discount_yen": 20000,
-        "price_90min": 10000,
-        "category": "その他",
-        "description": "期間限定！125分20000円 オプションコミコミのリニューアルオープン特別クーポン！\r\n上級ルート解放とお伝えください",
+        "price_90min": null,
+        "category": "初回・新規向け",
+        "description": "オープン割とお伝えください。",
         "region": "大阪",
         "region_key": "kansai"
       }
     ],
     "budget_picks": [
       {
-        "id": "46776",
-        "name": "高田馬場ベトナム式マッサージ【ハノイちゃん】",
-        "url": "https://estama.jp/shop/46776/",
-        "sub_area": "高田馬場",
-        "prefecture": "東京",
-        "shop_type": "店舗型",
-        "price_90min": 6980,
-        "hours": "7:00～22:00",
-        "credit_card": false,
-        "coupon_count": 0,
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "id": "41593",
-        "name": "上野ベトナム式マッサージ【ハノイちゃん】",
-        "url": "https://estama.jp/shop/41593/",
+        "id": "34777",
+        "name": "Plaisir Spa　-プレジール-",
+        "url": "https://estama.jp/shop/34777/",
         "sub_area": "御徒町・湯島",
         "prefecture": "東京",
-        "shop_type": "店舗型",
-        "price_90min": 7980,
-        "hours": "6:00～30:00 (受付 6:00～30:00)",
+        "shop_type": "派遣・出張専門",
+        "price_90min": 8000,
+        "hours": "9:00～29:00 (受付 9:00～29:00)",
         "credit_card": false,
-        "coupon_count": 1,
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "id": "42179",
-        "name": "松戸ベトナム式マッサージ【ハノイちゃん】",
-        "url": "https://estama.jp/shop/42179/",
-        "sub_area": "松戸",
-        "prefecture": "千葉",
-        "shop_type": "店舗型",
-        "price_90min": 7980,
-        "hours": "6:00～30:00 (受付 6:00～30:00)",
-        "credit_card": false,
-        "coupon_count": 1,
+        "coupon_count": 0,
         "region": "東京",
         "region_key": "kanto"
       },
@@ -341,6 +204,34 @@
         "coupon_count": 0,
         "region": "名古屋",
         "region_key": "chubu"
+      },
+      {
+        "id": "47072",
+        "name": "大人の保育園 秘密の先生と甘えんぼ教室　小山駅前店",
+        "url": "https://estama.jp/shop/47072/",
+        "sub_area": "小山",
+        "prefecture": "栃木",
+        "shop_type": "マンション(個室)",
+        "price_90min": 9000,
+        "hours": "10:00～27:00 (受付 10:00～27:00)",
+        "credit_card": true,
+        "coupon_count": 1,
+        "region": "東京",
+        "region_key": "kanto"
+      },
+      {
+        "id": "51911",
+        "name": "リラクゼーションカラー",
+        "url": "https://estama.jp/shop/51911/",
+        "sub_area": "蒲田",
+        "prefecture": "東京",
+        "shop_type": "店舗型",
+        "price_90min": 9000,
+        "hours": "14:00～26:00",
+        "credit_card": false,
+        "coupon_count": 0,
+        "region": "東京",
+        "region_key": "kanto"
       },
       {
         "id": "38721",
@@ -385,13 +276,13 @@
         "region_key": "kansai"
       },
       {
-        "id": "46871",
-        "name": "メンズエステ　NEWKAWAII　SPA",
-        "url": "https://estama.jp/shop/46871/",
-        "sub_area": "難波",
+        "id": "51483",
+        "name": "メンズエステ　パルサースパ",
+        "url": "https://estama.jp/shop/51483/",
+        "sub_area": "梅田",
         "prefecture": "大阪",
         "shop_type": "派遣・出張専門",
-        "price_90min": 10000,
+        "price_90min": 9900,
         "hours": "6:00～LAST (受付 6:00～LAST)",
         "credit_card": true,
         "coupon_count": 3,
@@ -405,100 +296,100 @@
       {
         "key": "kanto",
         "label": "東京",
-        "avg_rating": 4.79,
+        "avg_rating": 4.77,
         "median_rating": 5.0,
-        "rating_std": 0.38,
-        "five_star_rate": 58,
+        "rating_std": 0.39,
+        "five_star_rate": 57,
         "five_star_ci": {
-          "point": 58.3,
-          "low": 55.7,
-          "high": 60.9
+          "point": 57.2,
+          "low": 54.6,
+          "high": 59.8
         },
-        "suspicious_rate": 16.3,
+        "suspicious_rate": 15.8,
         "suspicious_ci": {
-          "point": 16.3,
-          "low": 14.6,
-          "high": 18.2
+          "point": 15.8,
+          "low": 14.1,
+          "high": 17.7
         },
-        "skewness": -2.956,
-        "entropy": 1.503,
-        "price_correlation": 0.012,
-        "parsed_count": 1616,
+        "skewness": -2.528,
+        "entropy": 1.537,
+        "price_correlation": 0.028,
+        "parsed_count": 1576,
         "distribution": {
-          "5.0": 795,
-          "4.5-4.9": 367,
-          "4.0-4.4": 154,
-          "3.0-3.9": 42,
-          "below_3": 5,
-          "none": 253
+          "5.0": 769,
+          "4.5-4.9": 362,
+          "4.0-4.4": 162,
+          "3.0-3.9": 45,
+          "below_3": 6,
+          "none": 232
         }
       },
       {
         "key": "kansai",
         "label": "大阪",
-        "avg_rating": 4.83,
+        "avg_rating": 4.84,
         "median_rating": 5.0,
-        "rating_std": 0.37,
+        "rating_std": 0.35,
         "five_star_rate": 68,
         "five_star_ci": {
-          "point": 68.3,
-          "low": 65.9,
-          "high": 70.6
+          "point": 68.5,
+          "low": 66.1,
+          "high": 70.7
         },
-        "suspicious_rate": 22.8,
+        "suspicious_rate": 21.2,
         "suspicious_ci": {
-          "point": 22.8,
-          "low": 20.8,
-          "high": 24.8
+          "point": 21.2,
+          "low": 19.3,
+          "high": 23.2
         },
-        "skewness": -4.072,
-        "entropy": 1.294,
-        "price_correlation": -0.007,
-        "parsed_count": 1696,
+        "skewness": -3.782,
+        "entropy": 1.284,
+        "price_correlation": -0.008,
+        "parsed_count": 1695,
         "distribution": {
-          "5.0": 1066,
+          "5.0": 1065,
           "4.5-4.9": 330,
-          "4.0-4.4": 127,
+          "4.0-4.4": 123,
           "3.0-3.9": 29,
-          "below_3": 9,
-          "none": 135
+          "below_3": 8,
+          "none": 140
         }
       },
       {
         "key": "chubu",
         "label": "名古屋",
-        "avg_rating": 4.82,
+        "avg_rating": 4.8,
         "median_rating": 5.0,
-        "rating_std": 0.35,
-        "five_star_rate": 63,
+        "rating_std": 0.37,
+        "five_star_rate": 61,
         "five_star_ci": {
-          "point": 63.0,
-          "low": 59.9,
-          "high": 65.9
+          "point": 61.3,
+          "low": 58.2,
+          "high": 64.3
         },
-        "suspicious_rate": 14.1,
+        "suspicious_rate": 14.7,
         "suspicious_ci": {
-          "point": 14.1,
-          "low": 12.2,
-          "high": 16.2
+          "point": 14.7,
+          "low": 12.9,
+          "high": 16.9
         },
-        "skewness": -3.398,
-        "entropy": 1.409,
-        "price_correlation": 0.067,
-        "parsed_count": 1191,
+        "skewness": -3.174,
+        "entropy": 1.457,
+        "price_correlation": 0.052,
+        "parsed_count": 1207,
         "distribution": {
-          "5.0": 621,
-          "4.5-4.9": 237,
-          "4.0-4.4": 100,
-          "3.0-3.9": 25,
+          "5.0": 613,
+          "4.5-4.9": 245,
+          "4.0-4.4": 108,
+          "3.0-3.9": 31,
           "below_3": 3,
-          "none": 205
+          "none": 207
         }
       }
     ],
     "cross_region_notes": [
-      "3エリアの平均評価差は0.04点と小さく、エリア間差は限定的です。",
-      "満点比率は58%〜68%とエリア間で10pt差があります。"
+      "3エリアの平均評価差は0.07点と小さく、エリア間差は限定的です。",
+      "満点比率は57%〜68%とエリア間で11pt差があります。"
     ],
     "top_suspicious": [
       {
@@ -558,6 +449,34 @@
         "region_key": "kansai"
       },
       {
+        "review_id": "445666",
+        "shop_name": "Un Secret（アンスクレ）",
+        "shop_url": "https://estama.jp/shop/43254/",
+        "review_url": "https://estama.jp/shop/43254/cast/771691/#ReviewSection",
+        "shop_area": "[大阪] 日本橋 / 派遣・出張専門",
+        "price_90min": null,
+        "rating": 5.0,
+        "title": null,
+        "excerpt": "スタイル　ルックス　施術　最高でした！大満足です。",
+        "date_text": "2026/04/13\t\t\t\t\t\t\t(初めて)",
+        "visit_type": "first",
+        "flags": [
+          "short_perfect",
+          "first_visit_hype",
+          "superlative_stack",
+          "generic_praise"
+        ],
+        "reasons": [
+          "非常に短い文章で満点（具体性が少ない）",
+          "初回利用の短文満点（初見での過度な高評価）",
+          "「最高」「神」など強い褒め言葉が複数",
+          "定型的な褒め言葉のみで具体描写が少ない"
+        ],
+        "suspicion_score": 4,
+        "region": "大阪",
+        "region_key": "kansai"
+      },
+      {
         "review_id": "457954",
         "shop_name": "ヒルガオ～大人セラピスト倶楽部～江坂店",
         "shop_url": "https://estama.jp/shop/48906/",
@@ -586,32 +505,6 @@
         "region_key": "kansai"
       },
       {
-        "review_id": "419622",
-        "shop_name": "Aroma Jewels【アロマジュエルズ】秋葉原",
-        "shop_url": "https://estama.jp/shop/34060/",
-        "review_url": "https://estama.jp/shop/34060/cast/779653/#ReviewSection",
-        "shop_area": "[東京] 秋葉原 / マンション(個室)",
-        "price_90min": 18000,
-        "rating": 5.0,
-        "title": "お写真以上に実際、美人さん",
-        "excerpt": "最高な90分、また行きます。どハマりしそうです",
-        "date_text": "2026/01/29\t\t\t\t\t\t\t(初めて)",
-        "visit_type": "first",
-        "flags": [
-          "short_perfect",
-          "first_visit_hype",
-          "generic_praise"
-        ],
-        "reasons": [
-          "非常に短い文章で満点（具体性が少ない）",
-          "初回利用の短文満点（初見での過度な高評価）",
-          "定型的な褒め言葉のみで具体描写が少ない"
-        ],
-        "suspicion_score": 3,
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
         "review_id": "469643",
         "shop_name": "Miel Spa",
         "shop_url": "https://estama.jp/shop/50413/",
@@ -638,26 +531,26 @@
         "region_key": "kanto"
       },
       {
-        "review_id": "432509",
-        "shop_name": "越谷メンズエステ Aroma Luminous-ルミナス-",
-        "shop_url": "https://estama.jp/shop/49951/",
-        "review_url": "https://estama.jp/shop/49951/cast/828071/#ReviewSection",
-        "shop_area": "[埼玉] 越谷 / マンション(個室)",
-        "price_90min": null,
+        "review_id": "419622",
+        "shop_name": "Aroma Jewels【アロマジュエルズ】秋葉原",
+        "shop_url": "https://estama.jp/shop/34060/",
+        "review_url": "https://estama.jp/shop/34060/cast/779653/#ReviewSection",
+        "shop_area": "[東京] 秋葉原 / マンション(個室)",
+        "price_90min": 18000,
         "rating": 5.0,
-        "title": "ありがとう",
-        "excerpt": "ありがとうございます",
-        "date_text": "2026/03/10\t\t\t\t\t\t\t(初めて)",
+        "title": "お写真以上に実際、美人さん",
+        "excerpt": "最高な90分、また行きます。どハマりしそうです",
+        "date_text": "2026/01/29\t\t\t\t\t\t\t(初めて)",
         "visit_type": "first",
         "flags": [
           "short_perfect",
           "first_visit_hype",
-          "minimal_text"
+          "generic_praise"
         ],
         "reasons": [
           "非常に短い文章で満点（具体性が少ない）",
           "初回利用の短文満点（初見での過度な高評価）",
-          "極端に短いテキストの満点"
+          "定型的な褒め言葉のみで具体描写が少ない"
         ],
         "suspicion_score": 3,
         "region": "東京",
@@ -690,16 +583,42 @@
         "region_key": "kanto"
       },
       {
-        "review_id": "420926",
-        "shop_name": "Flora【フローラ】",
-        "shop_url": "https://estama.jp/shop/43672/",
-        "review_url": "https://estama.jp/shop/43672/cast/766031/#ReviewSection",
-        "shop_area": "[大阪] 堺筋本町 / マンション(個室)",
-        "price_90min": 16000,
+        "review_id": "475610",
+        "shop_name": "MISTIQUEミスティーク高崎",
+        "shop_url": "https://estama.jp/shop/49237/",
+        "review_url": "https://estama.jp/shop/49237/cast/829132/#ReviewSection",
+        "shop_area": "[群馬] 高崎 / マンション(個室)",
+        "price_90min": 15000,
         "rating": 5.0,
-        "title": "最高笑",
-        "excerpt": "なにもかも良かったです笑",
-        "date_text": "2026/01/18\t\t\t\t\t\t\t(初めて)",
+        "title": null,
+        "excerpt": "全てが最高でした\r\n初めてがかりんちゃんで良かったです！",
+        "date_text": "2026/09/04\t\t\t\t\t\t\t(初めて)",
+        "visit_type": "first",
+        "flags": [
+          "short_perfect",
+          "first_visit_hype",
+          "generic_praise"
+        ],
+        "reasons": [
+          "非常に短い文章で満点（具体性が少ない）",
+          "初回利用の短文満点（初見での過度な高評価）",
+          "定型的な褒め言葉のみで具体描写が少ない"
+        ],
+        "suspicion_score": 3,
+        "region": "東京",
+        "region_key": "kanto"
+      },
+      {
+        "review_id": "400245",
+        "shop_name": "Guy  Osaka",
+        "shop_url": "https://estama.jp/shop/42020/",
+        "review_url": "https://estama.jp/shop/42020/cast/559924/#ReviewSection",
+        "shop_area": "[大阪] 新大阪 / マンション(個室)",
+        "price_90min": null,
+        "rating": 5.0,
+        "title": "最高に居心地良かった",
+        "excerpt": "マッサージ上手で全てが気持ちいい\r\nまたお願い致します",
+        "date_text": "2025/11/04\t\t\t\t\t\t\t(初めて)",
         "visit_type": "first",
         "flags": [
           "short_perfect",
@@ -716,42 +635,16 @@
         "region_key": "kansai"
       },
       {
-        "review_id": "454357",
-        "shop_name": "YOLU SPA 大阪店 日本橋ルーム",
-        "shop_url": "https://estama.jp/shop/43715/",
-        "review_url": "https://estama.jp/shop/43715/cast/847440/#ReviewSection",
-        "shop_area": "[大阪] 日本橋 / マンション(個室)",
+        "review_id": "420926",
+        "shop_name": "Flora【フローラ】",
+        "shop_url": "https://estama.jp/shop/43672/",
+        "review_url": "https://estama.jp/shop/43672/cast/766031/#ReviewSection",
+        "shop_area": "[大阪] 堺筋本町 / マンション(個室)",
         "price_90min": 16000,
         "rating": 5.0,
-        "title": "かわいい",
-        "excerpt": "かわいい",
-        "date_text": "2026/06/20\t\t\t\t\t\t\t(初めて)",
-        "visit_type": "first",
-        "flags": [
-          "short_perfect",
-          "first_visit_hype",
-          "minimal_text"
-        ],
-        "reasons": [
-          "非常に短い文章で満点（具体性が少ない）",
-          "初回利用の短文満点（初見での過度な高評価）",
-          "極端に短いテキストの満点"
-        ],
-        "suspicion_score": 3,
-        "region": "大阪",
-        "region_key": "kansai"
-      },
-      {
-        "review_id": "476061",
-        "shop_name": "エステゲーム京都",
-        "shop_url": "https://estama.jp/shop/41702/",
-        "review_url": "https://estama.jp/shop/41702/cast/939628/#ReviewSection",
-        "shop_area": "[京都] 京都駅 / マンション(個室)",
-        "price_90min": 15000,
-        "rating": 5.0,
-        "title": "激カワ",
-        "excerpt": "めちゃくちゃ可愛くて最高でした\r\nまた行きます",
-        "date_text": "2026/08/20\t\t\t\t\t\t\t(初めて)",
+        "title": "最高笑",
+        "excerpt": "なにもかも良かったです笑",
+        "date_text": "2026/01/18\t\t\t\t\t\t\t(初めて)",
         "visit_type": "first",
         "flags": [
           "short_perfect",
@@ -788,6 +681,58 @@
           "非常に短い文章で満点（具体性が少ない）",
           "初回利用の短文満点（初見での過度な高評価）",
           "極端に短いテキストの満点"
+        ],
+        "suspicion_score": 3,
+        "region": "名古屋",
+        "region_key": "chubu"
+      },
+      {
+        "review_id": "478614",
+        "shop_name": "Cat's Eye. -キャッツ･アイ-",
+        "shop_url": "https://estama.jp/shop/42639/",
+        "review_url": "https://estama.jp/shop/42639/cast/857634/#ReviewSection",
+        "shop_area": "[静岡] 浜松 / マンション(個室)",
+        "price_90min": 14000,
+        "rating": 5.0,
+        "title": null,
+        "excerpt": "とてもよかったです。\r\nまたきます",
+        "date_text": "2026/09/14\t\t\t\t\t\t\t(初めて)",
+        "visit_type": "first",
+        "flags": [
+          "short_perfect",
+          "first_visit_hype",
+          "minimal_text"
+        ],
+        "reasons": [
+          "非常に短い文章で満点（具体性が少ない）",
+          "初回利用の短文満点（初見での過度な高評価）",
+          "極端に短いテキストの満点"
+        ],
+        "suspicion_score": 3,
+        "region": "名古屋",
+        "region_key": "chubu"
+      },
+      {
+        "review_id": "471012",
+        "shop_name": "bloom",
+        "shop_url": "https://estama.jp/shop/41400/",
+        "review_url": "https://estama.jp/shop/41400/cast/918906/#ReviewSection",
+        "shop_area": "[静岡] 静岡市 / マンション(個室)",
+        "price_90min": null,
+        "rating": 5.0,
+        "title": null,
+        "excerpt": "文句なし最高でした　スタイル抜群ちょーきれい\r\nマッサージは言葉に出来ない位気持ち良かった",
+        "date_text": "2026/08/20\t\t\t\t\t\t\t(初めて)",
+        "visit_type": "first",
+        "flags": [
+          "first_visit_hype",
+          "superlative_stack",
+          "generic_praise"
+        ],
+        "reasons": [
+          "初回利用の短文満点（初見での過度な高評価）",
+          "「最高」「神」など強い褒め言葉が複数",
+          "定型的な褒め言葉のみで具体描写が少ない"
         ],
         "suspicion_score": 3,
         "region": "名古屋",
@@ -844,56 +789,6 @@
         "suspicion_score": 3,
         "region": "名古屋",
         "region_key": "chubu"
-      },
-      {
-        "review_id": "471012",
-        "shop_name": "bloom",
-        "shop_url": "https://estama.jp/shop/41400/",
-        "review_url": "https://estama.jp/shop/41400/cast/918906/#ReviewSection",
-        "shop_area": "[静岡] 静岡市 / マンション(個室)",
-        "price_90min": null,
-        "rating": 5.0,
-        "title": null,
-        "excerpt": "文句なし最高でした　スタイル抜群ちょーきれい\r\nマッサージは言葉に出来ない位気持ち良かった",
-        "date_text": "2026/08/20\t\t\t\t\t\t\t(初めて)",
-        "visit_type": "first",
-        "flags": [
-          "first_visit_hype",
-          "superlative_stack",
-          "generic_praise"
-        ],
-        "reasons": [
-          "初回利用の短文満点（初見での過度な高評価）",
-          "「最高」「神」など強い褒め言葉が複数",
-          "定型的な褒め言葉のみで具体描写が少ない"
-        ],
-        "suspicion_score": 3,
-        "region": "名古屋",
-        "region_key": "chubu"
-      },
-      {
-        "review_id": "471999",
-        "shop_name": "女神のエステ 大曽根店",
-        "shop_url": "https://estama.jp/shop/43439/",
-        "review_url": "https://estama.jp/shop/43439/cast/938281/#ReviewSection",
-        "shop_area": "[愛知] 大曽根 / マンション(個室)",
-        "price_90min": null,
-        "rating": 5.0,
-        "title": "明るく楽しい",
-        "excerpt": "大変良い時間を過ごさせていただきました。",
-        "date_text": "2026/08/23\t\t\t\t\t\t\t(初めて)",
-        "visit_type": "first",
-        "flags": [
-          "short_perfect",
-          "first_visit_hype"
-        ],
-        "reasons": [
-          "非常に短い文章で満点（具体性が少ない）",
-          "初回利用の短文満点（初見での過度な高評価）"
-        ],
-        "suspicion_score": 2,
-        "region": "名古屋",
-        "region_key": "chubu"
       }
     ]
   },
@@ -907,37 +802,37 @@
         "board_label": "東京メンエス・リラクゼーション・総合",
         "board_url": "https://bakusai.com/thr_tl/acode=3/ctgid=136/bid=2389/",
         "parsed_threads": 60,
-        "parsed_posts": 391,
-        "caution_rate": 4.9,
-        "positive_rate": 5.9,
+        "parsed_posts": 382,
+        "caution_rate": 3.7,
+        "positive_rate": 7.1,
         "top_keywords": {
-          "最高": 9,
-          "おすすめ": 6,
-          "寛容": 6,
-          "最悪": 5,
-          "リピ": 4
+          "リピ": 8,
+          "おすすめ": 8,
+          "ハズレ": 6,
+          "最高": 4,
+          "神": 3
         },
         "hot_threads": [
           {
             "title": "ホットペッパービューティで予約できるエロい店 ⑧",
             "url": "https://bakusai.com/thr_res/acode=3/ctgid=136/bid=2389/tid=13099077/tp=1/",
-            "responses": 982,
-            "views": 343175,
-            "last_posted": "26時間前"
+            "responses": 1000,
+            "views": 356945,
+            "last_posted": "09/12 19:58"
           },
           {
             "title": "三軒茶屋の店⑮",
             "url": "https://bakusai.com/thr_res/acode=3/ctgid=136/bid=2389/tid=12958918/tp=1/",
-            "responses": 949,
-            "views": 174645,
-            "last_posted": "14時間前"
+            "responses": 961,
+            "views": 177190,
+            "last_posted": "18時間前"
           },
           {
             "title": "東京おすすめ店 ⑪",
             "url": "https://bakusai.com/thr_res/acode=3/ctgid=136/bid=2389/tid=12958932/tp=1/",
-            "responses": 947,
-            "views": 15204,
-            "last_posted": "12時間前"
+            "responses": 960,
+            "views": 15547,
+            "last_posted": "5時間前"
           }
         ]
       },
@@ -947,37 +842,37 @@
         "board_label": "大阪メンエス・リフレ・癒し・総合",
         "board_url": "https://bakusai.com/thr_tl/acode=7/ctgid=136/bid=2383/",
         "parsed_threads": 60,
-        "parsed_posts": 388,
-        "caution_rate": 2.3,
-        "positive_rate": 5.2,
+        "parsed_posts": 400,
+        "caution_rate": 2.0,
+        "positive_rate": 2.2,
         "top_keywords": {
-          "おすすめ": 10,
-          "健全": 6,
-          "最悪": 6,
-          "最高": 4,
-          "オプション": 3
+          "リピ": 4,
+          "最悪": 4,
+          "オプション": 4,
+          "指名": 3,
+          "最高": 2
         },
         "hot_threads": [
           {
-            "title": "働くならどこが良き？③",
-            "url": "https://bakusai.com/thr_res/acode=7/ctgid=136/bid=2383/tid=12959254/tp=1/",
-            "responses": 998,
-            "views": 5855,
-            "last_posted": "09/05 15:21"
+            "title": "都会のド真ん中で失禁!!危険人物笠井宏一",
+            "url": "https://bakusai.com/thr_res/acode=7/ctgid=136/bid=2383/tid=8430368/tp=1/",
+            "responses": 959,
+            "views": 2180,
+            "last_posted": "16時間前"
           },
           {
-            "title": "大阪市内で健全店でエロマッサしてくれるとこ②",
-            "url": "https://bakusai.com/thr_res/acode=7/ctgid=136/bid=2383/tid=12959249/tp=1/",
-            "responses": 991,
-            "views": 203481,
-            "last_posted": "18時間前"
+            "title": "EDEN 日本橋リフレ ③",
+            "url": "https://bakusai.com/thr_res/acode=7/ctgid=136/bid=1714/tid=12959295/tp=1/",
+            "responses": 941,
+            "views": 116314,
+            "last_posted": "48分前"
           },
           {
-            "title": "ジョリエ大阪",
-            "url": "https://bakusai.com/thr_res/acode=7/ctgid=136/bid=1714/tid=8552992/tp=1/",
-            "responses": 982,
-            "views": 181563,
-            "last_posted": "8分前"
+            "title": "CLAVIS（クラビス） ⑨",
+            "url": "https://bakusai.com/thr_res/acode=7/ctgid=136/bid=1714/tid=12619118/tp=1/",
+            "responses": 940,
+            "views": 130545,
+            "last_posted": "1時間前"
           }
         ]
       },
@@ -988,36 +883,36 @@
         "board_url": "https://bakusai.com/thr_tl/acode=5/ctgid=136/bid=2375/",
         "parsed_threads": 60,
         "parsed_posts": 400,
-        "caution_rate": 1.8,
-        "positive_rate": 9.2,
+        "caution_rate": 2.2,
+        "positive_rate": 8.2,
         "top_keywords": {
-          "最高": 18,
-          "当たり": 11,
-          "オススメ": 6,
-          "残念": 5,
-          "寛容": 5
+          "当たり": 10,
+          "最高": 10,
+          "残念": 7,
+          "リピ": 6,
+          "寛容": 4
         },
         "hot_threads": [
           {
-            "title": "CuCue きゅきゅ ⑭",
-            "url": "https://bakusai.com/thr_res/acode=5/ctgid=136/bid=1326/tid=13317460/tp=1/",
-            "responses": 917,
-            "views": 55451,
-            "last_posted": "43分前"
+            "title": "豊田 COCO SPA ③",
+            "url": "https://bakusai.com/thr_res/acode=5/ctgid=136/bid=1326/tid=12813328/tp=1/",
+            "responses": 977,
+            "views": 124416,
+            "last_posted": "3時間前"
           },
           {
             "title": "名古屋丸の内メンズエステ EXE～エグゼ ⑨",
             "url": "https://bakusai.com/thr_res/acode=5/ctgid=136/bid=1326/tid=13422208/tp=1/",
-            "responses": 876,
-            "views": 49432,
-            "last_posted": "2時間前"
+            "responses": 971,
+            "views": 59289,
+            "last_posted": "1時間前"
           },
           {
-            "title": "高岳 GOLD WAGON-ゴールドワゴン ③",
-            "url": "https://bakusai.com/thr_res/acode=5/ctgid=136/bid=1326/tid=12844063/tp=1/",
-            "responses": 868,
-            "views": 131310,
-            "last_posted": "59分前"
+            "title": "岡崎市で口か本番有る店ありますか？？",
+            "url": "https://bakusai.com/thr_res/acode=5/ctgid=136/bid=2375/tid=6447292/tp=1/",
+            "responses": 854,
+            "views": 207667,
+            "last_posted": "09/12 15:42"
           }
         ]
       }
@@ -1029,73 +924,39 @@
       {
         "key": "kanto",
         "label": "東京",
-        "matched_shops": 520,
-        "gap_count": 6,
+        "matched_shops": 522,
+        "gap_count": 8,
         "bbs_buzz_count": 12,
-        "aligned_count": 2
+        "aligned_count": 3
       },
       {
         "key": "kansai",
         "label": "大阪",
-        "matched_shops": 521,
-        "gap_count": 8,
-        "bbs_buzz_count": 12,
-        "aligned_count": 4
+        "matched_shops": 513,
+        "gap_count": 7,
+        "bbs_buzz_count": 5,
+        "aligned_count": 1
       },
       {
         "key": "chubu",
         "label": "名古屋",
-        "matched_shops": 435,
-        "gap_count": 0,
+        "matched_shops": 441,
+        "gap_count": 2,
         "bbs_buzz_count": 12,
-        "aligned_count": 4
+        "aligned_count": 3
       }
     ],
     "top_gaps": [
       {
-        "id": "33959",
-        "name": "必殺アキバ娘　錦糸町ルーム",
-        "url": "https://estama.jp/shop/33959/",
-        "sub_area": "錦糸町",
+        "id": "46798",
+        "name": "癒神アキバ伝説－YUSHIN－",
+        "url": "https://estama.jp/shop/46798/",
+        "sub_area": "秋葉原",
         "price_90min": 18000,
         "review_avg": 4.97,
         "review_count": 3,
-        "bbs_mentions": 14,
-        "bbs_caution": 2,
-        "signal_labels": [
-          "公式高評価 × 掲示板注意"
-        ],
-        "region_key": "kanto",
-        "region_label": "東京"
-      },
-      {
-        "id": "31741",
-        "name": "アリー吉祥寺",
-        "url": "https://estama.jp/shop/31741/",
-        "sub_area": "吉祥寺",
-        "price_90min": null,
-        "review_avg": 5.0,
-        "review_count": 3,
-        "bbs_mentions": 11,
-        "bbs_caution": 2,
-        "signal_labels": [
-          "公式高評価 × 掲示板注意",
-          "注意口コミ × 掲示板注意",
-          "満点口コミ × 掲示板注意"
-        ],
-        "region_key": "kanto",
-        "region_label": "東京"
-      },
-      {
-        "id": "46888",
-        "name": "田町メンズエステ Cute & Belle",
-        "url": "https://estama.jp/shop/46888/",
-        "sub_area": "田町",
-        "price_90min": 20000,
-        "review_avg": 4.73,
-        "review_count": 3,
-        "bbs_mentions": 4,
-        "bbs_caution": 1,
+        "bbs_mentions": 16,
+        "bbs_caution": 3,
         "signal_labels": [
           "公式高評価 × 掲示板注意",
           "注意口コミ × 掲示板注意"
@@ -1111,7 +972,7 @@
         "price_90min": null,
         "review_avg": 5.0,
         "review_count": 3,
-        "bbs_mentions": 11,
+        "bbs_mentions": 8,
         "bbs_caution": 2,
         "signal_labels": [
           "公式高評価 × 掲示板注意",
@@ -1122,15 +983,32 @@
         "region_label": "東京"
       },
       {
-        "id": "46888",
-        "name": "田町メンズエステ Cute & Belle",
-        "url": "https://estama.jp/shop/46888/",
-        "sub_area": "田町",
-        "price_90min": 20000,
-        "review_avg": 4.73,
+        "id": "30733",
+        "name": "東京アロマエステ",
+        "url": "https://estama.jp/shop/30733/",
+        "sub_area": "新宿西口・西新宿",
+        "price_90min": null,
+        "review_avg": 4.97,
         "review_count": 3,
-        "bbs_mentions": 4,
-        "bbs_caution": 1,
+        "bbs_mentions": 6,
+        "bbs_caution": 2,
+        "signal_labels": [
+          "公式高評価 × 掲示板注意",
+          "注意口コミ × 掲示板注意"
+        ],
+        "region_key": "kanto",
+        "region_label": "東京"
+      },
+      {
+        "id": "46798",
+        "name": "癒神アキバ伝説－YUSHIN－",
+        "url": "https://estama.jp/shop/46798/",
+        "sub_area": "秋葉原",
+        "price_90min": 18000,
+        "review_avg": 4.97,
+        "review_count": 3,
+        "bbs_mentions": 16,
+        "bbs_caution": 3,
         "signal_labels": [
           "公式高評価 × 掲示板注意",
           "注意口コミ × 掲示板注意"
@@ -1146,7 +1024,7 @@
         "price_90min": null,
         "review_avg": 5.0,
         "review_count": 3,
-        "bbs_mentions": 11,
+        "bbs_mentions": 8,
         "bbs_caution": 2,
         "signal_labels": [
           "公式高評価 × 掲示板注意",
@@ -1155,6 +1033,59 @@
         ],
         "region_key": "kanto",
         "region_label": "東京"
+      },
+      {
+        "id": "31741",
+        "name": "アリー吉祥寺",
+        "url": "https://estama.jp/shop/31741/",
+        "sub_area": "吉祥寺",
+        "price_90min": null,
+        "review_avg": 5.0,
+        "review_count": 3,
+        "bbs_mentions": 8,
+        "bbs_caution": 2,
+        "signal_labels": [
+          "公式高評価 × 掲示板注意",
+          "注意口コミ × 掲示板注意",
+          "満点口コミ × 掲示板注意"
+        ],
+        "region_key": "kanto",
+        "region_label": "東京"
+      },
+      {
+        "id": "50901",
+        "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+        "url": "https://estama.jp/shop/50901/",
+        "sub_area": "難波",
+        "price_90min": null,
+        "review_avg": 5.0,
+        "review_count": 3,
+        "bbs_mentions": 7,
+        "bbs_caution": 1,
+        "signal_labels": [
+          "公式高評価 × 掲示板注意",
+          "注意口コミ × 掲示板注意",
+          "満点口コミ × 掲示板注意"
+        ],
+        "region_key": "kansai",
+        "region_label": "大阪"
+      },
+      {
+        "id": "35218",
+        "name": "ぽっちゃりのメンズエステで癒される",
+        "url": "https://estama.jp/shop/35218/",
+        "sub_area": "梅田",
+        "price_90min": 12000,
+        "review_avg": 5.0,
+        "review_count": 3,
+        "bbs_mentions": 5,
+        "bbs_caution": 1,
+        "signal_labels": [
+          "公式高評価 × 掲示板注意",
+          "満点口コミ × 掲示板注意"
+        ],
+        "region_key": "kansai",
+        "region_label": "大阪"
       },
       {
         "id": "44299",
@@ -1164,44 +1095,11 @@
         "price_90min": 11000,
         "review_avg": 5.0,
         "review_count": 3,
-        "bbs_mentions": 14,
+        "bbs_mentions": 4,
         "bbs_caution": 1,
         "signal_labels": [
           "公式高評価 × 掲示板注意",
           "満点口コミ × 掲示板注意"
-        ],
-        "region_key": "kansai",
-        "region_label": "大阪"
-      },
-      {
-        "id": "30408",
-        "name": "ヒルガオ～大人セラピスト倶楽部～",
-        "url": "https://estama.jp/shop/30408/",
-        "sub_area": "新大阪",
-        "price_90min": 14000,
-        "review_avg": 5.0,
-        "review_count": 3,
-        "bbs_mentions": 9,
-        "bbs_caution": 1,
-        "signal_labels": [
-          "公式高評価 × 掲示板注意",
-          "満点口コミ × 掲示板注意"
-        ],
-        "region_key": "kansai",
-        "region_label": "大阪"
-      },
-      {
-        "id": "51335",
-        "name": "SUKI♡だらけ🏩隙がある女たちが最果てへと導く🏴‍☠️",
-        "url": "https://estama.jp/shop/51335/",
-        "sub_area": "京橋",
-        "price_90min": 18000,
-        "review_avg": 4.77,
-        "review_count": 3,
-        "bbs_mentions": 9,
-        "bbs_caution": 1,
-        "signal_labels": [
-          "公式高評価 × 掲示板注意"
         ],
         "region_key": "kansai",
         "region_label": "大阪"
@@ -1225,31 +1123,32 @@
         "region_label": "大阪"
       },
       {
-        "id": "44299",
-        "name": "新大阪メンズエステ・メンエス・秘宝殿",
-        "url": "https://estama.jp/shop/44299/",
-        "sub_area": "新大阪",
-        "price_90min": 11000,
+        "id": "50901",
+        "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+        "url": "https://estama.jp/shop/50901/",
+        "sub_area": "難波",
+        "price_90min": null,
         "review_avg": 5.0,
         "review_count": 3,
-        "bbs_mentions": 14,
+        "bbs_mentions": 7,
         "bbs_caution": 1,
         "signal_labels": [
           "公式高評価 × 掲示板注意",
+          "注意口コミ × 掲示板注意",
           "満点口コミ × 掲示板注意"
         ],
         "region_key": "kansai",
         "region_label": "大阪"
       },
       {
-        "id": "30408",
-        "name": "ヒルガオ～大人セラピスト倶楽部～",
-        "url": "https://estama.jp/shop/30408/",
-        "sub_area": "新大阪",
-        "price_90min": 14000,
+        "id": "35218",
+        "name": "ぽっちゃりのメンズエステで癒される",
+        "url": "https://estama.jp/shop/35218/",
+        "sub_area": "梅田",
+        "price_90min": 12000,
         "review_avg": 5.0,
         "review_count": 3,
-        "bbs_mentions": 9,
+        "bbs_mentions": 5,
         "bbs_caution": 1,
         "signal_labels": [
           "公式高評価 × 掲示板注意",
@@ -1265,20 +1164,20 @@
       "key": "kanto",
       "label": "東京",
       "subtitle": "関東エリア",
-      "total_shops": 2984,
+      "total_shops": 3003,
       "sampled_shops": 1000,
       "coupon_count": 110,
       "price_median": 16000,
-      "price_min": 6980,
+      "price_min": 8000,
       "price_max": 28000,
-      "available_now": 869,
+      "available_now": 872,
       "late_night": 967,
-      "credit_card_rate": 66,
-      "with_coupon_rate": 89,
+      "credit_card_rate": 68,
+      "with_coupon_rate": 88,
       "price_by_shop_type": [
         {
           "name": "マンション(個室)",
-          "shop_count": 811,
+          "shop_count": 805,
           "price_median": 16000,
           "price_min": 9000,
           "price_max": 28000,
@@ -1286,19 +1185,19 @@
         },
         {
           "name": "派遣・出張専門",
-          "shop_count": 119,
+          "shop_count": 133,
           "price_median": 14000,
           "price_min": 8000,
           "price_max": 25000,
-          "priced_shop_count": 76
+          "priced_shop_count": 78
         },
         {
           "name": "店舗型",
-          "shop_count": 70,
+          "shop_count": 62,
           "price_median": 15000,
-          "price_min": 6980,
+          "price_min": 9000,
           "price_max": 23000,
-          "priced_shop_count": 34
+          "priced_shop_count": 31
         }
       ],
       "top_sub_areas": [
@@ -1311,24 +1210,24 @@
           "priced_shop_count": 27
         },
         {
-          "name": "水戸",
-          "shop_count": 32,
-          "price_median": 16000,
-          "price_min": 15000,
-          "price_max": 20000,
-          "priced_shop_count": 19
-        },
-        {
           "name": "宇都宮",
           "shop_count": 31,
           "price_median": 15000,
           "price_min": 14000,
           "price_max": 18000,
-          "priced_shop_count": 13
+          "priced_shop_count": 14
+        },
+        {
+          "name": "水戸",
+          "shop_count": 31,
+          "price_median": 16000,
+          "price_min": 15000,
+          "price_max": 20000,
+          "priced_shop_count": 18
         },
         {
           "name": "秋葉原",
-          "shop_count": 30,
+          "shop_count": 29,
           "price_median": 18000,
           "price_min": 12000,
           "price_max": 20000,
@@ -1336,61 +1235,61 @@
         },
         {
           "name": "大宮",
-          "shop_count": 26,
+          "shop_count": 28,
           "price_median": 17000,
           "price_min": 12000,
           "price_max": 20000,
-          "priced_shop_count": 11
+          "priced_shop_count": 13
         }
       ],
-      "review_avg": 4.79,
-      "review_five_star_rate": 58,
-      "review_suspicious_rate": 16.3
+      "review_avg": 4.77,
+      "review_five_star_rate": 57,
+      "review_suspicious_rate": 15.8
     },
     {
       "key": "kansai",
       "label": "大阪",
       "subtitle": "関西エリア",
-      "total_shops": 1286,
+      "total_shops": 1297,
       "sampled_shops": 1000,
       "coupon_count": 110,
       "price_median": 14000,
       "price_min": 9000,
       "price_max": 44000,
-      "available_now": 796,
-      "late_night": 933,
+      "available_now": 814,
+      "late_night": 941,
       "credit_card_rate": 58,
-      "with_coupon_rate": 94,
+      "with_coupon_rate": 93,
       "price_by_shop_type": [
         {
           "name": "マンション(個室)",
-          "shop_count": 671,
+          "shop_count": 665,
           "price_median": 14000,
           "price_min": 9000,
           "price_max": 30000,
-          "priced_shop_count": 445
+          "priced_shop_count": 437
         },
         {
           "name": "派遣・出張専門",
-          "shop_count": 302,
-          "price_median": 14000,
+          "shop_count": 308,
+          "price_median": 14750,
           "price_min": 9700,
           "price_max": 44000,
-          "priced_shop_count": 171
+          "priced_shop_count": 176
         },
         {
           "name": "店舗型",
           "shop_count": 27,
           "price_median": 14000,
           "price_min": 10000,
-          "price_max": 16000,
-          "priced_shop_count": 13
+          "price_max": 18000,
+          "priced_shop_count": 14
         }
       ],
       "top_sub_areas": [
         {
           "name": "日本橋",
-          "shop_count": 198,
+          "shop_count": 197,
           "price_median": 13000,
           "price_min": 10000,
           "price_max": 44000,
@@ -1400,17 +1299,17 @@
           "name": "梅田",
           "shop_count": 141,
           "price_median": 13000,
-          "price_min": 10000,
+          "price_min": 9900,
           "price_max": 30000,
-          "priced_shop_count": 91
+          "priced_shop_count": 92
         },
         {
           "name": "堺筋本町",
-          "shop_count": 87,
+          "shop_count": 85,
           "price_median": 14000,
           "price_min": 10000,
           "price_max": 20000,
-          "priced_shop_count": 65
+          "priced_shop_count": 63
         },
         {
           "name": "神戸・三宮・尼崎",
@@ -1418,43 +1317,43 @@
           "price_median": 14000,
           "price_min": 9700,
           "price_max": 18000,
-          "priced_shop_count": 48
+          "priced_shop_count": 47
         },
         {
           "name": "京都駅",
-          "shop_count": 65,
+          "shop_count": 64,
           "price_median": 15000,
           "price_min": 12000,
           "price_max": 20000,
-          "priced_shop_count": 53
+          "priced_shop_count": 50
         }
       ],
-      "review_avg": 4.83,
+      "review_avg": 4.84,
       "review_five_star_rate": 68,
-      "review_suspicious_rate": 22.8
+      "review_suspicious_rate": 21.2
     },
     {
       "key": "chubu",
       "label": "名古屋",
       "subtitle": "中部エリア",
-      "total_shops": 969,
-      "sampled_shops": 969,
+      "total_shops": 971,
+      "sampled_shops": 971,
       "coupon_count": 110,
       "price_median": 15000,
       "price_min": 8000,
       "price_max": 45000,
-      "available_now": 407,
+      "available_now": 409,
       "late_night": 837,
       "credit_card_rate": 32,
-      "with_coupon_rate": 52,
+      "with_coupon_rate": 53,
       "price_by_shop_type": [
         {
           "name": "マンション(個室)",
-          "shop_count": 649,
+          "shop_count": 648,
           "price_median": 15000,
           "price_min": 9000,
           "price_max": 35000,
-          "priced_shop_count": 274
+          "priced_shop_count": 272
         },
         {
           "name": "店舗型",
@@ -1466,11 +1365,11 @@
         },
         {
           "name": "派遣・出張専門",
-          "shop_count": 89,
+          "shop_count": 92,
           "price_median": 15000,
           "price_min": 12000,
           "price_max": 22000,
-          "priced_shop_count": 51
+          "priced_shop_count": 52
         }
       ],
       "top_sub_areas": [
@@ -1492,11 +1391,11 @@
         },
         {
           "name": "金沢",
-          "shop_count": 68,
+          "shop_count": 70,
           "price_median": 15400,
           "price_min": 11000,
           "price_max": 35000,
-          "priced_shop_count": 42
+          "priced_shop_count": 44
         },
         {
           "name": "錦・栄",
@@ -1515,9 +1414,9 @@
           "priced_shop_count": 14
         }
       ],
-      "review_avg": 4.82,
-      "review_five_star_rate": 63,
-      "review_suspicious_rate": 14.1
+      "review_avg": 4.8,
+      "review_five_star_rate": 61,
+      "review_suspicious_rate": 14.7
     }
   ],
   "featured_subareas": {
@@ -1525,8 +1424,8 @@
       {
         "name": "新宿東口・東新宿(歌舞伎町)",
         "price_median": 18000,
-        "shop_count": 22,
-        "signal_shop_count": 0
+        "shop_count": 23,
+        "signal_shop_count": 1
       },
       {
         "name": "池袋北口・西口",
@@ -1537,19 +1436,19 @@
       {
         "name": "渋谷",
         "price_median": 17000,
-        "shop_count": 22,
+        "shop_count": 19,
         "signal_shop_count": 0
       },
       {
         "name": "秋葉原",
         "price_median": 18000,
-        "shop_count": 30,
-        "signal_shop_count": 2
+        "shop_count": 29,
+        "signal_shop_count": 3
       },
       {
         "name": "横浜",
         "price_median": 15000,
-        "shop_count": 24,
+        "shop_count": 25,
         "signal_shop_count": 0
       },
       {
@@ -1564,31 +1463,31 @@
         "name": "梅田",
         "price_median": 13000,
         "shop_count": 141,
-        "signal_shop_count": 1
+        "signal_shop_count": 2
       },
       {
         "name": "日本橋",
         "price_median": 13000,
-        "shop_count": 198,
-        "signal_shop_count": 2
+        "shop_count": 197,
+        "signal_shop_count": 0
       },
       {
         "name": "難波",
-        "price_median": 14000,
-        "shop_count": 25,
+        "price_median": 14500,
+        "shop_count": 26,
         "signal_shop_count": 1
       },
       {
         "name": "京橋",
         "price_median": 14000,
-        "shop_count": 45,
-        "signal_shop_count": 2
+        "shop_count": 47,
+        "signal_shop_count": 0
       },
       {
         "name": "心斎橋",
         "price_median": 16000,
         "shop_count": 11,
-        "signal_shop_count": 1
+        "signal_shop_count": 0
       }
     ],
     "chubu": [
@@ -1602,7 +1501,7 @@
         "name": "名古屋・名駅",
         "price_median": 16000,
         "shop_count": 150,
-        "signal_shop_count": 5
+        "signal_shop_count": 7
       },
       {
         "name": "金山",
@@ -1615,110 +1514,37 @@
   "digest": {
     "new_gap_shops": [
       {
-        "id": "33959",
-        "name": "必殺アキバ娘　錦糸町ルーム",
+        "id": "46798",
+        "name": "癒神アキバ伝説－YUSHIN－",
         "region_key": "kanto",
         "region_label": "東京"
       },
       {
-        "id": "46888",
-        "name": "田町メンズエステ Cute & Belle",
+        "id": "30733",
+        "name": "東京アロマエステ",
         "region_key": "kanto",
         "region_label": "東京"
       },
       {
-        "id": "46888",
-        "name": "田町メンズエステ Cute & Belle",
+        "id": "46798",
+        "name": "癒神アキバ伝説－YUSHIN－",
         "region_key": "kanto",
         "region_label": "東京"
       },
       {
-        "id": "44299",
-        "name": "新大阪メンズエステ・メンエス・秘宝殿",
+        "id": "35218",
+        "name": "ぽっちゃりのメンズエステで癒される",
         "region_key": "kansai",
         "region_label": "大阪"
       },
       {
-        "id": "30408",
-        "name": "ヒルガオ～大人セラピスト倶楽部～",
-        "region_key": "kansai",
-        "region_label": "大阪"
-      },
-      {
-        "id": "51335",
-        "name": "SUKI♡だらけ🏩隙がある女たちが最果てへと導く🏴‍☠️",
-        "region_key": "kansai",
-        "region_label": "大阪"
-      },
-      {
-        "id": "50901",
-        "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
-        "region_key": "kansai",
-        "region_label": "大阪"
-      },
-      {
-        "id": "44299",
-        "name": "新大阪メンズエステ・メンエス・秘宝殿",
+        "id": "35218",
+        "name": "ぽっちゃりのメンズエステで癒される",
         "region_key": "kansai",
         "region_label": "大阪"
       }
     ],
-    "ranking_movers": [
-      {
-        "category": "おもてなしランキング",
-        "rank": 1,
-        "shop_name": "Cream Spa ＋ (クリームスパプラス）",
-        "shop_url": "https://estama.jp/shop/44808/",
-        "location": "[ 東京 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 3,
-        "shop_name": "関内／伊勢佐木町メンズエステ Spa Deep スパディープ",
-        "shop_url": "https://estama.jp/shop/33480/",
-        "location": "[ 神奈川 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 7,
-        "shop_name": "High Time Spa（ハイタイムスパ）",
-        "shop_url": "https://estama.jp/shop/30961/",
-        "location": "[ 東京 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 8,
-        "shop_name": "ROOM#（ルームナンバー）",
-        "shop_url": "https://estama.jp/shop/33748/",
-        "location": "[ 神奈川 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 9,
-        "shop_name": "マダムスパ　水戸・ひたちなか",
-        "shop_url": "https://estama.jp/shop/35419/",
-        "location": "[ 茨城 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      },
-      {
-        "category": "おもてなしランキング",
-        "rank": 10,
-        "shop_name": "Sumire Spa （スミレスパ）",
-        "shop_url": "https://estama.jp/shop/49705/",
-        "location": "[ 東京 ] マンション(個室)",
-        "region": "東京",
-        "region_key": "kanto"
-      }
-    ],
+    "ranking_movers": [],
     "best_coupons": [
       {
         "title": "お客様感謝🈹イベント開催中‼️🔥🔥",
@@ -1734,30 +1560,17 @@
         "region_key": "chubu"
       },
       {
-        "title": "追加料金一切不要！オイルリンパ濃厚安心パック⭐︎",
-        "shop_name": "セラピスト育成店ＬＥＡＦ",
-        "shop_id": "51223",
-        "coupon_url": "https://estama.jp/shop/51223/coupon/",
-        "area_raw": "[愛知] 錦・栄/マンション(個室)",
-        "discount_yen": 24000,
-        "price_90min": 12000,
+        "title": "エステ魂を『見た』でネット割適用♡",
+        "shop_name": "ポセイドン",
+        "shop_id": "29952",
+        "coupon_url": "https://estama.jp/shop/29952/coupon/",
+        "area_raw": "[東京] 恵比寿/マンション(個室)",
+        "discount_yen": 23000,
+        "price_90min": null,
         "category": "指名料割引",
-        "description": "当店オリジナルオプションがすべて込みの安心プラン！\r\n追加料金を気にせず、ゆったり施術をお楽しみいただけます。\r\n※当店では個人OP等は一切禁止しております。\r\n✨90分24,000円 → 18,000円\r\n✨120分28,000円 → 2",
-        "region": "名古屋",
-        "region_key": "chubu"
-      },
-      {
-        "title": "追加料金一切不要！脱毛し放題＋オイルリンパ安心パック★",
-        "shop_name": "CEYLON　SPA",
-        "shop_id": "44139",
-        "coupon_url": "https://estama.jp/shop/44139/coupon/",
-        "area_raw": "[愛知] 錦・栄/マンション(個室)",
-        "discount_yen": 24000,
-        "price_90min": 18000,
-        "category": "指名料割引",
-        "description": "当店オリジナルオプションがもちろん脱毛も無料です！！\r\nすべて込みの安心プラン！\r\n※脱毛施術がない場合でもお安いです★\r\n追加料金を気にせず、ゆったり施術をお楽しみいただけます。\r\n※当店では個人OP等は一切禁止しております。\r\n✨90分",
-        "region": "名古屋",
-        "region_key": "chubu"
+        "description": "おすすめ♡\r\n60分仰向けコース23,000円▶21,000円\r\n\r\nおすすめ♡\r\n80分25,000円▶23,000円\r\n\r\n100分28,000円▶26,000円\r\n\r\n120分33,000円▶31,000円\r\n\r\n延長20分▶︎8,0",
+        "region": "東京",
+        "region_key": "kanto"
       },
       {
         "title": "エステ魂を『見た』でネット割適用♡",
@@ -1771,50 +1584,63 @@
         "description": "おすすめ♡\r\n60分仰向けコース23,000円▶21,000円\r\n\r\nおすすめ♡\r\n80分25,000円▶23,000円\r\n\r\n100分28,000円▶26,000円\r\n\r\n120分33,000円▶31,000円\r\n\r\n延長20分▶︎8,0",
         "region": "東京",
         "region_key": "kanto"
+      },
+      {
+        "title": "エステ魂を『見た』でネット割適用♡",
+        "shop_name": "【ポセイドン】中目黒ルーム",
+        "shop_id": "50632",
+        "coupon_url": "https://estama.jp/shop/50632/coupon/",
+        "area_raw": "[東京] 中目黒/マンション(個室)",
+        "discount_yen": 23000,
+        "price_90min": null,
+        "category": "指名料割引",
+        "description": "おすすめ♡\r\n60分仰向けコース23,000円▶21,000円\r\n\r\nおすすめ♡\r\n80分25,000円▶23,000円\r\n\r\n100分28,000円▶26,000円\r\n\r\n120分33,000円▶31,000円\r\n\r\n延長20分▶︎8,0",
+        "region": "東京",
+        "region_key": "kanto"
       }
     ],
     "bbs_keyword_spikes": [
       {
-        "region_key": "chubu",
-        "region_label": "名古屋",
-        "keyword": "最高",
-        "count": 18,
-        "delta": 11
-      },
-      {
-        "region_key": "kansai",
-        "region_label": "大阪",
-        "keyword": "おすすめ",
-        "count": 10,
-        "delta": 10
-      },
-      {
         "region_key": "kanto",
         "region_label": "東京",
-        "keyword": "おすすめ",
+        "keyword": "ハズレ",
         "count": 6,
         "delta": 6
       },
       {
-        "region_key": "kansai",
-        "region_label": "大阪",
-        "keyword": "最悪",
+        "region_key": "chubu",
+        "region_label": "名古屋",
+        "keyword": "リピ",
         "count": 6,
         "delta": 6
       },
       {
         "region_key": "kanto",
         "region_label": "東京",
-        "keyword": "最悪",
-        "count": 5,
-        "delta": 5
+        "keyword": "リピ",
+        "count": 8,
+        "delta": 4
       },
       {
-        "region_key": "chubu",
-        "region_label": "名古屋",
-        "keyword": "残念",
-        "count": 5,
-        "delta": 5
+        "region_key": "kansai",
+        "region_label": "大阪",
+        "keyword": "リピ",
+        "count": 4,
+        "delta": 4
+      },
+      {
+        "region_key": "kanto",
+        "region_label": "東京",
+        "keyword": "神",
+        "count": 3,
+        "delta": 3
+      },
+      {
+        "region_key": "kansai",
+        "region_label": "大阪",
+        "keyword": "指名",
+        "count": 3,
+        "delta": 3
       }
     ],
     "has_prior_snapshot": true
