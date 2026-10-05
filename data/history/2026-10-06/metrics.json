@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-10-06 06:42 JST",
+  "cross_gap_shops": [
+    {
+      "id": "49596",
+      "name": "出張メンズエステ メンエス日暮里",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "35557",
+      "name": "東京スパ＆マッサージ COCONA GRAN",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "49596",
+      "name": "出張メンズエステ メンエス日暮里",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "39791",
+      "name": "MITSUBACHI-ミツバチ-",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "おすすめ": 7,
+        "神": 6,
+        "残念": 4,
+        "コスパ": 3,
+        "寛容": 3
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "おすすめ": 10,
+        "健全": 9,
+        "最高": 7,
+        "安い": 5,
+        "寛容": 5
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "当たり": 15,
+        "おすすめ": 11,
+        "神": 5,
+        "コスパ": 4,
+        "リピ": 4
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 28000,
+      "available_now": 218,
+      "sampled_shops": 1000,
+      "review_avg": 4.78,
+      "review_five_star_rate": 58,
+      "review_suspicious_rate": 16.1,
+      "bbs_caution_rate": 2.8,
+      "bbs_positive_rate": 4.2,
+      "cross_gap_count": 3,
+      "cross_matched_shops": 512,
+      "parsed_reviews": 1626
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 44000,
+      "available_now": 227,
+      "sampled_shops": 1000,
+      "review_avg": 4.84,
+      "review_five_star_rate": 70,
+      "review_suspicious_rate": 20.7,
+      "bbs_caution_rate": 1.2,
+      "bbs_positive_rate": 5.2,
+      "cross_gap_count": 0,
+      "cross_matched_shops": 516,
+      "parsed_reviews": 1677
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 78,
+      "sampled_shops": 983,
+      "review_avg": 4.8,
+      "review_five_star_rate": 61,
+      "review_suspicious_rate": 14.7,
+      "bbs_caution_rate": 1.0,
+      "bbs_positive_rate": 9.8,
+      "cross_gap_count": 1,
+      "cross_matched_shops": 438,
+      "parsed_reviews": 1216
+    }
+  ],
+  "date": "2026-10-06"
+}
