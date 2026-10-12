@@ -1,0 +1,133 @@
+{
+  "updated_at": "2026-10-13 07:17 JST",
+  "cross_gap_shops": [
+    {
+      "id": "35557",
+      "name": "東京スパ＆マッサージ COCONA GRAN",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "30408",
+      "name": "ヒルガオ～大人セラピスト倶楽部～",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "30408",
+      "name": "ヒルガオ～大人セラピスト倶楽部～",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "40098",
+      "name": "メンズエステ カトレア 静岡中部 出張・完全個室マッサージ",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "34315",
+      "name": "8mg 勝川・春日井",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "40098",
+      "name": "メンズエステ カトレア 静岡中部 出張・完全個室マッサージ",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "34315",
+      "name": "8mg 勝川・春日井",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "おすすめ": 9,
+        "当たり": 7,
+        "オススメ": 4,
+        "外れ": 4,
+        "寛容": 3
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "健全": 7,
+        "おすすめ": 6,
+        "最高": 5,
+        "当たり": 5,
+        "オススメ": 4
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "おすすめ": 14,
+        "当たり": 13,
+        "オプション": 6,
+        "神": 6,
+        "オススメ": 6
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 28000,
+      "available_now": 275,
+      "sampled_shops": 1000,
+      "review_avg": 4.77,
+      "review_five_star_rate": 59,
+      "review_suspicious_rate": 16.1,
+      "bbs_caution_rate": 2.0,
+      "bbs_positive_rate": 6.0,
+      "cross_gap_count": 1,
+      "cross_matched_shops": 514,
+      "parsed_reviews": 1600
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 50000,
+      "available_now": 309,
+      "sampled_shops": 1000,
+      "review_avg": 4.84,
+      "review_five_star_rate": 69,
+      "review_suspicious_rate": 19.5,
+      "bbs_caution_rate": 1.8,
+      "bbs_positive_rate": 5.0,
+      "cross_gap_count": 2,
+      "cross_matched_shops": 513,
+      "parsed_reviews": 1709
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 99,
+      "sampled_shops": 986,
+      "review_avg": 4.8,
+      "review_five_star_rate": 63,
+      "review_suspicious_rate": 15.3,
+      "bbs_caution_rate": 2.5,
+      "bbs_positive_rate": 11.8,
+      "cross_gap_count": 4,
+      "cross_matched_shops": 437,
+      "parsed_reviews": 1206
+    }
+  ],
+  "date": "2026-10-13"
+}
