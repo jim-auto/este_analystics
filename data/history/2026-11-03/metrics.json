@@ -1,0 +1,133 @@
+{
+  "updated_at": "2026-11-03 07:55 JST",
+  "cross_gap_shops": [
+    {
+      "id": "49855",
+      "name": "SPA FLOW ストレッチ＆オイル",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "49855",
+      "name": "SPA FLOW ストレッチ＆オイル",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "50937",
+      "name": "新大阪｜でびにゃ🐾地獄という名の天国😈🔥マンション型",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "50901",
+      "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "50937",
+      "name": "新大阪｜でびにゃ🐾地獄という名の天国😈🔥マンション型",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "50901",
+      "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "50901",
+      "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "おすすめ": 11,
+        "指名": 8,
+        "当たり": 7,
+        "最高": 6,
+        "外れ": 6
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "寛容": 8,
+        "おすすめ": 8,
+        "最高": 7,
+        "地雷": 7,
+        "オプション": 6
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "当たり": 14,
+        "おすすめ": 11,
+        "リピ": 6,
+        "寛容": 5,
+        "最高": 3
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 28000,
+      "available_now": 307,
+      "sampled_shops": 1000,
+      "review_avg": 4.78,
+      "review_five_star_rate": 58,
+      "review_suspicious_rate": 16.7,
+      "bbs_caution_rate": 2.2,
+      "bbs_positive_rate": 8.0,
+      "cross_gap_count": 2,
+      "cross_matched_shops": 513,
+      "parsed_reviews": 1579
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 50000,
+      "available_now": 364,
+      "sampled_shops": 1000,
+      "review_avg": 4.86,
+      "review_five_star_rate": 73,
+      "review_suspicious_rate": 18.5,
+      "bbs_caution_rate": 2.8,
+      "bbs_positive_rate": 6.5,
+      "cross_gap_count": 5,
+      "cross_matched_shops": 516,
+      "parsed_reviews": 1701
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 124,
+      "sampled_shops": 979,
+      "review_avg": 4.81,
+      "review_five_star_rate": 62,
+      "review_suspicious_rate": 16.2,
+      "bbs_caution_rate": 2.2,
+      "bbs_positive_rate": 9.0,
+      "cross_gap_count": 0,
+      "cross_matched_shops": 456,
+      "parsed_reviews": 1248
+    }
+  ],
+  "date": "2026-11-03"
+}

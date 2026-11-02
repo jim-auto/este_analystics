@@ -1,159 +1,8 @@
 {
   "snapshot_count": 12,
-  "latest_date": "2026-10-27",
-  "previous_date": "2026-10-20",
+  "latest_date": "2026-11-03",
+  "previous_date": "2026-10-27",
   "snapshots": [
-    {
-      "updated_at": "2026-08-11 00:20 JST",
-      "cross_gap_shops": [
-        {
-          "id": "34408",
-          "name": "Aroma　Emerald~アロマ・エメラルド~",
-          "region_key": "kanto",
-          "region_label": "東京"
-        },
-        {
-          "id": "31741",
-          "name": "アリー吉祥寺",
-          "region_key": "kanto",
-          "region_label": "東京"
-        },
-        {
-          "id": "34408",
-          "name": "Aroma　Emerald~アロマ・エメラルド~",
-          "region_key": "kanto",
-          "region_label": "東京"
-        },
-        {
-          "id": "31741",
-          "name": "アリー吉祥寺",
-          "region_key": "kanto",
-          "region_label": "東京"
-        },
-        {
-          "id": "44299",
-          "name": "新大阪メンズエステ・メンエス・秘宝殿",
-          "region_key": "kansai",
-          "region_label": "大阪"
-        },
-        {
-          "id": "30408",
-          "name": "ヒルガオ～大人セラピスト倶楽部～",
-          "region_key": "kansai",
-          "region_label": "大阪"
-        },
-        {
-          "id": "44293",
-          "name": "かりそめ 別館 大阪泡洗体マッサージ",
-          "region_key": "kansai",
-          "region_label": "大阪"
-        },
-        {
-          "id": "44299",
-          "name": "新大阪メンズエステ・メンエス・秘宝殿",
-          "region_key": "kansai",
-          "region_label": "大阪"
-        },
-        {
-          "id": "30408",
-          "name": "ヒルガオ～大人セラピスト倶楽部～",
-          "region_key": "kansai",
-          "region_label": "大阪"
-        },
-        {
-          "id": "25108",
-          "name": "店舗/マンション個室複合店　Felice（ﾌｪﾘｰﾁｪ)",
-          "region_key": "chubu",
-          "region_label": "名古屋"
-        }
-      ],
-      "bbs_keywords": [
-        {
-          "key": "kanto",
-          "keywords": {
-            "神": 13,
-            "最高": 8,
-            "指名": 7,
-            "おすすめ": 5,
-            "寛容": 5
-          }
-        },
-        {
-          "key": "kansai",
-          "keywords": {
-            "詐欺": 6,
-            "リピ": 5,
-            "オプション": 4,
-            "おすすめ": 4,
-            "地雷": 4
-          }
-        },
-        {
-          "key": "chubu",
-          "keywords": {
-            "最高": 17,
-            "当たり": 15,
-            "優良": 8,
-            "おすすめ": 6,
-            "指名": 5
-          }
-        }
-      ],
-      "regions": [
-        {
-          "key": "kanto",
-          "label": "東京",
-          "price_median": 16000,
-          "price_min": 8000,
-          "price_max": 28000,
-          "available_now": 852,
-          "sampled_shops": 998,
-          "review_avg": 4.79,
-          "review_five_star_rate": 57,
-          "review_suspicious_rate": 14.9,
-          "bbs_caution_rate": 1.5,
-          "bbs_positive_rate": 8.2,
-          "cross_gap_count": 4,
-          "cross_matched_shops": 519,
-          "parsed_reviews": 1564
-        },
-        {
-          "key": "kansai",
-          "label": "大阪",
-          "price_median": 14000,
-          "price_min": 9000,
-          "price_max": 44000,
-          "available_now": 792,
-          "sampled_shops": 1000,
-          "review_avg": 4.84,
-          "review_five_star_rate": 69,
-          "review_suspicious_rate": 21.0,
-          "bbs_caution_rate": 4.0,
-          "bbs_positive_rate": 3.5,
-          "cross_gap_count": 8,
-          "cross_matched_shops": 517,
-          "parsed_reviews": 1684
-        },
-        {
-          "key": "chubu",
-          "label": "名古屋",
-          "price_median": 15000,
-          "price_min": 8000,
-          "price_max": 45000,
-          "available_now": 395,
-          "sampled_shops": 1000,
-          "review_avg": 4.81,
-          "review_five_star_rate": 60,
-          "review_suspicious_rate": 13.9,
-          "bbs_caution_rate": 0.8,
-          "bbs_positive_rate": 11.3,
-          "cross_gap_count": 1,
-          "cross_matched_shops": 423,
-          "parsed_reviews": 1171
-        }
-      ],
-      "date": "2026-08-11"
-    },
     {
       "updated_at": "2026-08-18 00:13 JST",
       "cross_gap_shops": [
@@ -1628,6 +1477,139 @@
         }
       ],
       "date": "2026-10-27"
+    },
+    {
+      "updated_at": "2026-11-03 07:55 JST",
+      "cross_gap_shops": [
+        {
+          "id": "49855",
+          "name": "SPA FLOW ストレッチ＆オイル",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "49855",
+          "name": "SPA FLOW ストレッチ＆オイル",
+          "region_key": "kanto",
+          "region_label": "東京"
+        },
+        {
+          "id": "50937",
+          "name": "新大阪｜でびにゃ🐾地獄という名の天国😈🔥マンション型",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "50901",
+          "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "50937",
+          "name": "新大阪｜でびにゃ🐾地獄という名の天国😈🔥マンション型",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "50901",
+          "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        },
+        {
+          "id": "50901",
+          "name": "絶対肌感38.5℃【難波ルーム＋出張サービス】",
+          "region_key": "kansai",
+          "region_label": "大阪"
+        }
+      ],
+      "bbs_keywords": [
+        {
+          "key": "kanto",
+          "keywords": {
+            "おすすめ": 11,
+            "指名": 8,
+            "当たり": 7,
+            "最高": 6,
+            "外れ": 6
+          }
+        },
+        {
+          "key": "kansai",
+          "keywords": {
+            "寛容": 8,
+            "おすすめ": 8,
+            "最高": 7,
+            "地雷": 7,
+            "オプション": 6
+          }
+        },
+        {
+          "key": "chubu",
+          "keywords": {
+            "当たり": 14,
+            "おすすめ": 11,
+            "リピ": 6,
+            "寛容": 5,
+            "最高": 3
+          }
+        }
+      ],
+      "regions": [
+        {
+          "key": "kanto",
+          "label": "東京",
+          "price_median": 16000,
+          "price_min": 8000,
+          "price_max": 28000,
+          "available_now": 307,
+          "sampled_shops": 1000,
+          "review_avg": 4.78,
+          "review_five_star_rate": 58,
+          "review_suspicious_rate": 16.7,
+          "bbs_caution_rate": 2.2,
+          "bbs_positive_rate": 8.0,
+          "cross_gap_count": 2,
+          "cross_matched_shops": 513,
+          "parsed_reviews": 1579
+        },
+        {
+          "key": "kansai",
+          "label": "大阪",
+          "price_median": 14000,
+          "price_min": 9000,
+          "price_max": 50000,
+          "available_now": 364,
+          "sampled_shops": 1000,
+          "review_avg": 4.86,
+          "review_five_star_rate": 73,
+          "review_suspicious_rate": 18.5,
+          "bbs_caution_rate": 2.8,
+          "bbs_positive_rate": 6.5,
+          "cross_gap_count": 5,
+          "cross_matched_shops": 516,
+          "parsed_reviews": 1701
+        },
+        {
+          "key": "chubu",
+          "label": "名古屋",
+          "price_median": 15000,
+          "price_min": 8000,
+          "price_max": 45000,
+          "available_now": 124,
+          "sampled_shops": 979,
+          "review_avg": 4.81,
+          "review_five_star_rate": 62,
+          "review_suspicious_rate": 16.2,
+          "bbs_caution_rate": 2.2,
+          "bbs_positive_rate": 9.0,
+          "cross_gap_count": 0,
+          "cross_matched_shops": 456,
+          "parsed_reviews": 1248
+        }
+      ],
+      "date": "2026-11-03"
     }
   ],
   "changes": {
@@ -1638,9 +1620,9 @@
         "delta": 0
       },
       "review_avg": {
-        "current": 4.77,
+        "current": 4.78,
         "previous": 4.77,
-        "delta": 0.0
+        "delta": 0.01
       },
       "review_five_star_rate": {
         "current": 58,
@@ -1648,24 +1630,24 @@
         "delta": 0
       },
       "review_suspicious_rate": {
-        "current": 16.0,
-        "previous": 16.3,
-        "delta": -0.3
+        "current": 16.7,
+        "previous": 16.0,
+        "delta": 0.7
       },
       "bbs_caution_rate": {
-        "current": 1.5,
-        "previous": 0.8,
+        "current": 2.2,
+        "previous": 1.5,
         "delta": 0.7
       },
       "cross_gap_count": {
-        "current": 0,
+        "current": 2,
         "previous": 0,
-        "delta": 0
+        "delta": 2
       },
       "available_now": {
-        "current": 887,
-        "previous": 886,
-        "delta": 1
+        "current": 307,
+        "previous": 887,
+        "delta": -580
       }
     },
     "kansai": {
@@ -1675,9 +1657,9 @@
         "delta": 0
       },
       "review_avg": {
-        "current": 4.85,
-        "previous": 4.86,
-        "delta": -0.01
+        "current": 4.86,
+        "previous": 4.85,
+        "delta": 0.01
       },
       "review_five_star_rate": {
         "current": 73,
@@ -1685,24 +1667,24 @@
         "delta": 0
       },
       "review_suspicious_rate": {
-        "current": 20.4,
-        "previous": 20.8,
-        "delta": -0.4
+        "current": 18.5,
+        "previous": 20.4,
+        "delta": -1.9
       },
       "bbs_caution_rate": {
         "current": 2.8,
-        "previous": 0.2,
-        "delta": 2.6
+        "previous": 2.8,
+        "delta": 0.0
       },
       "cross_gap_count": {
-        "current": 6,
-        "previous": 0,
-        "delta": 6
+        "current": 5,
+        "previous": 6,
+        "delta": -1
       },
       "available_now": {
-        "current": 786,
-        "previous": 792,
-        "delta": -6
+        "current": 364,
+        "previous": 786,
+        "delta": -422
       }
     },
     "chubu": {
@@ -1713,8 +1695,8 @@
       },
       "review_avg": {
         "current": 4.81,
-        "previous": 4.8,
-        "delta": 0.01
+        "previous": 4.81,
+        "delta": 0.0
       },
       "review_five_star_rate": {
         "current": 62,
@@ -1722,29 +1704,30 @@
         "delta": 0
       },
       "review_suspicious_rate": {
-        "current": 16.0,
-        "previous": 15.2,
-        "delta": 0.8
+        "current": 16.2,
+        "previous": 16.0,
+        "delta": 0.2
       },
       "bbs_caution_rate": {
         "current": 2.2,
-        "previous": 2.8,
-        "delta": -0.6
+        "previous": 2.2,
+        "delta": 0.0
       },
       "cross_gap_count": {
-        "current": 2,
-        "previous": 5,
-        "delta": -3
+        "current": 0,
+        "previous": 2,
+        "delta": -2
       },
       "available_now": {
-        "current": 405,
-        "previous": 403,
-        "delta": 2
+        "current": 124,
+        "previous": 405,
+        "delta": -281
       }
     }
   },
   "notes": [
-    "kansai: クロスギャップ店舗数 0 → 6",
-    "chubu: クロスギャップ店舗数 5 → 2"
+    "kanto: クロスギャップ店舗数 0 → 2",
+    "kansai: クロスギャップ店舗数 6 → 5",
+    "chubu: クロスギャップ店舗数 2 → 0"
   ]
 }
