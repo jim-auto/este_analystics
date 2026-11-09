@@ -1,0 +1,109 @@
+{
+  "updated_at": "2026-11-10 08:37 JST",
+  "cross_gap_shops": [
+    {
+      "id": "49222",
+      "name": "かりそめ別館 大阪泡洗体マッサージ　梅田エリア",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "50693",
+      "name": "自宅出張メンエス～夜桜～",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "50693",
+      "name": "自宅出張メンエス～夜桜～",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "指名": 13,
+        "最高": 10,
+        "オススメ": 6,
+        "神": 5,
+        "リピ": 5
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "神": 11,
+        "寛容": 8,
+        "指名": 8,
+        "安い": 7,
+        "最高": 6
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "リピ": 10,
+        "おすすめ": 8,
+        "当たり": 7,
+        "オプション": 5,
+        "最高": 4
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 28000,
+      "available_now": 353,
+      "sampled_shops": 1000,
+      "review_avg": 4.78,
+      "review_five_star_rate": 58,
+      "review_suspicious_rate": 16.5,
+      "bbs_caution_rate": 1.0,
+      "bbs_positive_rate": 7.8,
+      "cross_gap_count": 0,
+      "cross_matched_shops": 514,
+      "parsed_reviews": 1611
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 50000,
+      "available_now": 390,
+      "sampled_shops": 1000,
+      "review_avg": 4.86,
+      "review_five_star_rate": 72,
+      "review_suspicious_rate": 19.7,
+      "bbs_caution_rate": 2.2,
+      "bbs_positive_rate": 6.2,
+      "cross_gap_count": 1,
+      "cross_matched_shops": 517,
+      "parsed_reviews": 1697
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 151,
+      "sampled_shops": 984,
+      "review_avg": 4.8,
+      "review_five_star_rate": 60,
+      "review_suspicious_rate": 14.9,
+      "bbs_caution_rate": 1.5,
+      "bbs_positive_rate": 7.8,
+      "cross_gap_count": 2,
+      "cross_matched_shops": 447,
+      "parsed_reviews": 1250
+    }
+  ],
+  "date": "2026-11-10"
+}
