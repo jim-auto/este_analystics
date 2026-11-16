@@ -10,33 +10,23 @@
       "price_median": 16000,
       "price_min": 11000,
       "price_max": 22000,
-      "available_now": 11,
+      "available_now": 14,
       "with_coupon": 44,
-      "signal_shop_count": 3,
+      "signal_shop_count": 2,
       "signal_shops": [
+        {
+          "id": "49399",
+          "name": "セクシーレディー",
+          "price_90min": null,
+          "signal_labels": [
+            "掲示板のみ言及"
+          ],
+          "review_avg": null,
+          "bbs_mentions": 2
+        },
         {
           "id": "49375",
           "name": "いちご",
-          "price_90min": null,
-          "signal_labels": [
-            "掲示板のみ言及"
-          ],
-          "review_avg": null,
-          "bbs_mentions": 3
-        },
-        {
-          "id": "49437",
-          "name": "快感パニック",
-          "price_90min": null,
-          "signal_labels": [
-            "掲示板のみ言及"
-          ],
-          "review_avg": null,
-          "bbs_mentions": 1
-        },
-        {
-          "id": "45999",
-          "name": "Kiss パラダイス",
           "price_90min": null,
           "signal_labels": [
             "掲示板のみ言及"
@@ -75,11 +65,11 @@
           "coupon_count": null
         },
         {
-          "id": "43313",
-          "name": "家政婦スパ",
+          "id": "35011",
+          "name": "ウータイ×カルサイネイザン Ameri",
           "price_90min": 15000,
           "available_now": false,
-          "coupon_count": 1
+          "coupon_count": null
         }
       ],
       "shops": [
@@ -98,8 +88,8 @@
           ]
         },
         {
-          "id": "49437",
-          "name": "快感パニック",
+          "id": "49399",
+          "name": "セクシーレディー",
           "price_90min": null,
           "shop_type": "店舗型",
           "available_now": false,
@@ -112,18 +102,14 @@
           ]
         },
         {
-          "id": "45999",
-          "name": "Kiss パラダイス",
-          "price_90min": null,
+          "id": "27306",
+          "name": "Century センチュリー",
+          "price_90min": 15000,
           "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [
-            "bbs_buzz_no_reviews"
-          ],
-          "signal_labels": [
-            "掲示板のみ言及"
-          ]
+          "available_now": true,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
         },
         {
           "id": "43523",
@@ -136,9 +122,9 @@
           "signal_labels": []
         },
         {
-          "id": "27306",
-          "name": "Century センチュリー",
-          "price_90min": 15000,
+          "id": "46773",
+          "name": "CLIMAX 名駅　伏見",
+          "price_90min": 16000,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 3,
@@ -146,9 +132,19 @@
           "signal_labels": []
         },
         {
-          "id": "46773",
-          "name": "CLIMAX 名駅　伏見",
+          "id": "52364",
+          "name": "Mrs.Fruits SPA名古屋",
           "price_90min": 16000,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "33334",
+          "name": "名古屋メンズエステEXE~エグゼ~",
+          "price_90min": 19000,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 3,
@@ -176,6 +172,16 @@
           "signal_labels": []
         },
         {
+          "id": "32691",
+          "name": "Galaxy-NAGOYA  (ギャラクシーナゴヤ名駅）",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "32757",
           "name": "Samantha名古屋本店",
           "price_90min": null,
@@ -186,8 +192,8 @@
           "signal_labels": []
         },
         {
-          "id": "32691",
-          "name": "Galaxy-NAGOYA  (ギャラクシーナゴヤ名駅）",
+          "id": "39810",
+          "name": "ノットガイル",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
@@ -276,16 +282,6 @@
           "signal_labels": []
         },
         {
-          "id": "43313",
-          "name": "家政婦スパ",
-          "price_90min": 15000,
-          "shop_type": "派遣・出張専門",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "35011",
           "name": "ウータイ×カルサイネイザン Ameri",
           "price_90min": 15000,
@@ -302,6 +298,16 @@
           "shop_type": "派遣・出張専門",
           "available_now": false,
           "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "43313",
+          "name": "家政婦スパ",
+          "price_90min": 15000,
+          "shop_type": "派遣・出張専門",
+          "available_now": false,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -324,26 +330,6 @@
           "coupon_count": 1,
           "signals": [],
           "signal_labels": []
-        },
-        {
-          "id": "50414",
-          "name": "Beauty  SPA",
-          "price_90min": 15000,
-          "shop_type": "派遣・出張専門",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "48563",
-          "name": "SUPER HATENA",
-          "price_90min": 15000,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
         }
       ]
     },
@@ -354,21 +340,10 @@
       "price_median": 15000,
       "price_min": 8000,
       "price_max": 20000,
-      "available_now": 11,
+      "available_now": 13,
       "with_coupon": 35,
-      "signal_shop_count": 1,
-      "signal_shops": [
-        {
-          "id": "31787",
-          "name": "ミセス美オーラ 浜松",
-          "price_90min": null,
-          "signal_labels": [
-            "公式・掲示板とも好評"
-          ],
-          "review_avg": 4.3,
-          "bbs_mentions": 2
-        }
-      ],
+      "signal_shop_count": 0,
+      "signal_shops": [],
       "budget_shops": [
         {
           "id": "51229",
@@ -408,20 +383,6 @@
       ],
       "shops": [
         {
-          "id": "31787",
-          "name": "ミセス美オーラ 浜松",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 2,
-          "signals": [
-            "aligned_positive"
-          ],
-          "signal_labels": [
-            "公式・掲示板とも好評"
-          ]
-        },
-        {
           "id": "50499",
           "name": "Honey Touch(ハニータッチ)",
           "price_90min": 10000,
@@ -438,6 +399,16 @@
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "41861",
+          "name": "Lipps",
+          "price_90min": 14000,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -462,12 +433,32 @@
           "signal_labels": []
         },
         {
+          "id": "38614",
+          "name": "泡リフレ M'sPeach",
+          "price_90min": 16000,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "31365",
           "name": "浜松超E-SPA",
           "price_90min": 16000,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "31787",
+          "name": "ミセス美オーラ 浜松",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -582,16 +573,6 @@
           "signal_labels": []
         },
         {
-          "id": "42639",
-          "name": "Cat's Eye. -キャッツ･アイ-",
-          "price_90min": 14000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "42204",
           "name": "ポムポムblue 浜松ルーム",
           "price_90min": 14000,
@@ -612,22 +593,22 @@
           "signal_labels": []
         },
         {
-          "id": "41861",
-          "name": "Lipps",
-          "price_90min": 14000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "45953",
           "name": "浜松出張メンズエステRAISE（レイズ）",
           "price_90min": 14000,
           "shop_type": "派遣・出張専門",
           "available_now": false,
           "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "42639",
+          "name": "Cat's Eye. -キャッツ･アイ-",
+          "price_90min": 14000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -650,39 +631,39 @@
           "coupon_count": 2,
           "signals": [],
           "signal_labels": []
-        },
-        {
-          "id": "33951",
-          "name": "ちいさなエステ",
-          "price_90min": 14000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
         }
       ]
     },
     {
       "name": "金沢",
       "shop_count": 71,
-      "priced_count": 44,
+      "priced_count": 45,
       "price_median": 15400,
       "price_min": 11000,
       "price_max": 35000,
-      "available_now": 10,
-      "with_coupon": 57,
-      "signal_shop_count": 1,
+      "available_now": 11,
+      "with_coupon": 58,
+      "signal_shop_count": 2,
       "signal_shops": [
         {
-          "id": "40742",
-          "name": "秘書の薫り",
-          "price_90min": 15000,
+          "id": "50583",
+          "name": "M男の部屋　鼠径部琳派専門　マイクロビキニ　金沢駅前店",
+          "price_90min": null,
           "signal_labels": [
-            "公式・掲示板とも好評"
+            "掲示板のみ言及"
           ],
-          "review_avg": 4.8,
-          "bbs_mentions": 4
+          "review_avg": null,
+          "bbs_mentions": 2
+        },
+        {
+          "id": "39307",
+          "name": "メンズエステ　ÉLITE KANAZAWA（エリート金沢）",
+          "price_90min": 18000,
+          "signal_labels": [
+            "掲示板のみ言及"
+          ],
+          "review_avg": null,
+          "bbs_mentions": 1
         }
       ],
       "budget_shops": [
@@ -724,18 +705,52 @@
       ],
       "shops": [
         {
-          "id": "40742",
-          "name": "秘書の薫り",
-          "price_90min": 15000,
+          "id": "39307",
+          "name": "メンズエステ　ÉLITE KANAZAWA（エリート金沢）",
+          "price_90min": 18000,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 2,
           "signals": [
-            "aligned_positive"
+            "bbs_buzz_no_reviews"
           ],
           "signal_labels": [
-            "公式・掲示板とも好評"
+            "掲示板のみ言及"
           ]
+        },
+        {
+          "id": "50583",
+          "name": "M男の部屋　鼠径部琳派専門　マイクロビキニ　金沢駅前店",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [
+            "bbs_buzz_no_reviews"
+          ],
+          "signal_labels": [
+            "掲示板のみ言及"
+          ]
+        },
+        {
+          "id": "44117",
+          "name": "MODAN SPA金沢",
+          "price_90min": 15000,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "38186",
+          "name": "T e n c a ~天華~",
+          "price_90min": 15000,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
         },
         {
           "id": "28121",
@@ -813,7 +828,7 @@
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 2,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -822,16 +837,6 @@
           "name": "金沢メンズエステ Mary Geoise-マリージョア-",
           "price_90min": null,
           "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "23505",
-          "name": "リラクゼーションサロン和華",
-          "price_90min": null,
-          "shop_type": "店舗型",
           "available_now": true,
           "coupon_count": 1,
           "signals": [],
@@ -898,22 +903,22 @@
           "signal_labels": []
         },
         {
-          "id": "43864",
-          "name": "アロマリヴェール",
-          "price_90min": 14300,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "38229",
           "name": "LOHAS",
           "price_90min": 14300,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "43864",
+          "name": "アロマリヴェール",
+          "price_90min": 14300,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -928,18 +933,8 @@
           "signal_labels": []
         },
         {
-          "id": "38186",
-          "name": "T e n c a ~天華~",
-          "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "44117",
-          "name": "MODAN SPA金沢",
+          "id": "39217",
+          "name": "いざよい",
           "price_90min": 15000,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -958,18 +953,8 @@
           "signal_labels": []
         },
         {
-          "id": "33896",
-          "name": "金沢メンズエステ　ぬくもり",
-          "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "39217",
-          "name": "いざよい",
+          "id": "40742",
+          "name": "秘書の薫り",
           "price_90min": 15000,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -986,8 +971,8 @@
       "price_median": 15000,
       "price_min": 8500,
       "price_max": 21000,
-      "available_now": 20,
-      "with_coupon": 52,
+      "available_now": 17,
+      "with_coupon": 51,
       "signal_shop_count": 2,
       "signal_shops": [
         {
@@ -998,17 +983,17 @@
             "掲示板のみ言及"
           ],
           "review_avg": null,
-          "bbs_mentions": 2
+          "bbs_mentions": 13
         },
         {
-          "id": "25172",
-          "name": "RESEXY～リゼクシー～",
-          "price_90min": 11000,
+          "id": "41412",
+          "name": "名古屋・栄メンズエステ〜HANIEL〜",
+          "price_90min": null,
           "signal_labels": [
             "公式・掲示板とも好評"
           ],
-          "review_avg": 4.77,
-          "bbs_mentions": 1
+          "review_avg": 4.83,
+          "bbs_mentions": 2
         }
       ],
       "budget_shops": [
@@ -1050,12 +1035,12 @@
       ],
       "shops": [
         {
-          "id": "25172",
-          "name": "RESEXY～リゼクシー～",
-          "price_90min": 11000,
+          "id": "41412",
+          "name": "名古屋・栄メンズエステ〜HANIEL〜",
+          "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 1,
+          "coupon_count": null,
           "signals": [
             "aligned_positive"
           ],
@@ -1078,9 +1063,9 @@
           ]
         },
         {
-          "id": "35355",
-          "name": "俺のツボ～癒しの女神たち～",
-          "price_90min": 15000,
+          "id": "25172",
+          "name": "RESEXY～リゼクシー～",
+          "price_90min": 11000,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
@@ -1091,16 +1076,6 @@
           "id": "43524",
           "name": "Sovrano 栄",
           "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "42820",
-          "name": "Sun Flower",
-          "price_90min": 16000,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 3,
@@ -1148,48 +1123,8 @@
           "signal_labels": []
         },
         {
-          "id": "41755",
-          "name": "Roseana-ロゼアナ-",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "35008",
-          "name": "アロマーナ栄",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "39299",
-          "name": "アロマテラス",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "51482",
           "name": "Amore-アモーレ",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "39878",
-          "name": "Shizuku(雫)",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
@@ -1208,12 +1143,12 @@
           "signal_labels": []
         },
         {
-          "id": "32246",
-          "name": "ベビードールSPA名古屋",
+          "id": "35008",
+          "name": "アロマーナ栄",
           "price_90min": null,
-          "shop_type": "派遣・出張専門",
+          "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 1,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -1224,6 +1159,16 @@
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "39299",
+          "name": "アロマテラス",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -1248,6 +1193,16 @@
           "signal_labels": []
         },
         {
+          "id": "39940",
+          "name": "GOLD (ゴールド)",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "50972",
           "name": "栄メンズエステARROWS(アローズ)",
           "price_90min": null,
@@ -1258,12 +1213,12 @@
           "signal_labels": []
         },
         {
-          "id": "41412",
-          "name": "名古屋・栄メンズエステ〜HANIEL〜",
+          "id": "32246",
+          "name": "ベビードールSPA名古屋",
           "price_90min": null,
-          "shop_type": "マンション(個室)",
+          "shop_type": "派遣・出張専門",
           "available_now": true,
-          "coupon_count": null,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -1306,20 +1261,61 @@
           "coupon_count": 1,
           "signals": [],
           "signal_labels": []
+        },
+        {
+          "id": "47477",
+          "name": "Amorous Re",
+          "price_90min": 12000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "50820",
+          "name": "М貴族　栄店",
+          "price_90min": 14000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "22298",
+          "name": "Derniere～デルニエ～",
+          "price_90min": 14000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
         }
       ]
     },
     {
       "name": "岡崎・安城・豊田",
-      "shop_count": 59,
+      "shop_count": 58,
       "priced_count": 15,
       "price_median": 16000,
       "price_min": 13000,
       "price_max": 20000,
-      "available_now": 5,
-      "with_coupon": 28,
-      "signal_shop_count": 0,
-      "signal_shops": [],
+      "available_now": 4,
+      "with_coupon": 27,
+      "signal_shop_count": 1,
+      "signal_shops": [
+        {
+          "id": "52160",
+          "name": "かわいい猫",
+          "price_90min": null,
+          "signal_labels": [
+            "掲示板のみ言及"
+          ],
+          "review_avg": null,
+          "bbs_mentions": 4
+        }
+      ],
       "budget_shops": [
         {
           "id": "49834",
@@ -1359,19 +1355,23 @@
       ],
       "shops": [
         {
+          "id": "52160",
+          "name": "かわいい猫",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [
+            "bbs_buzz_no_reviews"
+          ],
+          "signal_labels": [
+            "掲示板のみ言及"
+          ]
+        },
+        {
           "id": "31963",
           "name": "Ange Spa～アンジュスパ",
           "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "40160",
-          "name": "Candy〜キャンディ",
-          "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
@@ -1519,22 +1519,22 @@
           "signal_labels": []
         },
         {
-          "id": "49696",
-          "name": "美魅-Forever M-",
-          "price_90min": 20000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "38052",
           "name": "アロマダイヤモンド",
           "price_90min": 20000,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "49696",
+          "name": "美魅-Forever M-",
+          "price_90min": 20000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -1569,8 +1569,8 @@
           "signal_labels": []
         },
         {
-          "id": "33696",
-          "name": "プリムラ三河",
+          "id": "40160",
+          "name": "Candy〜キャンディ",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -1579,12 +1579,12 @@
           "signal_labels": []
         },
         {
-          "id": "34378",
-          "name": "さくらspa",
+          "id": "33696",
+          "name": "プリムラ三河",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 3,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -1599,8 +1599,8 @@
           "signal_labels": []
         },
         {
-          "id": "33181",
-          "name": "Oka-Spa",
+          "id": "34378",
+          "name": "さくらspa",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -1617,16 +1617,39 @@
       "price_median": 15000,
       "price_min": 10000,
       "price_max": 19000,
-      "available_now": 3,
-      "with_coupon": 26,
-      "signal_shop_count": 0,
-      "signal_shops": [],
+      "available_now": 2,
+      "with_coupon": 25,
+      "signal_shop_count": 2,
+      "signal_shops": [
+        {
+          "id": "43008",
+          "name": "二度癒すミセス(一宮・春日井・小牧)",
+          "price_90min": 15000,
+          "signal_labels": [
+            "掲示板のみ言及",
+            "掲示板注意のみ"
+          ],
+          "review_avg": null,
+          "bbs_mentions": 10
+        },
+        {
+          "id": "49513",
+          "name": "台湾の娘",
+          "price_90min": 12000,
+          "signal_labels": [
+            "掲示板のみ言及",
+            "掲示板注意のみ"
+          ],
+          "review_avg": null,
+          "bbs_mentions": 4
+        }
+      ],
       "budget_shops": [
         {
           "id": "52277",
           "name": "大人吐息SPA ～恋する密着時間　一宮駅前店",
           "price_90min": 10000,
-          "available_now": true,
+          "available_now": false,
           "coupon_count": 1
         },
         {
@@ -1660,14 +1683,36 @@
       ],
       "shops": [
         {
-          "id": "52277",
-          "name": "大人吐息SPA ～恋する密着時間　一宮駅前店",
-          "price_90min": 10000,
+          "id": "49513",
+          "name": "台湾の娘",
+          "price_90min": 12000,
           "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [
+            "bbs_buzz_no_reviews",
+            "bbs_caution_only"
+          ],
+          "signal_labels": [
+            "掲示板のみ言及",
+            "掲示板注意のみ"
+          ]
+        },
+        {
+          "id": "43008",
+          "name": "二度癒すミセス(一宮・春日井・小牧)",
+          "price_90min": 15000,
+          "shop_type": "派遣・出張専門",
+          "available_now": false,
+          "coupon_count": 2,
+          "signals": [
+            "bbs_buzz_no_reviews",
+            "bbs_caution_only"
+          ],
+          "signal_labels": [
+            "掲示板のみ言及",
+            "掲示板注意のみ"
+          ]
         },
         {
           "id": "47976",
@@ -1690,12 +1735,12 @@
           "signal_labels": []
         },
         {
-          "id": "49513",
-          "name": "台湾の娘",
-          "price_90min": 12000,
+          "id": "52277",
+          "name": "大人吐息SPA ～恋する密着時間　一宮駅前店",
+          "price_90min": 10000,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": null,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -1765,17 +1810,7 @@
           "price_90min": 15000,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "43008",
-          "name": "二度癒すミセス(一宮・春日井・小牧)",
-          "price_90min": 15000,
-          "shop_type": "派遣・出張専門",
-          "available_now": false,
-          "coupon_count": 2,
+          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         },
@@ -1850,16 +1885,6 @@
           "signal_labels": []
         },
         {
-          "id": "44371",
-          "name": "Mrs.Rose",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "41721",
           "name": "ウルトラ一宮",
           "price_90min": null,
@@ -1886,6 +1911,16 @@
           "shop_type": "派遣・出張専門",
           "available_now": false,
           "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "44371",
+          "name": "Mrs.Rose",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -1920,7 +1955,7 @@
       "price_max": 20000,
       "available_now": 4,
       "with_coupon": 18,
-      "signal_shop_count": 1,
+      "signal_shop_count": 3,
       "signal_shops": [
         {
           "id": "46130",
@@ -1930,7 +1965,27 @@
             "掲示板のみ言及"
           ],
           "review_avg": null,
-          "bbs_mentions": 20
+          "bbs_mentions": 25
+        },
+        {
+          "id": "52126",
+          "name": "極上蜜愛",
+          "price_90min": null,
+          "signal_labels": [
+            "掲示板のみ言及"
+          ],
+          "review_avg": null,
+          "bbs_mentions": 1
+        },
+        {
+          "id": "39649",
+          "name": "癒し手",
+          "price_90min": null,
+          "signal_labels": [
+            "掲示板のみ言及"
+          ],
+          "review_avg": null,
+          "bbs_mentions": 1
         }
       ],
       "budget_shops": [
@@ -1972,6 +2027,34 @@
       ],
       "shops": [
         {
+          "id": "52126",
+          "name": "極上蜜愛",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [
+            "bbs_buzz_no_reviews"
+          ],
+          "signal_labels": [
+            "掲示板のみ言及"
+          ]
+        },
+        {
+          "id": "39649",
+          "name": "癒し手",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [
+            "bbs_buzz_no_reviews"
+          ],
+          "signal_labels": [
+            "掲示板のみ言及"
+          ]
+        },
+        {
           "id": "46130",
           "name": "あしたを愛してる",
           "price_90min": null,
@@ -1996,12 +2079,12 @@
           "signal_labels": []
         },
         {
-          "id": "24741",
-          "name": "C-due (ドゥーエ)",
-          "price_90min": null,
+          "id": "38583",
+          "name": "TORIHADA SPA",
+          "price_90min": 16000,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 1,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -2066,22 +2149,22 @@
           "signal_labels": []
         },
         {
-          "id": "49959",
-          "name": "家政婦スパ(金山)",
-          "price_90min": 15000,
-          "shop_type": "派遣・出張専門",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "43007",
           "name": "二度癒すミセス(金山)",
           "price_90min": 15000,
           "shop_type": "派遣・出張専門",
           "available_now": false,
           "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "49959",
+          "name": "家政婦スパ(金山)",
+          "price_90min": 15000,
+          "shop_type": "派遣・出張専門",
+          "available_now": false,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -2112,16 +2195,6 @@
           "shop_type": "店舗型",
           "available_now": false,
           "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "38583",
-          "name": "TORIHADA SPA",
-          "price_90min": 16000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -2166,32 +2239,12 @@
           "signal_labels": []
         },
         {
-          "id": "52126",
-          "name": "極上蜜愛",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "48254",
           "name": "Graff",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "44522",
-          "name": "Cheetah〜チーター",
-          "price_90min": null,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -2206,8 +2259,18 @@
           "signal_labels": []
         },
         {
-          "id": "31884",
-          "name": "マジセラ～Majiでセラピストさんになる5秒前～",
+          "id": "44522",
+          "name": "Cheetah〜チーター",
+          "price_90min": null,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "24741",
+          "name": "C-due (ドゥーエ)",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -2216,12 +2279,12 @@
           "signal_labels": []
         },
         {
-          "id": "27497",
-          "name": "一休",
+          "id": "31884",
+          "name": "マジセラ～Majiでセラピストさんになる5秒前～",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": null,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         }
@@ -2234,7 +2297,7 @@
       "price_median": 13000,
       "price_min": 11000,
       "price_max": 16000,
-      "available_now": 16,
+      "available_now": 12,
       "with_coupon": 31,
       "signal_shop_count": 0,
       "signal_shops": [],
@@ -2244,13 +2307,6 @@
           "name": "リラクゼーション Velvet Time",
           "price_90min": 11000,
           "available_now": true,
-          "coupon_count": 2
-        },
-        {
-          "id": "31360",
-          "name": "隠れ家えすて　猫時計",
-          "price_90min": 12000,
-          "available_now": false,
           "coupon_count": 1
         },
         {
@@ -2261,11 +2317,11 @@
           "coupon_count": 2
         },
         {
-          "id": "51160",
-          "name": "雅 —MIYABI—",
-          "price_90min": 13000,
+          "id": "31360",
+          "name": "隠れ家えすて　猫時計",
+          "price_90min": 12000,
           "available_now": false,
-          "coupon_count": 2
+          "coupon_count": 1
         },
         {
           "id": "32160",
@@ -2273,6 +2329,13 @@
           "price_90min": 13000,
           "available_now": true,
           "coupon_count": 3
+        },
+        {
+          "id": "52082",
+          "name": "Relaxation Salon HISUI",
+          "price_90min": 13000,
+          "available_now": false,
+          "coupon_count": 1
         }
       ],
       "shops": [
@@ -2282,7 +2345,7 @@
           "price_90min": 11000,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 2,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -2317,8 +2380,8 @@
           "signal_labels": []
         },
         {
-          "id": "52082",
-          "name": "Relaxation Salon HISUI",
+          "id": "43123",
+          "name": "アロマエステ cocona(心和)",
           "price_90min": 13000,
           "shop_type": "マンション(個室)",
           "available_now": true,
@@ -2327,42 +2390,12 @@
           "signal_labels": []
         },
         {
-          "id": "34068",
-          "name": "Noa",
-          "price_90min": 13000,
+          "id": "30526",
+          "name": "新潟メンズエステ　TREND-トレンド",
+          "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "41410",
-          "name": "AMBER〜アンバー〜",
-          "price_90min": 14000,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "38040",
-          "name": "アマテラス",
-          "price_90min": 14000,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "50296",
-          "name": "Nspa 新潟店",
-          "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         },
@@ -2387,38 +2420,18 @@
           "signal_labels": []
         },
         {
-          "id": "30526",
-          "name": "新潟メンズエステ　TREND-トレンド",
+          "id": "27389",
+          "name": "妻色兼美 新潟中央店",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "50378",
-          "name": "大人の保育園&幼稚園　新潟店",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
         {
           "id": "29322",
           "name": "MYIRO-マイロ",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "38462",
-          "name": "THE PREMIUM SPA",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
@@ -2437,12 +2450,12 @@
           "signal_labels": []
         },
         {
-          "id": "31360",
-          "name": "隠れ家えすて　猫時計",
-          "price_90min": 12000,
+          "id": "28534",
+          "name": "リラクゼーションサロン YUAN（ユアン）新潟店",
+          "price_90min": null,
           "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
+          "available_now": true,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -2457,8 +2470,38 @@
           "signal_labels": []
         },
         {
+          "id": "31360",
+          "name": "隠れ家えすて　猫時計",
+          "price_90min": 12000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "52082",
+          "name": "Relaxation Salon HISUI",
+          "price_90min": 13000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "51160",
           "name": "雅 —MIYABI—",
+          "price_90min": 13000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "34068",
+          "name": "Noa",
           "price_90min": 13000,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -2477,12 +2520,22 @@
           "signal_labels": []
         },
         {
-          "id": "43123",
-          "name": "アロマエステ cocona(心和)",
-          "price_90min": 13000,
+          "id": "41410",
+          "name": "AMBER〜アンバー〜",
+          "price_90min": 14000,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 1,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "38040",
+          "name": "アマテラス",
+          "price_90min": 14000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -2493,6 +2546,16 @@
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "50296",
+          "name": "Nspa 新潟店",
+          "price_90min": 15000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         },
@@ -2535,29 +2598,20 @@
       "price_median": 18000,
       "price_min": 14000,
       "price_max": 26000,
-      "available_now": 6,
+      "available_now": 7,
       "with_coupon": 27,
-      "signal_shop_count": 2,
+      "signal_shop_count": 1,
       "signal_shops": [
         {
           "id": "40098",
           "name": "メンズエステ カトレア 静岡中部 出張・完全個室マッサージ",
           "price_90min": 20000,
           "signal_labels": [
-            "公式・掲示板とも好評"
+            "公式高評価 × 掲示板注意",
+            "満点口コミ × 掲示板注意"
           ],
           "review_avg": 5.0,
-          "bbs_mentions": 28
-        },
-        {
-          "id": "48337",
-          "name": "Luminus　(ルミナス)",
-          "price_90min": null,
-          "signal_labels": [
-            "掲示板のみ言及"
-          ],
-          "review_avg": null,
-          "bbs_mentions": 3
+          "bbs_mentions": 30
         }
       ],
       "budget_shops": [
@@ -2606,24 +2660,12 @@
           "available_now": false,
           "coupon_count": 3,
           "signals": [
-            "aligned_positive"
+            "review_hype_bbs_caution",
+            "review_perfect_bbs_caution"
           ],
           "signal_labels": [
-            "公式・掲示板とも好評"
-          ]
-        },
-        {
-          "id": "48337",
-          "name": "Luminus　(ルミナス)",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [
-            "bbs_buzz_no_reviews"
-          ],
-          "signal_labels": [
-            "掲示板のみ言及"
+            "公式高評価 × 掲示板注意",
+            "満点口コミ × 掲示板注意"
           ]
         },
         {
@@ -2657,12 +2699,12 @@
           "signal_labels": []
         },
         {
-          "id": "31878",
-          "name": "Sweet〜crea〜",
+          "id": "41400",
+          "name": "bloom",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 3,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -2677,12 +2719,22 @@
           "signal_labels": []
         },
         {
-          "id": "48727",
-          "name": "Nocturne",
+          "id": "50778",
+          "name": "SPA雫-SHIZUKU-",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 1,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "31878",
+          "name": "Sweet〜crea〜",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -2757,32 +2809,12 @@
           "signal_labels": []
         },
         {
-          "id": "41400",
-          "name": "bloom",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "50778",
-          "name": "SPA雫-SHIZUKU-",
+          "id": "34709",
+          "name": "海癒樂",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "45343",
-          "name": "絶対領域",
-          "price_90min": null,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -2797,12 +2829,12 @@
           "signal_labels": []
         },
         {
-          "id": "42915",
-          "name": "OLÉSPA&ANNEX 静岡　西焼津　甲府",
+          "id": "45343",
+          "name": "絶対領域",
           "price_90min": null,
-          "shop_type": "マンション(個室)",
+          "shop_type": "店舗型",
           "available_now": false,
-          "coupon_count": null,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -2817,18 +2849,28 @@
           "signal_labels": []
         },
         {
-          "id": "52075",
-          "name": "静岡ラブ♡ナース",
+          "id": "42915",
+          "name": "OLÉSPA&ANNEX 静岡　西焼津　甲府",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 3,
+          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         },
         {
-          "id": "34709",
-          "name": "海癒樂",
+          "id": "48727",
+          "name": "Nocturne",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "52075",
+          "name": "静岡ラブ♡ナース",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -2855,6 +2897,16 @@
           "coupon_count": 1,
           "signals": [],
           "signal_labels": []
+        },
+        {
+          "id": "43638",
+          "name": "心晴",
+          "price_90min": null,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
         }
       ]
     },
@@ -2874,11 +2926,10 @@
           "name": "自宅出張メンエス～夜桜～",
           "price_90min": null,
           "signal_labels": [
-            "公式高評価 × 掲示板注意",
-            "注意口コミ × 掲示板注意"
+            "公式・掲示板とも好評"
           ],
-          "review_avg": 4.8,
-          "bbs_mentions": 17
+          "review_avg": 4.77,
+          "bbs_mentions": 7
         }
       ],
       "budget_shops": [
@@ -2907,7 +2958,7 @@
           "id": "29803",
           "name": "IRIS-アイリス−",
           "price_90min": 15000,
-          "available_now": false,
+          "available_now": true,
           "coupon_count": 1
         },
         {
@@ -2927,12 +2978,10 @@
           "available_now": true,
           "coupon_count": 2,
           "signals": [
-            "review_hype_bbs_caution",
-            "review_suspicious_bbs_caution"
+            "aligned_positive"
           ],
           "signal_labels": [
-            "公式高評価 × 掲示板注意",
-            "注意口コミ × 掲示板注意"
+            "公式・掲示板とも好評"
           ]
         },
         {
@@ -2946,20 +2995,20 @@
           "signal_labels": []
         },
         {
-          "id": "34354",
-          "name": "富山メンズエステ咲",
-          "price_90min": 16000,
+          "id": "29803",
+          "name": "IRIS-アイリス−",
+          "price_90min": 15000,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 3,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
         {
-          "id": "51440",
-          "name": "きときとランド",
+          "id": "34354",
+          "name": "富山メンズエステ咲",
           "price_90min": 16000,
-          "shop_type": "店舗型",
+          "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 3,
           "signals": [],
@@ -2996,32 +3045,22 @@
           "signal_labels": []
         },
         {
-          "id": "35118",
-          "name": "Estill（エスティル）",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "44074",
-          "name": "エステの神様",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "39809",
           "name": "富山メンズエステ Dear -ディア-",
           "price_90min": null,
           "shop_type": "派遣・出張専門",
           "available_now": true,
           "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "35118",
+          "name": "Estill（エスティル）",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -3042,6 +3081,16 @@
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "44074",
+          "name": "エステの神様",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -3076,16 +3125,6 @@
           "signal_labels": []
         },
         {
-          "id": "29803",
-          "name": "IRIS-アイリス−",
-          "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "35723",
           "name": "メンズエステ　THE FIRST",
           "price_90min": 15000,
@@ -3112,6 +3151,16 @@
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "51440",
+          "name": "きときとランド",
+          "price_90min": 16000,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -3184,9 +3233,9 @@
       "price_median": 15000,
       "price_min": 12000,
       "price_max": 19000,
-      "available_now": 9,
+      "available_now": 10,
       "with_coupon": 25,
-      "signal_shop_count": 1,
+      "signal_shop_count": 2,
       "signal_shops": [
         {
           "id": "46365",
@@ -3197,7 +3246,17 @@
             "掲示板注意のみ"
           ],
           "review_avg": null,
-          "bbs_mentions": 13
+          "bbs_mentions": 16
+        },
+        {
+          "id": "39791",
+          "name": "MITSUBACHI-ミツバチ-",
+          "price_90min": null,
+          "signal_labels": [
+            "公式・掲示板とも好評"
+          ],
+          "review_avg": 4.93,
+          "bbs_mentions": 1
         }
       ],
       "budget_shops": [
@@ -3205,7 +3264,7 @@
           "id": "50567",
           "name": "Mrs.Club〜ミセス・クラブ〜",
           "price_90min": 12000,
-          "available_now": false,
+          "available_now": true,
           "coupon_count": 2
         },
         {
@@ -3255,6 +3314,30 @@
           ]
         },
         {
+          "id": "39791",
+          "name": "MITSUBACHI-ミツバチ-",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 3,
+          "signals": [
+            "aligned_positive"
+          ],
+          "signal_labels": [
+            "公式・掲示板とも好評"
+          ]
+        },
+        {
+          "id": "50567",
+          "name": "Mrs.Club〜ミセス・クラブ〜",
+          "price_90min": 12000,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "40442",
           "name": "乃木坂なミセスたち",
           "price_90min": 12000,
@@ -3285,16 +3368,6 @@
           "signal_labels": []
         },
         {
-          "id": "39791",
-          "name": "MITSUBACHI-ミツバチ-",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "43201",
           "name": "THE FIRST CLASS",
           "price_90min": null,
@@ -3315,8 +3388,8 @@
           "signal_labels": []
         },
         {
-          "id": "43798",
-          "name": "High end spa　岐阜",
+          "id": "41159",
+          "name": "岐阜メンズエステ SIGMASPA〜シグマスパ〜",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
@@ -3335,21 +3408,11 @@
           "signal_labels": []
         },
         {
-          "id": "41159",
-          "name": "岐阜メンズエステ SIGMASPA〜シグマスパ〜",
+          "id": "43798",
+          "name": "High end spa　岐阜",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "50567",
-          "name": "Mrs.Club〜ミセス・クラブ〜",
-          "price_90min": 12000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
           "coupon_count": 2,
           "signals": [],
           "signal_labels": []
@@ -3466,7 +3529,7 @@
         },
         {
           "id": "50253",
-          "name": "BABEL Gifu",
+          "name": "BABEL GIFU",
           "price_90min": null,
           "shop_type": "派遣・出張専門",
           "available_now": false,
@@ -3475,8 +3538,8 @@
           "signal_labels": []
         },
         {
-          "id": "42249",
-          "name": "岐阜メンズエステ〜ACE〜",
+          "id": "51633",
+          "name": "天国SPA 極甘トロトロHEAVEN",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -3485,10 +3548,10 @@
           "signal_labels": []
         },
         {
-          "id": "43786",
-          "name": "人妻ハプニング～岐阜～出張専門メンズエステ",
+          "id": "42249",
+          "name": "岐阜メンズエステ〜ACE〜",
           "price_90min": null,
-          "shop_type": "派遣・出張専門",
+          "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 2,
           "signals": [],
@@ -3503,7 +3566,7 @@
       "price_median": 15000,
       "price_min": 11000,
       "price_max": 20000,
-      "available_now": 4,
+      "available_now": 3,
       "with_coupon": 18,
       "signal_shop_count": 0,
       "signal_shops": [],
@@ -3562,16 +3625,6 @@
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "38819",
-          "name": "シークレットモーメント",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -3696,6 +3749,26 @@
           "signal_labels": []
         },
         {
+          "id": "49920",
+          "name": "スイートワゴン",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "38819",
+          "name": "シークレットモーメント",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "25108",
           "name": "店舗/マンション個室複合店　Felice（ﾌｪﾘｰﾁｪ)",
           "price_90min": null,
@@ -3716,16 +3789,6 @@
           "signal_labels": []
         },
         {
-          "id": "47946",
-          "name": "美MB",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "44133",
           "name": "花うた-hanauta-",
           "price_90min": null,
@@ -3736,18 +3799,8 @@
           "signal_labels": []
         },
         {
-          "id": "49920",
-          "name": "スイートワゴン",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "44303",
-          "name": "men's salon Future",
+          "id": "47946",
+          "name": "美MB",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -3758,6 +3811,16 @@
         {
           "id": "43796",
           "name": "NADESHIKO〜ナデシコ〜今池・名東",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "44303",
+          "name": "men's salon Future",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -3799,28 +3862,28 @@
     },
     {
       "name": "四日市",
-      "shop_count": 25,
+      "shop_count": 26,
       "priced_count": 4,
       "price_median": 16000,
       "price_min": 16000,
       "price_max": 16000,
-      "available_now": 7,
+      "available_now": 9,
       "with_coupon": 20,
       "signal_shop_count": 0,
       "signal_shops": [],
       "budget_shops": [
         {
-          "id": "44805",
-          "name": "MEMENTO(メメント)",
-          "price_90min": 16000,
-          "available_now": false,
-          "coupon_count": 1
-        },
-        {
           "id": "44335",
           "name": "N Spa",
           "price_90min": 16000,
           "available_now": true,
+          "coupon_count": 1
+        },
+        {
+          "id": "44805",
+          "name": "MEMENTO(メメント)",
+          "price_90min": 16000,
+          "available_now": false,
           "coupon_count": 1
         },
         {
@@ -3860,6 +3923,36 @@
           "signal_labels": []
         },
         {
+          "id": "51889",
+          "name": "リラカノ",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "49458",
+          "name": "DAIA ~ダイア~",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "49882",
+          "name": "エンペラースパ四日市",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "30935",
           "name": "ひょっこりさん四日市店",
           "price_90min": null,
@@ -3870,8 +3963,8 @@
           "signal_labels": []
         },
         {
-          "id": "49458",
-          "name": "DAIA ~ダイア~",
+          "id": "30843",
+          "name": "シークレットモード",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
@@ -3890,22 +3983,12 @@
           "signal_labels": []
         },
         {
-          "id": "30843",
-          "name": "シークレットモード",
+          "id": "51479",
+          "name": "CEYLONSPA 四日市ルーム",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "41478",
-          "name": "EXCIA",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -3930,42 +4013,12 @@
           "signal_labels": []
         },
         {
-          "id": "50774",
-          "name": "Mrs selection（ミセス セレクション）",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "52232",
-          "name": "四日市メンズエステ〜ぜろぷらす〜",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "29451",
           "name": "アロマクリニック　四日市",
           "price_90min": null,
           "shop_type": "店舗型",
           "available_now": false,
           "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "31079",
-          "name": "琉球SPA　三重店",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -3980,8 +4033,8 @@
           "signal_labels": []
         },
         {
-          "id": "51889",
-          "name": "リラカノ",
+          "id": "52232",
+          "name": "四日市メンズエステ〜ぜろぷらす〜",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -3990,18 +4043,18 @@
           "signal_labels": []
         },
         {
-          "id": "49882",
-          "name": "エンペラースパ四日市",
+          "id": "50774",
+          "name": "Mrs selection（ミセス セレクション）",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 1,
+          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         },
         {
-          "id": "51479",
-          "name": "CEYLONSPA 四日市ルーム",
+          "id": "31079",
+          "name": "琉球SPA　三重店",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -4026,6 +4079,16 @@
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "41478",
+          "name": "EXCIA",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -4070,10 +4133,10 @@
           "signal_labels": []
         },
         {
-          "id": "47210",
-          "name": "Jupiter（ジュピター）",
+          "id": "52516",
+          "name": "BABEL YOKKAICHI",
           "price_90min": null,
-          "shop_type": "店舗型",
+          "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": null,
           "signals": [],
@@ -4271,12 +4334,12 @@
           "signal_labels": []
         },
         {
-          "id": "49230",
-          "name": "Fatale",
+          "id": "41283",
+          "name": "Abyss～アビス～",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 1,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -4291,12 +4354,12 @@
           "signal_labels": []
         },
         {
-          "id": "41283",
-          "name": "Abyss～アビス～",
+          "id": "49230",
+          "name": "Fatale",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 2,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -4331,8 +4394,8 @@
           "signal_labels": []
         },
         {
-          "id": "28439",
-          "name": "GENTLEMAN FIT(ジェントルマンフィット)",
+          "id": "51616",
+          "name": "EMOspa新栄(ドバドバ)",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -4341,8 +4404,8 @@
           "signal_labels": []
         },
         {
-          "id": "51616",
-          "name": "EMOspa新栄(ドバドバ)",
+          "id": "28439",
+          "name": "GENTLEMAN FIT(ジェントルマンフィット)",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -4394,13 +4457,13 @@
     },
     {
       "name": "豊橋",
-      "shop_count": 21,
+      "shop_count": 22,
       "priced_count": 8,
       "price_median": 14500,
       "price_min": 12000,
       "price_max": 17000,
-      "available_now": 1,
-      "with_coupon": 10,
+      "available_now": 2,
+      "with_coupon": 12,
       "signal_shop_count": 0,
       "signal_shops": [],
       "budget_shops": [
@@ -4448,6 +4511,16 @@
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "33913",
+          "name": "Aroma Ode～アロマ・オード～",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -4522,22 +4595,32 @@
           "signal_labels": []
         },
         {
-          "id": "33913",
-          "name": "Aroma Ode～アロマ・オード～",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "42008",
           "name": "豊橋メンズエステMare",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "52326",
+          "name": "ぷるぷるSPA",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "42968",
+          "name": "レッドリボン豊橋",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -4582,16 +4665,6 @@
           "signal_labels": []
         },
         {
-          "id": "52326",
-          "name": "ぷるぷるSPA",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "48106",
           "name": "縁結び",
           "price_90min": null,
@@ -4612,8 +4685,8 @@
           "signal_labels": []
         },
         {
-          "id": "46181",
-          "name": "ふんわり庵",
+          "id": "46191",
+          "name": "イチャラブ",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -4622,8 +4695,8 @@
           "signal_labels": []
         },
         {
-          "id": "46191",
-          "name": "イチャラブ",
+          "id": "46181",
+          "name": "ふんわり庵",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -4655,13 +4728,13 @@
     },
     {
       "name": "福井市",
-      "shop_count": 19,
-      "priced_count": 11,
+      "shop_count": 18,
+      "priced_count": 10,
       "price_median": 15000,
       "price_min": 12000,
       "price_max": 17600,
-      "available_now": 3,
-      "with_coupon": 13,
+      "available_now": 2,
+      "with_coupon": 12,
       "signal_shop_count": 0,
       "signal_shops": [],
       "budget_shops": [
@@ -4680,15 +4753,15 @@
           "coupon_count": null
         },
         {
-          "id": "40297",
-          "name": "ciel  シエル",
+          "id": "51761",
+          "name": "Reve",
           "price_90min": 15000,
           "available_now": false,
           "coupon_count": 1
         },
         {
-          "id": "51761",
-          "name": "Reve",
+          "id": "40297",
+          "name": "ciel  シエル",
           "price_90min": 15000,
           "available_now": false,
           "coupon_count": 1
@@ -4723,16 +4796,6 @@
           "signal_labels": []
         },
         {
-          "id": "39119",
-          "name": "ラグジュアリーエステサロンRELAIR～リレア～",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "26420",
           "name": "みどり",
           "price_90min": 12000,
@@ -4743,8 +4806,8 @@
           "signal_labels": []
         },
         {
-          "id": "40297",
-          "name": "ciel  シエル",
+          "id": "51761",
+          "name": "Reve",
           "price_90min": 15000,
           "shop_type": "派遣・出張専門",
           "available_now": false,
@@ -4753,8 +4816,8 @@
           "signal_labels": []
         },
         {
-          "id": "51761",
-          "name": "Reve",
+          "id": "40297",
+          "name": "ciel  シエル",
           "price_90min": 15000,
           "shop_type": "派遣・出張専門",
           "available_now": false,
@@ -4793,16 +4856,6 @@
           "signal_labels": []
         },
         {
-          "id": "43088",
-          "name": "CHARME シャルム",
-          "price_90min": 16000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "43966",
           "name": "chouchou(シュシュ）",
           "price_90min": 16500,
@@ -4816,6 +4869,16 @@
           "id": "27466",
           "name": "Creamy+ クリーミープラス",
           "price_90min": 17600,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "39119",
+          "name": "ラグジュアリーエステサロンRELAIR～リレア～",
+          "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 1,
@@ -4928,18 +4991,18 @@
           "coupon_count": null
         },
         {
-          "id": "40439",
-          "name": "長野PRIME",
-          "price_90min": 15000,
-          "available_now": true,
-          "coupon_count": 1
-        },
-        {
           "id": "29950",
           "name": "長野市完全会員制サロン　Aroma Club 響",
           "price_90min": 15000,
           "available_now": false,
           "coupon_count": 3
+        },
+        {
+          "id": "40439",
+          "name": "長野PRIME",
+          "price_90min": 15000,
+          "available_now": true,
+          "coupon_count": 1
         }
       ],
       "shops": [
@@ -5014,22 +5077,22 @@
           "signal_labels": []
         },
         {
-          "id": "25896",
-          "name": "完全個室アロマサロン ゆめはな",
-          "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "47893",
           "name": "メンズエステ　チョイスパ",
           "price_90min": 15000,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "25896",
+          "name": "完全個室アロマサロン ゆめはな",
+          "price_90min": 15000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -5055,11 +5118,11 @@
         },
         {
           "id": "44028",
-          "name": "長野アロマルナージュ",
+          "name": "長野メンズエステ",
           "price_90min": 17000,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 3,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -5099,7 +5162,7 @@
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 2,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -5144,7 +5207,7 @@
             "掲示板のみ言及"
           ],
           "review_avg": null,
-          "bbs_mentions": 2
+          "bbs_mentions": 1
         }
       ],
       "budget_shops": [
@@ -5156,18 +5219,18 @@
           "coupon_count": null
         },
         {
-          "id": "35228",
-          "name": "GokusenSpa",
-          "price_90min": 14000,
-          "available_now": false,
-          "coupon_count": 1
-        },
-        {
           "id": "44228",
           "name": "ヒマワリspa",
           "price_90min": 14000,
           "available_now": false,
           "coupon_count": 2
+        },
+        {
+          "id": "35228",
+          "name": "GokusenSpa",
+          "price_90min": 14000,
+          "available_now": false,
+          "coupon_count": 1
         },
         {
           "id": "40472",
@@ -5200,22 +5263,22 @@
           ]
         },
         {
-          "id": "40175",
-          "name": "Aroma Lily",
-          "price_90min": null,
-          "shop_type": "派遣・出張専門",
-          "available_now": true,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "51518",
           "name": "瞬 岐阜店",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "40175",
+          "name": "Aroma Lily",
+          "price_90min": null,
+          "shop_type": "派遣・出張専門",
+          "available_now": true,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -5230,22 +5293,22 @@
           "signal_labels": []
         },
         {
-          "id": "35228",
-          "name": "GokusenSpa",
-          "price_90min": 14000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "44228",
           "name": "ヒマワリspa",
           "price_90min": 14000,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 2,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "35228",
+          "name": "GokusenSpa",
+          "price_90min": 14000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -5354,33 +5417,15 @@
     {
       "name": "大曽根",
       "shop_count": 15,
-      "priced_count": 4,
+      "priced_count": 3,
       "price_median": 15000,
       "price_min": 15000,
       "price_max": 17000,
-      "available_now": 1,
-      "with_coupon": 9,
-      "signal_shop_count": 1,
-      "signal_shops": [
-        {
-          "id": "52128",
-          "name": "会いたい",
-          "price_90min": 15000,
-          "signal_labels": [
-            "掲示板のみ言及"
-          ],
-          "review_avg": null,
-          "bbs_mentions": 3
-        }
-      ],
+      "available_now": 2,
+      "with_coupon": 10,
+      "signal_shop_count": 0,
+      "signal_shops": [],
       "budget_shops": [
-        {
-          "id": "52039",
-          "name": "二度癒すミセス(大曽根)",
-          "price_90min": 15000,
-          "available_now": false,
-          "coupon_count": 3
-        },
         {
           "id": "52040",
           "name": "家政婦スパ(大曽根)",
@@ -5389,11 +5434,11 @@
           "coupon_count": 1
         },
         {
-          "id": "52128",
-          "name": "会いたい",
+          "id": "52039",
+          "name": "二度癒すミセス(大曽根)",
           "price_90min": 15000,
           "available_now": false,
-          "coupon_count": null
+          "coupon_count": 3
         },
         {
           "id": "51864",
@@ -5407,16 +5452,12 @@
         {
           "id": "52128",
           "name": "会いたい",
-          "price_90min": 15000,
+          "price_90min": null,
           "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [
-            "bbs_buzz_no_reviews"
-          ],
-          "signal_labels": [
-            "掲示板のみ言及"
-          ]
+          "available_now": true,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
         },
         {
           "id": "43439",
@@ -5429,22 +5470,22 @@
           "signal_labels": []
         },
         {
-          "id": "52039",
-          "name": "二度癒すミセス(大曽根)",
-          "price_90min": 15000,
-          "shop_type": "派遣・出張専門",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "52040",
           "name": "家政婦スパ(大曽根)",
           "price_90min": 15000,
           "shop_type": "派遣・出張専門",
           "available_now": false,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "52039",
+          "name": "二度癒すミセス(大曽根)",
+          "price_90min": 15000,
+          "shop_type": "派遣・出張専門",
+          "available_now": false,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -5572,8 +5613,8 @@
       "signal_shop_count": 1,
       "signal_shops": [
         {
-          "id": "46571",
-          "name": "リラックス楽楽",
+          "id": "46567",
+          "name": "ラッキー",
           "price_90min": null,
           "signal_labels": [
             "掲示板のみ言及"
@@ -5615,14 +5656,14 @@
           "id": "52263",
           "name": "エンジェルリング",
           "price_90min": 16000,
-          "available_now": false,
+          "available_now": true,
           "coupon_count": 1
         }
       ],
       "shops": [
         {
-          "id": "46571",
-          "name": "リラックス楽楽",
+          "id": "46567",
+          "name": "ラッキー",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -5635,10 +5676,10 @@
           ]
         },
         {
-          "id": "50391",
-          "name": "甲府カルサイネイザンメンズ専門店",
-          "price_90min": 20000,
-          "shop_type": "店舗型",
+          "id": "52263",
+          "name": "エンジェルリング",
+          "price_90min": 16000,
+          "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
           "signals": [],
@@ -5685,10 +5726,10 @@
           "signal_labels": []
         },
         {
-          "id": "52263",
-          "name": "エンジェルリング",
-          "price_90min": 16000,
-          "shop_type": "マンション(個室)",
+          "id": "50391",
+          "name": "甲府カルサイネイザンメンズ専門店",
+          "price_90min": 20000,
+          "shop_type": "店舗型",
           "available_now": false,
           "coupon_count": 1,
           "signals": [],
@@ -5707,16 +5748,6 @@
         {
           "id": "42479",
           "name": "リラクゼーションクリスタル",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "46567",
-          "name": "ラッキー",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
@@ -5755,6 +5786,16 @@
           "signal_labels": []
         },
         {
+          "id": "46571",
+          "name": "リラックス楽楽",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "46572",
           "name": "TIARA（ティアラ）",
           "price_90min": null,
@@ -5783,10 +5824,21 @@
       "price_median": 14000,
       "price_min": 9000,
       "price_max": 14000,
-      "available_now": 2,
+      "available_now": 3,
       "with_coupon": 5,
-      "signal_shop_count": 0,
-      "signal_shops": [],
+      "signal_shop_count": 1,
+      "signal_shops": [
+        {
+          "id": "51781",
+          "name": "ラッキー",
+          "price_90min": null,
+          "signal_labels": [
+            "掲示板のみ言及"
+          ],
+          "review_avg": null,
+          "bbs_mentions": 1
+        }
+      ],
       "budget_shops": [
         {
           "id": "46316",
@@ -5826,12 +5878,36 @@
       ],
       "shops": [
         {
+          "id": "51781",
+          "name": "ラッキー",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [
+            "bbs_buzz_no_reviews"
+          ],
+          "signal_labels": [
+            "掲示板のみ言及"
+          ]
+        },
+        {
           "id": "38465",
           "name": "Aroma Cream",
           "price_90min": 14000,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "50974",
+          "name": "Miel Spa 松本店",
+          "price_90min": 14000,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         },
@@ -5886,16 +5962,6 @@
           "signal_labels": []
         },
         {
-          "id": "50974",
-          "name": "Miel Spa 松本店",
-          "price_90min": 14000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "32003",
           "name": "オラワクZ～松本ルーム～",
           "price_90min": 14000,
@@ -5912,16 +5978,6 @@
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "51781",
-          "name": "ラッキー",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         },
@@ -5963,7 +6019,7 @@
       "priced_count": 8,
       "price_median": 14000,
       "price_min": 9900,
-      "price_max": 15000,
+      "price_max": 16000,
       "available_now": 1,
       "with_coupon": 6,
       "signal_shop_count": 0,
@@ -6077,22 +6133,22 @@
           "signal_labels": []
         },
         {
-          "id": "41754",
-          "name": "OMS大垣Men's Clinic",
-          "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "49654",
           "name": "HooMe（ホーミー）",
           "price_90min": 15000,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "41754",
+          "name": "OMS大垣Men's Clinic",
+          "price_90min": 16000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         },
@@ -6135,21 +6191,10 @@
       "price_median": 15000,
       "price_min": 13000,
       "price_max": 16000,
-      "available_now": 0,
+      "available_now": 1,
       "with_coupon": 3,
-      "signal_shop_count": 1,
-      "signal_shops": [
-        {
-          "id": "46604",
-          "name": "純情Girl",
-          "price_90min": null,
-          "signal_labels": [
-            "掲示板のみ言及"
-          ],
-          "review_avg": null,
-          "bbs_mentions": 1
-        }
-      ],
+      "signal_shop_count": 0,
+      "signal_shops": [],
       "budget_shops": [
         {
           "id": "48712",
@@ -6162,7 +6207,7 @@
           "id": "34555",
           "name": "she’er　(シアー)　鈴鹿メンズエステ",
           "price_90min": 15000,
-          "available_now": false,
+          "available_now": true,
           "coupon_count": 1
         },
         {
@@ -6175,18 +6220,14 @@
       ],
       "shops": [
         {
-          "id": "46604",
-          "name": "純情Girl",
-          "price_90min": null,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [
-            "bbs_buzz_no_reviews"
-          ],
-          "signal_labels": [
-            "掲示板のみ言及"
-          ]
+          "id": "34555",
+          "name": "she’er　(シアー)　鈴鹿メンズエステ",
+          "price_90min": 15000,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
         },
         {
           "id": "48712",
@@ -6195,16 +6236,6 @@
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "34555",
-          "name": "she’er　(シアー)　鈴鹿メンズエステ",
-          "price_90min": 15000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -6224,7 +6255,7 @@
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 3,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -6259,8 +6290,8 @@
           "signal_labels": []
         },
         {
-          "id": "46615",
-          "name": "JOJO（ジョジョ）",
+          "id": "46603",
+          "name": "こねこ",
           "price_90min": null,
           "shop_type": "店舗型",
           "available_now": false,
@@ -6279,8 +6310,18 @@
           "signal_labels": []
         },
         {
-          "id": "46603",
-          "name": "こねこ",
+          "id": "46604",
+          "name": "純情Girl",
+          "price_90min": null,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "46615",
+          "name": "JOJO（ジョジョ）",
           "price_90min": null,
           "shop_type": "店舗型",
           "available_now": false,
@@ -6614,12 +6655,12 @@
     },
     {
       "name": "長岡",
-      "shop_count": 9,
+      "shop_count": 10,
       "priced_count": 6,
       "price_median": 14000,
       "price_min": 12000,
       "price_max": 15000,
-      "available_now": 3,
+      "available_now": 1,
       "with_coupon": 5,
       "signal_shop_count": 0,
       "signal_shops": [],
@@ -6628,7 +6669,7 @@
           "id": "38317",
           "name": "Relaxationカレン",
           "price_90min": 12000,
-          "available_now": true,
+          "available_now": false,
           "coupon_count": 1
         },
         {
@@ -6639,18 +6680,18 @@
           "coupon_count": null
         },
         {
-          "id": "48273",
-          "name": "長岡・上越メンズエステ〜プラネットスパ〜",
-          "price_90min": 14000,
-          "available_now": true,
-          "coupon_count": 1
-        },
-        {
           "id": "33237",
           "name": "長岡メンズエステ「ふたりきりSPA」",
           "price_90min": 14000,
           "available_now": false,
           "coupon_count": 1
+        },
+        {
+          "id": "48273",
+          "name": "長岡・上越メンズエステ〜プラネットスパ〜",
+          "price_90min": 14000,
+          "available_now": false,
+          "coupon_count": 2
         },
         {
           "id": "41868",
@@ -6662,32 +6703,22 @@
       ],
       "shops": [
         {
-          "id": "38317",
-          "name": "Relaxationカレン",
-          "price_90min": 12000,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "48273",
-          "name": "長岡・上越メンズエステ〜プラネットスパ〜",
-          "price_90min": 14000,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "50833",
           "name": "ゆめはな長岡店",
           "price_90min": 15000,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "38317",
+          "name": "Relaxationカレン",
+          "price_90min": 12000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
@@ -6708,6 +6739,16 @@
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "48273",
+          "name": "長岡・上越メンズエステ〜プラネットスパ〜",
+          "price_90min": 14000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -6742,6 +6783,16 @@
           "signal_labels": []
         },
         {
+          "id": "52529",
+          "name": "メンズエステ GIFT/ギフト🎁✨",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "52383",
           "name": "Felicha",
           "price_90min": null,
@@ -6760,7 +6811,7 @@
       "price_median": 18000,
       "price_min": 13000,
       "price_max": 20000,
-      "available_now": 1,
+      "available_now": 0,
       "with_coupon": 4,
       "signal_shop_count": 0,
       "signal_shops": [],
@@ -6790,21 +6841,11 @@
           "id": "48763",
           "name": "Saloon rabbit [サルーンラビット]",
           "price_90min": 20000,
-          "available_now": true,
-          "coupon_count": 2
+          "available_now": false,
+          "coupon_count": 3
         }
       ],
       "shops": [
-        {
-          "id": "48763",
-          "name": "Saloon rabbit [サルーンラビット]",
-          "price_90min": 20000,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
         {
           "id": "40953",
           "name": "RABONA（ラボーナ）三島店",
@@ -6832,6 +6873,16 @@
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "48763",
+          "name": "Saloon rabbit [サルーンラビット]",
+          "price_90min": 20000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 3,
           "signals": [],
           "signal_labels": []
         },
@@ -6884,7 +6935,7 @@
       "price_median": 15000,
       "price_min": 9000,
       "price_max": 16000,
-      "available_now": 5,
+      "available_now": 4,
       "with_coupon": 7,
       "signal_shop_count": 0,
       "signal_shops": [],
@@ -6904,17 +6955,17 @@
           "coupon_count": 3
         },
         {
-          "id": "51779",
-          "name": "S2",
+          "id": "44906",
+          "name": "〜TALES〜【テイルズ】上田ルーム",
           "price_90min": 16000,
           "available_now": false,
           "coupon_count": 2
         },
         {
-          "id": "44906",
-          "name": "〜TALES〜【テイルズ】上田ルーム",
+          "id": "51779",
+          "name": "S2",
           "price_90min": 16000,
-          "available_now": true,
+          "available_now": false,
           "coupon_count": 2
         }
       ],
@@ -6930,9 +6981,9 @@
           "signal_labels": []
         },
         {
-          "id": "44906",
-          "name": "〜TALES〜【テイルズ】上田ルーム",
-          "price_90min": 16000,
+          "id": "51737",
+          "name": "ベルク",
+          "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
           "coupon_count": 2,
@@ -6960,22 +7011,22 @@
           "signal_labels": []
         },
         {
-          "id": "34237",
-          "name": "men's spa Hyrax(ﾊｲﾗｯｸｽ)",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "44937",
           "name": "0距離　超接近　マイクロビキニ専門　輝美肌美上田店",
           "price_90min": 9000,
           "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "44906",
+          "name": "〜TALES〜【テイルズ】上田ルーム",
+          "price_90min": 16000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -6990,12 +7041,122 @@
           "signal_labels": []
         },
         {
-          "id": "51737",
-          "name": "ベルク",
+          "id": "34237",
+          "name": "men's spa Hyrax(ﾊｲﾗｯｸｽ)",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 2,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        }
+      ]
+    },
+    {
+      "name": "津",
+      "shop_count": 8,
+      "priced_count": 2,
+      "price_median": 15500,
+      "price_min": 15000,
+      "price_max": 16000,
+      "available_now": 1,
+      "with_coupon": 2,
+      "signal_shop_count": 0,
+      "signal_shops": [],
+      "budget_shops": [
+        {
+          "id": "51228",
+          "name": "メンズエステ伊勢 エルビアス",
+          "price_90min": 15000,
+          "available_now": false,
+          "coupon_count": null
+        },
+        {
+          "id": "43949",
+          "name": "purere（ピュアレ）",
+          "price_90min": 16000,
+          "available_now": false,
+          "coupon_count": 3
+        }
+      ],
+      "shops": [
+        {
+          "id": "46528",
+          "name": "Angeaile ~アンジュエル",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "51228",
+          "name": "メンズエステ伊勢 エルビアス",
+          "price_90min": 15000,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "43949",
+          "name": "purere（ピュアレ）",
+          "price_90min": 16000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 3,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "52566",
+          "name": "エステ　センチュリオン－津－",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "47060",
+          "name": "アリビオ",
+          "price_90min": null,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "46605",
+          "name": "幸せの兎",
+          "price_90min": null,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "46606",
+          "name": "アネモネ",
+          "price_90min": null,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "46608",
+          "name": "Stay me",
+          "price_90min": null,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": null,
           "signals": [],
           "signal_labels": []
         }
@@ -7008,7 +7169,7 @@
       "price_median": 15000,
       "price_min": 15000,
       "price_max": 15000,
-      "available_now": 2,
+      "available_now": 1,
       "with_coupon": 4,
       "signal_shop_count": 0,
       "signal_shops": [],
@@ -7025,7 +7186,7 @@
           "name": "上越・長岡メンズエステ〜プラネットスパ〜",
           "price_90min": 15000,
           "available_now": false,
-          "coupon_count": 1
+          "coupon_count": 2
         },
         {
           "id": "46632",
@@ -7047,22 +7208,12 @@
           "signal_labels": []
         },
         {
-          "id": "47130",
-          "name": "Men's Spa－風雷庵－",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 2,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "51976",
           "name": "上越・長岡メンズエステ〜プラネットスパ〜",
           "price_90min": 15000,
           "shop_type": "マンション(個室)",
           "available_now": false,
-          "coupon_count": 1,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -7093,6 +7244,16 @@
           "shop_type": "店舗型",
           "available_now": false,
           "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "47130",
+          "name": "Men's Spa－風雷庵－",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 2,
           "signals": [],
           "signal_labels": []
         },
@@ -7174,16 +7335,6 @@
           "signal_labels": []
         },
         {
-          "id": "46594",
-          "name": "小楽園",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
           "id": "46592",
           "name": "kiss me（キス・ミー）",
           "price_90min": null,
@@ -7204,110 +7355,20 @@
           "signal_labels": []
         },
         {
+          "id": "46594",
+          "name": "小楽園",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
           "id": "46600",
           "name": "怡香園（いこうえん）",
           "price_90min": null,
           "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        }
-      ]
-    },
-    {
-      "name": "津",
-      "shop_count": 7,
-      "priced_count": 2,
-      "price_median": 15500,
-      "price_min": 15000,
-      "price_max": 16000,
-      "available_now": 1,
-      "with_coupon": 2,
-      "signal_shop_count": 0,
-      "signal_shops": [],
-      "budget_shops": [
-        {
-          "id": "51228",
-          "name": "メンズエステ伊勢 エルビアス",
-          "price_90min": 15000,
-          "available_now": false,
-          "coupon_count": null
-        },
-        {
-          "id": "43949",
-          "name": "purere（ピュアレ）",
-          "price_90min": 16000,
-          "available_now": false,
-          "coupon_count": 3
-        }
-      ],
-      "shops": [
-        {
-          "id": "46528",
-          "name": "Angeaile ~アンジュエル",
-          "price_90min": null,
-          "shop_type": "マンション(個室)",
-          "available_now": true,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "51228",
-          "name": "メンズエステ伊勢 エルビアス",
-          "price_90min": 15000,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "43949",
-          "name": "purere（ピュアレ）",
-          "price_90min": 16000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 3,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "47060",
-          "name": "アリビオ",
-          "price_90min": null,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "46605",
-          "name": "幸せの兎",
-          "price_90min": null,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "46606",
-          "name": "アネモネ",
-          "price_90min": null,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "46608",
-          "name": "Stay me",
-          "price_90min": null,
-          "shop_type": "店舗型",
           "available_now": false,
           "coupon_count": null,
           "signals": [],
@@ -7357,7 +7418,7 @@
         },
         {
           "id": "51215",
-          "name": "高岡メンズエステ KATAKAGO SPA",
+          "name": "高岡・滑川メンズエステ KATAKAGO SPA",
           "price_90min": 17000,
           "available_now": true,
           "coupon_count": 1
@@ -7366,7 +7427,7 @@
       "shops": [
         {
           "id": "51215",
-          "name": "高岡メンズエステ KATAKAGO SPA",
+          "name": "高岡・滑川メンズエステ KATAKAGO SPA",
           "price_90min": 17000,
           "shop_type": "マンション(個室)",
           "available_now": true,
@@ -7562,8 +7623,8 @@
       ],
       "shops": [
         {
-          "id": "50569",
-          "name": "シャルール",
+          "id": "48274",
+          "name": "M loyal",
           "price_90min": null,
           "shop_type": "マンション(個室)",
           "available_now": true,
@@ -7592,20 +7653,20 @@
           "signal_labels": []
         },
         {
-          "id": "52209",
-          "name": "Flower",
+          "id": "50569",
+          "name": "シャルール",
           "price_90min": null,
-          "shop_type": "派遣・出張専門",
+          "shop_type": "マンション(個室)",
           "available_now": false,
           "coupon_count": 1,
           "signals": [],
           "signal_labels": []
         },
         {
-          "id": "48274",
-          "name": "M loyal",
+          "id": "52209",
+          "name": "Flower",
           "price_90min": null,
-          "shop_type": "マンション(個室)",
+          "shop_type": "派遣・出張専門",
           "available_now": false,
           "coupon_count": 1,
           "signals": [],
@@ -7628,7 +7689,7 @@
       "shops": [
         {
           "id": "51176",
-          "name": "BABEL Tajimi",
+          "name": "BABEL TAJIMI",
           "price_90min": null,
           "shop_type": "派遣・出張専門",
           "available_now": false,
@@ -7675,7 +7736,7 @@
       "price_median": null,
       "price_min": null,
       "price_max": null,
-      "available_now": 1,
+      "available_now": 0,
       "with_coupon": 2,
       "signal_shop_count": 0,
       "signal_shops": [],
@@ -7686,7 +7747,7 @@
           "name": "キラヴィビア 各務原店",
           "price_90min": null,
           "shop_type": "マンション(個室)",
-          "available_now": true,
+          "available_now": false,
           "coupon_count": 1,
           "signals": [],
           "signal_labels": []
@@ -7705,6 +7766,66 @@
           "id": "46646",
           "name": "花の娘ルンルン",
           "price_90min": null,
+          "shop_type": "店舗型",
+          "available_now": false,
+          "coupon_count": null,
+          "signals": [],
+          "signal_labels": []
+        }
+      ]
+    },
+    {
+      "name": "焼津",
+      "shop_count": 3,
+      "priced_count": 2,
+      "price_median": 17500,
+      "price_min": 17000,
+      "price_max": 18000,
+      "available_now": 1,
+      "with_coupon": 2,
+      "signal_shop_count": 0,
+      "signal_shops": [],
+      "budget_shops": [
+        {
+          "id": "39598",
+          "name": "KIRARA",
+          "price_90min": 17000,
+          "available_now": false,
+          "coupon_count": 1
+        },
+        {
+          "id": "40923",
+          "name": "SEODOA（セオドア）",
+          "price_90min": 18000,
+          "available_now": false,
+          "coupon_count": null
+        }
+      ],
+      "shops": [
+        {
+          "id": "52557",
+          "name": "花びらめくり～人妻の戯れ　焼津店",
+          "price_90min": null,
+          "shop_type": "マンション(個室)",
+          "available_now": true,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "39598",
+          "name": "KIRARA",
+          "price_90min": 17000,
+          "shop_type": "マンション(個室)",
+          "available_now": false,
+          "coupon_count": 1,
+          "signals": [],
+          "signal_labels": []
+        },
+        {
+          "id": "40923",
+          "name": "SEODOA（セオドア）",
+          "price_90min": 18000,
           "shop_type": "店舗型",
           "available_now": false,
           "coupon_count": null,
@@ -7851,56 +7972,6 @@
           "id": "26318",
           "name": "麗",
           "price_90min": 15000,
-          "shop_type": "店舗型",
-          "available_now": false,
-          "coupon_count": null,
-          "signals": [],
-          "signal_labels": []
-        }
-      ]
-    },
-    {
-      "name": "焼津",
-      "shop_count": 2,
-      "priced_count": 2,
-      "price_median": 17500,
-      "price_min": 17000,
-      "price_max": 18000,
-      "available_now": 0,
-      "with_coupon": 1,
-      "signal_shop_count": 0,
-      "signal_shops": [],
-      "budget_shops": [
-        {
-          "id": "39598",
-          "name": "KIRARA",
-          "price_90min": 17000,
-          "available_now": false,
-          "coupon_count": 1
-        },
-        {
-          "id": "40923",
-          "name": "SEODOA（セオドア）",
-          "price_90min": 18000,
-          "available_now": false,
-          "coupon_count": null
-        }
-      ],
-      "shops": [
-        {
-          "id": "39598",
-          "name": "KIRARA",
-          "price_90min": 17000,
-          "shop_type": "マンション(個室)",
-          "available_now": false,
-          "coupon_count": 1,
-          "signals": [],
-          "signal_labels": []
-        },
-        {
-          "id": "40923",
-          "name": "SEODOA（セオドア）",
-          "price_90min": 18000,
           "shop_type": "店舗型",
           "available_now": false,
           "coupon_count": null,
