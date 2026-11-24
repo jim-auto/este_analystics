@@ -1,0 +1,163 @@
+{
+  "updated_at": "2026-11-24 10:56 JST",
+  "cross_gap_shops": [
+    {
+      "id": "49855",
+      "name": "SPA FLOW ストレッチ＆オイル",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "48307",
+      "name": "毎週エステ　高崎店",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "33959",
+      "name": "必殺アキバ娘　錦糸町ルーム",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "49855",
+      "name": "SPA FLOW ストレッチ＆オイル",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "48307",
+      "name": "毎週エステ　高崎店",
+      "region_key": "kanto",
+      "region_label": "東京"
+    },
+    {
+      "id": "49222",
+      "name": "かりそめ別館 大阪泡洗体マッサージ　梅田エリア",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "43797",
+      "name": "AMATERAS　新大阪・西中島ルーム",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "48906",
+      "name": "ヒルガオ～大人セラピスト倶楽部～江坂店",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "43797",
+      "name": "AMATERAS　新大阪・西中島ルーム",
+      "region_key": "kansai",
+      "region_label": "大阪"
+    },
+    {
+      "id": "40098",
+      "name": "メンズエステ カトレア 静岡中部 出張・完全個室マッサージ",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "34315",
+      "name": "8mg 勝川・春日井",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    },
+    {
+      "id": "38614",
+      "name": "泡リフレ M'sPeach",
+      "region_key": "chubu",
+      "region_label": "名古屋"
+    }
+  ],
+  "bbs_keywords": [
+    {
+      "key": "kanto",
+      "keywords": {
+        "おすすめ": 7,
+        "当たり": 6,
+        "神": 6,
+        "最高": 5,
+        "オススメ": 5
+      }
+    },
+    {
+      "key": "kansai",
+      "keywords": {
+        "寛容": 8,
+        "指名": 7,
+        "最高": 7,
+        "残念": 6,
+        "神": 4
+      }
+    },
+    {
+      "key": "chubu",
+      "keywords": {
+        "おすすめ": 12,
+        "当たり": 11,
+        "指名": 9,
+        "神": 7,
+        "残念": 6
+      }
+    }
+  ],
+  "regions": [
+    {
+      "key": "kanto",
+      "label": "東京",
+      "price_median": 16000,
+      "price_min": 8000,
+      "price_max": 26000,
+      "available_now": 555,
+      "sampled_shops": 999,
+      "review_avg": 4.79,
+      "review_five_star_rate": 58,
+      "review_suspicious_rate": 16.5,
+      "bbs_caution_rate": 1.5,
+      "bbs_positive_rate": 7.8,
+      "cross_gap_count": 6,
+      "cross_matched_shops": 513,
+      "parsed_reviews": 1607
+    },
+    {
+      "key": "kansai",
+      "label": "大阪",
+      "price_median": 14000,
+      "price_min": 9000,
+      "price_max": 50000,
+      "available_now": 565,
+      "sampled_shops": 1000,
+      "review_avg": 4.86,
+      "review_five_star_rate": 73,
+      "review_suspicious_rate": 20.9,
+      "bbs_caution_rate": 1.8,
+      "bbs_positive_rate": 5.5,
+      "cross_gap_count": 4,
+      "cross_matched_shops": 519,
+      "parsed_reviews": 1706
+    },
+    {
+      "key": "chubu",
+      "label": "名古屋",
+      "price_median": 15000,
+      "price_min": 8000,
+      "price_max": 45000,
+      "available_now": 258,
+      "sampled_shops": 988,
+      "review_avg": 4.81,
+      "review_five_star_rate": 59,
+      "review_suspicious_rate": 14.7,
+      "bbs_caution_rate": 3.8,
+      "bbs_positive_rate": 9.5,
+      "cross_gap_count": 6,
+      "cross_matched_shops": 462,
+      "parsed_reviews": 1276
+    }
+  ],
+  "date": "2026-11-24"
+}
